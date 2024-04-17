@@ -1,18 +1,14 @@
 ---
 theme: default
 background: https://unsplash.com/photos/KE0nC8-58MQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzEzMzY1OTIwfA&w=2400
-title: 開発生産性
-info: |
-  ## Slidev スターターテンプレート
-  開発者向けのプレゼンテーションスライド。
-
+title: 開発生産性を向上させた導入技術の紹介 @ 2024/4
 class: text-center
 highlighter: shiki
 drawings:
   persist: false
 transition: slide-left
 mdc: true
-author: Gunther Brunner
+author: Günther Brunner
 download: true
 twoslash: true
 monaco: true
@@ -28,26 +24,70 @@ monaco: true
 </div>
 
 ---
-layout: two-cols
+layout: intro
 ---
 
-# BEFORE
+# 自己紹介
 
+<fluent-emoji-person-light /> Günther Brunner **（グンタ）**
+<br>
 
-- 👨‍💻 Gunther Brunner（グンタ）
-- 📅 CyberAgent入社：2012年
-- 🤖 部署：2年前からAI事業本部
-- 🔄 事業：2023年7月からAI Shift所属
-- 🎨 職種：デザインエンジニア
+<noto-calendar /> CyberAgent入社 **2012年**
+<br>
 
-::right::
+<twemoji-flag-japan /> **東京**在住（現在）
+<br>
+<br>
 
+<flat-color-icons-like /> <logos-openai-icon /> AI <majesticons-ux-circle-line /> UX <logos-figma /> Design <emojione-v1-lightning-mood /> Performance
+<br>
+<logos-spotify-icon /> Music <logos-netflix-icon /> Movies <noto-sushi /> Sushi <material-symbols-travel class="text-blue-400" /> Travel
 
-# AFTER
+<br>
+<br>
 
-- 🏢 全社 CTO統括室・Developer Productivity室に移動（4/16付け）
-- 🎯 今期のミッション
-  - **🚀 AI事業本部を中心に生産性を上げる**
+<fa6-brands-square-x-twitter /> [@gunta85](https://twitter.com/gunta85)
+<br>
+
+<carbon-logo-github /> [@gunta](https://github.com/gunta)
+<br>
+
+<skill-icons-devto-light /> [dev.to/gunta](https://dev.to/gunta)
+<br>
+
+<simple-icons-zenn class="text-blue-400"/> [zenn.dev/gunta](https://zenn.dev/gunta)
+
+---
+layout: before-after
+---
+
+# 部署移動
+
+::before::
+- 🤖 `部署` **AI事業本部**（2年前から）
+- 🔄 `事業` **AI Shift所属**（2023年7月から）
+- 🎨 `職種` [**デザインエンジニア**](https://vercel.com/blog/design-engineering-at-vercel)
+
+::after::
+- 🏢 `新部署` 全社
+  - **CTO統括室・Developer Productivity室**
+  - 4/16付けで移動
+- 🎯 `今期のミッション`
+  - **🚀 生産性向上**
+  - 🏃‍♂️ AI事業本部を中心に生産性を上げる
+
+---
+layout: quote
+---
+
+# 開発生産性を向上させた導入技術の紹介
+
+## 2024/4
+
+---
+layout: iframe
+url: https://ja.sli.dev/
+---
 
 ---
 
@@ -71,33 +111,23 @@ Slidevは**開発者向けのスライドメーカー・プレゼンター**で�
 
 [Slidevについてもっと読む](https://ja.sli.dev/guide/why)
 
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
 ---
 transition: slide-up
 level: 2
 ---
 
-# 初期AI Workerの紹介
+# AI Workerの紹介（4月）
 
-<SlidevVideo v-click autoplay controls width="70%" >
+<SlidevVideo autoplay controls width="70%" >
   <source src="/AIWorkerPortal.mp4" />
 </SlidevVideo>
 
 ---
 
 # AI Workerの利用言語
+
+<logos-typescript-icon class="text-3xl "/> 
+`Frontend` | `Backend` | `Scripts`
 
 
 ![Languages](/langs.png)
