@@ -1,9 +1,9 @@
 {
-  "name": "slidev",
+  "name": "developer-productivity-202404",
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --download",
     "dev": "slidev --open",
     "export": "slidev export"
   },
@@ -12,6 +12,6 @@
     "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "vue": "^3.4.21"
+    "vue": "^3.4.23"
   }
 }

@@ -1,26 +1,16 @@
 ---
-# try also 'default' to start simple
 theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides, markdown enabled
+background: https://unsplash.com/photos/KE0nC8-58MQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzEzMzY1OTIwfA&w=2400
 title: 開発生産性
 info: |
   ## Slidev スターターテンプレート
   開発者向けのプレゼンテーションスライド。
 
-  [Sli.dev](https://sli.dev)で詳細を学ぶ
-# apply any unocss classes to the current slide
 class: text-center
-# https://sli.dev/custom/highlighters.html
 highlighter: shiki
-# https://sli.dev/guide/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/guide/syntax#mdc-syntax
 mdc: true
 ---
 
@@ -40,18 +30,17 @@ layout: two-cols
 # BEFORE
 
 - Gunther Brunner（グンタ）
-- CA 12年歴
-- 2年前からAI事業本部
-- 去年7月からAI Shift所属
+- CyberAgent入社：2012年
+- 部署：2年前からAI事業本部
+- 事業：2023年7月からAI Shift所属
 - 職種：デザインエンジニア
 
 ::right::
 
 # AFTER
 
-- 昨日付けで
-  - 全社 CTO統括室・Developer Productivity室に移動
-- 今期のミッション: **AI事業の生産性を上げる**
+- 全社 CTO統括室・Developer Productivity室に移動（4/16付け）
+- 今期のミッション: **AI事業本部の生産性を上げる**
 
 ---
 
@@ -371,3 +360,20 @@ layout: two-cols
 
 ---
 
+# Test 
+
+<div class="p-3">
+  Text
+</div>
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row1Col1 | Row1Col2 | Row1Col3 |
+| Row2Col1 | Row2Col2 | Row2Col3 |
+| Row3Col1 | Row3Col2 | Row3Col3 |
+
+```ts {monaco-diff}
+console.log('Original text')
+~~~
+console.log('Modified text')
+```
