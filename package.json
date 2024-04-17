@@ -1,17 +1,23 @@
 {
-  "name": "developer-productivity-202404",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "slidev build --download",
-    "dev": "slidev --open",
-    "export": "slidev export"
-  },
-  "dependencies": {
-    "@slidev/cli": "^0.49.0-beta.3",
-    "@slidev/theme-apple-basic": "^0.25.1",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "vue": "^3.4.23"
-  }
+	"name": "developer-productivity-202404",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "slidev build",
+		"dev": "slidev --open",
+		"export": "slidev export",
+		"format": "bunx @biomejs/biome format --write ./",
+		"lint": "bunx @biomejs/biome lint ./"
+	},
+	"dependencies": {
+		"@slidev/cli": "^0.49.0-beta.3",
+		"@slidev/theme-apple-basic": "latest",
+		"@slidev/theme-default": "latest",
+		"@slidev/theme-seriph": "latest",
+		"vue": "^3.4.23"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.0",
+		"@iconify/json": "^2.2.201"
+	}
 }

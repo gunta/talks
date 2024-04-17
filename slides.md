@@ -12,6 +12,10 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+author: Gunther Brunner
+download: true
+twoslash: true
+monaco: true
 ---
 
 
@@ -29,37 +33,43 @@ layout: two-cols
 
 # BEFORE
 
-- Gunther Brunner（グンタ）
-- CyberAgent入社：2012年
-- 部署：2年前からAI事業本部
-- 事業：2023年7月からAI Shift所属
-- 職種：デザインエンジニア
+
+- 👨‍💻 Gunther Brunner（グンタ）
+- 📅 CyberAgent入社：2012年
+- 🤖 部署：2年前からAI事業本部
+- 🔄 事業：2023年7月からAI Shift所属
+- 🎨 職種：デザインエンジニア
 
 ::right::
 
+
 # AFTER
 
-- 全社 CTO統括室・Developer Productivity室に移動（4/16付け）
-- 今期のミッション: **AI事業本部の生産性を上げる**
+- 🏢 全社 CTO統括室・Developer Productivity室に移動（4/16付け）
+- 🎯 今期のミッション
+  - **🚀 AI事業本部を中心に生産性を上げる**
 
 ---
 
 # Slidevとは何ですか？
 
-Slidevは開発者向けのスライドメーカーおよびプレゼンターで、以下の機能があります。
+Slidevは**開発者向けのスライドメーカー・プレゼンター**で、以下の機能がある
 
-- 📝 **テキストベース** - Markdownでコンテンツに集中し、後でスタイルを整えます。
-- 🎨 **テーマ可能** - テーマはnpmパッケージとして共有および使用できます。
-- 🧑‍💻 **開発者フレンドリー** - コードハイライト、ライブコーディングと自動補完。
-- 🤹 **インタラクティブ** - Vueコンポーネントを埋め込んで表現を強化。
-- 🎥 **録画** - 組み込みの録画とカメラビュー。
-- 📤 **ポータブル** - PDF、PNG、またはホスト可能なSPAにエクスポート。
-- 🛠 **ハッカブル** - ウェブページで可能なことは何でも。
+- 📝 **テキストベース** 
+  - Markdownでコンテンツに集中し、後でスタイルを整えられる
+- 🧑‍💻 **開発者フレンドリー** 
+  - コードハイライト、ライブコーディングと自動補完
+- 🤹 **インタラクティブ** 
+  - コンポーネントを埋め込んで表現ができる
+- 🎥 **録画** 
+  - 組み込みの録画とカメラビュー
+- 📤 **ポータブル** 
+  - PDF、PNG、またはGitHub PagesにSPAをエクスポート可能
+- 🛠 **カスタマイサブル** 
+  - ウェブページで可能なことは何でもできる
 
-<br>
-<br>
 
-[Slidevについてもっと読む](https://sli.dev/guide/why)
+[Slidevについてもっと読む](https://ja.sli.dev/guide/why)
 
 
 <style>
@@ -93,10 +103,14 @@ level: 2
 ![Languages](/langs.png)
 
 ---
-layout: two-cols
+layout: two-cols-header
 ---
 
-# 開発環境 BEFORE
+# 開発環境
+
+::left::
+
+#  BEFORE
 
 - IntelliJ Idea
   - IDE完成度高い
@@ -114,8 +128,6 @@ layout: two-cols
   - VSCodeのExtensionと設定が全部使える
     - Forkではあるが、頻繁に更新される
   - 20$/月の価値は20分でペイするのを体感
-  - グッジョブは？
-  - 基本人権。全社で導入できるように動きます！
 
 
 ---
@@ -377,3 +389,66 @@ console.log('Original text')
 ~~~
 console.log('Modified text')
 ```
+
+
+---
+layout: two-cols
+---
+
+# BEFORE
+## LLMプロンプト錬金術
+Hi
+
+
+<!-- Copy-paste in your Readme.md file -->
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=41986369" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=41986369&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Star History of pingcap/tidb" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=41986369&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
+<!-- Made with [OSS Insight](https://ossinsight.io/) -->
+
+
+::right::
+
+# AFTER
+## LLMプロンプトプログラミング
+- DSPy
+- merit
+- merit
+- merit
+
+<img alt="Star History" src="https://api.star-history.com/svg?repos=stanfordnlp/dspy" width="100%">
+
+---
+
+# ⭐️ DSPy
+
+<!-- <logos-bun class="text-4xl" /> -->
+
+<StarHistory repo="stanfordnlp/dspy" />
+
+
+---
+layout: before-after
+---
+
+# 比較
+
+::before::
+- Hers
+
+```ts
+fafaf
+```
+
+::after::
+
+- Chau
+- Bye
+
+---
+
