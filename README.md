@@ -1,11 +1,22 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Developer Productivity Presentation (April 2024)
 
-To start the slide show:
+This repository contains a [Slidev](https://sli.dev/) presentation about technologies that have improved developer productivity, to be presented in April 2024.
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+## Presentation Overview
 
-Edit the [slides.md](./slides.md) to see the changes.
+The presentation covers:
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+- Speaker introduction
+- Department transfer announcement
+- Comparison of modern programming languages
+  - TypeScript, TypeScript with Effect, Go, Elixir, Rust, Swift
+  - Concurrency, type safety, null safety, error handling, distribution, OS support, etc.
+- Other topics related to developer productivity improvements
+
+## Running the Presentation
+
+1. Install dependencies: `bun i` 
+2. Start the dev server: `bun dev`
+3. Open http://localhost:3030 in your browser
+
+The presentation is split across multiple Markdown files under `slides.md`. Refer to the [Slidev docs](https://sli.dev/) to learn more about the format and features.
