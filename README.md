@@ -1,4 +1,4 @@
-# Gunther Talks
+# My Talks
 
 This repository contains the [Slidev](https://sli.dev/) presentations for my Talks, which includes various topics aimed at enhancing developer productivity and whatnot.
 
