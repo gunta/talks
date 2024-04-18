@@ -133,51 +133,48 @@ level: 2
 ![Languages](/langs.png)
 
 ---
-layout: two-cols-header
+layout: before-after
 ---
 
-# 開発環境
+# 🛠️ 開発環境 
 
-::left::
+::before::
 
-#  BEFORE
-
-- IntelliJ Idea
-  - IDE完成度高い
-- VSCode
+- <logos-intellij-idea /> IntelliJ Idea
+  - IDE完成度が高い
+- <devicon-vscode /> VSCode
   - Extensionが充実
 
-::right::
+::after::
 
-# AFTER
 
-- Cursor
-  - AI機能はGitHub Copilotを大幅に超えてる
-  - UXは素晴らしい
-  - 勢いはある（OpenAIが投資）
-  - VSCodeのExtensionと設定が全部使える
-    - Forkではあるが、頻繁に更新される
-  - 20$/月の価値は20分でペイするのを体感
 
+- <img alt="Cursor" src="https://cursor.sh/brand/icon.svg" width="28px" style="display: inline-block" /> [Cursor](https://cursor.sh/)
+  - AI機能はGitHub Copilotを大幅に超えています
+  - ユーザー体験が非常に優れています
+  - OpenAIからの投資を受けて急速に成長中
+  - VSCodeの全ての拡張機能と設定が利用可能
+    - フォークであり、定期的に更新が行われる
+  - $20/月のコストは使用開始20分で元が取れるほどの価値がある
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# タスク管理 BEFORE
+# ☑️ タスク管理
 
-- JIRA
-  - タスク管理に向いてる
+::before::
+
+- <logos-jira /> JIRA
+  - タスク管理に向いている
   - 使いたい人はいない
-- GitHub Issues
+- <simple-icons-github /> GitHub Issues
   - 開くのだるい
-  - 機能貧弱
+  - 機能が貧弱
 
-::right::
+::after::
 
-# AFTER
-
-- Linear
+- <logos-linear-icon /> [Linear](https://linear.app/)
   - エンジニアが使いたくなる
   - UXが素晴らしい 
   - Notionよりもサクサク
@@ -185,92 +182,158 @@ layout: two-cols
   - Local First Architectureの代表プロダクト
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# ブラウザ BEFORE
+# 🌐 ブラウザ
 
-- Chrome
-- Safari
+::before::
 
-::right::
+- <logos-chrome /> Chrome
+- <logos-safari /> Safari
 
-# AFTER
+::after::
 
-- Arc
-  - GitHubのPull Requestをリアルタイムで表示される機能がリリース
-
----
-layout: two-cols
----
-
-# バンドラーBEFORE
-
-- Webpack
-
-::right::
-
-# AFTER
-
-- Vite
-- 今後はFarm
+- <logos-arc /> Arc
+  - <carbon-logo-github /> GitHubのプルリクをリアルタイムで表示される[Live Folders機能がリリースされた](https://zenn.dev/t_yng/articles/a6f6ff55bef1b4)
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# 英語修正 BEFORE
+# 📦 JS バンドラー
 
-- PR都度修正
+::before::
 
-::right::
+- <logos-webpack /> Webpack
+  - 2014年に[日本語初の記事を書きました](https://ameblo.jp/ca-1pixel/entry-11884453208.html)
 
-# AFTER
+::after::
 
-- CSpellを導入
-  - CI
-  - Lefthook
+- <logos-vitejs /> [Vite](https://vitejs.dev/)
+  - 一部Rust製
+  - 開発時に速い
 
----
-layout: two-cols
----
-
-# クラウド BEFORE
-
-- AWS（33リージョン）
-- GCP（40リージョン）
-- Azure（60リージョン）
-
-::right::
-
-# AFTER
-
-- Cloudflare（310リージョン）
-  - Edgeではない、AWSの競合になった
-  - コストメリットがデカすぎる
-  - デプロイが早すぎる
-  - エグレスがかからない
-  - I/O時は課金されない
-  - Telemetryは無料
-  - 日本にDCが4個
-  - 中国にDCが37個
-  - アメリカにDCが3個
-  - GPU Inference
-  - 楽しい！（大事）
+## 🔮 FUTURE
+- <img src="https://www.farmfe.org/img/logo.png" alt="Farm" width="28px" style="display: inline-block;"/> [Farm](https://www.farmfe.org/)
+  - Rust製
+  - 100% Vite互換性
+  - どんな時でも速い
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# バックエンド言語 BEFORE
+# 📦 CSS バンドラー
+
+::before::
+
+- <logos-esbuild /> ESBuild
+
+::after::
+
+- ⚡️ [Lightning CSS](https://lightningcss.dev/)
+  - Transpilation
+  - CSS Modules
+  - Bundling
+  - Minification 
+  - Rust製、速い
+  - Viteでも使える
+
+
+---
+layout: before-after
+---
+
+# <twemoji-flag-united-states /> 英語Linter
+
+::before::
+
+- 都度PR人間が修正
+- 抜け漏れ発生
+
+::after::
+
+- <vscode-icons-file-type-cspell /> [CSpell](https://cspell.org/)
+  - CI時
+  - Lefthook時
+
+---
+layout: before-after
+---
+
+# ☁️ クラウド（最も大事）
+
+::before::
+
+- <logos-google-cloud /> GCP（40リージョン）
+  - 🇯🇵 DC：東京、大阪
+  - 🇨🇳 DC：無し
+- <logos-aws /> AWS（33リージョン）
+  - 🇯🇵 DC：東京、大阪
+  - 🇨🇳 DC：無し
+- <logos-microsoft-azure /> Azure（60リージョン）
+  - 🇯🇵 DC：埼玉、大阪
+  - 🇨🇳 DC：3つ
+
+::after::
+
+- <logos-cloudflare-icon /> Cloudflare（310リージョン）
+  - 🇯🇵 DC: 4つ（東京、大阪、福岡、那覇）
+  - 🇨🇳 DC: 37つ
+  - 🇺🇸 DC: 53つ
+  - 🚫 AWSの競合になり「Edge」もう呼ばない
+  - 💸 コストメリットが顕著
+  - ⚡️ デプロイ速度が速い（10倍〜）
+  - 🆓 ストレージエグレス料金が不要
+  - 🆓 I/O操作時の課金なし（LLM呼び出し等）
+  - 🆓 Telemetryが無料
+  - 🖥️ GPUとLLM推論
+  - 😄 楽しい！（重要）
+
+---
+layout: before-after
+---
+
+# 🖥️ バックエンド言語
+
+:: before ::
 
 - Golang
 
-::right::
-
-# AFTER
+::after::
 
 - TypeScript
+
+---
+layout: two-cols
+---
+
+
+|  |  <br> Feature | <logos-typescript-icon /> <br>TypeScript  | <logos-go /> <br> Go |
+|:---:|---|:---:|:---:|
+| <flat-color-icons-parallel-tasks /> | Concurrency & Parallelism | ❌ | ✅ |
+| <nonicons-type-16 class="text-blues-400" /> | Basic Type Safety | ✅ | ✅ |
+| <mdi-null class="text-yellow-400" /> | Null Safety | ✅ | ❌ |
+| <ooui-error class="text-red-400" /> | Error Safety | ❌ | ✅ |
+| <ri-share-box-fill /> | Good Distribution | ✅ | ✅ |
+| <logos-microsoft-windows-icon /> | Support on Windows | ✅ | ✅ |
+| <file-icons-terminal /> | Standalone Binary | <logos-bun /> | ✅ |
+
+::right::
+
+|  |  <br> Feature | <logos-typescript-icon /> <br>TypeScript  | <logos-go /> <br> Go |
+|:---:|---|:---:|:---:|
+| <logos-arc  /> | Runs in Browser | ✅ | ❌ |
+| <logos-cloudflare-workers-icon  /> | Runs in Edge | ✅ | ❌ |
+| <logos-ios  /> | App in iOS | <logos-expo-icon /> | ❌ |
+| <logos-android-icon  /> | App in Android | <logos-expo-icon /> | ✅ |
+| <ph-pipe-fill class="text-blue-400" /> | Pipes | ❌ | ❌ |
+| <oui-token-enum class="text-yellow-400" /> | Algebraic Data Types | ✅ | ❌ |
+| <material-symbols-match-word-rounded class="text-red-400" /> | Pattern Matching | ❌ | ❌ |
+
+
+
 
 ---
 layout: two-cols
