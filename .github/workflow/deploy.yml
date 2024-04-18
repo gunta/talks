@@ -27,10 +27,11 @@ jobs:
           node-version: "lts/*"
 
       - name: Install dependencies
-        run: npm install
+        run: bun install
 
       - name: Build
-        run: npm run build -- --base /<name_of_repo>/
+        run: bun run build
+        ## run: bun run build -- --base /<name_of_repo>/
 
       - uses: actions/configure-pages@v4
 
