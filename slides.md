@@ -313,6 +313,11 @@ layout: before-after
 - <logos-typescript-icon /> TypeScript
 
 ---
+layout: image
+image: /typescript.png
+---
+
+---
 layout: two-cols
 ---
 
@@ -382,7 +387,7 @@ layout: before-after
 layout: before-after
 ---
 
-# <logos-typescript-icon /> バージョンマネジャー
+# <mingcute-version-fill /> バージョンマネジャー
 
 ::before::
 
@@ -487,6 +492,11 @@ layout: before-after
     - <logos-cloudflare-workers-icon /> Cloudflare Workers
 
 ---
+layout: image
+image: /hono2.png
+---
+
+---
 layout: before-after
 ---
 
@@ -541,6 +551,32 @@ layout: before-after
   - Rust製
   - Prettierと97%互換性
   - 35倍速い
+
+---
+layout: before-after
+---
+
+
+# 🚩 Feature Flags
+
+::before::
+- <ic-baseline-build /> 自作
+- <logos-launchdarkly-icon /> LaunchDarkly
+- <icon-park-solid-config /> ConfigCat
+- <logos-firebase /> Firebase Remote Config
+- <logos-bugsnag-icon /> Bugsnag
+
+::after::
+- <img src="https://avatars.githubusercontent.com/u/90421314?s=200&v=4" width="20px" style="display:inline-block;" /> [DevCycle](https://devcycle.com/)
+  - 50ms以下のレイテンシ
+  - SDKの豊富さ: 導入が容易
+  - 料金体型: MAU課金、価格面で良心的な料金
+  - 使いやすさ: DX・UXが直感的
+  - リアルタイム更新: SSE経由
+  - OpenFeature対応: ロックインを防げる
+  - IDEのExtension: VSCodeのExtension
+  - Edge Flags: Edge DB機能の提供
+  - Local Bucketing
 
 ---
 layout: before-after
