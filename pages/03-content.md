@@ -148,17 +148,18 @@ layout: before-after
   - どんな時でも速い
   
 ---
+layout: star-history
+repo: vitejs/vite
+---
 
 # ⭐️ Vite
 
-<StarHistory repo="vitejs/vite" />
-
+---
+layout: star-history
+repo: farm-fe/farm
 ---
 
 # ⭐️ Farm
-
-<StarHistory repo="farm-fe/farm" />
-
 
 ---
 layout: before-after
@@ -181,10 +182,12 @@ layout: before-after
   - Viteでも使える
 
 ---
+layout: star-history
+repo: parcel-bundler/lightningcss
+---
 
 # ⭐️ Lightning CSS
 
-<StarHistory repo="parcel-bundler/lightningcss" />
 
 ---
 layout: before-after
@@ -204,10 +207,11 @@ layout: before-after
   - Lefthook時
 
 ---
+layout: star-history
+repo: streetsidesoftware/cspell
+---
 
 # ⭐️ CSpell
-
-<StarHistory repo="streetsidesoftware/cspell" />
 
 
 ---
@@ -263,10 +267,11 @@ image: /typescript.png
 ---
 
 ---
+layout: star-history
+repo: microsoft/TypeScript
+---
 
 # ⭐️ TypeScript
-
-<StarHistory repo="microsoft/TypeScript" />
 
 ---
 layout: two-cols
@@ -318,10 +323,12 @@ layout: before-after
   - CJSとESMがミックス可能
 
 ---
+layout: star-history
+repo: oven-sh/bun
+---
 
 # ⭐️ Bun
 
-<StarHistory repo="oven-sh/bun" />
 
 ---
 layout: before-after
@@ -365,10 +372,11 @@ layout: before-after
   - ...
 
 ---
+layout: star-history
+repo: moonrepo/proto
+---
 
 # ⭐️ Proto
-
-<StarHistory repo="moonrepo/proto" />
 
 
 ---
@@ -432,10 +440,11 @@ layout: before-after
   - 速い
 
 ---
+layout: star-history
+repo: nrwl/nx
+---
 
 # ⭐️ Nx
-
-<StarHistory repo="nrwl/nx" />
 
 
 ---
@@ -463,10 +472,12 @@ layout: before-after
     - <logos-cloudflare-workers-icon /> Cloudflare Workers
 
 ---
+layout: star-history
+repo: honojs/hono
+---
 
 # ⭐️ Hono
 
-<StarHistory repo="honojs/hono" />
 
 ---
 layout: image
@@ -493,12 +504,14 @@ layout: before-after
     - <logos-bun /> Bun <logos-vercel-icon /> Vercel  <logos-cloudflare-workers-icon /> Cloudflare Workers <simple-icons-expo /> Expo <logos-arc /> Browser <logos-supabase-icon /> Supabase  <logos-electron /> Electron  <simple-icons-react /> React Native
   - マルチデータベース
     - <logos-postgresql /> PostgreSQL <logos-supabase-icon /> Supabase <logos-vercel-icon /> Vercel  <logos-sqlite /> SQLite <logos-mysql /> MySQL  <logos-xata-icon /> Xata  <simple-icons-turso /> Turso  <logos-neon-icon /> Neon
-    
+
+
+---
+layout: star-history
+repo: drizzle-team/drizzle-orm
 ---
 
 # ⭐️ Drizzle
-
-<StarHistory repo="drizzle-team/drizzle-orm" />
 
 
 ---
@@ -519,10 +532,11 @@ layout: before-after
   - 速い
 
 ---
+layout: star-history
+repo: biomejs/biome
+---
 
 # ⭐️ Biome
-
-<StarHistory repo="biomejs/biome" />
 
 ---
 layout: before-after
@@ -667,3 +681,4 @@ url: https://dspy-docs.vercel.app/
   - LLMシステムを最適化するフレームワーク
   - プロンプトと出力間の相互作用と依存関係を管理
   - PyTorch の構文と構造なので、直感的
+
