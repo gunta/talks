@@ -219,6 +219,9 @@ layout: before-after
 
 # ☁️ Cloud (Most Important)
 
+🆕 Cloudflare is no longer just an "Edge CDN".
+It has evolved into a competitive and reputable cloud vendor.
+
 ::before::
 
 - <logos-google-cloud /> GCP (40 regions)

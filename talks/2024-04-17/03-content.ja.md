@@ -220,6 +220,9 @@ layout: before-after
 
 # ☁️ クラウド（最も大事）
 
+🆕 Cloudflareはもう「Edge CDN」ではない。
+競争力ある立派なクラウドベンダーに進化。
+
 ::before::
 
 - <logos-google-cloud /> GCP（40リージョン）
