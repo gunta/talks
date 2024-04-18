@@ -24,57 +24,8 @@ monaco: true
 </div>
 
 ---
-layout: intro
+src: ./intro.md
 ---
-
-# 自己紹介
-
-<fluent-emoji-person-light /> Günther Brunner **（グンタ）**
-<br>
-
-<noto-calendar /> CyberAgent入社 **2012年**
-<br>
-
-<twemoji-flag-japan /> **東京**在住（現在）
-<br>
-<br>
-
-<flat-color-icons-like /> <logos-openai-icon /> AI <majesticons-ux-circle-line /> UX <logos-figma /> Design <emojione-v1-lightning-mood /> Performance
-<br>
-<logos-spotify-icon /> Music <logos-netflix-icon /> Movies <noto-sushi /> Sushi <material-symbols-travel class="text-blue-400" /> Travel
-
-<br>
-<br>
-
-<fa6-brands-square-x-twitter /> [@gunta85](https://twitter.com/gunta85)
-<br>
-
-<carbon-logo-github /> [@gunta](https://github.com/gunta)
-<br>
-
-<skill-icons-devto-light /> [dev.to/gunta](https://dev.to/gunta)
-<br>
-
-<simple-icons-zenn class="text-blue-400"/> [zenn.dev/gunta](https://zenn.dev/gunta)
-
----
-layout: before-after
----
-
-# 部署移動
-
-::before::
-- 🤖 `部署` **AI事業本部**（2年前から）
-- 🔄 `事業` **AI Shift所属**（2023年7月から）
-- 🎨 `職種` [**デザインエンジニア**](https://vercel.com/blog/design-engineering-at-vercel)
-
-::after::
-- 🏢 `新部署` 全社
-  - **CTO統括室・Developer Productivity室**
-  - 4/16付けで移動
-- 🎯 `今期のミッション`
-  - **🚀 生産性向上**
-  - 🏃‍♂️ AI事業本部を中心に生産性を上げる
 
 ---
 layout: quote
@@ -154,8 +105,6 @@ layout: before-after
 
 ::after::
 
-
-
 - <img alt="Cursor" src="https://cursor.sh/brand/icon.svg" width="28px" style="display: inline-block" /> [Cursor](https://cursor.sh/)
   - AI機能はGitHub Copilotを大幅に超えています
   - ユーザー体験が非常に優れています
@@ -173,20 +122,20 @@ layout: before-after
 ::before::
 
 - <logos-jira /> JIRA
-  - タスク管理に向いている
-  - 使いたい人はいない
+  - 適しているタスク管理
+  - 使用を望む者は少ない
 - <simple-icons-github /> GitHub Issues
-  - 開くのだるい
-  - 機能が貧弱
+  - 開くのが面倒
+  - 機能が不足している
 
 ::after::
 
 - <logos-linear-icon /> [Linear](https://linear.app/)
-  - エンジニアが使いたくなる
-  - UXが素晴らしい 
-  - Notionよりもサクサク
-  - サクサクすぎ（強調）
-  - Local First Architectureの代表プロダクト
+  - エンジニアに選ばれる理由
+  - 優れたユーザーエクスペリエンス
+  - Notionを超える操作性
+  - 非常に高速なレスポンス
+  - Local First Architectureを採用
 
 ---
 layout: before-after
@@ -226,6 +175,19 @@ layout: before-after
   - Rust製
   - 100% Vite互換性
   - どんな時でも速い
+  
+---
+
+# ⭐️ Vite
+
+<StarHistory repo="vitejs/vite" />
+
+---
+
+# ⭐️ Farm
+
+<StarHistory repo="farm-fe/farm" />
+
 
 ---
 layout: before-after
@@ -247,6 +209,11 @@ layout: before-after
   - Rust製、速い
   - Viteでも使える
 
+---
+
+# ⭐️ Lightning CSS
+
+<StarHistory repo="parcel-bundler/lightningcss" />
 
 ---
 layout: before-after
@@ -264,6 +231,13 @@ layout: before-after
 - <vscode-icons-file-type-cspell /> [CSpell](https://cspell.org/)
   - CI時
   - Lefthook時
+
+---
+
+# ⭐️ CSpell
+
+<StarHistory repo="streetsidesoftware/cspell" />
+
 
 ---
 layout: before-after
@@ -318,6 +292,12 @@ image: /typescript.png
 ---
 
 ---
+
+# ⭐️ TypeScript
+
+<StarHistory repo="microsoft/TypeScript" />
+
+---
 layout: two-cols
 ---
 
@@ -367,6 +347,12 @@ layout: before-after
   - CJSとESMがミックス可能
 
 ---
+
+# ⭐️ Bun
+
+<StarHistory repo="oven-sh/bun" />
+
+---
 layout: before-after
 ---
 
@@ -406,6 +392,13 @@ layout: before-after
   - <logos-rust /> Rust
   - <logos-python /> Python
   - ...
+
+---
+
+# ⭐️ Proto
+
+<StarHistory repo="moonrepo/proto" />
+
 
 ---
 layout: before-after
@@ -468,6 +461,13 @@ layout: before-after
   - 速い
 
 ---
+
+# ⭐️ Nx
+
+<StarHistory repo="nrwl/nx" />
+
+
+---
 layout: before-after
 ---
 
@@ -490,6 +490,12 @@ layout: before-after
     - <logos-aws-lambda /> Lambda
     - <logos-vercel-icon /> Vercel
     - <logos-cloudflare-workers-icon /> Cloudflare Workers
+
+---
+
+# ⭐️ Hono
+
+<StarHistory repo="honojs/hono" />
 
 ---
 layout: image
@@ -518,6 +524,13 @@ layout: before-after
     - <logos-postgresql /> PostgreSQL <logos-supabase-icon /> Supabase <logos-vercel-icon /> Vercel  <logos-sqlite /> SQLite <logos-mysql /> MySQL  <logos-xata-icon /> Xata  <simple-icons-turso /> Turso  <logos-neon-icon /> Neon
     
 ---
+
+# ⭐️ Drizzle
+
+<StarHistory repo="drizzle-team/drizzle-orm" />
+
+
+---
 layout: before-after
 ---
 
@@ -533,6 +546,12 @@ layout: before-after
   - Rust製
   - ESLint等200以上のルール
   - 速い
+
+---
+
+# ⭐️ Biome
+
+<StarHistory repo="biomejs/biome" />
 
 ---
 layout: before-after
@@ -631,42 +650,68 @@ layout: quote
 # 直近の動向
 
 ---
-layout: two-cols
+layout: iframe-right
+url: https://effect.website/
 ---
 
-# BEFORE
-## LLMプロンプト錬金術
-Hi
+# 堅牢なTypeScriptを
 
+- <logos-effect-icon /> **Effect**
+  - <skill-icons-golang /> Golang/Rustも羨ましくない
+  - <fluent-library-24-filled /> 欲しかったスタンダードライブラリ  
+  - <skill-icons-react-dark /> Reactでポピュラーになった関数型
+  - <fluent-error-circle-24-filled /> 完璧なエラーハンドリング
+  - <pajamas-retry /> リトライ処理
+  - <mdi-swap-horizontal-bold /> 並行処理
+  - <material-symbols-pattern /> パターンマッチ
+  - <vscode-icons-file-type-light-json-schema /> スキーマ
+  - <flat-color-icons-serial-tasks /> シリアライゼーション
+  - <logos-opentelemetry-icon /> トレーシング
 
-<!-- Copy-paste in your Readme.md file -->
+---
+src: ./languages.ja.md
+---
 
-<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=41986369" target="_blank" style="display: block" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=41986369&image_size=auto&color_scheme=dark" width="721" height="auto">
-    <img alt="Star History of pingcap/tidb" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=41986369&image_size=auto&color_scheme=light" width="721" height="auto">
-  </picture>
-</a>
+---
+layout: iframe-right
+url: https://blog.cloudflare.com/python-workers
+---
 
-<!-- Made with [OSS Insight](https://ossinsight.io/) -->
+# <logos-cloudflare-icon /> WorkersでPython
 
+- Pyodide経由
+  - numpy
+  - FastAPI
+  - Langchain
+等は動く
 
-::right::
+---
+layout: iframe-right
+url: https://dspy-docs.vercel.app/
+---
+# プロンプト魔法の終幕
 
-# AFTER
-## LLMプロンプトプログラミング
 - DSPy
-- merit
-- merit
-- merit
-
-<img alt="Star History" src="https://api.star-history.com/svg?repos=stanfordnlp/dspy" width="100%">
+  - これからは**プロンプトプログラミング**の時代
+  - LLMシステムを最適化するフレームワーク
+  - プロンプトと出力間の相互作用と依存関係を管理
+  - PyTorch の構文と構造なので、直感的
 
 ---
+layout: end
+---
 
-# ⭐️ DSPy
+# ありがとうございました
 
-<StarHistory repo="stanfordnlp/dspy" />
+<br><br>
 
+<fa6-brands-square-x-twitter /> [@gunta85](https://twitter.com/gunta85)
+<br>
 
+<carbon-logo-github /> [@gunta](https://github.com/gunta)
+<br>
 
+<skill-icons-devto-light /> [dev.to/gunta](https://dev.to/gunta)
+<br>
+
+<simple-icons-zenn class="text-blue-400"/> [zenn.dev/gunta](https://zenn.dev/gunta)
