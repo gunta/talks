@@ -14,10 +14,18 @@ twoslash: true
 monaco: true
 ---
 
-# 導入して開発生産性上がった技術を紹介
+<style>
+  .cover h1 {
+    background-color: white !important; 
+    background-image: linear-gradient(45deg, #fff 10%, #fff 20%);
+  text-wrap: balance;
+  }
+</style>
+
+# 開発生産性を向上させた導入技術の紹介
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Slidev <carbon:arrow-right class="inline"/>
+    <carbon:arrow-right class="inline"/>
   </span>
 </div>
