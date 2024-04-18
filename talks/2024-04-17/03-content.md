@@ -2,36 +2,36 @@
 layout: quote
 ---
 
-# 開発生産性を向上させた導入技術の紹介
+# Technologies that Improved Development Productivity
 
 ## 2024/4
 
 ---
 layout: iframe
-url: https://ja.sli.dev/
+url: https://sli.dev/
 ---
 
 ---
 
-# Slidevとは何ですか？
+# What is Slidev?
 
-Slidevは**開発者向けのスライドメーカー・プレゼンター**で、以下の機能がある
+Slidev is a **slide maker and presenter for developers** with the following features:
 
-- 📝 **テキストベース** 
-  - Markdownでコンテンツに集中し、後でスタイルを整えられる
-- 🧑‍💻 **開発者フレンドリー** 
-  - コードハイライト、ライブコーディングと自動補完
-- 🤹 **インタラクティブ** 
-  - コンポーネントを埋め込んで表現ができる
-- 🎥 **録画** 
-  - 組み込みの録画とカメラビュー
-- 📤 **ポータブル** 
-  - PDF、PNG、またはGitHub PagesにSPAをエクスポート可能
-- 🛠 **カスタマイサブル** 
-  - ウェブページで可能なことは何でもできる
+- 📝 **Text-based**
+  - Focus on content with Markdown and style it later
+- 🧑‍💻 **Developer-friendly**
+  - Code highlighting, live coding, and auto-completion
+- 🤹 **Interactive**
+  - Embed components for enhanced expression
+- 🎥 **Recording**
+  - Built-in recording and camera view
+- 📤 **Portable**
+  - Exportable as PDF, PNG, or a SPA on GitHub Pages
+- 🛠 **Customizable**
+  - Anything possible on a web page can be done
 
 
-[Slidevについてもっと読む](https://ja.sli.dev/guide/why)
+[Read more about Slidev](https://sli.dev/guide/why)
 
 ---
 layout: star-history
@@ -45,15 +45,15 @@ transition: slide-up
 level: 2
 ---
 
-# AI Workerの紹介（4月）
+# Introduction to one product: AI Worker (April)
 
-<SlidevVideo autoplay controls width="70%" >
+<SlidevVideo autoplay controls width="70%">
   <source src="/AIWorkerPortal.mp4" />
 </SlidevVideo>
 
 ---
 
-# AI Workerの利用言語
+# Language Used
 
 <logos-typescript-icon class="text-3xl "/> 
 `Frontend` | `Backend` | `Scripts`
@@ -65,54 +65,54 @@ level: 2
 layout: before-after
 ---
 
-# 🛠️ 開発環境 
+# 🛠️ Development Environment
 
 ::before::
 
 - <logos-intellij-idea /> IntelliJ Idea
-  - IDE完成度が高い
+  - High quality IDE
 - <devicon-vscode /> VSCode
-  - Extensionが充実
+  - Rich in extensions
 
 ::after::
 
 - <img alt="Cursor" src="https://cursor.sh/brand/icon.svg" width="28px" style="display: inline-block" /> [Cursor](https://cursor.sh/)
-  - AI機能はGitHub Copilotを大幅に超えています
-  - ユーザー体験が非常に優れています
-  - OpenAIからの投資を受けて急速に成長中
-  - VSCodeの全ての拡張機能と設定が利用可能
-    - フォークであり、定期的に更新が行われる
-  - $20/月のコストは使用開始20分で元が取れるほどの価値がある
+  - AI features significantly surpass GitHub Copilot
+  - Exceptional UX
+  - Rapid growth with investment from OpenAI
+  - All VSCode extensions and settings are available
+    - It is a fork and is regularly updated
+  - The $20/month cost is worth it within the first 20 minutes of use
 
 ---
 layout: before-after
 ---
 
-# ☑️ タスク管理
+# ☑️ Task Management
 
 ::before::
 
 - <logos-jira /> JIRA
-  - 適しているタスク管理
-  - 使用を望む者は少ない
+  - Suitable for task management
+  - Few people desire to use it
 - <simple-icons-github /> GitHub Issues
-  - 開くのが面倒
-  - 機能が不足している
+  - Cumbersome to open
+  - Lacking features
 
 ::after::
 
 - <logos-linear-icon /> [Linear](https://linear.app/)
-  - エンジニアに選ばれる理由
-  - 優れたユーザーエクスペリエンス
-  - Notionを超える操作性
-  - 非常に高速なレスポンス
-  - Local First Architectureを採用
+  - Chosen by engineers for a reason
+  - Superior UX
+  - Better operability than Notion
+  - Very fast response
+  - Uses Local First Architecture
 
 ---
 layout: before-after
 ---
 
-# 🌐 ブラウザ
+# 🌐 Browser
 
 ::before::
 
@@ -122,30 +122,29 @@ layout: before-after
 ::after::
 
 - <logos-arc /> Arc
-  - <carbon-logo-github /> GitHubのプルリクをリアルタイムで表示される[Live Folders機能がリリースされた](https://zenn.dev/t_yng/articles/a6f6ff55bef1b4)
+  - <carbon-logo-github /> GitHub pull requests displayed in real-time with the released [Live Folders feature](https://zenn.dev/t_yng/articles/a6f6ff55bef1b4)
 
 ---
 layout: before-after
 ---
 
-# 📦 JS バンドラー
+# 📦 JS Bundler
 
 ::before::
 
 - <logos-webpack /> Webpack
-  - 2014年に[日本語初の記事を書きました](https://ameblo.jp/ca-1pixel/entry-11884453208.html)
 
 ::after::
 
 - <logos-vitejs /> [Vite](https://vitejs.dev/)
-  - 一部Rust製
-  - 開発時に速い
+  - Partially made in Rust
+  - Fast during development
 
 ## 🔮 FUTURE
 - <img src="https://www.farmfe.org/img/logo.png" alt="Farm" width="28px" style="display: inline-block;"/> [Farm](https://www.farmfe.org/)
-  - Rust製
-  - 100% Vite互換性
-  - どんな時でも速い
+  - Made with Rust
+  - 100% compatible with Vite
+  - Fast at all times
   
 ---
 layout: star-history
@@ -165,7 +164,7 @@ repo: farm-fe/farm
 layout: before-after
 ---
 
-# 📦 CSS バンドラー
+# 📦 CSS Bundler
 
 ::before::
 
@@ -177,9 +176,9 @@ layout: before-after
   - Transpilation
   - CSS Modules
   - Bundling
-  - Minification 
-  - Rust製、速い
-  - Viteでも使える
+  - Minification
+  - Made with Rust, fast
+  - Usable with Vite
 
 ---
 layout: star-history
@@ -193,18 +192,18 @@ repo: parcel-bundler/lightningcss
 layout: before-after
 ---
 
-# <twemoji-flag-united-states /> 英語Linter
+# <twemoji-flag-united-states /> English Linter
 
 ::before::
 
-- 都度PR人間が修正
-- 抜け漏れ発生
+- Manual PR corrections by humans
+- Occasional omissions and errors
 
 ::after::
 
 - <vscode-icons-file-type-cspell /> [CSpell](https://cspell.org/)
-  - CI時
-  - Lefthook時
+  - During CI
+  - With Lefthook
 
 ---
 layout: star-history
@@ -218,40 +217,40 @@ repo: streetsidesoftware/cspell
 layout: before-after
 ---
 
-# ☁️ クラウド（最も大事）
+# ☁️ Cloud (Most Important)
 
 ::before::
 
-- <logos-google-cloud /> GCP（40リージョン）
-  - 🇯🇵 DC：東京、大阪
-  - 🇨🇳 DC：無し
-- <logos-aws /> AWS（33リージョン）
-  - 🇯🇵 DC：東京、大阪
-  - 🇨🇳 DC：無し
-- <logos-microsoft-azure /> Azure（60リージョン）
-  - 🇯🇵 DC：埼玉、大阪
-  - 🇨🇳 DC：3つ
+- <logos-google-cloud /> GCP (40 regions)
+  - 🇯🇵 DC: Tokyo, Osaka
+  - 🇨🇳 DC: None
+- <logos-aws /> AWS (33 regions)
+  - 🇯🇵 DC: Tokyo, Osaka
+  - 🇨🇳 DC: None
+- <logos-microsoft-azure /> Azure (60 regions)
+  - 🇯🇵 DC: Saitama, Osaka
+  - 🇨🇳 DC: 3
 
 ::after::
 
-- <logos-cloudflare-icon /> Cloudflare（310リージョン）
-  - 🇯🇵 DC: 4つ（東京、大阪、福岡、那覇）
-  - 🇨🇳 DC: 37つ
-  - 🇺🇸 DC: 53つ
-  - 🚫 AWSの競合になり「Edge」もう呼ばない
-  - 💸 コストメリットが顕著
-  - ⚡️ デプロイ速度が速い（10倍〜）
-  - 🆓 ストレージエグレス料金が不要
-  - 🆓 I/O操作時の課金なし（LLM呼び出し等）
-  - 🆓 Telemetryが無料
-  - 🖥️ GPUとLLM推論
-  - 😄 楽しい！（重要）
+- <logos-cloudflare-icon /> Cloudflare (310 regions)
+  - 🇯🇵 DC: 4 (Tokyo, Osaka, Fukuoka, Naha)
+  - 🇨🇳 DC: 37
+  - 🇺🇸 DC: 53
+  - 🚫 No more 'Edge', AWS is competitor
+  - 💸 Significant cost benefits
+  - ⚡️ Faster deployment (10x or more)
+  - 🆓 No storage egress fees
+  - 🆓 No charges for I/O operations
+  - 🆓 Free telemetry
+  - 🖥️ GPU and LLM inference
+  - 😄 It's Fun! (Important)
 
 ---
 layout: before-after
 ---
 
-# 🖥️ バックエンド言語
+# 🖥️ Backend Language
 
 :: before ::
 
@@ -283,33 +282,33 @@ border-left: 1px solid #ddd;
 }
 </style>
 
-|  |  <br> 特徴 | <logos-typescript-icon />  | <logos-go /> |
+|  |  <br> Features | <logos-typescript-icon />  | <logos-go /> |
 |:---:|---|:---:|:---:|
-| <flat-color-icons-parallel-tasks /> | 並行性と並列性 | ❌ | ✅ |
-| <nonicons-type-16 class="text-blues-400" /> | ベーシックな型安全性 | ✅ | ✅ |
-| <mdi-null class="text-yellow-400" /> | Null安全性 | ✅ | ❌ |
-| <ooui-error class="text-red-400" /> | エラー安全性 | ❌ | ✅ |
-| <ri-share-box-fill /> | 配布のしやすさ | ✅ | ✅ |
-| <logos-microsoft-windows-icon /> | Windows対応 | ✅ | ✅ |
-| <file-icons-terminal /> | スタンドアロンバイナリ | <logos-bun /> | ✅ |
+| <flat-color-icons-parallel-tasks /> | Concurrency and Parallelism | ❌ | ✅ |
+| <nonicons-type-16 class="text-blues-400" /> | Basic Type Safety | ✅ | ✅ |
+| <mdi-null class="text-yellow-400" /> | Null Safety | ✅ | ❌ |
+| <ooui-error class="text-red-400" /> | Error Safety | ❌ | ✅ |
+| <ri-share-box-fill /> | Ease of Distribution | ✅ | ✅ |
+| <logos-microsoft-windows-icon /> | Windows Support | ✅ | ✅ |
+| <file-icons-terminal /> | Standalone Binary | <logos-bun /> | ✅ |
 
 ::right::
 
-|  |  <br> 特徴 | <logos-typescript-icon />   | <logos-go />  |
+|  |  <br> Features | <logos-typescript-icon />   | <logos-go />  |
 |:---:|---|:---:|:---:|
-| <logos-arc  /> | ブラウザで実行 | ✅ | ❌ |
-| <logos-cloudflare-workers-icon  /> | <span style="background-color:#FFFFE0"> **Edgeで実行** </span> | ✅ | ❌ |
-| <logos-ios  /> | iOSで実行 | <logos-expo-icon /> | ❌ |
-| <logos-android-icon  /> | Androidで実行 | <logos-expo-icon /> | ✅ |
+| <logos-arc  /> | Runs in Browser | ✅ | ❌ |
+| <logos-cloudflare-workers-icon  /> | <span style="background-color:#FFFFE0"> **Runs on Edge** </span> | ✅ | ❌ |
+| <logos-ios  /> | Runs on iOS | <logos-expo-icon /> | ❌ |
+| <logos-android-icon  /> | Runs on Android | <logos-expo-icon /> | ✅ |
 | <ph-pipe-fill class="text-blue-400" /> | Pipes | ❌ | ❌ |
-| <oui-token-enum class="text-yellow-400" /> | 代数的データ型 | ✅ | ❌ |
-| <material-symbols-match-word-rounded class="text-red-400" /> | パターンマッチング | ❌ | ❌ |
+| <oui-token-enum class="text-yellow-400" /> | Algebraic Data Types | ✅ | ❌ |
+| <material-symbols-match-word-rounded class="text-red-400" /> | Pattern Matching | ❌ | ❌ |
 
 ---
 layout: before-after
 ---
 
-# <logos-typescript-icon /> TypeScriptランタイム
+# <logos-typescript-icon /> TypeScript Runtime
 
 ::before::
 
@@ -318,9 +317,9 @@ layout: before-after
 ::after::
 
 - <logos-bun /> [Bun](https://bun.sh/)
-  - 実行時間が5倍速い
-  - トランスパイル不要
-  - CJSとESMがミックス可能
+  - 5 times faster execution
+  - No transpilation
+  - CJS and ESM mixable
 
 ---
 layout: star-history
@@ -334,7 +333,7 @@ repo: oven-sh/bun
 layout: before-after
 ---
 
-# <logos-typescript-icon /> TypeScriptパッケージマネジャー
+# <logos-typescript-icon /> TypeScript Package Manager
 
 ::before::
 
@@ -344,26 +343,26 @@ layout: before-after
 ::after::
 
 - <logos-bun /> [Bun](https://bun.sh/)
-  - 10秒でインストール
-  - npmより30倍速い
+  - Installs in 10 seconds
+  - 30 times faster than npm
 
 ---
 layout: before-after
 ---
 
-# <mingcute-version-fill /> バージョンマネジャー
+# <mingcute-version-fill /> Version Manager
 
 ::before::
 
-- <logos-bun /> 管理なし
+- <logos-bun /> No management
 - <logos-homebrew /> Brew
 
 ::after::
 
 - <img src="https://moonrepo.dev/brand/proto/icon.svg" width="20px" style="display:inline-block;" /> [proto](https://moonrepo.dev/proto)
-  - Rust製
-  - Direnv自動インストール
-  - 対応ツール（50〜）
+  - Built with Rust
+  - Automatic Direnv installation
+  - Tools supported (50+)
   - <logos-bun /> Bun
   - <logos-nodejs-icon /> Node
   - <logos-go /> Go
@@ -378,12 +377,11 @@ repo: moonrepo/proto
 
 # ⭐️ Proto
 
-
 ---
 layout: before-after
 ---
 
-# <logos-typescript-icon /> TypeScriptテストランナー
+# <logos-typescript-icon /> TypeScript Test Runner
 
 ::before::
 
@@ -392,13 +390,13 @@ layout: before-after
 ::after::
 
 - <logos-bun /> [Bun](https://bun.sh/)
-  - 5倍速い
+  - 5 times faster
 
 ---
 layout: before-after
 ---
 
-# <heroicons-command-line-20-solid /> スクリプト
+# <heroicons-command-line-20-solid /> Scripts
 
 ::before::
 
@@ -408,9 +406,9 @@ layout: before-after
 ::after::
 
 - <logos-bun /> [Bun Shell](https://bun.sh/)
-  - クロスプラットフォーム
-  - ロジックが書きやすい
-  - 若手も分かる
+  - Cross-platform
+  - Easier logic writing
+  - Understandable by juniors
   - Full TS
 
 ```ts
@@ -424,7 +422,7 @@ console.log(output)
 layout: before-after
 ---
 
-# 🏗️ モノレポCI
+# 🏗️ Monorepo CI
 
 ::before::
 
@@ -434,10 +432,10 @@ layout: before-after
 ::after::
 
 - <logos-nx /> [Nx](https://nx.dev/)
-  - 最も機能が充実している
-  - 最もスケールする
-  - 並行処理が得意
-  - 速い
+  - Most feature-rich
+  - Most scalable
+  - Excels in parallel processing
+  - Fast
 
 ---
 layout: star-history
@@ -451,7 +449,7 @@ repo: nrwl/nx
 layout: before-after
 ---
 
-# 🖥️ サーバーフレームワーク
+# 🖥️ Server Framework
 
 ::before:: 
 
@@ -461,10 +459,10 @@ layout: before-after
 ::after::
 
 - <logos-hono /> [Hono](https://hono.dev/)
-  - 軽量
-  - 速い
-  - シンプル
-  - マルチランタイム（ロックインされない）
+  - Lightweight
+  - Fast
+  - Simple
+  - Multi-runtime (no lock-in)
     - <logos-bun /> Bun
     - <logos-nodejs-icon /> Node.js
     - <logos-aws-lambda /> Lambda
@@ -488,7 +486,7 @@ image: /hono2.png
 layout: before-after
 ---
 
-# 🗄️ データベースORM
+# 🗄️ Database ORM
 
 ::before:: 
 
@@ -497,12 +495,12 @@ layout: before-after
 ::after::
 
 - <simple-icons-drizzle /> [Drizzle](https://orm.drizzle.team/)
-  - 軽量、速い
-  - SQLに近い
-  - マイグレーションできる
-  - マルチランタイム
+  - Lightweight, fast
+  - Close to SQL
+  - Migratable
+  - Multi Runtime
     - <logos-bun /> Bun <logos-vercel-icon /> Vercel  <logos-cloudflare-workers-icon /> Cloudflare Workers <simple-icons-expo /> Expo <logos-arc /> Browser <logos-supabase-icon /> Supabase  <logos-electron /> Electron  <simple-icons-react /> React Native
-  - マルチデータベース
+  - Multi Database
     - <logos-postgresql /> PostgreSQL <logos-supabase-icon /> Supabase <logos-vercel-icon /> Vercel  <logos-sqlite /> SQLite <logos-mysql /> MySQL  <logos-xata-icon /> Xata  <simple-icons-turso /> Turso  <logos-neon-icon /> Neon
 
 
@@ -527,9 +525,9 @@ layout: before-after
 ::after::
 
 - <vscode-icons-file-type-biome /> [Biome](https://biomejs.dev/)
-  - Rust製
-  - ESLint等200以上のルール
-  - 速い
+  - Built with Rust
+  - Over 200 rules like ESLint
+  - Faster
 
 ---
 layout: star-history
@@ -552,19 +550,18 @@ layout: before-after
 ::after::
 
 - <vscode-icons-file-type-biome /> [Biome](https://biomejs.dev/)
-  - Rust製
-  - Prettierと97%互換性
-  - 35倍速い
+  - Built with Rust
+  - 97% compatibility with Prettier
+  - 35 times faster
 
 ---
 layout: before-after
 ---
 
-
 # 🚩 Feature Flags
 
 ::before::
-- <ic-baseline-build /> 自作
+- <ic-baseline-build /> Custom built
 - <logos-launchdarkly-icon /> LaunchDarkly
 - <icon-park-solid-config /> ConfigCat
 - <logos-firebase /> Firebase Remote Config
@@ -572,21 +569,21 @@ layout: before-after
 
 ::after::
 - <img src="https://avatars.githubusercontent.com/u/90421314?s=200&v=4" width="20px" style="display:inline-block;" /> [DevCycle](https://devcycle.com/)
-  - 50ms以下のレイテンシ
-  - SDKの豊富さ: 導入が容易
-  - 料金体型: MAU課金、価格面で良心的な料金
-  - 使いやすさ: DX・UXが直感的
-  - リアルタイム更新: SSE経由
-  - OpenFeature対応: ロックインを防げる
-  - IDEのExtension: VSCodeのExtension
-  - Edge Flags: Edge DB機能の提供
+  - Latency under 50ms
+  - SDK: Easy to integrate
+  - Pricing model: MAU billing, cost-effective
+  - Usability: Intuitive DX & UX
+  - Real-time updates: Via SSE
+  - OpenFeature compatible: Prevents lock-in
+  - IDE Extension: VSCode extension
+  - Edge Flags: Provides Edge DB functionality
   - Local Bucketing
 
 ---
 layout: before-after
 ---
 
-# 🔐 認証基盤
+# 🔐 Authentication Platform
 
 ::before:: 
 - <logos-firebase /> Firebase Auth
@@ -597,22 +594,22 @@ layout: before-after
 ::after::
 
 - <simple-icons-clerk /> [Clerk](https://clerk.com/)
-  - <twemoji-sparkles /> 最も優れたユーザーエクスペリエンス
-  - <mdi-cash-multiple /> 合理的な価格設定
-  - <mdi-speedometer /> 生産性向上
-  - <mdi-react /> **React コンポーネント**を提供
-  - <mdi-timer-sand /> リードタイムの短縮
-  - <logos-stripe /> 今後、Stripeとの連携予定
+  - <twemoji-sparkles /> Superior user experience
+  - <mdi-cash-multiple /> Reasonable pricing
+  - <mdi-speedometer /> Enhanced productivity
+  - <mdi-react /> **React components** provided
+  - <mdi-timer-sand /> Reduced lead time
+  - <logos-stripe /> Future integration with Stripe planned
 
 <br> 
 
-> UXよりも低コストが重要な場合
+> If low cost is more important than UX
 > - [Kinde](https://kinde.com/)
 > - [Lucia](https://lucia-auth.com/)
 
 ---
 
-# <bi-translate /> 自作したCLI自動LLM翻訳
+# <bi-translate /> Custom CLI Automatic LLM Translation
 
 
 
@@ -622,7 +619,7 @@ layout: before-after
 
 ---
 
-# <logos-cloudflare-workers-icon /> Cloudflare Workers上で動作するLLM
+# <logos-cloudflare-workers-icon /> LLM Running on Cloudflare Workers
 
 <SlidevVideo autoplay controls width="60%" >
   <source src="/CFDemo.mov" />
@@ -632,29 +629,29 @@ layout: before-after
 layout: quote
 ---
 
-# 直近の動向
+# Recent Trends
 
 ---
 layout: iframe-right
 url: https://effect.website/
 ---
 
-# 堅牢なTypeScriptを
+# Robust TypeScript
 
 - <logos-effect-icon /> **Effect**
-  - <skill-icons-golang /> Golang/Rustも羨ましくない
-  - <fluent-library-24-filled /> 欲しかったスタンダードライブラリ  
-  - <skill-icons-react-dark /> Reactでポピュラーになった関数型
-  - <fluent-error-circle-24-filled /> 完璧なエラーハンドリング
-  - <pajamas-retry /> リトライ処理
-  - <mdi-swap-horizontal-bold /> 並行処理
-  - <material-symbols-pattern /> パターンマッチ
-  - <vscode-icons-file-type-light-json-schema /> スキーマ
-  - <flat-color-icons-serial-tasks /> シリアライゼーション
-  - <logos-opentelemetry-icon /> トレーシング
+  - <skill-icons-golang /> No envy of Golang/Rust
+  - <fluent-library-24-filled /> The standard library we wanted
+  - <skill-icons-react-dark /> Popular functional style from React
+  - <fluent-error-circle-24-filled /> Perfect error handling
+  - <pajamas-retry /> Retry processes
+  - <mdi-swap-horizontal-bold /> Concurrency
+  - <material-symbols-pattern /> Pattern matching
+  - <vscode-icons-file-type-light-json-schema /> Schema
+  - <flat-color-icons-serial-tasks /> Serialization
+  - <logos-opentelemetry-icon /> Tracing
 
 ---
-src: ./languages.ja.md
+src: ./languages.md
 ---
 
 ---
@@ -662,23 +659,25 @@ layout: iframe-right
 url: https://blog.cloudflare.com/python-workers
 ---
 
-# <logos-cloudflare-icon /> WorkersでPython
+# <logos-cloudflare-icon /> Python on Workers
 
-- Pyodide経由
+- Via Pyodide
   - numpy
   - FastAPI
   - Langchain
-等は動く
+  and more are functional
+
 
 ---
 layout: iframe-right
 url: https://dspy-docs.vercel.app/
 ---
-# プロンプト魔法の終幕
+# The End of Prompt Magic
 
 - DSPy
-  - これからは**プロンプトプログラミング**の時代
-  - LLMシステムを最適化するフレームワーク
-  - プロンプトと出力間の相互作用と依存関係を管理
-  - PyTorch の構文と構造なので、直感的
+  - The era of **prompt programming** is here
+  - A framework to optimize LLM systems
+  - Manages interactions and dependencies between prompts and outputs
+  - Uses PyTorch's syntax and structure, making it intuitive
+
 

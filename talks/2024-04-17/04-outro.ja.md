@@ -2,7 +2,7 @@
 layout: end
 ---
 
-# Thank you
+# ありがとうございました
 
 <br><br>
 

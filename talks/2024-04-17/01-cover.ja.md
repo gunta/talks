@@ -1,7 +1,7 @@
 ---
 theme: default
 background: https://unsplash.com/photos/KE0nC8-58MQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzEzMzY1OTIwfA&w=2400
-title: Technologies that Improved Development Productivity @ 2024/4
+title: 開発生産性を向上させた導入技術の紹介 @ 2024/4
 class: text-center
 highlighter: shiki
 drawings:
@@ -22,9 +22,7 @@ monaco: true
   }
 </style>
 
-# Technologies that Improved Development Productivity
-
-April, 2024
+# 開発生産性を向上させた導入技術の紹介
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">

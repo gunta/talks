@@ -2,14 +2,15 @@
 layout: intro
 ---
 
-# Introduction
+# 自己紹介
 
-<fluent-emoji-person-light /> Günther Brunner
-<br>
-<noto-calendar /> CyberAgent
+<fluent-emoji-person-light /> Günther Brunner **（グンタ）**
 <br>
 
-<twemoji-flag-japan /> Resides in **Tokyo** (currently)
+<noto-calendar /> CyberAgent入社 **2012年**
+<br>
+
+<twemoji-flag-japan /> **東京**在住（現在）
 <br>
 <br>
 
@@ -35,18 +36,17 @@ layout: intro
 layout: before-after
 ---
 
-# Current Mission
+# 部署移動
 
 ::before::
-- 🤖 `Department` **AI Business Division** 
-- 🔄 `Business` **AI Shift Division** 
-- 🎨 `Occupation` [**Design Engineer**](https://vercel.com/blog/design-engineering-at-vercel)
+- 🤖 `部署` **AI事業本部**（2年前から）
+- 🔄 `事業` **AI Shift所属**（2023年7月から）
+- 🎨 `職種` [**デザインエンジニア**](https://vercel.com/blog/design-engineering-at-vercel)
 
 ::after::
-- 🏢 `New Department` 
-  - **CTO's Office & Developer Productivity Department**
-  - Moved on 4/16
-- 🎯 `Mission for this term`
-  - **🚀 Improve Company Productivity**
-  - 🏃‍♂️ Focus on increasing productivity in the AI Business Division
-  
+- 🏢 `新部署` 全社
+  - **CTO統括室・Developer Productivity室**
+  - 4/16付けで移動
+- 🎯 `今期のミッション`
+  - **🚀 生産性向上**
+  - 🏃‍♂️ AI事業本部を中心に生産性を上げる
