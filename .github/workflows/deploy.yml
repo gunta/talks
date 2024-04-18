@@ -27,8 +27,7 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run build
-        ## run: bun run build -- --base /gunta/DeveloperProductivity202404/
+        run: bun run build -- --base /gunta/DeveloperProductivity202404/
 
       - uses: actions/configure-pages@v4
 
