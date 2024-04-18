@@ -2,7 +2,7 @@
 layout: quote
 ---
 
-# Technologies that Improved Development Productivity
+# Technologies that Improved Team's Development Productivity
 
 ## 2024/4
 

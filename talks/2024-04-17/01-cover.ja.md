@@ -11,7 +11,7 @@ mdc: true
 author: Günther Brunner
 download: true
 twoslash: true
-monaco: true
+monaco: false
 ---
 
 <style>

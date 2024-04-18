@@ -1,7 +1,7 @@
 ---
 theme: default
 background: https://unsplash.com/photos/KE0nC8-58MQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzEzMzY1OTIwfA&w=2400
-title: Technologies that Improved Development Productivity @ 2024/4
+title: Technologies that Improved Team's Development Productivity @ 2024/4
 class: text-center
 highlighter: shiki
 drawings:
@@ -11,7 +11,7 @@ mdc: true
 author: Günther Brunner
 download: true
 twoslash: true
-monaco: true
+monaco: false
 ---
 
 <style>
@@ -22,7 +22,7 @@ monaco: true
   }
 </style>
 
-# Technologies that Improved Development Productivity
+# Technologies that Improved Team's Development Productivity
 
 April, 2024
 
