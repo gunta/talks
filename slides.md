@@ -112,6 +112,13 @@ Slidevは**開発者向けのスライドメーカー・プレゼンター**で�
 [Slidevについてもっと読む](https://ja.sli.dev/guide/why)
 
 ---
+
+# ⭐️ Slidev
+
+<StarHistory repo="slidevjs/slidev" />
+
+
+---
 transition: slide-up
 level: 2
 ---
@@ -299,189 +306,264 @@ layout: before-after
 
 :: before ::
 
-- Golang
+- <logos-go /> Golang
 
 ::after::
 
-- TypeScript
+- <logos-typescript-icon /> TypeScript
 
 ---
 layout: two-cols
 ---
 
+<style>
+.col-right {
+border-left: 1px solid #ddd;
+}
+</style>
 
-|  |  <br> Feature | <logos-typescript-icon /> <br>TypeScript  | <logos-go /> <br> Go |
+|  |  <br> 特徴 | <logos-typescript-icon />  | <logos-go /> |
 |:---:|---|:---:|:---:|
-| <flat-color-icons-parallel-tasks /> | Concurrency & Parallelism | ❌ | ✅ |
-| <nonicons-type-16 class="text-blues-400" /> | Basic Type Safety | ✅ | ✅ |
-| <mdi-null class="text-yellow-400" /> | Null Safety | ✅ | ❌ |
-| <ooui-error class="text-red-400" /> | Error Safety | ❌ | ✅ |
-| <ri-share-box-fill /> | Good Distribution | ✅ | ✅ |
-| <logos-microsoft-windows-icon /> | Support on Windows | ✅ | ✅ |
-| <file-icons-terminal /> | Standalone Binary | <logos-bun /> | ✅ |
+| <flat-color-icons-parallel-tasks /> | 並行性と並列性 | ❌ | ✅ |
+| <nonicons-type-16 class="text-blues-400" /> | ベーシックな型安全性 | ✅ | ✅ |
+| <mdi-null class="text-yellow-400" /> | Null安全性 | ✅ | ❌ |
+| <ooui-error class="text-red-400" /> | エラー安全性 | ❌ | ✅ |
+| <ri-share-box-fill /> | 配布のしやすさ | ✅ | ✅ |
+| <logos-microsoft-windows-icon /> | Windows対応 | ✅ | ✅ |
+| <file-icons-terminal /> | スタンドアロンバイナリ | <logos-bun /> | ✅ |
 
 ::right::
 
-|  |  <br> Feature | <logos-typescript-icon /> <br>TypeScript  | <logos-go /> <br> Go |
+|  |  <br> 特徴 | <logos-typescript-icon />   | <logos-go />  |
 |:---:|---|:---:|:---:|
-| <logos-arc  /> | Runs in Browser | ✅ | ❌ |
-| <logos-cloudflare-workers-icon  /> | Runs in Edge | ✅ | ❌ |
-| <logos-ios  /> | App in iOS | <logos-expo-icon /> | ❌ |
-| <logos-android-icon  /> | App in Android | <logos-expo-icon /> | ✅ |
+| <logos-arc  /> | ブラウザで実行 | ✅ | ❌ |
+| <logos-cloudflare-workers-icon  /> | <span style="background-color:#FFFFE0"> **Edgeで実行** </span> | ✅ | ❌ |
+| <logos-ios  /> | iOSで実行 | <logos-expo-icon /> | ❌ |
+| <logos-android-icon  /> | Androidで実行 | <logos-expo-icon /> | ✅ |
 | <ph-pipe-fill class="text-blue-400" /> | Pipes | ❌ | ❌ |
-| <oui-token-enum class="text-yellow-400" /> | Algebraic Data Types | ✅ | ❌ |
-| <material-symbols-match-word-rounded class="text-red-400" /> | Pattern Matching | ❌ | ❌ |
-
-
-
+| <oui-token-enum class="text-yellow-400" /> | 代数的データ型 | ✅ | ❌ |
+| <material-symbols-match-word-rounded class="text-red-400" /> | パターンマッチング | ❌ | ❌ |
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# TSランタイムBEFORE
+# <logos-typescript-icon /> TypeScriptランタイム
 
-- Npm
-- Pnpm
+::before::
 
-::right::
+- <logos-nodejs-icon-alt /> Node
 
-# AFTER
+::after::
 
-- Bun
-- 10秒でインストール
-
----
-layout: two-cols
----
-
-# CI BEFORE
-
-- GitHub Actions
-- Turborepo
-
-::right::
-
-# AFTER
-
-- GitHub Actions
-- Nx
+- <logos-bun /> [Bun](https://bun.sh/)
+  - 実行時間が5倍速い
+  - トランスパイル不要
+  - CJSとESMがミックス可能
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# スクリプトBEFORE
+# <logos-typescript-icon /> TypeScriptパッケージマネジャー
 
-- Bash
-- Zx
+::before::
 
-::right::
+- <logos-npm /> npm
+- <logos-pnpm /> pnpm
 
-# AFTER
+::after::
 
-- Bun Shell
-
----
-layout: two-cols
----
-
-# サーバーBEFORE
-
-- Express
-- Go
-
-::right::
-
-# AFTER
-
-- Hono
+- <logos-bun /> [Bun](https://bun.sh/)
+  - 10秒でインストール
+  - npmより30倍速い
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# ORM BEFORE
+# <logos-typescript-icon /> TypeScriptテストランナー
 
-- Prisma
+::before::
 
-::right::
+- <logos-vitest /> Vitest
 
-# AFTER
+::after::
 
-- Drizzle
-
----
-layout: two-cols
----
-
-# Linter BEFORE
-
-- Eslint
-
-::right::
-
-# AFTER
-
-- Biome
-  - 早い
+- <logos-bun /> [Bun](https://bun.sh/)
+  - 5倍速い
 
 ---
-layout: two-cols
+layout: before-after
 ---
 
-# Auth BEFORE
+# <heroicons-command-line-20-solid /> スクリプト
 
-- Firebase
-- Auth0
+::before::
 
-::right::
+- <devicon-bash /> Bash
+- <logos-google-icon /> Zx
 
-# AFTER
+::after::
 
-- Clerk
-  - UXが良い
-  - 料金はボッタクリではない
-  - 生産性が上がる
-  - React Componentが全部用意されている
+- <logos-bun /> [Bun Shell](https://bun.sh/)
+  - クロスプラットフォーム
+  - ロジックが書きやすい
+  - 若手も分かる
+  - Full TS
 
--
+```ts
+import { $ } from "bun"
+
+const output = await $`ls -l`.text()
+console.log(output)
+```
+
+---
+layout: before-after
+---
+
+# 🏗️ モノレポCI
+
+::before::
+
+- <logos-turborepo-icon /> Turborepo
+- <simple-icons-moonrepo /> [moonbase](https://moonrepo.dev/moonbase)
+
+::after::
+
+- <logos-nx /> [Nx](https://nx.dev/)
+  - 最も機能が充実している
+  - 最もスケールする
+  - 並行処理が得意
+  - 速い
+
+---
+layout: before-after
+---
+
+# 🖥️ サーバーフレームワーク
+
+::before:: 
+
+- <devicon-express /> Express
+- <logos-go /> Go
+
+::after::
+
+- <logos-hono /> [Hono](https://hono.dev/)
+  - 軽量
+  - 速い
+  - シンプル
+  - マルチランタイム（ロックインされない）
+    - <logos-bun /> Bun
+    - <logos-nodejs-icon /> Node.js
+    - <logos-aws-lambda /> Lambda
+    - <logos-vercel-icon /> Vercel
+    - <logos-cloudflare-workers-icon /> Cloudflare Workers
+
+---
+layout: before-after
+---
+
+# 🗄️ データベースORM
+
+::before:: 
+
+- <logos-prisma /> Prisma
+
+::after::
+
+- <simple-icons-drizzle /> [Drizzle](https://orm.drizzle.team/)
+  - 軽量、速い
+  - SQLに近い
+  - マイグレーションできる
+  - マルチランタイム
+    - <logos-bun /> Bun <logos-vercel-icon /> Vercel  <logos-cloudflare-workers-icon /> Cloudflare Workers <simple-icons-expo /> Expo <logos-arc /> Browser <logos-supabase-icon /> Supabase  <logos-electron /> Electron  <simple-icons-react /> React Native
+  - マルチデータベース
+    - <logos-postgresql /> PostgreSQL <logos-supabase-icon /> Supabase <logos-vercel-icon /> Vercel  <logos-sqlite /> SQLite <logos-mysql /> MySQL  <logos-xata-icon /> Xata  <simple-icons-turso /> Turso  <logos-neon-icon /> Neon
+    
+---
+layout: before-after
+---
+
+# 🔍 Linter
+
+::before::
+
+- <logos-eslint/> Eslint
+
+::after::
+
+- <vscode-icons-file-type-biome /> [Biome](https://biomejs.dev/)
+  - Rust製
+  - ESLint等200以上のルール
+  - 速い
+
+---
+layout: before-after
+---
+
+# 🎨 Formatter
+
+::before::
+
+- <logos-prettier /> Prettier
+- <mdi-console /> dprint
+
+::after::
+
+- <vscode-icons-file-type-biome /> [Biome](https://biomejs.dev/)
+  - Rust製
+  - Prettierと97%互換性
+  - 35倍速い
+
+---
+layout: before-after
+---
+
+# 🔐 認証基盤
+
+::before:: 
+- <logos-firebase /> Firebase Auth
+- <logos-supabase-icon /> Supabase Auth
+- <simple-icons-auth0 /> Auth0
+- <simple-icons-okta /> Okta
+
+::after::
+
+- <simple-icons-clerk /> [Clerk](https://clerk.com/)
+  - <twemoji-sparkles /> 最も優れたユーザーエクスペリエンス
+  - <mdi-cash-multiple /> 合理的な価格設定
+  - <mdi-speedometer /> 生産性向上
+  - <mdi-react /> **React コンポーネント**を提供
+  - <mdi-timer-sand /> リードタイムの短縮
+  - <logos-stripe /> 今後、Stripeとの連携予定
+
+<br> 
+
+> UXよりも低コストが重要な場合
+> - [Kinde](https://kinde.com/)
+> - [Lucia](https://lucia-auth.com/)
 
 ---
 
-# CLIでLLM翻訳
+# <bi-translate /> 自作したCLI自動LLM翻訳
 
-<SlidevVideo v-click autoplay controls width="70%" >
+
+
+<SlidevVideo autoplay controls width="70%" >
   <source src="/AutoCat1.mp4" />
 </SlidevVideo>
 
 ---
 
-# CloudflareでLLM
+# <logos-cloudflare-workers-icon /> Cloudflare Workers上で動作するLLM
 
-<SlidevVideo v-click autoplay controls width="70%" >
+<SlidevVideo autoplay controls width="60%" >
   <source src="/CFDemo.mov" />
 </SlidevVideo>
 
----
-
-# Test 
-
-<div class="p-3">
-  Text
-</div>
-
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row1Col1 | Row1Col2 | Row1Col3 |
-| Row2Col1 | Row2Col2 | Row2Col3 |
-| Row3Col1 | Row3Col2 | Row3Col3 |
-
-```ts {monaco-diff}
-console.log('Original text')
-~~~
-console.log('Modified text')
-```
 
 
 ---
@@ -520,28 +602,7 @@ Hi
 
 # ⭐️ DSPy
 
-<!-- <logos-bun class="text-4xl" /> -->
-
 <StarHistory repo="stanfordnlp/dspy" />
 
 
----
-layout: before-after
----
-
-# 比較
-
-::before::
-- Hers
-
-```ts
-fafaf
-```
-
-::after::
-
-- Chau
-- Bye
-
----
 
