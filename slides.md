@@ -382,6 +382,30 @@ layout: before-after
 layout: before-after
 ---
 
+# <logos-typescript-icon /> バージョンマネジャー
+
+::before::
+
+- <logos-bun /> 管理なし
+- <logos-homebrew /> Brew
+
+::after::
+
+- <img src="https://moonrepo.dev/brand/proto/icon.svg" width="20px" style="display:inline-block;" /> [proto](https://moonrepo.dev/proto)
+  - Rust製
+  - Direnv自動インストール
+  - 対応ツール（50〜）
+  - <logos-bun /> Bun
+  - <logos-nodejs-icon /> Node
+  - <logos-go /> Go
+  - <logos-rust /> Rust
+  - <logos-python /> Python
+  - ...
+
+---
+layout: before-after
+---
+
 # <logos-typescript-icon /> TypeScriptテストランナー
 
 ::before::
@@ -564,7 +588,11 @@ layout: before-after
   <source src="/CFDemo.mov" />
 </SlidevVideo>
 
+---
+layout: quote
+---
 
+# 直近の動向
 
 ---
 layout: two-cols
