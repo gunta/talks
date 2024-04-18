@@ -1,27 +1,6 @@
 ---
-theme: default
-background: https://unsplash.com/photos/KE0nC8-58MQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzEzMzY1OTIwfA&w=2400
-title: 開発生産性を向上させた導入技術の紹介 @ 2024/4
-class: text-center
-highlighter: shiki
-drawings:
-  persist: false
-transition: slide-left
-mdc: true
-author: Günther Brunner
-download: true
-twoslash: true
-monaco: true
+src: ./cover.md
 ---
-
-
-# 導入して開発生産性上がった技術を紹介
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Slidev <carbon:arrow-right class="inline"/>
-  </span>
-</div>
 
 ---
 src: ./intro.md
@@ -698,20 +677,5 @@ url: https://dspy-docs.vercel.app/
   - PyTorch の構文と構造なので、直感的
 
 ---
-layout: end
+src: ./outro.md
 ---
-
-# ありがとうございました
-
-<br><br>
-
-<fa6-brands-square-x-twitter /> [@gunta85](https://twitter.com/gunta85)
-<br>
-
-<carbon-logo-github /> [@gunta](https://github.com/gunta)
-<br>
-
-<skill-icons-devto-light /> [dev.to/gunta](https://dev.to/gunta)
-<br>
-
-<simple-icons-zenn class="text-blue-400"/> [zenn.dev/gunta](https://zenn.dev/gunta)
