@@ -3,9 +3,9 @@ const props = defineProps({
 	repo: {
 		required: true,
 	},
-    title: {
-        required: true
-    }
+	title: {
+		required: true,
+	},
 });
 </script>
 
