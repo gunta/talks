@@ -27,7 +27,7 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run build -- --base /talks/ talks/2024-04-17/slides.ja.md talks/2024-04-17/slides.md 
+        run: bun run build -- --base /talks/ 
 
       - uses: actions/configure-pages@v4
 

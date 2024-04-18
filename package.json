@@ -3,7 +3,7 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"build": "slidev build",
+		"build": "slidev build talks/2024-04-17/slides.ja.md talks/2024-04-17/slides.md ",
 		"dev": "slidev --open",
 		"export": "slidev export",
 		"format": "bunx @biomejs/biome format --write ./",
