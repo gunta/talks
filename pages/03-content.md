@@ -34,11 +34,11 @@ Slidevは**開発者向けのスライドメーカー・プレゼンター**で�
 [Slidevについてもっと読む](https://ja.sli.dev/guide/why)
 
 ---
+layout: star-history
+repo: slidevjs/slidev
+---
 
 # ⭐️ Slidev
-
-<StarHistory repo="slidevjs/slidev" />
-
 
 ---
 transition: slide-up
