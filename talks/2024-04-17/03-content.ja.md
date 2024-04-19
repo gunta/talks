@@ -146,6 +146,7 @@ layout: before-after
   - Rust製
   - 100% Vite互換性
   - どんな時でも速い
+  - v1.0がリリースされた
   
 ---
 layout: star-history
@@ -203,8 +204,10 @@ layout: before-after
 ::after::
 
 - <vscode-icons-file-type-cspell /> [CSpell](https://cspell.org/)
-  - CI時
-  - Lefthook時
+  - [VSCode Extension]()でリアルタイムチェック
+  - Lefthookでコミット前にチェック
+  - CI時でPRチェック
+
 
 ---
 layout: star-history
@@ -222,6 +225,7 @@ layout: before-after
 
 🆕 Cloudflareはもう「Edge CDN」ではない。
 競争力ある立派なクラウドベンダーに進化。
+Region: Earth
 
 ::before::
 

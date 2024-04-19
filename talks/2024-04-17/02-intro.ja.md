@@ -47,6 +47,3 @@ layout: before-after
 - 🏢 `新部署` 全社
   - **CTO統括室・Developer Productivity室**
   - 4/16付けで移動
-- 🎯 `今期のミッション`
-  - **🚀 生産性向上**
-  - 🏃‍♂️ AI事業本部を中心に生産性を上げる

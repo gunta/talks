@@ -46,7 +46,3 @@ layout: before-after
 - 🏢 `New Department` 
   - **CTO's Office & Developer Productivity Department**
   - Moved on 4/16
-- 🎯 `Mission for this term`
-  - **🚀 Improve Company Productivity**
-  - 🏃‍♂️ Focus on increasing productivity in the AI Business Division
-  

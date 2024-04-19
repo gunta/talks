@@ -145,6 +145,7 @@ layout: before-after
   - Made with Rust
   - 100% compatible with Vite
   - Fast at all times
+  - v1.0 was just released
   
 ---
 layout: star-history
