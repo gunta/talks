@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const props = defineProps({
-	repo: {
+	repos: {
 		required: true,
 	},
 	title: {
-		required: true,
+		required: false,
 	},
 });
 </script>
@@ -13,7 +13,7 @@ const props = defineProps({
     <div class="slidev-layout">
         <slot />
         <div class="image-container">
-            <img alt="Star History" :src="`https://api.star-history.com/svg?repos=${props.repo}`" width="70%" height="auto">
+            <img alt="Star History" :src="`https://api.star-history.com/svg?repos=${props.repos}`" width="70%" height="auto">
         </div>
     </div>
 </template>

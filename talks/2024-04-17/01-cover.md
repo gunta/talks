@@ -1,7 +1,7 @@
 ---
 theme: default
-background: https://unsplash.com/photos/KE0nC8-58MQ/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzEzMzY1OTIwfA&w=2400
-title: Technologies that Improved Team's Development Productivity @ 2024/4
+background: /poster_art_3d.jpg
+title: Accelerating Dev Productivity | Tech in Action, What We Use @ 2024/4
 class: text-center
 highlighter: shiki
 drawings:
@@ -22,7 +22,9 @@ monaco: false
   }
 </style>
 
-# Technologies that Improved Team's Development Productivity
+# Accelerating Dev Productivity
+
+# Tech in Action: What We Use
 
 April, 2024
 

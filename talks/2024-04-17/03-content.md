@@ -2,7 +2,9 @@
 layout: quote
 ---
 
-# Technologies that Improved Team's Development Productivity
+# Accelerating Dev Productivity
+
+# Tech in Action: What We Use
 
 ## 2024/4
 
@@ -35,7 +37,7 @@ Slidev is a **slide maker and presenter for developers** with the following feat
 
 ---
 layout: star-history
-repo: slidevjs/slidev
+repos: slidevjs/slidev
 ---
 
 # ⭐️ Slidev
@@ -149,14 +151,14 @@ layout: before-after
   
 ---
 layout: star-history
-repo: vitejs/vite
+repos: vitejs/vite,webpack/webpack
 ---
 
 # ⭐️ Vite
 
 ---
 layout: star-history
-repo: farm-fe/farm
+repos: farm-fe/farm
 ---
 
 # ⭐️ Farm
@@ -183,7 +185,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: parcel-bundler/lightningcss
+repos: parcel-bundler/lightningcss
 ---
 
 # ⭐️ Lightning CSS
@@ -208,7 +210,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: streetsidesoftware/cspell
+repos: streetsidesoftware/cspell
 ---
 
 # ⭐️ CSpell
@@ -220,7 +222,7 @@ layout: before-after
 
 # ☁️ Cloud (Most Important)
 
-🆕 Cloudflare is no longer just an "Edge CDN".
+🆕 Cloudflare is **no longer just an "Edge CDN"**.<br>
 It has evolved into a competitive and reputable cloud vendor.
 
 ::before::
@@ -239,16 +241,33 @@ It has evolved into a competitive and reputable cloud vendor.
 
 - <logos-cloudflare-icon /> Cloudflare (310 regions)
   - 🇯🇵 DC: 4 (Tokyo, Osaka, Fukuoka, Naha)
-  - 🇨🇳 DC: 37
-  - 🇺🇸 DC: 53
-  - 🚫 No more 'Edge', AWS is competitor
+  - Region Earth: 🇨🇳 DC: 37, 🇺🇸 DC: 53
   - 💸 Significant cost benefits
   - ⚡️ Faster deployment (10x or more)
   - 🆓 No storage egress fees
-  - 🆓 No charges for I/O operations
+  - 🆓 **No charges for I/O operations**
   - 🆓 Free telemetry
   - 🖥️ GPU and LLM inference
-  - 😄 It's Fun! (Important)
+  - 😄 It's Simple and Fun! **(Important)**
+
+---
+
+# <logos-cloudflare-icon /> What can be used in Cloudflare now
+
+- [**🗃️ D1 Database (GA)**](https://developers.cloudflare.com/d1/): SQLite-based, easy-to-use, multi-tenant distributed database.
+- [**🚀 Hyperdrive**](https://developers.cloudflare.com/hyperdrive/): Enhances databases to feel distributed and faster.
+- [**📊 Worker Analytics (GA)**](https://developers.cloudflare.com/analytics/analytics-engine/): [ClickHouse-based](https://clickhouse.com/), time-series db that is cheap, faster than Prometheus.
+- [**📬 Queues**](https://developers.cloudflare.com/queues/): Send and receive messages with guaranteed delivery, with free egress.
+- [**🔗 KV Bindings**](https://developers.cloudflare.com/kv/reference/kv-bindings/): Live within environment variables.
+- [**🧠 AI (GA)**](https://developers.cloudflare.com/workers-ai/): Supports [Llama 3](https://blog.cloudflare.com/meta-llama-3-available-on-cloudflare-workers-ai), utilizes GPU for inference, and allows [Bring Your Own LORAs](https://blog.cloudflare.com/fine-tuned-inference-with-loras).
+- [**🌐 AI Gateway**](https://developers.cloudflare.com/ai-gateway/#ai-gateway): Now supports Claude, Azure, Bedrock, and Vertex.
+- [**🐍 Workers Python**](https://blog.cloudflare.com/python-workers): FastAPI, Langchain, Numpy, etc. can now be run on Cloudflare Workers.
+- [**🚦 Rate Limit**](https://developers.cloudflare.com/ai-gateway/get-started/configuring-settings/): Simplified bindings to rate limit your API.
+- [**🎥 Cloudflare Media**](https://blog.cloudflare.com/whats-next-for-cloudflare-media): Create your own video conferencing solutions, like Zoom.
+- [**🔍 Tracing**](https://blog.cloudflare.com/cloudflare-acquires-baselime-expands-observability-capabilities): Acquired [Baselime](https://baselime.io/), now offering free OpenTelemetry.
+- [**⏱️ Realtime**](https://blog.cloudflare.com/cloudflare-acquires-partykit): Acquired [PartyKit](https://www.partykit.io/), easily create real-time collaboration like Figma.
+- [**📲 RPC**](https://blog.cloudflare.com/javascript-native-rpc): [Cap'n Proto-based](https://capnproto.org/rpc.html), JS-native easy 0-latency RPC system in Workers.
+
 
 ---
 layout: before-after
@@ -271,7 +290,7 @@ image: /typescript.png
 
 ---
 layout: star-history
-repo: microsoft/TypeScript
+repos: microsoft/TypeScript
 ---
 
 # ⭐️ TypeScript
@@ -327,7 +346,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: oven-sh/bun
+repos: oven-sh/bun
 ---
 
 # ⭐️ Bun
@@ -367,16 +386,16 @@ layout: before-after
   - Built with Rust
   - Automatic Direnv installation
   - Tools supported (50+)
-  - <logos-bun /> Bun
-  - <logos-nodejs-icon /> Node
-  - <logos-go /> Go
-  - <logos-rust /> Rust
-  - <logos-python /> Python
-  - ...
+    - <logos-bun /> `proto install bun`
+    - <logos-nodejs-icon /> `proto install node`
+    - <logos-go /> `proto install go`
+    - <logos-rust /> `proto install rust`
+    - <logos-python /> `proto install python`
+    - ...
 
 ---
 layout: star-history
-repo: moonrepo/proto
+repos: moonrepo/proto
 ---
 
 # ⭐️ Proto
@@ -443,7 +462,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: nrwl/nx
+repos: nrwl/nx
 ---
 
 # ⭐️ Nx
@@ -463,10 +482,11 @@ layout: before-after
 ::after::
 
 - <logos-hono /> [Hono](https://hono.dev/)
-  - Lightweight
-  - Fast
-  - Simple
-  - Multi-runtime (no lock-in)
+  - 🪶 Lightweight, Fast
+  - 🧩 Simple
+  - 🛠️ Rich in Middleware
+  - 🔄 Multi-runtime
+    - 🔓 No lock-in
     - <logos-bun /> Bun
     - <logos-nodejs-icon /> Node.js
     - <logos-aws-lambda /> Lambda
@@ -475,7 +495,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: honojs/hono
+repos: honojs/hono
 ---
 
 # ⭐️ Hono
@@ -510,7 +530,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: drizzle-team/drizzle-orm
+repos: drizzle-team/drizzle-orm
 ---
 
 # ⭐️ Drizzle
@@ -535,7 +555,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: biomejs/biome
+repos: biomejs/biome
 ---
 
 # ⭐️ Biome
@@ -646,7 +666,7 @@ url: https://effect.website/
   - <skill-icons-golang /> No envy of Golang/Rust
   - <fluent-library-24-filled /> The standard library we wanted
   - <skill-icons-react-dark /> Popular functional style from React
-  - <fluent-error-circle-24-filled /> Perfect error handling
+  - <fluent-error-circle-24-filled class="text-red-400" /> Perfect error handling
   - <pajamas-retry /> Retry processes
   - <mdi-swap-horizontal-bold /> Concurrency
   - <material-symbols-pattern /> Pattern matching

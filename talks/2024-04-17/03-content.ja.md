@@ -2,7 +2,9 @@
 layout: quote
 ---
 
-# 開発生産性を向上させた導入技術の紹介
+# 開発生産性の加速
+
+# 導入技術の紹介
 
 ## 2024/4
 
@@ -35,7 +37,7 @@ Slidevは**開発者向けのスライドメーカー・プレゼンター**で�
 
 ---
 layout: star-history
-repo: slidevjs/slidev
+repos: slidevjs/slidev
 ---
 
 # ⭐️ Slidev
@@ -133,7 +135,7 @@ layout: before-after
 ::before::
 
 - <logos-webpack /> Webpack
-  - 2014年に[日本語初の記事を書きました](https://ameblo.jp/ca-1pixel/entry-11884453208.html)
+  - 2014年に🇯🇵[日本語初の記事を書きました](https://ameblo.jp/ca-1pixel/entry-11884453208.html)
 
 ::after::
 
@@ -150,14 +152,14 @@ layout: before-after
   
 ---
 layout: star-history
-repo: vitejs/vite
+repos: vitejs/vite,webpack/webpack
 ---
 
-# ⭐️ Vite
+# ⭐️ webpack → Vite 
 
 ---
 layout: star-history
-repo: farm-fe/farm
+repos: farm-fe/farm
 ---
 
 # ⭐️ Farm
@@ -184,7 +186,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: parcel-bundler/lightningcss
+repos: parcel-bundler/lightningcss
 ---
 
 # ⭐️ Lightning CSS
@@ -211,7 +213,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: streetsidesoftware/cspell
+repos: streetsidesoftware/cspell
 ---
 
 # ⭐️ CSpell
@@ -223,9 +225,8 @@ layout: before-after
 
 # ☁️ クラウド（最も大事）
 
-🆕 Cloudflareはもう「Edge CDN」ではない。
+🆕 Cloudflareはもう **「Edge CDN」ではない** 。<br>
 競争力ある立派なクラウドベンダーに進化。
-Region: Earth
 
 ::before::
 
@@ -242,17 +243,33 @@ Region: Earth
 ::after::
 
 - <logos-cloudflare-icon /> Cloudflare（310リージョン）
-  - 🇯🇵 DC: 4つ（東京、大阪、福岡、那覇）
-  - 🇨🇳 DC: 37つ
-  - 🇺🇸 DC: 53つ
-  - 🚫 AWSの競合になり「Edge」もう呼ばない
+  - 🇯🇵 DC: 4つ（東京、大阪、**福岡、那覇**）
+  - **Region Earth**：🇨🇳 DC: 37つ、🇺🇸 DC: 53つ
   - 💸 コストメリットが顕著
   - ⚡️ デプロイ速度が速い（10倍〜）
   - 🆓 ストレージエグレス料金が不要
-  - 🆓 I/O操作時の課金なし（LLM呼び出し等）
+  - 🆓 **I/O操作時の課金なし**（LLM呼び出し等）
   - 🆓 Telemetryが無料
   - 🖥️ GPUとLLM推論
-  - 😄 楽しい！（重要）
+  - 😄 シンプル、楽しい！**（重要）**
+
+---
+
+# <logos-cloudflare-icon /> Cloudflareで利用可能になったもの
+
+- [**🗃️ D1 Database (GA)**](https://developers.cloudflare.com/d1/): SQLiteベースで使いやすいマルチテナント分散DB。
+- [**🚀 Hyperdrive**](https://developers.cloudflare.com/hyperdrive/): 既存のDBを分散型化により体感速度を上げてくれる機能。
+- [**📊 Worker Analytics (GA)**](https://developers.cloudflare.com/analytics/analytics-engine/): [ClickHouseベース](https://clickhouse.com/)の、Prometheusよりも速く、低コストな時系列DB。
+- [**📬 Queues**](https://developers.cloudflare.com/queues/): 無料のエグレスで、保証された配信でメッセージを送受信。
+- [**🔗 KV Bindings**](https://developers.cloudflare.com/kv/reference/kv-bindings/): 環境変数内で動作。
+- [**🧠 AI (GA)**](https://developers.cloudflare.com/workers-ai/): [Llama 3](https://blog.cloudflare.com/meta-llama-3-available-on-cloudflare-workers-ai)をサポートし、GPU上で推論を行い、[Bring Your Own LORAs](https://blog.cloudflare.com/fine-tuned-inference-with-loras)も可能に。
+- [**🌐 AI Gateway**](https://developers.cloudflare.com/ai-gateway/#ai-gateway): Claude、Azure、Bedrock、Vertexを追加サポート。
+- [**🐍 Workers Python**](https://blog.cloudflare.com/python-workers): FastAPI、Langchain、NumpyなどがCloudflare Workersで実行可能に。
+- [**🚦 Rate Limit**](https://developers.cloudflare.com/ai-gateway/get-started/configuring-settings/): APIのレート制限を簡素化するバインディング。
+- [**🎥 Cloudflare Media**](https://blog.cloudflare.com/whats-next-for-cloudflare-media): Zoomのようなビデオ会議ソリューションが自作可能に。
+- [**🔍 Tracing**](https://blog.cloudflare.com/cloudflare-acquires-baselime-expands-observability-capabilities): [Baselime](https://baselime.io/)を買収し、無料のOpenTelemetryを提供。
+- [**⏱️ Realtime**](https://blog.cloudflare.com/cloudflare-acquires-partykit): [PartyKit](https://www.partykit.io/)を買収し、Figmaのようなリアルタイムコラボレーションが簡単に開発可能。
+- [**📲 RPC**](https://blog.cloudflare.com/javascript-native-rpc): [Cap'n Protoベース](https://capnproto.org/rpc.html)の、JSネイティブで簡単なゼロレイテンシーRPCシステムをWorkersで。
 
 ---
 layout: before-after
@@ -275,7 +292,7 @@ image: /typescript.png
 
 ---
 layout: star-history
-repo: microsoft/TypeScript
+repos: microsoft/TypeScript
 ---
 
 # ⭐️ TypeScript
@@ -331,7 +348,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: oven-sh/bun
+repos: oven-sh/bun
 ---
 
 # ⭐️ Bun
@@ -369,18 +386,18 @@ layout: before-after
 
 - <img src="https://moonrepo.dev/brand/proto/icon.svg" width="20px" style="display:inline-block;" /> [proto](https://moonrepo.dev/proto)
   - Rust製
-  - Direnv自動インストール
+  - Direnvで自動インストール
   - 対応ツール（50〜）
-  - <logos-bun /> Bun
-  - <logos-nodejs-icon /> Node
-  - <logos-go /> Go
-  - <logos-rust /> Rust
-  - <logos-python /> Python
-  - ...
+    - <logos-bun /> `proto install bun`
+    - <logos-nodejs-icon /> `proto install node`
+    - <logos-go /> `proto install go`
+    - <logos-rust /> `proto install rust`
+    - <logos-python /> `proto install python`
+    - ...
 
 ---
 layout: star-history
-repo: moonrepo/proto
+repos: moonrepo/proto
 ---
 
 # ⭐️ Proto
@@ -448,7 +465,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: nrwl/nx
+repos: nrwl/nx
 ---
 
 # ⭐️ Nx
@@ -468,10 +485,11 @@ layout: before-after
 ::after::
 
 - <logos-hono /> [Hono](https://hono.dev/)
-  - 軽量
-  - 速い
-  - シンプル
-  - マルチランタイム（ロックインされない）
+  - 🪶 軽量、速い
+  - 🧩 シンプル
+  - 🛠️ ミドルウェアが豊富
+  - 🔄 マルチランタイム
+    - 🔓 ロックインされない
     - <logos-bun /> Bun
     - <logos-nodejs-icon /> Node.js
     - <logos-aws-lambda /> Lambda
@@ -480,7 +498,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: honojs/hono
+repos: honojs/hono
 ---
 
 # ⭐️ Hono
@@ -515,7 +533,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: drizzle-team/drizzle-orm
+repos: drizzle-team/drizzle-orm
 ---
 
 # ⭐️ Drizzle
@@ -540,7 +558,7 @@ layout: before-after
 
 ---
 layout: star-history
-repo: biomejs/biome
+repos: biomejs/biome
 ---
 
 # ⭐️ Biome
@@ -652,7 +670,7 @@ url: https://effect.website/
   - <skill-icons-golang /> Golang/Rustも羨ましくない
   - <fluent-library-24-filled /> 欲しかったスタンダードライブラリ  
   - <skill-icons-react-dark /> Reactでポピュラーになった関数型
-  - <fluent-error-circle-24-filled /> 完璧なエラーハンドリング
+  - <fluent-error-circle-24-filled class="text-red-400" /> 完璧なエラーハンドリング
   - <pajamas-retry /> リトライ処理
   - <mdi-swap-horizontal-bold /> 並行処理
   - <material-symbols-pattern /> パターンマッチ

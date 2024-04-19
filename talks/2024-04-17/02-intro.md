@@ -9,7 +9,7 @@ layout: intro
 <noto-calendar /> CyberAgent
 <br>
 
-<twemoji-flag-japan /> Resides in **Tokyo** (currently)
+<twemoji-flag-japan /> Residing in **Tokyo** (currently)
 <br>
 <br>
 
