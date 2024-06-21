@@ -94,8 +94,9 @@ layout: quote
 layout: intro
 ---
 
-<div class="text-center">
-  <h1 class="text-[12rem]" style="font-family: 'Noto Serif JP', serif; font-weight: 400;">乙</h1>
+<div class="text-center"  style="font-family: 'Noto Serif JP', serif; font-weight: 400;">
+  <h3>The End</h3>
+  <h1 class="text-[12rem]">乙</h1>
 </div>
 
 ---
@@ -122,7 +123,63 @@ layout: quote
 </div>
 
 ---
-layout: 
+layout: default
+---
+
+# <logos-cloudflare-icon /> Cloudflare's <mdi-new-box class="text-green-500" /> **Game-Changing** Workers Pricing 
+
+- <mdi-currency-usd class="text-green-500" /> Pay only for **CPU time**, not I/O wait
+- <mdi-chart-line-variant class="text-blue-500" /> **Significantly reduces costs** for AI applications
+- <logos-openai-icon /> **Ideal** for LLM-powered apps
+<div class="flex justify-center">
+  <img src="/CFWalltime.png" width="500px" alt="Cloudflare Workers Pricing" />
+</div>
+
+---
+layout: default
+---
+
+# <mdi-magnify class="text-blue-500" /> Looking for Middleware
+
+## <mdi-cog-outline class="text-gray-600" /> Runtime Requirements
+
+<mdi-refresh-circle class="text-green-500" /> Business Requirements change often
+- [x]  <logos-cloudflare-workers-icon /> Should work on Cloudflare Workers
+- [x]  <mdi-cloud class="text-blue-500" /> Should work on <logos-google-cloud /> GCP / <logos-aws /> AWS /  <logos-azure-icon /> Azure
+- [x]  <logos-bun /> Should work on Bun
+
+<br /><br />
+<div class="flex justify-center">
+  <mdi-thought-bubble class="text-gray-300 text-6xl" />
+</div>
+
+---
+layout: two-cols
+---
+
+# <skill-icons-elysia-light /> Elysia
+
+- <logos-bun /> Made for **Bun** first
+- <mdi-web /> Supports WinterCG only
+- <mdi-language-typescript class="text-blue-500" /> Better End-to-End Typing
+- <mdi-account class="text-purple-500" /> Mostly one maintainer
+
+::right::
+
+# <logos-hono /> Hono
+
+- <logos-cloudflare-workers-icon /> Made for **Cloudflare Workers** first
+- <mdi-puzzle class="text-orange-500" /> More Flexible, More Runtimes
+- <mdi-cog-outline class="text-gray-500" /> Less opinionated 
+- <mdi-account-group class="text-green-500" /> More active maintainers
+  - <mdi-heart class="text-red-500" /> Thanks everyone here!
+
+---
+layout: star-history
+repos: honojs/hono,elysiajs/elysia
+---
+
+
 
 
 ---
