@@ -8,13 +8,129 @@ layout: quote
 
 ## June 22, 2024
 
+---
+layout: quote
+---
+
+# Back to the year 2021
+
+---
+layout: quote
+---
+
+# <mdi-currency-usd /> Facing Significant Cost Challenges
+
+CyberAgent's Internal Image Optimization CDN **"Hayabusa"**
+
+- <mdi-traffic-light class="text-red-500" /> **Overwhelming** traffic volumes
+- <mdi-cogs class="text-orange-500" /> **Complex** deployment processes
+- <mdi-chart-line-variant class="text-yellow-500" /> **Unpredictable** autoscaling spikes
+- <mdi-cash-multiple class="text-green-500" /> **Excessive** CDN egress costs
+- <mdi-wrench class="text-blue-500" /> **Resource-intensive** maintenance
+- <mdi-scale-balance class="text-purple-500" /> **Scalability issues** during peak periods
+
+
+---
+layout: before-after
+---
+
+
+# <mdi-currency-usd-off class="text-green-500" /> Cost Reduction
+
+::before::
+
+- <mdi-sitemap-outline class="text-orange-500" /> Microservices
+- <logos-gopher /> Golang
+- <simple-icons-istio /> Istio
+- <logos-kubernetes /> Kubernetes
+
+
+## <mdi-cloud-outline class="text-purple-500" /> CDN
+- <mdi-server-network class="text-indigo-500" /> Some CDN vendor
+
+## <mdi-cloud class="text-blue-300" /> Cloud
+- <mdi-cloud-check class="text-cyan-500" /> Some Cloud vendor
+
+
+::after::
+
+- <mdi-cube-outline class="text-green-500" /> Monolith
+- <logos-typescript-icon /> TypeScript
+- <logos-webassembly class="text-purple-600" /> WASM
+
+
+## <mdi-cloud class="text-blue-300" /> CDN & Cloud
+- <logos-cloudflare-workers-icon /> Cloudflare Workers Unbound
+
+## <mdi-chart-line-variant class="text-yellow-500" /> Results
+  - <mdi-cash-multiple class="text-green-500" /> **10x order** reduction in cost
+  - <mdi-rocket-launch-outline class="text-orange-500" /> Easier development process
+  - <mdi-speedometer class="text-red-500" /> Improved **latency** and throughput 
+
+---
+layout: fact
+---
+
+# <mdi-heart class="text-red-500 animate-pulse" /> <logos-cloudflare-workers-icon /> 
+# Cloudflare Workers
+
+---
+layout: quote
+---
+
+# <logos-cloudflare-icon /> Cloudflare Images CDN arrives
+
+
+  <img src="/CFImages.png" width="400px" />
+
+<br />
+
+- <mdi-delete class="text-red-500" /> Deprecated the main <code>Hayabusa CDN</code>'s raison d'être
+  - <mdi-hand-heart class="text-blue-500" /> Thanks <logos-cloudflare-icon /> Cloudflare!
+- <mdi-refresh class="text-green-500" /> The successor now lives on in <a href="https://speakerdeck.com/peaceiris/abema-cloudflare-workers-413d6a0c-d2b0-4555-87da-2de14214ec9f"><code>Falcon</code></a>
+  - <mdi-account-check class="text-purple-500" /> Thanks to <a href="https://peaceiris.com/">Shohei Ueda</a> from  <a href="https://abema.tv"><arcticons-abema-tv /> **AbemaTV**</a>!
+
+---
+layout: intro
+---
+
+<div class="text-center">
+  <h1 class="text-[12rem]" style="font-family: 'Noto Serif JP', serif; font-weight: 400;">乙</h1>
+</div>
+
+---
+layout: intro
+---
+
+# 2023
+
+---
+layout: quote
+---
+
+# <mdi-fast-forward class="text-blue-500" /> Forward to December, 2023
+
+<img src="/AIShiftLogo.png" alt="AI Shift" width="52px" height="52px" style="object-fit: contain;" />
+
+- <mdi-new-box class="text-green-500" /> New product
+- <logos-openai-icon /> Uses LLMs extensively
+- <mdi-briefcase-outline class="text-indigo-500" /> B2B App
+
+<br /><br />
+<div class="text-center">
+  <h2><mdi-help-circle-outline class="text-orange-500" /> <i>What tech stack shall we use?</i></h2>
+</div>
+
+---
+layout: 
+
 
 ---
 transition: slide-up
 level: 2
 ---
 
-# Introduction to one product: AI Worker (April)
+# <logos-hono /> A Product PoC from AI Shift (April)
 
 <SlidevVideo autoplay controls width="70%">
   <source src="/AIWorkerPortal.mp4" />
@@ -22,7 +138,7 @@ level: 2
 
 ---
 
-# Languages that were used in the monorepo (April)
+# Monorepo Languages (April)
 
 <logos-typescript-icon class="text-3xl "/> 
 `Frontend` | `Backend` | `Scripts`
