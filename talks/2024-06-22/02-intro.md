@@ -64,7 +64,18 @@ layout: section
 <br />
 
 ## Thanks to <logos-opensource /> OSS
-## Still alive by the official [DeviceFarmer](https://github.com/DeviceFarmer/stf) fork
+## <mdi-heart-pulse class="text-red-500 animate-pulse" /> Still alive by the official 
+## [<mdi-source-fork /> DeviceFarmer](https://github.com/DeviceFarmer/stf) community fork.
+
+---
+layout: star-history
+repos: openstf/stf,honojs/hono
+---
+# <mdi-party-popper class="text-yellow-400" /> Congrats Hono!
+
+
+<logos-hono /> Hono surpassed OpenSTF at <mdi-github-face />  13,200 stars <span style=""><mdi-star-outline /></span>on <mdi-calendar /> **March 28, 2024**
+
 
 
 ---
