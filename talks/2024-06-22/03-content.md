@@ -230,7 +230,7 @@ layout: intro
 layout: default
 ---
 
-# Starter Kits (1/2)
+# Starter Kits (1/3)
 
 | <img src="/T4LogoLarge.png" width="40" /> | <img src="/OrbitkitLight.svg" width="100"  /> | <img src="/cella.svg" width="100"  /> |
 |----------------------|-------------------|----------------|
@@ -241,35 +241,41 @@ layout: default
 | <logos-tailwindcss-icon /> Tailwind CSS | <logos-tailwindcss-icon /> Tailwind CSS | <logos-tailwindcss-icon /> Tailwind CSS |
 | <logos-typescript-icon /> TypeScript | <logos-typescript-icon /> TypeScript | <logos-typescript-icon /> TypeScript |
 | <logos-trpc /> tRPC | <logos-trpc /> tRPC | <game-icons-electric /> ElectricSQL  |
-| <logos-nextjs-icon /> Next.js | Next.js | | 
-| <logos-react-query-icon /> React Query |  | <logos-vitejs /> Vite |
-| <logos-vitejs /> Vite | <simple-icons-lucia /> Lucia Auth | <logos-cloudflare /> Cloudflare |
-| <logos-cloudflare /> Cloudflare | <logos-zod /> Zod | <logos-zod /> Zod |
-| <logos-postgresql /> PostgreSQL | <logos-postgresql /> PostgreSQL | <logos-postgresql /> PostgreSQL |
-|  Tanstack Query | <logos-astro /> Astro | Tanstack Query |
-| <logos-typescript-icon /> ts-pattern |  Unkey | <logos-turborepo /> Turborepo |
-| <logos-million /> million.js |  | <logos-sentry /> Sentry |
-| <logos-typescript-icon /> pattycake | <logos-posthog /> Posthog | |
-| Valibot | <logos-sentry /> Sentry | |
-| <logos-expo /> Expo Router | | Zustand |
-| <logos-jotai /> Jotai | <logos-turborepo /> Turborepo | |
-| <logos-cloudflare /> Cloudflare D1 | <logos-neon /> Neon DB | |
-| <logos-supabase-icon /> Supabase Auth | <simple-icons-shadcnui /> Shadcn UI | |
-| <vscode-icons-file-type-tamagui /> Tamagui | <logos-vitejs /> Vite | <simple-icons-lucia /> Lucia Auth |
 
+---
+layout: default
+---
 
+# Starter Kits (2/3)
 
-Cella has Prebuilt endpoints (organizations and users)
+| <img src="/T4LogoLarge.png" width="40" /> | <img src="/OrbitkitLight.svg" width="100"  /> | <img src="/cella.svg" width="100"  /> |
+|----------------------|-------------------|----------------|
+| [timothymiller/t4-app](https://github.com/timothymiller/t4-app) | [ixahmedxi/orbkit](https://github.com/ixahmedxi/orbkit) | [cellajs/cella](https://github.com/cellajs/cella) |
+| <logos-nextjs-icon /> Next.js | <logos-nextjs-icon /> Next.js | <logos-vitejs /> Vite |
+| <logos-react-query-icon /> React Query | <simple-icons-lucia /> Lucia Auth | <logos-cloudflare /> Cloudflare |
+| <logos-vitejs /> Vite | <logos-zod /> Zod | <logos-zod /> Zod |
+| <logos-cloudflare /> Cloudflare | <logos-postgresql /> PostgreSQL | <logos-postgresql /> PostgreSQL |
+| <logos-postgresql /> PostgreSQL | <logos-astro /> Astro | Tanstack Query |
+| Tanstack Query | Unkey | <logos-turborepo /> Turborepo |
 
+---
+layout: default
+---
 
-# <mdi-magnify class="text-blue-500" /> Looking for Middleware
+# Starter Kits (3/3)
 
-## <mdi-cog-outline class="text-gray-600" /> Runtime Requirements
+| <img src="/T4LogoLarge.png" width="40" /> | <img src="/OrbitkitLight.svg" width="100"  /> | <img src="/cella.svg" width="100"  /> |
+|----------------------|-------------------|----------------|
+| <logos-cloudflare /> Cloudflare D1 | <logos-posthog /> Posthog | <logos-sentry /> Sentry |
+| <vscode-icons-file-type-tamagui /> Tamagui | <logos-sentry /> Sentry | Zustand |
+| <logos-expo /> Expo Router | <logos-turborepo /> Turborepo | <simple-icons-lucia /> Lucia Auth |
+| Valibot | <logos-neon /> Neon DB | <logos-postgresql /> PostgreSQL |
+| <logos-supabase-icon /> Supabase Auth  | <simple-icons-shadcnui /> Shadcn UI | <simple-icons-radixui /> Radix UI |
+| <logos-jotai /> Jotai | <logos-vitejs /> Vite |  Uppy |
 
-<mdi-refresh-circle class="text-green-500" /> Business Requirements change often
-- [x]  <logos-cloudflare-workers-icon /> Should work on Cloudflare Workers
-- [x]  <mdi-cloud class="text-blue-500" /> Should work on <logos-google-cloud /> GCP / <logos-aws /> AWS /  <logos-azure-icon /> Azure
-- [x]  <logos-bun /> Should work on Bun
+<br />
+
+ <mdi-lightbulb class="text-yellow-500" /> <img src="/cella.svg" width="50" style="display: inline-block; vertical-align: middle;" /> has prebuilt endpoints (organizations and users)
 
 
 
