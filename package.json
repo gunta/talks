@@ -3,19 +3,20 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"build": "slidev build talks/2024-04-17/slides.ja.md talks/2024-04-17/slides.md ",
+		"build-one": "slidev build talks/2024-04-17/slides.ja.md talks/2024-04-17/slides.md ",
+		"build-two": "slidev build talks/2024-06-22/slides.ja.md talks/2024-06-22/slides.md",
 		"dev": "slidev --open",
 		"export": "slidev export",
 		"format": "bunx @biomejs/biome format --write ./",
 		"lint": "bunx @biomejs/biome lint ./"
 	},
 	"dependencies": {
-		"@slidev/cli": "^0.49.0-beta.3",
+		"@slidev/cli": "^0.49.11",
 		"@slidev/theme-default": "latest",
-		"vue": "^3.4.23"
+		"vue": "^3.4.29"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.7.0",
-		"@iconify/json": "^2.2.201"
+		"@biomejs/biome": "^1.8.2",
+		"@iconify/json": "^2.2.221"
 	}
 }
