@@ -169,7 +169,7 @@ layout: two-cols
 # <logos-hono /> Hono
 
 - <logos-cloudflare-workers-icon /> Made for **Cloudflare Workers** first
-- <mdi-puzzle class="text-orange-500" /> More Flexible, More Runtimes
+- <mdi-puzzle class="text-orange-500" /> More Flexible, **More Runtimes**
 - <mdi-cog-outline class="text-gray-500" /> Less opinionated 
 - <mdi-account-group class="text-green-500" /> More active maintainers
   - <mdi-heart class="text-red-500" /> Thanks everyone here!
@@ -179,6 +179,97 @@ layout: star-history
 repos: honojs/hono,elysiajs/elysia
 ---
 
+---
+layout: image
+image: /honocart1.png
+---
+
+<v-click >
+  <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+    <h1 style="
+      text-wrap: balance; 
+      color: #fff !important; 
+      font-size: 4.5em; 
+      text-align: center; 
+      background: none; 
+      -webkit-text-fill-color: #fff; 
+      font-weight: bold;
+      text-shadow: 
+        0 0 10px rgba(0,0,0,0.5), 
+        0 0 20px rgba(0,0,0,0.3), 
+        0 0 30px rgba(0,0,0,0.2);
+    ">
+      <div style="
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+        box-shadow: 
+          inset 0 0 10px rgba(0,0,0,0.5), 
+          inset 0 0 20px rgba(0,0,0,0.3), 
+          inset 0 0 30px rgba(0,0,0,0.2);
+      "></div>
+      We bought <br />
+      <br /><logos-hono /> Hono
+    </h1>
+  </div>
+</v-click>
+
+---
+layout: intro
+---
+
+# <mdi-rocket-launch class="text-blue-500" /> Next: Finding a Starter Kit
+## <mdi-heart-broken class="text-red-500" /> To avoid tech-stack heartbreak
+
+---
+layout: default
+---
+
+# Starter Kits (1/2)
+
+| <img src="/T4LogoLarge.png" width="40" /> | <img src="/OrbitkitLight.svg" width="100"  /> | <img src="/cella.svg" width="100"  /> |
+|----------------------|-------------------|----------------|
+| [timothymiller/t4-app](https://github.com/timothymiller/t4-app) | [ixahmedxi/orbkit](https://github.com/ixahmedxi/orbkit) | [cellajs/cella](https://github.com/cellajs/cella) |
+| <logos-hono /> Hono | <logos-hono /> Hono | <logos-hono /> Hono |
+| <logos-drizzle /> Drizzle | <logos-drizzle /> Drizzle | <logos-drizzle /> Drizzle |
+| <logos-react /> React | <logos-react /> React | <logos-react /> React |
+| <logos-tailwindcss-icon /> Tailwind CSS | <logos-tailwindcss-icon /> Tailwind CSS | <logos-tailwindcss-icon /> Tailwind CSS |
+| <logos-typescript-icon /> TypeScript | <logos-typescript-icon /> TypeScript | <logos-typescript-icon /> TypeScript |
+| <logos-trpc /> tRPC | <logos-trpc /> tRPC | <game-icons-electric /> ElectricSQL  |
+| <logos-nextjs-icon /> Next.js | Next.js | | 
+| <logos-react-query-icon /> React Query |  | <logos-vitejs /> Vite |
+| <logos-vitejs /> Vite | <simple-icons-lucia /> Lucia Auth | <logos-cloudflare /> Cloudflare |
+| <logos-cloudflare /> Cloudflare | <logos-zod /> Zod | <logos-zod /> Zod |
+| <logos-postgresql /> PostgreSQL | <logos-postgresql /> PostgreSQL | <logos-postgresql /> PostgreSQL |
+|  Tanstack Query | <logos-astro /> Astro | Tanstack Query |
+| <logos-typescript-icon /> ts-pattern |  Unkey | <logos-turborepo /> Turborepo |
+| <logos-million /> million.js |  | <logos-sentry /> Sentry |
+| <logos-typescript-icon /> pattycake | <logos-posthog /> Posthog | |
+| Valibot | <logos-sentry /> Sentry | |
+| <logos-expo /> Expo Router | | Zustand |
+| <logos-jotai /> Jotai | <logos-turborepo /> Turborepo | |
+| <logos-cloudflare /> Cloudflare D1 | <logos-neon /> Neon DB | |
+| <logos-supabase-icon /> Supabase Auth | <simple-icons-shadcnui /> Shadcn UI | |
+| <vscode-icons-file-type-tamagui /> Tamagui | <logos-vitejs /> Vite | <simple-icons-lucia /> Lucia Auth |
+
+
+
+Cella has Prebuilt endpoints (organizations and users)
+
+
+# <mdi-magnify class="text-blue-500" /> Looking for Middleware
+
+## <mdi-cog-outline class="text-gray-600" /> Runtime Requirements
+
+<mdi-refresh-circle class="text-green-500" /> Business Requirements change often
+- [x]  <logos-cloudflare-workers-icon /> Should work on Cloudflare Workers
+- [x]  <mdi-cloud class="text-blue-500" /> Should work on <logos-google-cloud /> GCP / <logos-aws /> AWS /  <logos-azure-icon /> Azure
+- [x]  <logos-bun /> Should work on Bun
 
 
 
