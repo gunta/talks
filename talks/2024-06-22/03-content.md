@@ -2,11 +2,11 @@
 layout: quote
 ---
 
-# Why Choose Hono
+# Why Choose Hono?
 
-# Tech Stack for the Future
+# Tech Stack from the Future
 
-## 2024.6.22
+## June 22, 2024
 
 
 ---
@@ -515,33 +515,66 @@ layout: two-cols
 
 
 ---
+layout: intro
+---
+
+# <logos-effect-icon /> Effect Schema
+
+## A Powerful Alternative to Zod
+<br />
+<logos-effect-icon /> Schema surpasses <logos-zod />Zod in key areas:
+
+- <mdi-swap-horizontal-bold class="text-blue-500" /> **Bidirectional transformations**: Decodes and encodes, unlike Zod's one-way decoding
+- <logos-effect-icon class="text-purple-500" /> **Seamless Effect integration**: Leverages dependency tracking
+- <mdi-puzzle class="text-green-500" /> **Enhanced customization**: Advanced meta-information annotations
+- <carbon-function class="text-orange-500" /> **Functional paradigm**: More expressive and composable code
+
+---
+layout: before-after
+---
+
+# Validation Library
+
+:: before::
+<br />
+
+### <logos-zod /> Zod
+
+```typescript
+import { z } from "zod"
+
+const User = z.object({
+  username: z.string()
+})
+
+User.parse({ username: "gunta" })
+
+// extract the inferred type
+type User = z.infer<typeof User>
+```
+
+:: after::
+<br />
+
+## <logos-effect-icon /> Effect Schema
+
+```typescript
+import { Schema as S } from "@effect/schema"
+
+const User = S.Struct({
+  username: S.String
+})
+
+S.parse(User)({ username: "gunta" })
+
+// extract the inferred type
+type User = S.Schema.Type<typeof User>
+```
+
+
+---
 src: ./languages.md
 ---
 
----
-layout: iframe-right
-url: https://blog.cloudflare.com/python-workers
----
-
-# <logos-cloudflare-icon /> Python on Workers
-
-- Via Pyodide
-  - numpy
-  - FastAPI
-  - Langchain
-  and more are functional
-
-
----
-layout: iframe-right
-url: https://dspy-docs.vercel.app/
----
-# The End of Prompt Magic
-
-- DSPy
-  - The era of **prompt programming** is here
-  - A framework to optimize LLM systems
-  - Manages interactions and dependencies between prompts and outputs
-  - Uses PyTorch's syntax and structure, making it intuitive
 
 
