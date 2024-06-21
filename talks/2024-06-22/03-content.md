@@ -700,27 +700,67 @@ layout: before-after
   - <twemoji-flag-japan class="text-red-600" /> I contributed a [Japanese language PR](https://github.com/clerk/javascript/pull/2868/files)
 
 
+---
+layout: image
+image: /future.png
+---
+
+
+  <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+    <h1 style="
+      text-wrap: balance; 
+      color: #fff !important; 
+      font-size: 4.5em; 
+      text-align: center; 
+      background: none; 
+      -webkit-text-fill-color: #fff; 
+      font-weight: bold;
+      text-shadow: 
+        0 0 10px rgba(0,0,0,0.5), 
+        0 0 20px rgba(0,0,0,0.3), 
+        0 0 30px rgba(0,0,0,0.2);
+    ">
+      <div style="
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+        box-shadow: 
+          inset 0 0 10px rgba(0,0,0,0.5), 
+          inset 0 0 20px rgba(0,0,0,0.3), 
+          inset 0 0 30px rgba(0,0,0,0.2);
+      "></div>
+      Tech Stack <br /> <br />  from the Future
+    </h1>
+  </div>
+
+
 
 
 ---
-layout: before-after
+layout: default
 ---
 
-# ☑️ Local First
+# ☑️ Local-First Architecture
 
-::before::
+- App: <logos-linear-icon /> [Linear](https://linear.app/)
+  - Superior UX, DX
+  - Very fast response, even offline
+  - Uses **Local First Architecture**
 
-
-
-::after::
-
-- <logos-linear-icon /> [Linear](https://linear.app/)
-  - Chosen by engineers for a reason
-  - Superior UX
-  - Better operability than Notion
-  - Very fast response
-  - Uses Local First Architecture
-
+- Libraries
+  - <mdi-new-box class="text-green-500" /> Zero
+  - <img src="https://dxos.org/favicon.ico" alt="DXOS" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> DXOS
+  - <img src="https://automerge.org/img/automerge.png" alt="Automerge" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> Automerge
+  - <img src="https://www.evolu.dev/favicon.ico" alt="Evolu" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> Evolu
+  - <img src="https://electric-sql.com/favicon.ico" alt="ElectricSQL" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> ElectricSQL
+  - <img src="https://tinybase.org/favicon.svg" alt="TinyBase" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> TinyBase
+  - <img src="https://vlcn.io/favicon.ico" alt="VLCN" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> VLCN
+  - <img src="https://cdn.prod.website-files.com/65faec1b01547096cbfafe87/66586f47b72ec61e1fe87b62_powersync-logo-icon.svg" alt="PowerSync" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> PowerSync
 ---
 
 # Recent Trends
