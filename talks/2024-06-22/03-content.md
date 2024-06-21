@@ -284,7 +284,7 @@ transition: slide-up
 level: 2
 ---
 
-# <logos-hono /> A Product PoC from AI Shift (April)
+# <logos-hono /> A Hono Product PoC from AI Shift (April)
 
 <SlidevVideo autoplay controls width="70%">
   <source src="/AIWorkerPortal.mp4" />
@@ -298,27 +298,7 @@ level: 2
 `Frontend` | `Backend` | `Scripts`
 
 
-![Languages](/langs.png)
-
-
----
-layout: before-after
----
-
-# ☑️ Local First
-
-::before::
-
-
-
-::after::
-
-- <logos-linear-icon /> [Linear](https://linear.app/)
-  - Chosen by engineers for a reason
-  - Superior UX
-  - Better operability than Notion
-  - Very fast response
-  - Uses Local First Architecture
+<img src="/langs.png" alt="Languages" width="50%" />
 
 
 ---
@@ -597,14 +577,6 @@ layout: before-after
     - <logos-vercel-icon /> Vercel
     - <logos-cloudflare-workers-icon /> Cloudflare Workers
 
----
-layout: star-history
-repos: honojs/hono
----
-
-# ⭐️ Hono
-
-
 
 ---
 layout: before-after
@@ -621,7 +593,7 @@ layout: before-after
 - <simple-icons-drizzle /> [Drizzle](https://orm.drizzle.team/)
   - Lightweight, fast
   - Close to SQL
-  - Migratable
+  - **Migratable**
   - Multi Runtime
     - <logos-bun /> Bun <logos-vercel-icon /> Vercel  <logos-cloudflare-workers-icon /> Cloudflare Workers <simple-icons-expo /> Expo <logos-arc /> Browser <logos-supabase-icon /> Supabase  <logos-electron /> Electron  <simple-icons-react /> React Native
   - Multi Database
@@ -710,44 +682,45 @@ layout: before-after
 # 🔐 Authentication Platform
 
 ::before:: 
-- <logos-firebase /> Firebase Auth
-- <logos-supabase-icon /> Supabase Auth
-- <simple-icons-auth0 /> Auth0
-- <simple-icons-okta /> Okta
+- <logos-firebase class="text-yellow-500" /> Firebase Auth
+- <logos-supabase-icon class="text-green-500" /> Supabase Auth
+- <simple-icons-auth0 class="text-orange-500" /> Auth0
+- <simple-icons-okta class="text-blue-500" /> Okta
 
 ::after::
 
-- <simple-icons-clerk /> [Clerk](https://clerk.com/)
-  - <twemoji-sparkles /> Superior **UX / DX**
-  - <logos-hono /> **Hono middleware** provided
-  - <mdi-react /> **React components** provided
-  - <mdi-cash-multiple /> **Reasonable pricing**
-  - <mdi-speedometer /> **Enhanced productivity**
-  - <mdi-timer-sand /> Reduced lead time
-  - <logos-stripe /> Integration with Stripe planned
-  - <twemoji-flag-japan /> I contributed a [Japanese language PR](https://github.com/clerk/javascript/pull/2868/files)
-
-
-<!-- ---
-
-# <bi-translate /> Custom CLI Automatic LLM Translation
+- <simple-icons-clerk class="text-purple-500" /> [Clerk](https://clerk.com/)
+  - <twemoji-sparkles class="text-yellow-400" /> Superior **UX / DX**
+  - <logos-hono class="text-blue-400" /> **Hono middleware** provided
+  - <mdi-react class="text-blue-600" /> **React components** provided
+  - <mdi-cash-multiple class="text-green-500" /> **Reasonable pricing**
+  - <mdi-speedometer class="text-red-500" /> **Enhanced productivity**
+  - <mdi-timer-sand class="text-amber-500" /> Reduced lead time
+  - <logos-stripe class="text-indigo-500" /> Integration with Stripe planned
+  - <twemoji-flag-japan class="text-red-600" /> I contributed a [Japanese language PR](https://github.com/clerk/javascript/pull/2868/files)
 
 
 
-<SlidevVideo autoplay controls width="70%" >
-  <source src="/AutoCat1.mp4" />
-</SlidevVideo> -->
-
-<!-- ---
-
-# <logos-cloudflare-workers-icon /> LLM Running on Cloudflare Workers
-
-<SlidevVideo autoplay controls width="60%" >
-  <source src="/CFDemo.mov" />
-</SlidevVideo> -->
 
 ---
-layout: quote
+layout: before-after
+---
+
+# ☑️ Local First
+
+::before::
+
+
+
+::after::
+
+- <logos-linear-icon /> [Linear](https://linear.app/)
+  - Chosen by engineers for a reason
+  - Superior UX
+  - Better operability than Notion
+  - Very fast response
+  - Uses Local First Architecture
+
 ---
 
 # Recent Trends
@@ -756,6 +729,8 @@ layout: quote
 layout: iframe-right
 url: https://effect.website/
 ---
+
+
 
 # Next Gen TypeScript
 
