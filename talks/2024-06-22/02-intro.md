@@ -9,7 +9,7 @@ layout: intro
 <noto-calendar /> CyberAgent
 <br>
 
-<twemoji-flag-japan /> Residing in **Tokyo** (currently)
+<twemoji-flag-japan /> Residing in **Tokyo** 🗼 currently
 <br>
 <br>
 
@@ -39,9 +39,10 @@ layout: before-after
 
 ::before::
 - 🤖 `Department` **AI Business Division** 
-- 🔄 `Business` **AI Shift Division** 
-- 🎨 `Occupation` [**Design Engineer**](https://vercel.com/blog/design-engineering-at-vercel)
+  - 🔄 `Business` **AI Shift** 
+    - 🎨 `Occupation` [**Design Engineer**](https://vercel.com/blog/design-engineering-at-vercel)
 
 ::after::
-- 🏢 `New Department` 
-  - **CTO's Office & Developer Productivity Department**
+- 🤖 `Department` **CyberAgent Group** 
+  - **CTO's Office** 
+    - **Developer Productivity Department**

@@ -8,10 +8,6 @@ layout: quote
 
 ## 2024.6.22
 
----
-layout: iframe
-url: https://sli.dev/
----
 
 ---
 transition: slide-up
@@ -26,7 +22,7 @@ level: 2
 
 ---
 
-# Language Used
+# Languages that were used in the monorepo (April)
 
 <logos-typescript-icon class="text-3xl "/> 
 `Frontend` | `Backend` | `Scripts`
@@ -34,43 +30,16 @@ level: 2
 
 ![Languages](/langs.png)
 
----
-layout: before-after
----
-
-# 🛠️ Development Environment
-
-::before::
-
-- <logos-intellij-idea /> IntelliJ Idea
-  - High quality IDE
-- <devicon-vscode /> VSCode
-  - Rich in extensions
-
-::after::
-
-- <img alt="Cursor" src="https://cursor.sh/brand/icon.svg" width="28px" style="display: inline-block" /> [Cursor](https://cursor.sh/)
-  - AI features significantly surpass GitHub Copilot
-  - Exceptional UX
-  - Rapid growth with investment from OpenAI
-  - All VSCode extensions and settings are available
-    - It is a fork and is regularly updated
-  - The $20/month cost is worth it within the first 20 minutes of use
 
 ---
 layout: before-after
 ---
 
-# ☑️ Task Management
+# ☑️ Local First
 
 ::before::
 
-- <logos-jira /> JIRA
-  - Suitable for task management
-  - Few people desire to use it
-- <simple-icons-github /> GitHub Issues
-  - Cumbersome to open
-  - Lacking features
+
 
 ::after::
 
@@ -81,21 +50,6 @@ layout: before-after
   - Very fast response
   - Uses Local First Architecture
 
----
-layout: before-after
----
-
-# 🌐 Browser
-
-::before::
-
-- <logos-chrome /> Chrome
-- <logos-safari /> Safari
-
-::after::
-
-- <logos-arc /> Arc
-  - <carbon-logo-github /> GitHub pull requests displayed in real-time with the released [Live Folders feature](https://zenn.dev/t_yng/articles/a6f6ff55bef1b4)
 
 ---
 layout: before-after
@@ -134,64 +88,13 @@ repos: farm-fe/farm
 
 # ⭐️ Farm
 
----
-layout: before-after
----
-
-# 📦 CSS Bundler
-
-::before::
-
-- <logos-esbuild /> ESBuild
-
-::after::
-
-- ⚡️ [Lightning CSS](https://lightningcss.dev/)
-  - Transpilation
-  - CSS Modules
-  - Bundling
-  - Minification
-  - Made with Rust, fast
-  - Usable with Vite
-
----
-layout: star-history
-repos: parcel-bundler/lightningcss
----
-
-# ⭐️ Lightning CSS
 
 
 ---
 layout: before-after
 ---
 
-# <twemoji-flag-united-states /> English Linter
-
-::before::
-
-- Manual PR corrections by humans
-- Occasional omissions and errors
-
-::after::
-
-- <vscode-icons-file-type-cspell /> [CSpell](https://cspell.org/)
-  - During CI
-  - With Lefthook
-
----
-layout: star-history
-repos: streetsidesoftware/cspell
----
-
-# ⭐️ CSpell
-
-
----
-layout: before-after
----
-
-# ☁️ Cloud (Most Important)
+# ☁️ Cloud
 
 🆕 Cloudflare is **no longer just an "Edge CDN"**.<br>
 It has evolved into a competitive and reputable cloud vendor.
@@ -312,7 +215,7 @@ layout: before-after
 
 - <logos-bun /> [Bun](https://bun.sh/)
   - 5 times faster execution
-  - No transpilation
+  - No need to transpile TS
   - CJS and ESM mixable
 
 ---
@@ -371,20 +274,6 @@ repos: moonrepo/proto
 
 # ⭐️ Proto
 
----
-layout: before-after
----
-
-# <logos-typescript-icon /> TypeScript Test Runner
-
-::before::
-
-- <logos-vitest /> Vitest
-
-::after::
-
-- <logos-bun /> [Bun](https://bun.sh/)
-  - 5 times faster
 
 ---
 layout: before-after
@@ -411,32 +300,6 @@ import { $ } from "bun"
 const output = await $`ls -l`.text()
 console.log(output)
 ```
-
----
-layout: before-after
----
-
-# 🏗️ Monorepo CI
-
-::before::
-
-- <logos-turborepo-icon /> Turborepo
-- <simple-icons-moonrepo /> [moonbase](https://moonrepo.dev/moonbase)
-
-::after::
-
-- <logos-nx /> [Nx](https://nx.dev/)
-  - Most feature-rich
-  - Most scalable
-  - Excels in parallel processing
-  - Fast
-
----
-layout: star-history
-repos: nrwl/nx
----
-
-# ⭐️ Nx
 
 
 ---
@@ -472,10 +335,6 @@ repos: honojs/hono
 # ⭐️ Hono
 
 
----
-layout: image
-image: /hono2.png
----
 
 ---
 layout: before-after
@@ -589,20 +448,17 @@ layout: before-after
 ::after::
 
 - <simple-icons-clerk /> [Clerk](https://clerk.com/)
-  - <twemoji-sparkles /> Superior user experience
-  - <mdi-cash-multiple /> Reasonable pricing
-  - <mdi-speedometer /> Enhanced productivity
+  - <twemoji-sparkles /> Superior **UX / DX**
+  - <logos-hono /> **Hono middleware** provided
   - <mdi-react /> **React components** provided
+  - <mdi-cash-multiple /> **Reasonable pricing**
+  - <mdi-speedometer /> **Enhanced productivity**
   - <mdi-timer-sand /> Reduced lead time
-  - <logos-stripe /> Future integration with Stripe planned
+  - <logos-stripe /> Integration with Stripe planned
+  - <twemoji-flag-japan /> I contributed a [Japanese language PR](https://github.com/clerk/javascript/pull/2868/files)
 
-<br> 
 
-> If low cost is more important than UX
-> - [Kinde](https://kinde.com/)
-> - [Lucia](https://lucia-auth.com/)
-
----
+<!-- ---
 
 # <bi-translate /> Custom CLI Automatic LLM Translation
 
@@ -610,15 +466,15 @@ layout: before-after
 
 <SlidevVideo autoplay controls width="70%" >
   <source src="/AutoCat1.mp4" />
-</SlidevVideo>
+</SlidevVideo> -->
 
----
+<!-- ---
 
 # <logos-cloudflare-workers-icon /> LLM Running on Cloudflare Workers
 
 <SlidevVideo autoplay controls width="60%" >
   <source src="/CFDemo.mov" />
-</SlidevVideo>
+</SlidevVideo> -->
 
 ---
 layout: quote
@@ -631,19 +487,32 @@ layout: iframe-right
 url: https://effect.website/
 ---
 
-# Robust TypeScript
+# Next Gen TypeScript
 
 - <logos-effect-icon /> **Effect**
   - <skill-icons-golang /> No envy of Golang/Rust
-  - <fluent-library-24-filled /> The standard library we wanted
-  - <skill-icons-react-dark /> Popular functional style from React
-  - <fluent-error-circle-24-filled class="text-red-400" /> Perfect error handling
+  - <fluent-library-24-filled /> The **missing standard library**
+  - <skill-icons-react-dark /> Popular **functional** style like React
+  - <mdi-puzzle /> Composable & Reusable
+  - <mdi-sync-circle /> Sync and Async code unified
+  - <fluent-error-circle-24-filled class="text-red-400" /> Type-safe Error Handling
   - <pajamas-retry /> Retry processes
   - <mdi-swap-horizontal-bold /> Concurrency
   - <material-symbols-pattern /> Pattern matching
   - <vscode-icons-file-type-light-json-schema /> Schema
   - <flat-color-icons-serial-tasks /> Serialization
-  - <logos-opentelemetry-icon /> Tracing
+  - <logos-opentelemetry-icon /> Built-in Tracing & Metrics
+
+---
+layout: two-cols
+---
+
+# Effect: Where is the catch?
+
+- Learning curve
+- Functional programming patterns
+- Extensive API
+
 
 ---
 src: ./languages.md

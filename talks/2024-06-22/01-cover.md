@@ -23,10 +23,11 @@ monaco: false
 </style>
 
 # Why Choose Hono
-
+## &
 # Tech Stack for the Future
 
-June, 2024
+June, 2024 @ docomo R&D OPEN LAB ODAIBA
+<pre>#honoconf</pre>
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
