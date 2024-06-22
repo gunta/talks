@@ -27,7 +27,7 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run build -- --base /talks/ 
+        run: bun run build -- --base /talks/2024-06-22/
 
       - uses: actions/configure-pages@v4
 
