@@ -40,7 +40,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: talks/2024-06-22/dist
 
       - name: Deploy
         id: deployment
