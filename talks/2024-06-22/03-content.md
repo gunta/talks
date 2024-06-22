@@ -1040,7 +1040,7 @@ transition: slide-up
 ::right::
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-  <img src="EffectCurve.png" width="90%" />
+  <img src="/EffectCurve.png" width="90%" />
 </div>
 
 ---
