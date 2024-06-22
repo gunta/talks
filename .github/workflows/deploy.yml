@@ -31,7 +31,7 @@ jobs:
         run: ls -la
 
       - name: Build
-        run: bun run build -- --base /${{github.event.repository.name}}/
+        run: bun run build -- --base /talks/2024-06-22/ 
 
       - name: List directory contents after build
         run: ls -la
