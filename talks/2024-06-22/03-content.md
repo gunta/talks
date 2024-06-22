@@ -1,5 +1,6 @@
 ---
 layout: quote
+transition: fade-in
 ---
 
 # Why Choose Hono?
@@ -10,12 +11,14 @@ layout: quote
 
 ---
 layout: quote
+transition: slide-up
 ---
 
 # Back to the year 2021
 
 ---
 layout: quote
+transition: fade
 ---
 
 # <mdi-currency-usd /> Facing Significant Cost Challenges
@@ -32,6 +35,7 @@ CyberAgent's Internal Image Optimization CDN **"Hayabusa"**
 
 ---
 layout: before-after
+transition: slide-left
 ---
 
 
@@ -69,6 +73,7 @@ layout: before-after
 
 ---
 layout: fact
+transition: fade
 ---
 
 # <mdi-heart class="text-red-500 animate-pulse" /> <logos-cloudflare-workers-icon /> 
@@ -76,6 +81,7 @@ layout: fact
 
 ---
 layout: quote
+transition: slide-up
 ---
 
 # <logos-cloudflare-icon /> Cloudflare Images CDN arrives
@@ -92,6 +98,7 @@ layout: quote
 
 ---
 layout: intro
+transition: fade-out
 ---
 
 <div class="text-center"  style="font-family: 'Noto Serif JP', serif; font-weight: 400;">
@@ -101,12 +108,14 @@ layout: intro
 
 ---
 layout: intro
+transition: fade-in
 ---
 
 # 2023
 
 ---
 layout: quote
+transition: slide-up
 ---
 
 # <mdi-fast-forward class="text-blue-500" /> Forward to December, 2023
@@ -124,6 +133,7 @@ layout: quote
 
 ---
 layout: default
+transition: fade
 ---
 
 # <logos-cloudflare-icon /> Cloudflare's <mdi-new-box class="text-green-500" /> **Game-Changing** Workers Pricing 
@@ -137,6 +147,7 @@ layout: default
 
 ---
 layout: default
+transition: slide-up
 ---
 
 # <mdi-magnify class="text-blue-500" /> Looking for Middleware
@@ -155,6 +166,7 @@ layout: default
 
 ---
 layout: two-cols
+transition: slide-left
 ---
 
 # <skill-icons-elysia-light /> Elysia
@@ -177,11 +189,13 @@ layout: two-cols
 ---
 layout: star-history
 repos: honojs/hono,elysiajs/elysia
+transition: fade
 ---
 
 ---
 layout: image
 image: /honocart1.png
+transition: slide-up
 ---
 
 <v-click >
@@ -221,6 +235,7 @@ image: /honocart1.png
 
 ---
 layout: intro
+transition: fade-in
 ---
 
 # <mdi-rocket-launch class="text-blue-500" /> Next: Finding a Starter Kit
@@ -228,6 +243,7 @@ layout: intro
 
 ---
 layout: default
+transition: slide-up
 ---
 
 # Starter Kits (1/3)
@@ -244,6 +260,7 @@ layout: default
 
 ---
 layout: default
+transition: fade
 ---
 
 # Starter Kits (2/3)
@@ -260,6 +277,7 @@ layout: default
 
 ---
 layout: default
+transition: slide-up
 ---
 
 # Starter Kits (3/3)
@@ -291,6 +309,7 @@ level: 2
 </SlidevVideo>
 
 ---
+transition: fade
 
 # Monorepo Languages (April)
 
@@ -303,6 +322,7 @@ level: 2
 
 ---
 layout: before-after
+transition: slide-left
 ---
 
 # 📦 JS Bundler
@@ -327,6 +347,7 @@ layout: before-after
 ---
 layout: star-history
 repos: vitejs/vite,webpack/webpack
+transition: fade
 ---
 
 # ⭐️ Vite
@@ -334,6 +355,7 @@ repos: vitejs/vite,webpack/webpack
 ---
 layout: star-history
 repos: farm-fe/farm
+transition: fade
 ---
 
 # ⭐️ Farm
@@ -342,6 +364,7 @@ repos: farm-fe/farm
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # ☁️ Cloud
@@ -375,6 +398,9 @@ It has evolved into a competitive and reputable cloud vendor.
   - 😄 It's Simple and Fun! **(Important)**
 
 ---
+layout: default
+transition: fade
+---
 
 # <logos-cloudflare-icon /> What can be used in Cloudflare now
 
@@ -395,6 +421,7 @@ It has evolved into a competitive and reputable cloud vendor.
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # 🖥️ Backend Language
@@ -410,17 +437,20 @@ layout: before-after
 ---
 layout: image
 image: /typescript.png
+transition: fade
 ---
 
 ---
 layout: star-history
 repos: microsoft/TypeScript
+transition: fade
 ---
 
 # ⭐️ TypeScript
 
 ---
 layout: two-cols
+transition: slide-left
 ---
 
 <style>
@@ -453,6 +483,7 @@ border-left: 1px solid #ddd;
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # <logos-typescript-icon /> TypeScript Runtime
@@ -471,6 +502,7 @@ layout: before-after
 ---
 layout: star-history
 repos: oven-sh/bun
+transition: fade
 ---
 
 # ⭐️ Bun
@@ -478,6 +510,7 @@ repos: oven-sh/bun
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # <logos-typescript-icon /> TypeScript Package Manager
@@ -495,6 +528,7 @@ layout: before-after
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # <mingcute-version-fill /> Version Manager
@@ -520,6 +554,7 @@ layout: before-after
 ---
 layout: star-history
 repos: moonrepo/proto
+transition: fade
 ---
 
 # ⭐️ Proto
@@ -527,6 +562,7 @@ repos: moonrepo/proto
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # <heroicons-command-line-20-solid /> Scripts
@@ -544,6 +580,8 @@ layout: before-after
   - Understandable by juniors
   - Full TS
 
+
+
 ```ts
 import { $ } from "bun"
 
@@ -554,6 +592,7 @@ console.log(output)
 
 ---
 layout: before-after
+transition: fade
 ---
 
 # 🖥️ Server Framework
@@ -603,6 +642,7 @@ layout: before-after
 ---
 layout: star-history
 repos: drizzle-team/drizzle-orm
+transition: slide-up
 ---
 
 # ⭐️ Drizzle
@@ -610,6 +650,7 @@ repos: drizzle-team/drizzle-orm
 
 ---
 layout: before-after
+transition: fade-out
 ---
 
 # 🔍 Linter
@@ -628,12 +669,14 @@ layout: before-after
 ---
 layout: star-history
 repos: biomejs/biome
+transition: slide-left
 ---
 
 # ⭐️ Biome
 
 ---
 layout: before-after
+transition: fade
 ---
 
 # 🎨 Formatter
@@ -652,6 +695,7 @@ layout: before-after
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # 🚩 Feature Flags
@@ -677,6 +721,7 @@ layout: before-after
 
 ---
 layout: before-after
+transition: fade-out
 ---
 
 # 🔐 Authentication Platform
@@ -703,6 +748,7 @@ layout: before-after
 ---
 layout: image
 image: /future.png
+transition: zoom-in
 ---
 
 
@@ -740,6 +786,7 @@ image: /future.png
 
 ---
 layout: two-cols
+transition: slide-up
 ---
 
 # <mdi-check-circle class="text-green-500" /> Server-First Arch
@@ -767,6 +814,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+transition: fade
 ---
 
 # <mdi-database-sync class="text-blue-500" /> Local-First Arch
@@ -794,6 +842,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+transition: slide-left
 ---
 
 # <mdi-function-variant class="text-blue-500" /> AI Function Calling
@@ -820,6 +869,7 @@ layout: two-cols
 
 ---
 layout: full
+transition: fade
 ---
 
 ```typescript
@@ -851,6 +901,7 @@ new OpenAPIHono().openapi('/weather', {
 
 ---
 layout: before-after
+transition: fade-in
 ---
 
 # <mdi-lambda /> Functional Programming Going Mainstream
@@ -878,6 +929,7 @@ layout: before-after
 
 ---
 layout: default
+transition: slide-up
 ---
 
 # <mdi-trophy class="text-yellow-500" /> Gains of FP in TypeScript
@@ -895,6 +947,7 @@ layout: default
 ---
 layout: image
 image: /function.png
+transition: fade-out
 ---
 
 
@@ -934,6 +987,7 @@ image: /function.png
 ---
 layout: image
 image: /TheJSNationEffect.jpg
+transition: slide-left
 ---
 
 <div style="color: #ffffff !important; font-size: 2.5em; font-weight: bold;">JS OS Awards 2024: Effect</div>
@@ -943,6 +997,7 @@ image: /TheJSNationEffect.jpg
 ---
 layout: iframe-right
 url: https://effect.website/
+transition: fade-in
 ---
 
 
@@ -968,6 +1023,7 @@ src: ./languages.md
 
 ---
 layout: two-cols
+transition: slide-up
 ---
 
 # <logos-effect-icon /> Where's the Catch?
@@ -989,6 +1045,7 @@ layout: two-cols
 
 ---
 layout: intro
+transition: fade
 ---
 
 # Effect Schema
@@ -997,6 +1054,7 @@ layout: intro
 
 ---
 layout: default
+transition: slide-left
 ---
 
 # Effect Schema: The New Industry Standard
@@ -1014,6 +1072,7 @@ Becoming the preferred choice for data validation in modern **Local First Librar
 
 ---
 layout: intro
+transition: fade-in
 ---
 
 # <logos-effect-icon /> Effect Schema
@@ -1029,6 +1088,7 @@ layout: intro
 
 ---
 layout: before-after
+transition: fade
 ---
 
 # Validation Library
@@ -1071,6 +1131,7 @@ type User = S.Schema.Type<typeof User>
 
 ---
 layout: fact
+transition: fade
 ---
 
 # Should <logos-hono />Hono support <logos-effect-icon /> Effect Schema?
@@ -1079,6 +1140,7 @@ layout: fact
 
 ---
 layout: center
+transition: slide-up
 ---
 
 # <mdi-weather-night /> Yesterday night I said
@@ -1089,10 +1151,12 @@ layout: center
 ---
 layout: image
 image: /SchemaPR1.png
+transition: slide-left
 ---
 
 ---
 layout: image
 image: /SchemaPR2.png
+transition: slide-right
 ---
 

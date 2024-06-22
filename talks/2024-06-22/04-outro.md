@@ -1,5 +1,6 @@
 ---
 layout: end
+transition: fade
 ---
 
 # Thank you

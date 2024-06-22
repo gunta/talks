@@ -1,7 +1,7 @@
 ---
 theme: default
 background: /poster_art_3d.jpg
-title: "Why Choose Hono: Tech Stack for the Future, What We Use @ 2024.6.22"
+title: "Why Choose Hono? Tech Stack for the Future @ 2024.6.22"
 class: text-center
 highlighter: shiki
 drawings:
@@ -24,7 +24,7 @@ monaco: false
 
 # Why Choose Hono?
 ## &
-# Tech Stack from the Future
+# Tech Stack for the Future
 
 <br />
 <br />

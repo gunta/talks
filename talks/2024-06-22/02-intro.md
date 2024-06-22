@@ -1,5 +1,6 @@
 ---
 layout: intro
+transition: fade-out
 ---
 
 # Introduction
@@ -34,6 +35,7 @@ layout: intro
 
 ---
 layout: before-after
+transition: slide-up
 ---
 
 # <mdi-new-box class="text-green-500" /> New Division since April
@@ -63,12 +65,14 @@ layout: before-after
 
 ---
 layout: fact
+transition: slide-left
 ---
 ## We are here thanks to 
 # <logos-opensource /> Open Source
 
 ---
 layout: section
+transition: slide-left
 ---
 
 # OpenSTF
@@ -80,11 +84,13 @@ layout: section
 ---
 layout: image
 image: /STFImage.png
+transition: fade
 ---
 
 
 ---
 layout: section
+transition: slide-up
 ---
 
 <div style="display: flex; justify-content: center;">
@@ -100,6 +106,7 @@ layout: section
 ---
 layout: star-history
 repos: openstf/stf,honojs/hono
+transition: slide-left
 ---
 # <mdi-party-popper class="text-yellow-400" /> Congrats Hono!
 
