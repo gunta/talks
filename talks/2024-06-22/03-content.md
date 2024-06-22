@@ -284,7 +284,7 @@ transition: slide-up
 level: 2
 ---
 
-# <logos-hono /> A Hono Product PoC from AI Shift (April)
+# <logos-hono /> PoC of AI Worker from AI Shift (April)
 
 <SlidevVideo autoplay controls width="70%">
   <source src="/AIWorkerPortal.mp4" />
@@ -738,21 +738,45 @@ image: /future.png
     </h1>
   </div>
 
-
-
-
 ---
-layout: default
+layout: two-cols
 ---
 
-# ☑️ Local-First Architecture
+# <mdi-check-circle class="text-green-500" /> Server-First Arch
+
+- <mdi-application class="text-blue-500" /> App: Stream React Components from LLMs
+  - <mdi-rocket-launch class="text-orange-500" /> Deliver richer user experiences
+  - <mdi-shuffle-variant class="text-purple-500" /> Mix **frontend, native and backend**
+
+<br />
+
+- <mdi-trending-up class="text-red-500" /> Emerging tech
+  - <logos-react /> React Server Components
+  - <logos-vercel-icon /> Vercel AI SDK Streaming (RSC)
+  - <img src="https://cdn.candycode.com/waku/shinto-shrine.png" alt="Waku" width="20" height="20" style="display: inline-block; vertical-align: middle;" /> Waku (RSC)
+  - <logos-hono /> HonoX (SSR)
+  - <logos-astro /> Astro Islands (SSR)
+  - <logos-expo /> **Expo Router React Native (URSC)**
+
+::right::
+
+# Universal RSC
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oSDHruDpYagReAGJC7-TSw.gif" width="90%" />
+</div>
+
+---
+layout: two-cols
+---
+
+# <mdi-database-sync class="text-blue-500" /> Local-First Arch
 
 - App: <logos-linear-icon /> [Linear](https://linear.app/)
   - Superior UX, DX
   - Very fast response, even offline
   - Uses **Local First Architecture**
 
-- Libraries
+- Sync-Engine Libraries
   - <mdi-new-box class="text-green-500" /> Zero
   - <img src="https://dxos.org/favicon.ico" alt="DXOS" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> DXOS
   - <img src="https://automerge.org/img/automerge.png" alt="Automerge" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> Automerge
@@ -761,6 +785,113 @@ layout: default
   - <img src="https://tinybase.org/favicon.svg" alt="TinyBase" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> TinyBase
   - <img src="https://vlcn.io/favicon.ico" alt="VLCN" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> VLCN
   - <img src="https://cdn.prod.website-files.com/65faec1b01547096cbfafe87/66586f47b72ec61e1fe87b62_powersync-logo-icon.svg" alt="PowerSync" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> PowerSync
+
+::right::
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <img src="/linear2.webp" width="90%" style="border-radius: 10px;" />
+</div>
+
+---
+layout: two-cols
+---
+
+# <mdi-function-variant class="text-blue-500" /> AI Function Calling
+
+
+- <logos-cloudflare-workers-icon /> Allows LLMs to invoke predefined functions
+  - <mdi-puzzle class="text-green-500" /> Structured outputs
+  - <mdi-cog class="text-blue-500" /> Enhanced control over AI responses
+  - <mdi-database class="text-purple-500" /> Integration with external data/APIs
+  - <mdi-chart-line class="text-orange-500" /> Improved accuracy for specific tasks
+
+<br />
+
+- <mdi-robot class="text-blue-500" /> AI Agents <mdi-swap-horizontal class="text-orange-500" /> World Communication
+  - Enables AI agents to interact with physical world and humans
+
+::right::
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <SlidevVideo autoplay  loop>
+    <source src="/vercelai.mov" type="video/mp4" />
+  </SlidevVideo>
+</div>
+
+---
+layout: full
+---
+
+```typescript
+import { OpenAPIHono } from '@hono/openapi'
+
+new OpenAPIHono().openapi('/weather', {
+  get: {
+    parameters: [{ in: 'query', name: 'city', required: true, schema: { type: 'string' } }],
+    responses: {
+      '200': {
+        description: 'Weather information',
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              properties: { temperature: { type: 'number' }, condition: { type: 'string' } }
+            }
+          }
+        }
+      }
+    }
+  }
+}, (c) => {
+  const { city } = c.req.query()
+  return c.json({ temperature: 25, condition: 'Sunny' }) // Simulated data
+})
+
+```
+
+---
+layout: before-after
+---
+
+# <mdi-lambda /> Functional Programming Going Mainstream
+
+::before::
+
+- <logos-react /> React: Class components
+- <mdi-database class="text-red-500" /> State: Mutable
+- <mdi-bug class="text-orange-500" /> Side effects
+- <mdi-code-brackets class="text-yellow-500" /> **Imperative** programming <code>(for, while)</code>
+- <lets-icons-array class="text-green-500" /> Manual array manipulation
+- <eos-icons-content-lifecycle-management class="text-blue-500" /> Lifecycle methods
+- <mdi-state-machine class="text-indigo-500" /> this.setState()
+- <logos-go class="text-orange-500" /> Stateful Server
+::after::
+
+- <logos-react /> React: Functional components
+- <mdi-database-lock class="text-red-500" /> State: Immutable
+- <mdi-function-variant class="text-orange-500" /> Pure Functions: **No side effects**
+- <mdi-code-tags class="text-blue-500" /> **Declarative** programming
+- <lets-icons-array class="text-green-500" /> <code>Array.map</code>, <code>Array.filter</code>
+- <mdi-function class="text-yellow-500" /> **Composable** High-Order Functions
+- <mdi-hook class="text-indigo-500" /> React: Hooks
+- <logos-cloudflare-workers-icon class="text-orange-500" /> Serverless Functions
+
+---
+layout: default
+---
+
+# <mdi-trophy class="text-yellow-500" /> Gains of FP in TypeScript
+
+- <mdi-crystal-ball class="text-blue-500" /> Predictability, reduced side effects
+- <mdi-test-tube class="text-green-500" /> **Easier testing**
+- <mdi-vector-arrange-above class="text-purple-500" /> Better parallelization
+- <mdi-code-tags class="text-yellow-500" /> More declarative code
+- <mdi-puzzle class="text-orange-500" /> Enhanced reusability via **composition**
+- <mdi-cube-outline class="text-cyan-500" /> Promotes modular design
+- <mdi-robot class="text-pink-500" /> **AI-friendly**: **Easier to generate/test pure functions**
+  - <mdi-refresh class="text-teal-500" /> AI can iterate until tests pass
+  - <mdi-function-variant class="text-amber-500" /> Simplifies test case creation/validation
+
 ---
 
 # Recent Trends
