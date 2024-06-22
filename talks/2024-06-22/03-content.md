@@ -893,8 +893,52 @@ layout: default
   - <mdi-function-variant class="text-amber-500" /> Simplifies test case creation/validation
 
 ---
+layout: image
+image: /function.png
+---
 
-# Recent Trends
+
+  <div style="display: flex; justify-content: center; align-items: flex-end; height: 100%;">
+    <h1 style="
+      text-wrap: balance; 
+      color: #fff; 
+      font-size: 4.5em; 
+      text-align: center; 
+      background: none; 
+      -webkit-text-fill-color: #fff; 
+      font-weight: bold;
+      text-shadow: 
+        0 0 10px rgba(0,0,0,0.5), 
+        0 0 20px rgba(0,0,0,0.3), 
+        0 0 30px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    ">
+      <div style="
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+        box-shadow: 
+          inset 0 0 10px rgba(0,0,0,0.5), 
+          inset 0 0 20px rgba(0,0,0,0.3), 
+          inset 0 0 30px rgba(0,0,0,0.2);
+      "></div>
+      Everything is a f()
+    </h1>
+  </div>
+
+---
+layout: image
+image: /TheJSNationEffect.jpg
+---
+
+<div style="color: #ffffff !important; font-size: 2.5em; font-weight: bold;">JS OS Awards 2024: Effect</div>
+
+
 
 ---
 layout: iframe-right
@@ -906,28 +950,66 @@ url: https://effect.website/
 # Next Gen TypeScript
 
 - <logos-effect-icon /> **Effect**
-  - <skill-icons-golang /> No envy of Golang/Rust
   - <fluent-library-24-filled /> The **missing standard library**
-  - <skill-icons-react-dark /> Popular **functional** style like React
+  - <skill-icons-react-dark /> Can be **Functional** style
   - <mdi-puzzle /> Composable & Reusable
   - <mdi-sync-circle /> Sync and Async code unified
-  - <fluent-error-circle-24-filled class="text-red-400" /> Type-safe Error Handling
+  - <fluent-error-circle-24-filled class="text-red-400" /> Type-safe **Error Handling**
   - <pajamas-retry /> Retry processes
   - <mdi-swap-horizontal-bold /> Concurrency
   - <material-symbols-pattern /> Pattern matching
-  - <vscode-icons-file-type-light-json-schema /> Schema
+  - <vscode-icons-file-type-light-json-schema /> **Schema**
   - <flat-color-icons-serial-tasks /> Serialization
   - <logos-opentelemetry-icon /> Built-in Tracing & Metrics
+
+---
+src: ./languages.md
+---
 
 ---
 layout: two-cols
 ---
 
-# Effect: Where is the catch?
+# <logos-effect-icon /> Where's the Catch?
 
-- Learning curve
-- Functional programming patterns
-- Extensive API
+- <mdi-chart-bell-curve class="text-blue-500" /> Steep learning curve
+- <mdi-function-variant class="text-purple-500" /> Functional programming patterns
+- <mdi-api class="text-green-500" /> Extensive API
+
+<br />
+
+### <mdi-lightbulb-on class="text-yellow-500" /> But, can be adopted incrementally
+- <mdi-puzzle class="text-orange-500" /> Not an all-or-nothing approach
+
+::right::
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <img src="EffectCurve.png" width="90%" />
+</div>
+
+---
+layout: intro
+---
+
+# Effect Schema
+
+<code>bun install @effect/schema</code>
+
+---
+layout: default
+---
+
+# Effect Schema: The New Industry Standard
+
+Becoming the preferred choice for data validation in modern **Local First Libraries**.
+
+  - <img src="https://dxos.org/favicon.ico" alt="DXOS" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> DXOS
+  - <img src="https://jazz.tools/favicon.ico" alt="Jazz" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> Jazz
+  - <img src="https://avatars.githubusercontent.com/u/145756592?s=200&v=4" alt="LiveStore" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> LiveStore
+  - <img src="https://automerge.org/img/automerge.png" alt="Automerge" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> Automerge
+  - <img src="https://www.evolu.dev/favicon.ico" alt="Evolu" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> Evolu
+  - <img src="https://electric-sql.com/favicon.ico" alt="ElectricSQL" width="16" height="16" style="display: inline-block; vertical-align: middle;" /> ElectricSQL
+
 
 
 ---
@@ -987,10 +1069,30 @@ S.parse(User)({ username: "gunta" })
 type User = S.Schema.Type<typeof User>
 ```
 
+---
+layout: fact
+---
+
+# Should <logos-hono />Hono support <logos-effect-icon /> Effect Schema?
+
+<div style="font-size: 5em;">🤔</div>
 
 ---
-src: ./languages.md
+layout: center
 ---
 
+# <mdi-weather-night /> Yesterday night I said
 
+<div style="font-size: 2.5em;"> Why not?😊</div>
+
+
+---
+layout: image
+image: /SchemaPR1.png
+---
+
+---
+layout: image
+image: /SchemaPR2.png
+---
 
