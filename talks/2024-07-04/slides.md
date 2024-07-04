@@ -5,7 +5,7 @@ transition: fade-out
 mdc: true
 class: text-center
 highlighter: shiki
-title: From TS and Go to Effect
+title: TSからEffectへ
 drawings:
   persist: false
 author: Günther Brunner
@@ -14,23 +14,22 @@ twoslash: true
 monaco: true
 ---
 
-Hi
 
 ---
 layout: default
 ---
  #
 
-<AutoFitText :max="200" :min="100" modelValue="From TS/Go to Effect"/>
+<AutoFitText :max="200" :min="100" modelValue="From TS to Effect"/>
 
 
 ---
 layout: default
 ---
 
-# Extract gzip file in plain typescript
+# 素のTypeScriptでgzipファイルを展開する
 
-Let's look at a single function used to extract the content of a gzip file:
+gzipファイルの内容を展開するために使用される単一の関数を見てみましょう：
 
 ```ts {1,2|all}
 import * as fs from "fs"
@@ -57,14 +56,14 @@ export async function extractGzip(
 
 <v-click>
 
-> The function is simple, but the implementation hides some errors.
+> この関数は単純ですが、実装にはいくつかのエラーが隠れています。
 </v-click>]
 
 ---
 layout: default
 ---
 
-# If the same was written in naive Go
+# 同じものを素朴なGoで書いた場合
 
 ```go {maxHeight:'100px'} 
 import (
@@ -98,23 +97,24 @@ func ExtractGzip(logger Logger, gzipFilename, extractedFilename string, useCache
 layout: default
 ---
 
-# Problems with "The happy path" TypeScript
+# "ハッピーパス"TypeScriptの問題点
 
-The first issue is error handling.
+最初の問題はエラー処理。
 
-Both `fs.existsSync` and `gunzip` can fail. 
+`fs.existsSync`と`gunzip`の両方が失敗する可能性があります。
+
 
 <v-click>
-For example:
+例えば：
 </v-click>
 
 <v-clicks>
 
-- Corrupted gzip file
+- 破損したgzipファイル
 
-- Impossible to access file system
+- ファイルシステムにアクセスできない
 
-- Missing permissions
+- 権限不足
 
 </v-clicks>
 
@@ -122,7 +122,8 @@ For example:
 
 <v-click>
 
-> The implementation doesn't perform any error handling. And the return type `Promise<void>` does not help to understand what can go wrong.
+> この実装ではエラー処理を行っていません。また、戻り値の型`Promise<void>`は何が間違う可能性があるかを理解するのに役立ちません。
+
 
 </v-click>
 
@@ -131,22 +132,24 @@ For example:
 layout: default
 ---
 
-# Second problem: dependencies and tests
+# 2つ目の問題：依存関係とテスト
 
-Dependencies are implicit, and therefore impossible to inject and hard to test.
+依存関係が暗黙的であるため、注入が不可能でテストが困難です。
+
 
 - `fs`
 - `gunzip`
 
-> Implicit dependencies **cannot be mocked for testing**.
+> 暗黙的な依存関係は**テストのためにモック化できません**。
 
-> They also create a strong coupling of the code to a specific library, which **makes refactoring way harder**.
+> また、特定のライブラリへのコードの強い結合を作り出し、**リファクタリングを困難にします**。
 
-`Logging.Logger` is instead injected as parameter, but it needs to be provided every time you call the function (inconvenient).
+`Logging.Logger`はパラメータとして注入されますが、関数を呼び出すたびに提供する必要があります（不便です）。
+
 
 ---
 
-# Dependencies
+# 依存関係
 
 ```ts {1|2|5|all}
 import * as fs from "fs"
@@ -176,12 +179,13 @@ export async function extractGzip(
 layout: default
 ---
 
-# Same implementation using Effect
-Let's look at the same implementation using `Effect`, and **how Effect solves all the above problems**:
+# Effectを使用した同じ実装
+`Effect`を使用した同じ実装を見てみましょう。**Effectが上記の問題をすべてどのように解決するか**を確認：
 
-- All dependencies are explicit (provided using `Context` + `Layer`)
-- Effect **automatically keeps track of possible error** directly in the return type
-- Effect provides logging out of the box, which can be then customized (using `Logger` and `Layer`)
+
+- すべての依存関係が明示的です（`Context` + `Layer`）
+- Effectは戻り値の型に直接**可能なエラーを自動的に追跡します**
+- Effectはすぐに使えるロギング機能を提供し、それをカスタマイズすることができます（`Logger`と`Layer`を使用）
 
 ---
 
@@ -220,15 +224,15 @@ const extractGzip = ({
 layout: default
 ---
 
-# FileSystem module
+# FileSystemモジュール
 
-The Effect ecosystem provides some packages to implement common use cases (`Http`, `FileSystem`, `Stream` and more).
+Effectエコシステムは、一般的なユースケース（`Http`、`FileSystem`、`Stream`など）を実装するためのパッケージをいくつか提供しています。
 
-In this case we use the `FileSystem` module from `@effect/platform`.
+この場合、`@effect/platform`の`FileSystem`モジュールを使用します。
 
-`FileSystem` is an Effect wrapper around `fs` that handles all errors:
+`FileSystem`は`fs`のEffectラッパーで、すべてのエラーを処理します：
 
-> `fs.exists` returns `Effect.Effect<boolean, PlatformError>`, where `PlatformError` represent an error when checking if the file exists
+> `fs.exists`は`Effect.Effect<boolean, PlatformError>`を返します。ここで`PlatformError`はファイルの存在確認時のエラーを表します
 
 ---
 
@@ -264,11 +268,11 @@ const extractGzip = ({
 layout: default
 ---
 
-# `Gzip` module
+# `Gzip` モジュール
 
-When a module is not already present in the Effect ecosystem we can easily implement our own.
+Effectエコシステムに既存のモジュールがない場合でも、簡単に独自のモジュールを実装することができます。
 
-In this example we implement a `Gzip` module.
+この例では、`Gzip`モジュールを実装します。
 
 ---
 
@@ -301,13 +305,13 @@ const extractGzip = ({
 ```
 ---
 
-Inside a new `Gzip.ts` file we create a `make` function that wraps `gunzip` using Effect to handle errors:
+新しい `Gzip.ts` ファイル内で、エラー処理のために Effect を使用して `gunzip` をラップする `make` 関数を作成します：
 
-- `Effect.asyncEffect` to wrap async code that returns a callback function (`gunzip`)
-- `Effect.tryPromise` to catch any errors when executing `gunzip`
-- Call `resume` when the `gunzip` callback returns successfully
+- `Effect.asyncEffect` を使用して、コールバック関数を返す非同期コード（`gunzip`）をラップします
+- `Effect.tryPromise` を使用して、`gunzip` 実行時のエラーをキャッチします
+- `gunzip` コールバックが正常に戻ったときに `resume` を呼び出します
 
-We then export the implementation as a module using `Context.Tag`.
+そして、`Context.Tag` を使用してモジュールとして実装をエクスポートします。
 
 ---
 
@@ -343,11 +347,11 @@ export class Gzip extends Context.Tag("Gzip")<Gzip, typeof make>() {}
 layout: default
 ---
 
-# Logger module
+# Loggerモジュール
 
-Logging is provided out of the box by Effect using methods like `logDebug`.
+Effectは、`logDebug`のようなメソッドを使用して、ログ機能を標準で提供しています。
 
-Later we can customize the `Logger` implementation and specify the log level (`Error`, `Debug`, `Info` and more).
+後で、`Logger`の実装をカスタマイズし、ログレベル（`Error`、`Debug`、`Info`など）を指定することができます。
 
 ---
 
@@ -383,12 +387,12 @@ const extractGzip = ({
 layout: default
 ---
 
-# Error handling
+# エラー処理
 
-All errors are tracked automatically by Effect.
+すべてのエラーはEffectによって自動的に追跡されます。
 
-- `fs.exists` can return a `PlatformError` (`BadArgument` or `SystemError`)
-- `gzip` can return a `GzipError`
+- `fs.exists`は`PlatformError`（`BadArgument`または`SystemError`）を返す可能性があります
+- `gzip`は`GzipError`を返す可能性があります
 
 ---
 
@@ -422,7 +426,7 @@ const extractGzip = ({
 
 ---
 
-We can catch and handle all errors using `Effect.catchTags`.
+`Effect.catchTags`を使用して、すべてのエラーをキャッチして処理することができます。
 
 ---
 
@@ -462,11 +466,11 @@ const extractGzip = ({
 layout: default
 ---
 
-# `Layer`: **Dependency injection**
+# `Layer`: **依存性注入**
 
-Until now we did not provide any concrete implementation of the dependencies.
+これまで、依存関係の具体的な実装を提供していませんでした。
 
-We start by defining a `Layer` called `Live` inside `Gzip`. This `Layer` exports the `make` implementation that we defined previously:
+まず、`Gzip`内に`Live`という`Layer`を定義します。この`Layer`は、以前に定義した`make`実装をエクスポートします：
 
 `Gzip.ts`
 ```typescript
@@ -475,9 +479,9 @@ export class Gzip extends Context.Tag("Gzip")<Gzip, typeof make>() {
 }
 ```
 
-For `FileSystem` instead we use the `NodeFileSystem` module that provides a complete Effect implementation of `fs` in Effect.
+`FileSystem`の代わりに、Effectで`fs`の完全な実装を提供する`NodeFileSystem`モジュールを使用します。
 
-We merge these 2 layers and provide them to the function using `Effect.provide` (dependency injection).
+これら2つのレイヤーをマージし、`Effect.provide`（依存性注入）を使用して関数に提供します。
 
 ---
 
@@ -532,11 +536,11 @@ const extractGzip = ({
 layout: default
 ---
 
-# **Running an Effect**
+# **Effectの実行**
 
-At the end of the function we execute the function using `Effect.runPromise`.
+関数の最後で、`Effect.runPromise`を使用して関数を実行します。
 
-This will execute all and return `Promise<void>` like the original function.
+これにより、すべてが実行され、元の関数と同様に`Promise<void>`が返されます。
 
 ---
 
@@ -574,9 +578,8 @@ const extractGzip = ({
 layout: default
 ---
 
-# This is it!
+# これで完了です！
 
-Now you can go ahead and **practice rewriting your own Typescript code with Effect**.
+さあ、**自分のTypescriptコードをEffectで書き直す練習**を始めましょう。
 
-As your project grows you will notice clear improvements in speed, reliability, developer experience and more 🚀
-
+プロジェクトが成長するにつれて、速度、信頼性、開発者体験などの明確な改善に気づくでしょう 🚀
