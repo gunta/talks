@@ -6,22 +6,23 @@
 		"build-one": "slidev build talks/2024-04-17/slides.ja.md talks/2024-04-17/slides.md ",
 		"build": "slidev build talks/2024-06-22/slides.md",
 		"dev-two": "slidev --open talks/2024-06-22/slides.md",
+		"dev-three": "slidev --open talks/2024-07-04/slides.md",
 		"export": "slidev export",
 		"format": "bunx @biomejs/biome format --write ./",
 		"lint": "bunx @biomejs/biome lint ./"
 	},
 	"dependencies": {
 		"@react-three/fiber": "^8.16.8",
-		"@slidev/cli": "^0.49.11",
+		"@slidev/cli": "^0.49.13",
 		"@slidev/theme-default": "latest",
-		"@types/three": "^0.165.0",
-		"framer-motion": "^11.2.11",
+		"@types/three": "^0.166.0",
+		"framer-motion": "^11.2.12",
 		"shadergradient": "^1.2.14",
-		"three": "^0.165.0",
-		"vue": "^3.4.29"
+		"three": "^0.166.1",
+		"vue": "^3.4.31"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.8.2",
-		"@iconify/json": "^2.2.221"
+		"@biomejs/biome": "^1.8.3",
+		"@iconify/json": "^2.2.224"
 	}
 }

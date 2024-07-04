@@ -18,6 +18,7 @@
 		"Pyodide",
 		"shiki",
 		"Slidev",
-		"twoslash"
+		"twoslash",
+		"typeof"
 	]
 }
