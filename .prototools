@@ -1,4 +1,4 @@
-bun = "1.1.4"
+bun = "latest"
 
 [settings]
 auto-install = true
