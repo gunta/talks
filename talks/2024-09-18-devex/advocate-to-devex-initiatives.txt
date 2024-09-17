@@ -1,0 +1,68 @@
+Advocating for DevEx initiatives: GitHub, Notion and more
+
+For leaders championing investments in developer experience, getting executive buy-in can be a big challenge. Executives aren’t the ones to blame: topics like tech debt and release infrastructure are pressing concerns for developers, but are easily drowned out at higher levels of an organization in the face of other pressures and demands.
+
+To capture advice on how to successfully advocate for DevEx investments, we interviewed four leaders from Peloton, Notion, GitHub, and Etsy. This article contains the strategies they use to effectively frame and communicate DevEx investments in ways that lead to executive buy-in. 
+
+Categorize projects into themes that resonate with leadership
+Jim Wang
+
+Jim Wang, VP of Internal Developer Experience at GitHub, shares how organizing projects into coherent themes helps leaders grasp the bigger picture of projects and enables them to more easily assess their potential value. ‍
+
+GitHub is the home of all developers, and we know how a smooth developer experience makes for happy, productive developers that produce high quality software. We look at the following factors when determining where best to allocate resources and attention to improve our internal developer experience.      
+
+1. Developer friction. We regularly survey our developers to understand the biggest points of friction and determine how to address them. For example, we recently invested in cutting CI times by almost 50% to ensure faster development feedback and speed of hotfixes. 
+
+2. Streamlining costs. We look for areas where we can cut costs without impacting quality of service delivered. If needed, we will pay more for a better experience but also want to be efficient in our use of funds. For example, we parallelize CI to make sure we have a speedy experience, but also are looking for ways to save money - see below for an example where we were able to do just that.
+
+3. Improving the platform. We strive to use our own services wherever possible, which we call “GitHub on GitHub”. This includes everything from Codespaces for development to Projects and Issues for managing work. This allows us to provide feedback to product teams directly and quickly. We are fortunate in this regard that we get to use this lever and be one of our own first users. 
+
+We then take all of these factors into consideration when we prioritize initiatives and work with leadership on alignment. Sometimes all of these categories come together at the same time, making it easy to advocate for improvements. An example of this is the recent initiative where we moved GitHub CI for our biggest internal project from a custom system to GitHub Actions: our developers expressed desire to use Actions, which helped us save money on our CI costs while also delivering a better developer experience. And as we were using GitHub Actions at scale, we were able to provide continuous feedback to the product team leading the work on larger runners for GitHub Actions. 
+
+Being able to advocate for your developer experience initiatives from the perspective of developer friction, streamlined costs, and driving product improvements is very powerful. I’ve personally found it very helpful to use these categories to get leadership buy-in among numerous other competing priorities.
+
+Play the long game: avoid having a single-minded agenda
+
+
+Willie Yao, Head of Infrastructure at Notion, recommends building trust with executives by making reasonable requests, aligning investments with leadership’s priorities, and being thoughtful with timing.
+
+When seeking buy-in, avoid coming across as being too attached to any particular outcome or agenda. Remember that trust is at the center of all human decision-making. The single most impactful variable of whether you are trustworthy is your “self-orientation”—what others believe your motives to be (see the “Trusted Advisor” or Google “Trust Equation”). Being a broken record of the same predictable agenda (“We need to invest more in developer experience!”) is a surefire way to guarantee a loss of attention. Instead, try to represent the company’s needs. For example, “If we don’t invest more in continuous delivery today, I am concerned that our deployments will grind to a halt in 6 months given our current rate of growth.”
+
+Because resource negotiation is a repeated game (preferably an “infinite game”), it pays to build a reputation for being a team player who makes conservative asks. If people trust you and know that you’re looking out for the company, they may be more likely to grant you what you ask for. Ask for only what you need and hold yourself to a high bar. Like any negotiation, you have to give something in return for your ask. Don’t ask for a blank check, and don’t promise something you can’t deliver. Be concrete about what problem your leader is having that would be solved with this investment, and be realistic about how long it would take for that impact to be realized.
+
+Focus on what your leaders want and speak in their language. Think about what they care about most and frame your perspective in those terms. For example, if you have product-obsessed founders (as most good founders are), highlight how improving developer experience can lead to a faster or more reliable pace of feature development that will ultimately help them achieve their vision for the product.
+
+Timing matters. You can’t fix every area of underinvestment, but you can certainly burn yourself out trying. Conserve your energy on the most important investments that are on the top of a hill today (and maybe just one that you need to push up the hill). You will find that you get a higher expected value this way.
+
+Finally, remember that you are a member of the technical staff for the company first, and advocate for developer experience second. Ask yourself, would you still make this case if you were assigned to a different scope? The best way to get leadership bought in on developer experience initiatives is to advocate for the most impactful possible initiatives across the portfolio of time horizons that matter for the company.
+
+‍Start by identifying “the thorn” in your leadership’s side
+
+
+Thansha Sadacharam, Tech Insights Lead at Peloton, recommends starting small by tackling a specific problem that is known to the engineering leadership team but that they do not have the bandwidth to solve. By addressing the problem in a data-driven manner, leaders can establish trust and credibility, paving the way for larger initiatives in the future.
+
+We use a Developer Experience survey to identify areas of friction, then we present the results to leadership along with our roadmap. 
+
+I have two pieces of advice for other leaders getting buy-in for DevEx investments. First, if you’re just getting started, identify one problem that is a thorn in your engineering leadership’s side. This is a problem they know exists, wish was solved, but don’t have the bandwidth to fix themselves. For us early on, our “thorn” was our developer onboarding process. 
+
+We gathered data about that problem, compared to industry benchmarks, and presented the results to leadership. This included qualitative data from developers about what parts of the onboarding process weren’t working, and quantitative data about how long different parts of the process took. We presented those findings along with the solution we could implement. This gave leadership a teaser of the things we could accomplish. 
+
+Another piece of advice: try to think about how you can get invited to present to leadership. Here’s what we’ve done in the past: after each survey, we’ll distribute the results to the entire organization, while also sending a one-pager to leadership that contains the most critical findings. This has been successful in getting the Tech Insights team invited to present an overview of the results to the executive leadership team. In these presentations, the focus has been covering one or two key metrics, for example overall developer satisfaction, along with the top three factors driving that score and the top three solutions the team is exploring. In addition, these presentations have included proposals for specific projects, and recommended focus areas for directors and managers across the company.                 
+
+Quantify the business value of projects
+
+
+Mike Fisher, former CTO at Etsy, recommends focusing on the potential business impact of projects rather than the technical details. By translating project outcomes into business terms, such as time savings or reduced attrition risk, leaders can justify investments to executives.
+
+Most of the time you’ll be the most technical person on the executive team. As soon as you start talking about something technical or getting into the nitty gritty of why something needs to be built, their eyes are going to roll back in their head. It doesn’t make sense to them. 
+
+You have to translate what you’re saying into a language they can understand, which is typically finance. Money. I’m not a huge fan of monetarily-driven metrics, but if you use them to translate the impact of an initiative on the business, they help. 
+
+At Etsy one way we were able to do that was with deploys. If you can take a deploy from 15 minutes down to 7 minutes, we can see how substantial that is by taking into account the average salary for engineers, how frequently they deploy, and the time saved that could be every week. Now, this calculation doesn’t account for things like the cost of disrupting flow. It also is harder to calculate the impact of problems like pages that disrupt on-call developers’ evenings, so they’re less productive the next day. But that’s why I call these calculations “back of the envelope": they don’t have to be precise to communicate the opportunity to the executive team. 
+
+You can also look at longer-term problems like attrition. If someone leaves my company, my estimate is you lose at least 6 months of productivity, or 12 if they’re more senior. So you can start telling your leadership team: “the industry average is 10% attrition per year. If we can cut that in half to 5%, we save X months of productivity.” These numbers really start to matter as you have more engineers. 
+
+The important point is to translate the impact of these problems into numbers that everyone can understand. And know that it doesn’t have to be precise; it can be rough math. 
+
+Thanks to Jim, Willie, Thansha, and Mike for sharing how they frame DevEx investments with their leadership teams. Developer experience investments don’t always neatly translate into terms that resonate with executives. The strategies shared in this article can help leaders frame these conversations in a way that builds trust and support from their executive team.
+
