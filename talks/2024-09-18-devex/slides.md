@@ -207,6 +207,64 @@ layout: default
 </v-clicks>
 
 ---
+layout: default
+---
+
+# DevEx DX25メトリクス
+
+<div class="bg-gray-100 w-full overflow-x-auto relative rounded-lg p-2">
+  <div class="grid grid-cols-5 gap-2">
+    <div class="col-span-3 bg-white border-2 border-indigo-500 rounded-md p-2">
+      <h3 class="text-base font-bold text-indigo-600 mb-1">DXドライバー</h3>
+      <div class="grid grid-cols-3 gap-1 text-sm">
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-package class="inline mr-1" />バッチサイズ</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-hammer-and-wrench class="inline mr-1" />ビルド</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-compass class="inline mr-1" />方向性</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-memo class="inline mr-1" />コードレビュー</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-file-cabinet class="inline mr-1" />コードベース</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-link class="inline mr-1" />つながり</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-people-hugging class="inline mr-1" />チーム協力</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-brain class="inline mr-1" />深い作業</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-page-facing-up class="inline mr-1" />ドキュメント</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-rocket class="inline mr-1" />リリース</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-high-voltage class="inline mr-1" />効率性</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-test-tube class="inline mr-1" />実験</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-warning class="inline mr-1" />インシデント</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-graduation-cap class="inline mr-1" />学習文化</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-speech-balloon class="inline mr-1" />フィードバック</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-laptop class="inline mr-1" />ローカル開発</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-house class="inline mr-1" />ローカル環境</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-money-with-wings class="inline mr-1" />技術的負債</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-bell class="inline mr-1" />オンコール</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-bug class="inline mr-1" />本番デバッグ</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-hourglass-not-done class="inline mr-1" />タイムライン</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-clipboard class="inline mr-1" />要件品質</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-world-map class="inline mr-1" />ロードマップ</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-microscope class="inline mr-1" />テスト範囲</div>
+        <div class="bg-indigo-100 p-1 rounded"><twemoji-stopwatch class="inline mr-1" />テスト効率</div>
+      </div>
+    </div>
+    <div class="bg-white border-2 border-lime-600 rounded-md p-2">
+      <h3 class="text-base font-bold text-lime-600 mb-1">DX KPI</h3>
+      <div class="space-y-1 text-sm">
+        <div class="bg-lime-100 p-1 rounded"><twemoji-racing-car class="inline mr-1" />スピード</div>
+        <div class="bg-lime-100 p-1 rounded"><twemoji-package class="inline mr-1" />デリバリー容易さ</div>
+        <div class="bg-lime-100 p-1 rounded"><twemoji-check-mark-button class="inline mr-1" />品質</div>
+      </div>
+    </div>
+    <div class="bg-white border-2 border-blue-950 rounded-md p-2">
+      <h3 class="text-base font-bold text-blue-950 mb-1">成果</h3>
+      <div class="space-y-1 text-sm">
+        <div class="bg-blue-100 p-1 rounded"><twemoji-chart-increasing class="inline mr-1" />組織<br>パフォーマンス</div>
+        <div class="bg-blue-100 p-1 rounded"><twemoji-fire class="inline mr-1" />従業員<br>エンゲージメント</div>
+        <div class="bg-blue-100 p-1 rounded"><twemoji-hourglass-not-done class="inline mr-1" />時間の無駄削減</div>
+        <div class="bg-blue-100 p-1 rounded"><twemoji-handshake class="inline mr-1" />離職率低下</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
 layout: two-cols
 ---
 
