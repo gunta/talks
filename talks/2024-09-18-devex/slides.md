@@ -101,7 +101,7 @@ layout: two-cols
 
 - 利点 <mdi-thumb-up class="text-green-500" />
   - DevOpsパフォーマンスの<span class="text-blue-500">**包括的評価**</span> <mdi-magnify-expand class="text-blue-500" />
-  - <span class="text-purple-500">**業界ベンチマーク**</span>との比較が可能 <mdi-chart-bar class="text-purple-500" />
+  - <span class="text-purple-500">**業界ベンチマ���ク**</span>との比較が可能 <mdi-chart-bar class="text-purple-500" />
 
 - 限界 <mdi-thumb-down class="text-red-500" />
   - <span class="text-orange-500">**ソフトウェア配信パフォーマンス**</span>に特化 <mdi-package-variant class="text-orange-500" />
@@ -189,20 +189,20 @@ layout: default
 
 <v-clicks>
 
-- **定義**: <span class="text-blue-500">開発者が自分の仕事について考え、感じ、価値を見出す方法</span>
+- **定義**: <span class="text-blue-500">**開発者が自分の仕事について考え、感じ、価値を見出す方法**</span>
 - <span class="text-purple-500">**25以上の社会技術的要因**</span>が影響
 
 ## なぜDevExが重要か
 
-- <span class="text-green-500">86%</span>のリーダーが優秀な人材の獲得・維持にDevExが不可欠と認識 <twemoji-person-raising-hand class="text-blue-500" />
-- <span class="text-orange-500">63%</span>の開発者が現職継続の判断にDevExを重視 <twemoji-briefcase class="text-purple-500" />
+- <span class="text-green-500">**86%**</span>のリーダーが**優秀な人材の獲得・維持**にDevExが**不可欠**と認識 <twemoji-person-raising-hand class="text-blue-500" />
+- <span class="text-orange-500">**63%**</span>の開発者が**現職継続の判断**にDevExを**重視** <twemoji-briefcase class="text-purple-500" />
 
 ## DevExの影響範囲
 
-- <span class="text-red-500">生産性向上</span> <twemoji-chart-increasing class="text-green-500" />
-- <span class="text-yellow-500">従業員満足度の増加</span> <twemoji-smiling-face-with-smiling-eyes class="text-yellow-500" />
-- <span class="text-teal-500">エンゲージメントの向上</span> <twemoji-fire class="text-orange-500" />
-- <span class="text-indigo-500">従業員の定着率改善</span> <twemoji-handshake class="text-blue-500" />
+- <span class="text-red-500">**生産性向上**</span> <twemoji-chart-increasing class="text-green-500" />
+- <span class="text-yellow-500">**従業員満足度の増加**</span> <twemoji-smiling-face-with-smiling-eyes class="text-yellow-500" />
+- <span class="text-teal-500">**エンゲージメントの向上**</span> <twemoji-fire class="text-orange-500" />
+- <span class="text-indigo-500">**従業員の定着率改善**</span> <twemoji-handshake class="text-blue-500" />
 
 </v-clicks>
 
@@ -268,23 +268,23 @@ layout: default
 layout: two-cols
 ---
 
-# 4. DevExの3つの次元
+# 4. DevExの3つの次元 <twemoji-gear class="text-blue-500" />
 
 <v-clicks>
 
-## 1. フィードバックループ
-- 定義：行動に対する応答の速度と品質
-- 例：
-  - コードレビューのターンアラウンドタイム
-  - CI結果生成時間
-  - デプロイメントリードタイム
+## 1. フィードバックループ <twemoji-repeat-button class="text-green-500" />
+- **定義**: <span class="text-green-500">**行動に対する応答の速度と品質**</span>
+- 例:
+  - <twemoji-memo class="text-yellow-500" /> コードレビューのターンアラウンドタイム
+  - <twemoji-hammer-and-wrench class="text-orange-500" /> CI結果生成時間
+  - <twemoji-rocket class="text-purple-500" /> デプロイメントリードタイム
 
-## 2. 認知負荷
-- 定義：タスク実行に必要な精神的処理量
-- 例：
-  - コードベースの複雑さの認識
-  - デバッグの容易さ
-  - ドキュメンテーションの理解しやすさ
+## 2. 認知負荷 <twemoji-brain class="text-red-500" />
+- **定義**: <span class="text-red-500">**タスク実行に必要な精神的処理量**</span>
+- 例:
+  - <twemoji-puzzle-piece class="text-blue-500" /> コードベースの複雑さの認識
+  - <twemoji-magnifying-glass-tilted-left class="text-indigo-500" /> デバッグの容易さ
+  - <twemoji-open-book class="text-teal-500" /> ドキュメンテーションの理解しやすさ
 
 </v-clicks>
 
@@ -292,20 +292,199 @@ layout: two-cols
 
 <v-clicks>
 
-## 3. フロー状態
-- 定義：完全に没頭し、エネルギッシュに集中できる状態
-- 例：
-  - 中断のない深い作業時間の満足度
-  - タスクや目標の明確さ
-  - オンコール待機の中断度
+## 3. フロー状態 <twemoji-person-in-lotus-position class="text-purple-500" />
+- **定義**: <span class="text-purple-500">**完全に没頭し、集中できる状態**</span>
+- 例:
+  - <twemoji-hourglass-not-done class="text-green-500" /> 中断のない深い作業時間の満足度
+  - <twemoji-bullseye class="text-blue-500" /> タスクや目標の明確さ
+  - <twemoji-mobile-phone class="text-red-500" /> オンコール待機の中断度
 
-## DevExの測定方法
+## DevExの測定方法 <twemoji-bar-chart class="text-orange-500" />
 
-1. 知覚指標（開発者の態度や意見）
-2. ワークフロー指標（システムと過程の動作）
-3. KPI（主要業績評価指標）
+1. <span class="text-yellow-500">**知覚指標**</span>（開発者の態度や意見）
+2. <span class="text-blue-500">**ワークフロー指標**</span>（システムと過程の動作）
+3. <span class="text-green-500">**KPI**</span>（主要業績評価指標）
 
 </v-clicks>
+
+---
+layout: two-cols
+---
+
+# DevExがROIに与える影響 (1/5)
+
+## McKinseyの調査結果
+
+<v-clicks>
+
+- 優れた開発者体験を提供する企業は、競合他社と比較して**4〜5倍の収益成長**を達成 <twemoji-chart-increasing class="text-green-500" />
+
+### 具体的な数字:
+- 開発者生産性: <span class="text-blue-500">**最大20%向上**</span> <twemoji-rocket class="text-blue-500" />
+- 新機能開発時間: <span class="text-orange-500">**50%短縮**</span> <twemoji-hourglass-not-done class="text-orange-500" />
+- 顧客満足度: <span class="text-green-500">**30%向上**</span> <twemoji-smiling-face-with-smiling-eyes class="text-green-500" />
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+## eBayの事例
+
+- DevEx改善の結果：
+  - リリース頻度が**2倍**に増加 <twemoji-rocket class="text-blue-500" />
+  - デプロイのリードタイムが**6分の1**に短縮 <twemoji-stopwatch class="text-purple-500" />
+
+### 具体的な改善:
+- <span class="text-red-500">**CI/CDパイプラインの最適化**</span> <twemoji-gear class="text-red-500" />
+- <span class="text-yellow-500">**自動化テストの拡充**</span> <twemoji-test-tube class="text-yellow-500" />
+- <span class="text-teal-500">**開発環境の標準化**</span> <twemoji-desktop-computer class="text-teal-500" />
+
+</v-clicks>
+
+---
+layout: default
+---
+
+# DevExがROIに与える影響 (2/5)
+
+## 経済的インパクトの分析
+
+<v-clicks>
+
+1. <span class="text-red-500">**人材コストの削減**</span>
+   - 500人規模の開発チームの例：
+     - 週8時間の非効率性 = 年間約<span class="text-red-500">**9億8,000万円**</span>のコスト <twemoji-money-bag class="text-red-500" />
+     - DevExの改善により、このコストの<span class="text-green-500">**60-70%**</span>を削減可能 <twemoji-chart-decreasing class="text-green-500" />
+
+2. <span class="text-blue-500">**離職率の低下によるコスト削減**</span>
+   - 平均的な開発者の採用・トレーニングコスト: 約<span class="text-blue-500">**426万円**</span>
+   - DevEx向上により離職率が20%低下した場合:
+     - 100人チームで年間<span class="text-green-500">**8,520万円**</span>以上の節約 <twemoji-money-with-wings class="text-green-500" />
+
+
+</v-clicks>
+
+---
+layout: default
+---
+
+# DevExがROIに与える影響 (3/5)
+
+## 経済的インパクトの分析
+
+<v-clicks>
+
+3. <span class="text-purple-500">**市場投入時間の短縮による収益増**</span>
+   - 新機能のリリースが1ヶ月早まった場合:
+     - 中規模のSaaS企業で<span class="text-blue-500">**10-15%の追加収益**</span>の可能性 <twemoji-chart-increasing class="text-blue-500" />
+
+4. <span class="text-orange-500">**バグ修正コストの削減**</span>
+   - 開発段階でのバグ修正コスト: <span class="text-orange-500">**1.4万円**</span>
+   - 本番環境でのバグ修正コスト: <span class="text-red-500">**142万円**</span>
+   - DevExによる品質向上で、本番環境のバグを30%削減:
+     - 1000件のバグで<span class="text-green-500">**3億8,340万円**</span>の節約 <twemoji-money-bag class="text-green-500" />
+     
+</v-clicks>
+
+---
+layout: two-cols
+---
+
+# DevExがROIに与える影響 (4/5)
+
+## 長期的な競争力向上
+
+<v-clicks>
+
+1. <span class="text-blue-500">**イノベーション能力の向上**</span> <twemoji-light-bulb class="text-blue-500" />
+   - <logos-google class="text-red-500" />の事例
+     - <span class="text-blue-500">**20%ルール**</span>による新製品開発 <twemoji-rocket class="text-blue-500" />
+     - <logos-google-gmail /> Gmail、<simple-icons-googlenews /> Google Newsなどの<span class="text-green-500">**が誕生**</span>
+   - DevExが良好な環境では、<span class="text-green-500">**新アイデアの提案が3倍に増加**</span> <twemoji-chart-increasing class="text-green-500" />
+
+2. <span class="text-orange-400">**顧客満足度の向上**</span> <twemoji-smiling-face-with-smiling-eyes class="text-orange-500" />
+   - <bi-amazon class="text-orange-400" />の事例
+     - <span class="text-red-500">**1秒のページロード遅延で売上1%減少**</span> <twemoji-snail class="text-red-500" />
+   - DevEx向上により、<span class="text-purple-500">**パフォーマンス最適化**</span>に注力
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+3. <span class="text-blue-500">**セキュリティの強化**</span> <twemoji-locked-with-key class="text-blue-500" />
+   - <logos-microsoft />の例
+     - DevSecOpsの導入で<span class="text-green-500">**セキュリティ脆弱性を40%削減**</span> <twemoji-shield class="text-green-500" />
+   - 良好なDevExにより、<span class="text-orange-500">**セキュリティベストプラクティス**</span>の採用が容易に <twemoji-check-mark-button class="text-orange-500" />
+
+4. <span class="text-red-500">**スケーラビリティの向上**</span> <twemoji-chart-increasing class="text-red-500" />
+   - <logos-netflix />の事例
+     - <span class="text-cyan-500">**クラウドネイティブアーキテクチャ**</span>の採用 <twemoji-cloud class="text-cyan-500" />
+     - <span class="text-blue-500">**1時間あたり数百回のデプロイを実現**</span> <twemoji-rocket class="text-blue-500" />
+   - DevEx向上により、<span class="text-green-500">**急成長に対応可能な柔軟な開発体制**</span>を構築 <twemoji-flexed-biceps class="text-green-500" />
+
+</v-clicks>
+
+---
+layout: center
+class: text-center
+---
+
+# DevExがROIに与える影響 (4/4)
+
+## 費用対効果計算例
+<style>
+table {
+  font-size: 0.9em;
+  line-height: 1.2;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+td {
+  text-align: right;
+}
+td:first-child {
+  text-align: left;
+}
+tr:last-child {
+  font-weight: bold;
+}
+</style>
+
+| 項目             | 投資（年間）    | リターン（年間）   |
+|------------------|-------------:|------------------:|
+| <twemoji-hammer-and-wrench /> DevExツール導入 | <span class="text-red-500 font-bold">1,420万円</span> | - |
+| <twemoji-graduation-cap /> トレーニング | <span class="text-red-500 font-bold">710万円</span> | - |
+| <twemoji-gear /> プロセス改善 | <span class="text-red-500 font-bold">2,130万円</span> | - |
+| <twemoji-chart-increasing /> 生産性向上 | - | <span class="text-green-500 font-bold">7,100万円</span> |
+| <twemoji-person-walking /> 離職率低下 | - | <span class="text-green-500 font-bold">2,840万円</span> |
+| <twemoji-bug /> バグ削減 | - | <span class="text-green-500 font-bold">4,260万円</span> |
+| <twemoji-money-bag /> 新規収益 | - | <span class="text-green-500 font-bold">5,680万円</span> |
+| <twemoji-abacus /> **合計** | <span class="text-red-500 font-bold text-xl">**4,260万円**</span> | <span class="text-green-500 font-bold text-xl">**1億9,880万円**</span> |
+
+<div class="mt-4">
+
+**ROI = (リターン - 投資) / 投資 × 100**
+= (198,800,000 - 42,600,000) / 42,600,000 × 100 = **366%**
+</div>
+
+<div class="mt-4 text-lg font-bold text-green-500 flex items-center justify-center">
+  DevExへの投資は、1年で<span class="text-3xl text-yellow-400 mx-2">3.66</span>倍のリターンを生み出す。
+</div>
+
+
+
 
 ---
 layout: default
@@ -325,8 +504,8 @@ layout: default
 
 ## 経済的インパクト
 - 500人規模の開発チームの例：
-  - 週8時間の非効率性 = 年間約**690万ドル**のコスト <twemoji-money-bag class="text-red-500" />
-  - DevExの改善により、このコストの大部分を削減可能 <twemoji-chart-decreasing class="text-green-500" />
+  - 週8時間の非効率性 = 年間約**9億8,000万円**のコスト <twemoji-money-bag class="text-red-500" />
+  - DevExの改善により、このコストの60-70%を削減可能 <twemoji-chart-decreasing class="text-green-500" />
 
 </v-clicks>
 
@@ -430,7 +609,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 
 2. **小規模から始める**
    - 共通の問題点や改善領域の特定
-   - 影響の大きい変更に焦点���当てる
+   - 影響の大きい変更に焦点当てる
 
 3. **透明性のあるコミュニケーション**
    - メトリクスの収集方法と使用目的の明確化
