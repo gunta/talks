@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://cdn.midjourney.com/e5ea3b20-cb3e-4439-a0f7-7145a664be56/0_1.png
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -13,6 +13,51 @@ transition: slide-left
 title: DevExは究極のROI：開発者満足度が紐解く驚異の収益化
 mdc: true
 ---
+
+# DevExは究極のROI<br><br>**開発者満足度が紐解く<br>驚異の収益化**
+
+
+---
+layout: image
+image: white-art-bg.jpg
+class: text-black
+---
+<div class="text-black">
+
+# 自己紹介
+ 
+<fluent-emoji-person-light /> **<ruby>Günther<rt>グンタ</rt></ruby> <ruby>Brunner<rt>ブルンナー</rt></ruby>**
+
+<img src="/CALogo.svg" alt="CA" width="20px" height="20px" style="display: inline-block; vertical-align: middle; margin-bottom: 5px;" /> CyberAgent <span style="color: gray;">since 2012</span>
+<br>
+
+- <mdi-office-building class="text-orange-500" /> CTO統括室 <carbon-development class="text-teal-500" /> > [**Developer Productivity室**](https://site.developerproductivity.dev/) 
+<br>
+
+
+<flat-color-icons-like /> <logos-openai-icon /> AI <majesticons-ux-circle-line /> UX <logos-figma /> Design <emojione-v1-lightning-mood /> Performance
+<br>
+<logos-spotify-icon /> Music <logos-netflix-icon /> Movies <noto-sushi /> Sushi <material-symbols-travel class="text-blue-400" /> Travel
+
+<br>
+<br>
+
+<fa6-brands-square-x-twitter /> [@gunta85](https://twitter.com/gunta85)
+<br>
+
+<carbon-logo-github /> [@gunta](https://github.com/gunta)
+<br>
+
+<skill-icons-devto-light /> [dev.to/gunta](https://dev.to/gunta)
+<br>
+
+<simple-icons-zenn class="text-blue-400"/> [zenn.dev/gunta](https://zenn.dev/gunta)
+
+</div>
+
+---
+
+
 
 # DevExは究極のROI：<br>開発者満足度が紐解く驚異の収益化
 
@@ -929,44 +974,42 @@ layout: two-cols
 <v-clicks>
 
 1. <twemoji-gear class="text-blue-500" /> **<span class="text-blue-500">自身の開発環境の最適化</span>**
-   - [ ] <twemoji-hammer-and-wrench class="text-cyan-500" /> 効率的なツールやプラクティスの採用
+   - [ ] <twemoji-hammer-and-wrench class="text-cyan-500" /> **効率的なツールとプラクティス**の積極的な採用
 
 2. <twemoji-people-hugging class="text-green-500" /> **<span class="text-green-500">チーム内でのDevEx文化の醸成</span>**
-   - [ ] <twemoji-handshake class="text-lime-500" /> ベストプラクティスの共有
-   - [ ] <twemoji-speech-balloon class="text-lime-500" /> 定期的なDevExに関する議論の場の設定
+   - [ ] <twemoji-handshake class="text-lime-500" /> **ベストプラクティスの共有と実践**
+   - [ ] <twemoji-speech-balloon class="text-lime-500" /> DevExに関する**定期的な議論の場**の設定と促進
 
 3. <twemoji-chart-increasing class="text-purple-500" /> **<span class="text-purple-500">DevExメトリクスの導入と追跡</span>**
-   - [ ] <twemoji-bar-chart class="text-fuchsia-500" /> チームや個人レベルでの測定
-   - [ ] <twemoji-spiral-notepad class="text-fuchsia-500" /> データに基づく継続的な改善
+   - [ ] <twemoji-bar-chart class="text-fuchsia-500" /> チームと個人レベルでの**客観的な測定**
+   - [ ] <twemoji-spiral-notepad class="text-fuchsia-500" /> データに基づく**継続的な改善サイクル**の確立
 
 </v-clicks>
 
 ::right::
 
-
 <v-clicks>
 
 4. <twemoji-light-bulb class="text-orange-500" /> **<span class="text-orange-500">新しい技術やツールの積極的な探求</span>**
-   - [ ] <twemoji-magnifying-glass-tilted-left class="text-amber-500" /> DevExを向上させる可能性のある革新的なソリューションの調査
-   - [ ] <twemoji-test-tube class="text-amber-500" /> 小規模な実験的導入
-   
+   - [ ] <twemoji-magnifying-glass-tilted-left class="text-amber-500" /> DevEx向上に寄与する**革新的なソリューション**の調査
+   - [ ] <twemoji-test-tube class="text-amber-500" /> **小規模な実験的導入**と効果検証
+
 5. <twemoji-megaphone class="text-red-500" /> **<span class="text-red-500">組織全体へのDevExの推進と定着</span>**
-   - [ ] <twemoji-trophy class="text-rose-500" /> 成功事例と具体的な事業価値の共有
-   - [ ] <twemoji-money-with-wings class="text-rose-500" /> DevEx改善による**ROIと生産性向上**の実証
-   - [ ] <ph-presentation-bold class="text-violet-500" /> 経営層への**DevExの重要性**の説明と**投資の要請**
-   - [ ] <twemoji-rocket class="text-violet-500" /> DevEx向上が**イノベーション促進**に与える影響の実例提示
+   - [ ] <twemoji-trophy class="text-rose-500" /> **成功事例**と具体的な**事業価値**の共有、DevEx改善による**ROIと生産性向上**の実証
+   - [ ] <ph-presentation-bold class="text-violet-500" /> 経営層への**DevExの重要性**の説明と**戦略的投資**の要請
 
+</v-clicks>
 
+<v-clicks>
 <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 rounded-md shadow-md">
   <p class="font-semibold">
     <twemoji-information class="inline-block mr-2" />
-    重要な責務
+    マネージャーの重要な責務
   </p>
   <p class="mt-2">
-    マネージャーの責務として、DevExの重要性を組織全体に浸透させ、継続的な改善を推進することが求められる。
+    DevExの重要性を<strong>組織全体に浸透</strong>させ、<strong>継続的な改善</strong>を推進することで、<strong>チームの生産性</strong>と<strong>エンジニアの満足度</strong>を向上させる。
   </p>
 </div>
-
 </v-clicks>
 
 ---
@@ -979,3 +1022,8 @@ class: text-center
 質問やディスカッションをお待ちしています
 
 <twemoji-clapping-hands class="text-5xl mt-4" />
+
+<div class="mt-8 flex items-center justify-center">
+  <devicon-slack class="text-2xl mr-2" />
+  <a href="https://cyberagent.enterprise.slack.com/archives/C024G643C5R" target="_blank" class="text-xl">#times_dp</a>
+</div>
