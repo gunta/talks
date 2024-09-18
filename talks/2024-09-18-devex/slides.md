@@ -313,11 +313,13 @@ layout: two-cols
 
 # DevExがROIに与える影響 (1/5)
 
-## McKinseyの調査結果
+<img src="https://cdn.brandfetch.io/iddTc-lesG/theme/dark/logo.svg?k=bfHSJFAPEG" alt="McKinsey Logo" class="w-32 h-auto">
+
+### 調査結果
 
 <v-clicks>
 
-- 優れた開発者体験を提供する企業は、競合他社と比較して**4〜5倍の収益成長**を達成 <twemoji-chart-increasing class="text-green-500" />
+- 優れた開発者体験を提供する企業は、<br>競合他社と比較して**4〜5倍の収益成長**を達成 <twemoji-chart-increasing class="text-green-500" />
 
 ### 具体的な数字:
 - 開発者生産性: <span class="text-blue-500">**最大20%向上**</span> <twemoji-rocket class="text-blue-500" />
@@ -330,7 +332,8 @@ layout: two-cols
 
 <v-clicks>
 
-## eBayの事例
+<img src="https://cdn.brandfetch.io/idjTS-RPU1/theme/dark/logo.svg?k=bfHSJFAPEG" alt="eBay Logo" class="w-16 h-auto ">
+
 
 - DevEx改善の結果：
   - リリース頻度が**2倍**に増加 <twemoji-rocket class="text-blue-500" />
@@ -478,11 +481,13 @@ tr:last-child {
 **ROI = (リターン - 投資) / 投資 × 100**
 = (198,800,000 - 42,600,000) / 42,600,000 × 100 = **366%**
 </div>
-
-<div class="mt-4 text-lg font-bold text-green-500 flex items-center justify-center">
-  DevExへの投資は、1年で<span class="text-3xl text-yellow-400 mx-2">3.66</span>倍のリターンを生み出す。
+<div class="mt-4 p-4 bg-gradient-to-r from-blue-100 to-purple-100 border-2 border-indigo-300 rounded-lg shadow-md">
+  <div class="text-lg font-bold text-indigo-700 flex items-center justify-center">
+    DevExへの投資は、1年で
+    <span class="text-4xl text-orange-500 mx-2 bg-orange-100 px-3 py-1 rounded-full shadow-inner">3.66</span>
+    倍のリターンを生み出す。
+  </div>
 </div>
-
 
 
 
