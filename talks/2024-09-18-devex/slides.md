@@ -271,6 +271,96 @@ layout: default
 layout: default
 ---
 
+# DevEx論文の背景
+
+## 論文概要
+
+<v-clicks>
+
+- タイトル: "DevEx: What Actually Drives Productivity"
+- 発表日: 2023年5月3日
+- 掲載: Communications of the ACM, Vol. 21 Issue 2
+- リンク: [https://queue.acm.org/detail.cfm?id=3595878](https://queue.acm.org/detail.cfm?id=3595878)
+
+</v-clicks>
+
+---
+layout: default
+---
+
+# DevEx論文の背景（続き）
+
+## 著者と経歴
+
+
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+  <div>
+    <p><strong>Dr. Margaret-Anne Storey</strong> <twemoji-woman-technologist /></p>
+    <ul class="list-disc list-inside">
+      <li><strong>ビクトリア大学 CS教授</strong></li>
+      <li>ソフトウェア工学、HCI専門家</li>
+      <li><strong>SPACEフレームワーク共同著者</strong></li>
+    </ul>
+  </div>
+  <div>
+    <p><strong>Dr. Abi Noda</strong> <twemoji-man-technologist /></p>
+    <ul class="list-disc list-inside">
+      <li><strong>DX社 創設者兼CEO</strong></li>
+      <li>元GitHubのPM</li>
+      <li>開発者生産性専門家</li>
+    </ul>
+  </div>
+  <div>
+    <p><strong>Dr. Nicole Forsgren</strong> <twemoji-woman-scientist /></p>
+    <ul class="list-disc list-inside">
+      <li><strong>GitHub リサーチ＆戦略VP</strong></li>
+      <li>元Google、MSFT DevOpsリード</li>
+      <li><strong>DORA共同創設者</strong></li>
+      <li>『Accelerate』共著者</li>
+    </ul>
+  </div>
+  <div>
+    <p><strong>Dr. Michaela Greiler</strong> <twemoji-woman-teacher /></p>
+    <ul class="list-disc list-inside">
+      <li><strong>ソフトウェアエンジニアリングコンサルタント</strong></li>
+      <li>元Microsoft研究者</li>
+      <li>コードレビュー、生産性専門家</li>
+    </ul>
+  </div>
+</div>
+
+
+---
+layout: default
+---
+
+# DevEx論文の重要性 
+
+<v-clicks>
+
+- <twemoji-busts-in-silhouette class="text-blue-500" /> **4人の著名な研究者・実務者による共同研究**
+  - 異なる専門性と経験を持つ専門家の知見を結集
+- <twemoji-handshake class="text-green-500" /> **学術研究と産業実践の融合**
+  - 理論と実践の橋渡しを実現し、より実用的な知見を提供
+- <twemoji-building-construction class="text-orange-500" /> **DORA、SPACE、その他の先行研究を基に発展**
+  - 既存の重要な研究成果を統合し、新たな視点を加えて発展
+- <twemoji-magnifying-glass-tilted-left class="text-purple-500" /> **開発者体験（DevEx）の包括的な理解と測定方法を提案**
+  - DevExの多面的な側面を捉え、実践的な改善策を提示
+
+</v-clicks>
+
+<div class="mt-4 p-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg">
+  <p class="text-white font-bold text-lg">
+    <twemoji-warning /> この論文は、ソフトウェア開発プロセスと開発者の生産性向上に関する重要な指針です。
+  </p>
+</div>
+
+
+---
+layout: default
+---
+
 # DevEx DX25メトリクス
 
 <div class="bg-gray-100 w-full overflow-x-auto relative rounded-lg p-2">
@@ -575,46 +665,23 @@ tr:last-child {
 
 
 ---
-layout: default
----
-
-# 5. DevExがROIに与える影響
-
-<v-clicks>
-
-## McKinseyの調査結果
-- 優れた開発者体験を提供する企業は、競合他社と比較して**4〜5倍の収益成長**を達成 <twemoji-money-with-wings class="text-green-500" />
-
-## eBayの事例
-- DevEx改善の結果：
-  - リリース頻度が**2倍**に増加 <twemoji-rocket class="text-blue-500" />
-  - デプロイのリードタイムが**6分の1**に短縮 <twemoji-stopwatch class="text-purple-500" />
-
-## 経済的インパクト
-- 500人規模の開発チームの例：
-  - 週8時間の非効率性 = 年間約**9億8,000万円**のコスト <twemoji-money-bag class="text-red-500" />
-  - DevExの改善により、このコストの60-70%を削減可能 <twemoji-chart-decreasing class="text-green-500" />
-
-</v-clicks>
-
----
 layout: two-cols
 ---
 
-# DevExがもたらす具体的な利益
+# DevExがもたらす具体的な利益 <twemoji-rocket />
 
 <v-clicks>
 
-1. 開発者の生産性向上
-   - より多の機能をより早くリリース
-   - 技術的負債の削減
+1. <span class="text-blue-600 font-bold">開発者の生産性向上</span> <twemoji-chart-increasing />
+   - <twemoji-high-voltage /> より多くの機能をより早くリリース
+   - <twemoji-hammer-and-wrench /> 技術的負債の削減
 
-2. イノベーションの促進
-   - フロー状態の増加により創造性向上
-   - 新製品や機能の開発が加速
+2. <span class="text-green-600 font-bold">イノベーションの促進</span> <twemoji-light-bulb />
+   - <twemoji-brain /> フロー状態の増加により創造性向上
+   - <twemoji-rocket /> 新製品や機能の開発が加速
 
-3. 従業員の定着率向上
-   - 採用・トレーニングコストの削減
+3. <span class="text-purple-600 font-bold">従業員の定着率向上</span> <twemoji-handshake />
+   - <twemoji-money-with-wings /> 採用・トレーニングコストの削減
 
 </v-clicks>
 
@@ -622,15 +689,25 @@ layout: two-cols
 
 <v-clicks>
 
-4. 品質向上
-   - バグの減少とセキュリティの向上
-   - カスタマーサポートコスト削減
+4. <span class="text-red-600 font-bold">品質向上</span> <twemoji-check-mark-button />
+   - <twemoji-lady-beetle /> バグの減少とセキュリティの向上
+   - <twemoji-money-bag /> カスタマーサポートコスト削減
 
-5. ビジネスの競争力強化
-   - 市場投入までの時間短縮
-   - 顧客ニーズへの迅速な対応
+5. <span class="text-orange-600 font-bold">ビジネスの競争力強化</span> <twemoji-trophy />
+   - <twemoji-stopwatch /> 市場投入までの時間短縮
+   - <twemoji-bullseye /> 顧客ニーズへの迅速な対応
 
 </v-clicks>
+
+<style>
+.slidev-vclick-target {
+  transition: all 0.5s ease;
+}
+.slidev-vclick-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+</style>
 
 ---
 layout: center
@@ -640,6 +717,28 @@ class: text-center
 # 6. DX Core 4：統合フレームワークの紹介
 
 ---
+layout: image-right
+image: ./dx-core-x.png
+class: 'image-contain'
+backgroundSize: contain
+---
+
+
+# DX Core 4：最先端の統合フレームワーク
+
+<v-clicks>
+
+- <span class="text-blue-600 font-bold">最も最新の開発者生産性測定フレームワーク</span> <twemoji-sparkles class="text-yellow-500" />
+- <span class="text-green-600 font-bold">現時点では学術論文はなく、未公開記事</span> <twemoji-closed-book class="text-red-500" />
+  - [DX Core 4](https://getdx.com/research/measuring-developer-productivity-with-the-dx-core-4/)
+- <span class="text-purple-600 font-bold">論文化は計画中</span> <twemoji-memo class="text-orange-500" />
+  - 著者の一人である<span class="text-teal-600 font-bold">Abi Noda</span>にDMで<br>確認済み <twemoji-check-mark-button class="text-green-500" />
+
+</v-clicks>
+
+
+
+---
 layout: default
 ---
 
@@ -647,18 +746,18 @@ layout: default
 
 <v-clicks>
 
-- DORA、SPACE、DevExを統合した新しいフレームワーク
-- 4つの主要次元：
-  1. スピード <twemoji-racing-car class="text-red-500" />
-  2. 効果 <twemoji-direct-hit class="text-green-500" />
-  3. 品質 <twemoji-check-mark-button class="text-blue-500" />
-  4. ビジネスインパクト <twemoji-chart-increasing class="text-purple-500" />
+- <span class="text-blue-600">DORA、SPACE、DevExを統合した<strong>新しいフレームワーク</strong></span> <twemoji-sparkles class="text-yellow-500" />
+- 4つの主要次元
+  1. <span class="text-red-600"><strong>スピード</strong></span> <twemoji-racing-car class="text-red-500" />
+  2. <span class="text-green-600"><strong>効果</strong></span> <twemoji-direct-hit class="text-green-500" />
+  3. <span class="text-blue-600"><strong>品質</strong></span> <twemoji-check-mark-button class="text-blue-500" />
+  4. <span class="text-purple-600"><strong>ビジネスインパクト</strong></span> <twemoji-chart-increasing class="text-purple-500" />
 
 ## 特徴
-- 多次元的アプローチ
-- 組織の全レベルをサポート
-- 数週間で導入可能
-- 恐怖やゲーミフィケーションを回避
+- <span class="text-orange-600"><strong>多次元的アプローチ</strong></span> <twemoji-globe-showing-americas class="text-blue-500" />
+- <span class="text-teal-600">組織の<strong>全レベルをサポート</strong></span> <twemoji-office-building class="text-purple-500" />
+- <span class="text-indigo-600"><strong>数週間で導入可能</strong></span> <twemoji-hourglass-not-done class="text-green-500" />
+- <span class="text-pink-600"><strong>恐怖やゲーミフィケーションを回避</strong></span> <twemoji-no-entry class="text-red-500" />
 
 </v-clicks>
 
@@ -666,7 +765,35 @@ layout: default
 layout: default
 ---
 
-# DX Core 4の指標例
+# なぜDX Core 4が必要か
+
+<v-clicks>
+
+- <span class="text-blue-600"><strong>DORAの限界:</strong></span> 主にデプロイメントに焦点を当て、<strong>開発プロセス全体を捉えきれない</strong> <twemoji-magnifying-glass-tilted-left class="text-blue-500" />
+- <span class="text-green-600"><strong>SPACEの課題:</strong></span> 包括的だが、<strong>具体的な測定方法が不明確</strong> <twemoji-question-mark class="text-green-500" />
+- <span class="text-purple-600"><strong>DevExの弱点:</strong></span> 開発者の体験に重点を置くが、<strong>ビジネス成果との関連性が弱い</strong> <twemoji-chart-decreasing class="text-purple-500" />
+- <span class="text-red-600"><strong>DX Core 4の利点:</strong></span> 上記の限界を克服し、<strong>包括的かつ実用的なフレームワークを提供</strong> <twemoji-check-mark-button class="text-red-500" />
+
+</v-clicks>
+
+<v-clicks>
+
+## DX Core 4の必要性
+
+- <span class="text-orange-600"><strong>統合:</strong></span> 既存フレームワークを組み合わせ、<strong>開発プロセスを包括的に把握</strong> <twemoji-puzzle-piece class="text-orange-500" />
+- <span class="text-teal-600"><strong>実用性:</strong></span> <strong>具体的な指標</strong>で改善の方向性を明示 <twemoji-straight-ruler class="text-teal-500" />
+- <span class="text-indigo-600"><strong>ビジネス連携:</strong></span> 生産性と<strong>ビジネス成果を直結</strong> <twemoji-handshake class="text-indigo-500" />
+- <span class="text-pink-600"><strong>柔軟性:</strong></span> 組織に応じて<strong>カスタマイズ可能</strong> <twemoji-flexed-biceps class="text-pink-500" />
+
+</v-clicks>
+
+
+
+---
+layout: default
+---
+
+# DX Core 4の指標例 <twemoji-bar-chart class="text-blue-500" />
 
 <style>
 .slidev-layout table {
@@ -674,13 +801,22 @@ layout: default
 }
 </style>
 
-| スピード | 効果 | 品質 | インパクト |
+| <span class="text-red-500 font-bold">スピード</span> <twemoji-racing-car /> | <span class="text-green-500 font-bold">効果</span> <twemoji-direct-hit /> | <span class="text-blue-500 font-bold">品質</span> <twemoji-check-mark-button /> | <span class="text-purple-500 font-bold">インパクト</span> <twemoji-chart-increasing /> |
 |----------|------|------|------------|
-| リードタイム | 開発者体験指数（DXI） | 変更失敗率 | 新機能に費やす時間の割合 |
-| デプロイ頻度 | エンジニアあたりのDiff数 | インシデント復旧時間 | イニシアチブの進捗とROI |
-| 配信の知覚速度 | 配信の容易さ | エンジニアあたりのインシデント数 | エンジニアあたりの収益* |
+| <twemoji-hourglass-not-done /> リードタイム | <twemoji-smiling-face-with-sunglasses /> 開発者体験指数（DXI） | <twemoji-warning /> 変更失敗率 | <twemoji-stopwatch /> **新機能に費やす時間の割合** |
+| <twemoji-rocket /> デプロイ頻度 | <twemoji-bar-chart /> エンジニアあたりのDiff数 | <twemoji-ambulance /> インシデント復旧時間 | <twemoji-chart-increasing /> **イニシアチブの進捗とROI** |
+| <twemoji-racing-car /> 配信の知覚速度 | <twemoji-package /> 配信の容易さ | <twemoji-bug /> エンジニアあたりのインシデント数 | <twemoji-money-bag /> **エンジニアあたりの収益** * |
 
-<small>*組織レベルのみ</small>
+<small class="text-gray-500">*組織レベルのみ</small>
+
+<v-clicks>
+
+- <span class="text-red-500 font-bold">スピード</span>: 開発サイクルの速さを測定 <twemoji-stopwatch class="text-red-500" />
+- <span class="text-green-500 font-bold">効果</span>: 開発者の生産性と体験を評価 <twemoji-rocket class="text-green-500" />
+- <span class="text-blue-500 font-bold">品質</span>: ソフトウェアの信頼性と安定性を確認 <twemoji-shield class="text-blue-500" />
+- <span class="text-purple-500 font-bold">インパクト</span>: ビジネス成果への貢献度を測定 <twemoji-money-bag class="text-purple-500" />
+
+</v-clicks>
 
 ---
 layout: image-right
