@@ -311,9 +311,26 @@ layout: two-cols
 layout: two-cols
 ---
 
+<style>
+.devex-impact h1 {
+  margin-bottom: 1rem;
+}
+.devex-impact h3 {
+  margin-top: 1rem;
+}
+.devex-impact ul {
+  margin-top: 0.5rem;
+}
+.devex-impact .logo {
+  margin-bottom: 1rem;
+}
+</style>
+
+<div class="devex-impact">
+
 # DevExがROIに与える影響 (1/5)
 
-<img src="https://cdn.brandfetch.io/iddTc-lesG/theme/dark/logo.svg?k=bfHSJFAPEG" alt="McKinsey Logo" class="w-32 h-auto">
+<img src="https://cdn.brandfetch.io/iddTc-lesG/theme/dark/logo.svg?k=bfHSJFAPEG" alt="McKinsey Logo" class="w-32 h-auto logo">
 
 ### 調査結果
 
@@ -328,12 +345,15 @@ layout: two-cols
 
 </v-clicks>
 
+</div>
+
 ::right::
+
+<div class="devex-impact">
 
 <v-clicks>
 
-<img src="https://cdn.brandfetch.io/idjTS-RPU1/theme/dark/logo.svg?k=bfHSJFAPEG" alt="eBay Logo" class="w-16 h-auto ">
-
+<img src="https://cdn.brandfetch.io/idjTS-RPU1/theme/dark/logo.svg?k=bfHSJFAPEG" alt="eBay Logo" class="w-16 h-auto logo">
 
 - DevEx改善の結果：
   - リリース頻度が**2倍**に増加 <twemoji-rocket class="text-blue-500" />
@@ -345,6 +365,8 @@ layout: two-cols
 - <span class="text-teal-500">**開発環境の標準化**</span> <twemoji-desktop-computer class="text-teal-500" />
 
 </v-clicks>
+
+</div>
 
 ---
 layout: default
@@ -436,7 +458,7 @@ layout: center
 class: text-center
 ---
 
-# DevExがROIに与える影響 (4/4)
+# DevExがROIに与える影響 (5/5)
 
 ## 費用対効果計算例
 <style>
