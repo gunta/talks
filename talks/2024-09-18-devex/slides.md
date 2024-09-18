@@ -56,24 +56,6 @@ class: text-black
 </div>
 
 ---
-
-
-
-# DevExは究極のROI：<br>開発者満足度が紐解く驚異の収益化
-
-
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
-
----
 layout: default
 ---
 
@@ -99,17 +81,21 @@ image: https://plus.unsplash.com/premium_photo-1661320941506-9fbe0aab091c?q=80&w
 - **開発者体験（DevEx）の重要性**
   - 開発者の<span class="text-orange-500">**生産性**</span>と<span class="text-teal-500">**満足度**</span>に<span class="text-indigo-500">**直結**</span> <twemoji-smiling-face-with-smiling-eyes class="text-blue-500" />
 
-- <small>参考：State of developer experience report 2024 - Atlassian & DX</small>
+- <small>参考：<a href="https://getdx.com/report/state-of-developer-experience-report/" target="_blank">State of developer experience report 2024 - Atlassian & DX</a></small>
 
 
 </v-clicks>
+
+<!--
+This is a note
+-->
 
 ---
 layout: image-right
 image: https://plus.unsplash.com/premium_photo-1661320941506-9fbe0aab091c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
-# 1. 開発生産性の現状（2024）
+# 1. 開発生産性の現状（2024）続き
 
 <v-clicks>
 
@@ -128,11 +114,9 @@ image: https://plus.unsplash.com/premium_photo-1661320941506-9fbe0aab091c?q=80&w
 layout: two-cols
 ---
 
-# 2. 従来のフレームワーク
+# 2. 従来のフレームワーク: DORA
 
 <!-- <v-clicks> -->
-
-## DORA 
 
 | 主要指標 | 説明 |
 |----------|------|
@@ -146,7 +130,7 @@ layout: two-cols
 
 - 利点 <mdi-thumb-up class="text-green-500" />
   - DevOpsパフォーマンスの<span class="text-blue-500">**包括的評価**</span> <mdi-magnify-expand class="text-blue-500" />
-  - <span class="text-purple-500">**業界ベンチマ���ク**</span>との比較が可能 <mdi-chart-bar class="text-purple-500" />
+  - <span class="text-purple-500">**業界ベンチマーク**</span>との比較が可能 <mdi-chart-bar class="text-purple-500" />
 
 - 限界 <mdi-thumb-down class="text-red-500" />
   - <span class="text-orange-500">**ソフトウェア配信パフォーマンス**</span>に特化 <mdi-package-variant class="text-orange-500" />
@@ -160,9 +144,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# 2. 従来のフレームワーク
-
-## DORA Core v2
+# 2. 従来のフレームワーク: DORA Core v2
 
 | 主要要素 | 説明 |
 |----------|------|
@@ -191,9 +173,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# 2. 従来のフレームワーク
-
-## SPACE
+# 2. 従来のフレームワーク: SPACE
 
 | 次元 | 説明 |
 |------|------|
@@ -227,11 +207,12 @@ background: https://images.unsplash.com/photo-1483388147740-e5c70536042e?q=80&w=
 ### Developer Experience（開発者体験）の略称
 
 ---
-layout: center
-class: text-center
+layout: image
+image: https://cdn.midjourney.com/ba887992-43ec-4f20-ac53-94a834f82718/0_0.png
+class: text-center flex items-center justify-center
 ---
 
-# その前に、<br>なぜ**開発者体験**が見過ごされがちか？
+# <br><span class="text-black bg-gradient-to-r from-purple-700 via-pink-600 to-black-500 bg-clip-text text-transparent opacity-90">なぜ**開発者体験**が見過ごされがちか？</span>
 
 ---
 layout: two-cols
@@ -395,11 +376,13 @@ layout: default
 
 </v-clicks>
 
-<div class="mt-4 p-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg">
-  <p class="text-white font-bold text-lg">
-    <twemoji-warning /> この論文は、ソフトウェア開発プロセスと開発者の生産性向上に関する重要な指針です。
-  </p>
-</div>
+<v-clicks>
+  <div class="mt-4 p-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg">
+    <p class="text-white font-bold text-lg">
+      <twemoji-warning /> この論文は、ソフトウェア開発プロセスと開発者の生産性向上に関する重要な指針です。
+    </p>
+  </div>
+</v-clicks>
 
 
 ---
