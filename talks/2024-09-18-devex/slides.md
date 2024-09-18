@@ -194,23 +194,27 @@ layout: two-cols
 
 ## 開発者体験が見過ごされる理由
 
+
 <v-clicks>
 
 ### グローバルな課題と日本の特殊性
 
 - <twemoji-globe-showing-americas class="text-blue-500" /> **世界共通の課題**
-  -  開発者体験の重要性の認識不足 <twemoji-thinking-face />
-  - 短期的な成果への偏重 <twemoji-hourglass-not-done class="text-yellow-500" />
+  - 開発者体験の重要性軽視 <twemoji-thinking-face />
+  - 短期成果偏重 <twemoji-hourglass-not-done class="text-yellow-500" />
 
-- <twemoji-flag-japan /> **日本特有の文化的背景**
-  - **我慢の美徳**: 困難に耐えることが特に美化される傾向 <twemoji-face-with-steam-from-nose class="text-red-500" />
-  - **集団主義**: 個人の要求よりチームの調和を重視する傾向が強い <twemoji-people-hugging class="text-blue-500" />
-  - **階層的組織構造**: 上からの指示に従う文化が根強い <twemoji-office-building class="text-gray-500" />
+- <twemoji-flag-japan /> **日本特有の文化**
+  - **我慢の美徳**: 困難を美化する傾向 <twemoji-face-with-steam-from-nose class="text-red-500" />
+  - **集団主義**: 個人より調和重視 <twemoji-people-hugging class="text-blue-500" />
+  - **階層構造**: 上意下達の文化 <twemoji-office-building class="text-gray-500" />
 
-### <twemoji-flag-japan /> 日本における特有の誤解
-
-- 開発者の要求は「わがまま」という認識が特に強い <twemoji-person-pouting class="text-orange-500" />
-- 生産性向上 = 長時間労働という誤った等式が根深い <twemoji-alarm-clock class="text-purple-500" /> <twemoji-cross-mark />
+### <twemoji-flag-japan /> 日本の誤解
+- 開発者の要求は<span class="text-red-500">**「わがまま」ではない**</span> <twemoji-person-pouting class="text-orange-500" /> <twemoji-cross-mark class="text-red-500" />
+  - 実際は<span class="text-green-500">**生産性向上**</span>のための<span class="text-blue-500">**合理的な要求**</span> <twemoji-light-bulb class="text-yellow-500" />
+  - 開発環境の改善は<span class="text-purple-500">**組織全体の利益**</span>につながる <twemoji-rocket class="text-blue-500" />
+- <span class="text-green-500">**生産性向上**</span> ≠ <span class="text-red-500">**長時間労働**</span> <twemoji-alarm-clock class="text-purple-500" /> <twemoji-cross-mark class="text-red-500" />
+  - ソフト開発では、<span class="text-yellow-500">**創造性**</span>と<span class="text-blue-500">**問題解決**</span>が重要 <twemoji-light-bulb class="text-yellow-500" />
+  - <span class="text-red-500">**長時間労働**</span>はむしろ<span class="text-orange-500">**生産性を低下**</span>させる <twemoji-chart-decreasing class="text-red-500" />
 
 </v-clicks>
 
@@ -220,22 +224,24 @@ layout: two-cols
 
 ### パラダイムシフトの必要性
 
-- **日本CTO協会の取り組み**
-  - DX Criteriaの策定
-  - 現会長: 松岡 剛志（サイバーエージェントキャピタル）
+- **日本CTO協会の取り組み** <twemoji-building-construction class="text-blue-500" />
+  - <span class="text-green-500">**DX Criteriaの策定**</span>
+  - 代表理事: <span class="text-blue-500">**松岡 剛志**</span><br>（CyberAgent Capital, Coincheck等）
 
-- **DevExの重要性**
-  - 持続可能な開発環境の構築
-  - イノベーションの促進
-  - グローバル競争力の向上
+- **DevExの重要性** <twemoji-sparkles class="text-yellow-500" />
+  - <span class="text-teal-500">**持続可能な開発環境の構築**</span> <twemoji-seedling class="text-green-500" />
+  - <span class="text-purple-500">**イノベーションの促進**</span> <twemoji-light-bulb class="text-yellow-500" />
+  - <span class="text-blue-500">**グローバル競争力の向上**</span> <twemoji-globe-showing-americas class="text-blue-500" />
 
-- **新しい価値観**
-  - 「無理をする」から「効率的に働く」へ
-  - 個人の成長がチームの成長につながる
+- **新しい価値観** <twemoji-new-button class="text-red-500" />
+  - 「<span class="text-red-500">**無理をする**</span>」から「<span class="text-green-500">**効率的に働く**</span>」へ <twemoji-right-arrow class="text-blue-500" />
+  - <span class="text-orange-500">**個人の成長**</span>が<span class="text-blue-500">**チームの成長**</span>につながる <twemoji-chart-increasing class="text-green-500" />
 
 </v-clicks>
 
 ---
+
+
 
 ---
 layout: default
