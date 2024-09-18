@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://cdn.midjourney.com/e5ea3b20-cb3e-4439-a0f7-7145a664be56/0_1.png
+background: bg-front.jpg
 class: text-center
 highlighter: shiki
 lineNumbers: false

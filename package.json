@@ -27,10 +27,11 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.1",
-    "prompts": "^2.4.2",
+    "@iconify/json": "^2.2.249",
     "execa": "9.4.0",
-    "typescript": "^5.6.2",
-    "@iconify/json": "^2.2.249"
+    "playwright-chromium": "^1.47.1",
+    "prompts": "^2.4.2",
+    "typescript": "^5.6.2"
   },
   "trustedDependencies": [
     "@biomejs/biome"
