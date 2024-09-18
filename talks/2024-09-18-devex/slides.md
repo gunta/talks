@@ -179,8 +179,63 @@ background: https://images.unsplash.com/photo-1483388147740-e5c70536042e?q=80&w=
 
 # 3. DevExとは何か？
 
-Developer Experience（開発者体験）の略称
+### Developer Experience（開発者体験）の略称
 
+---
+layout: center
+class: text-center
+---
+
+# その前に、<br>なぜ**開発者体験**が見過ごされがちか？
+
+---
+layout: two-cols
+---
+
+## 開発者体験が見過ごされる理由
+
+<v-clicks>
+
+### グローバルな課題と日本の特殊性
+
+- <twemoji-globe-showing-americas class="text-blue-500" /> **世界共通の課題**
+  -  開発者体験の重要性の認識不足 <twemoji-thinking-face />
+  - 短期的な成果への偏重 <twemoji-hourglass-not-done class="text-yellow-500" />
+
+- <twemoji-flag-japan /> **日本特有の文化的背景**
+  - **我慢の美徳**: 困難に耐えることが特に美化される傾向 <twemoji-face-with-steam-from-nose class="text-red-500" />
+  - **集団主義**: 個人の要求よりチームの調和を重視する傾向が強い <twemoji-people-hugging class="text-blue-500" />
+  - **階層的組織構造**: 上からの指示に従う文化が根強い <twemoji-office-building class="text-gray-500" />
+
+### <twemoji-flag-japan /> 日本における特有の誤解
+
+- 開発者の要求は「わがまま」という認識が特に強い <twemoji-person-pouting class="text-orange-500" />
+- 生産性向上 = 長時間労働という誤った等式が根深い <twemoji-alarm-clock class="text-purple-500" /> <twemoji-cross-mark />
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+### パラダイムシフトの必要性
+
+- **日本CTO協会の取り組み**
+  - DX Criteriaの策定
+  - 現会長: 松岡 剛志（サイバーエージェントキャピタル）
+
+- **DevExの重要性**
+  - 持続可能な開発環境の構築
+  - イノベーションの促進
+  - グローバル競争力の向上
+
+- **新しい価値観**
+  - 「無理をする」から「効率的に働く」へ
+  - 個人の成長がチームの成長につながる
+
+</v-clicks>
+
+---
 
 ---
 layout: default
