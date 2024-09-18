@@ -819,66 +819,153 @@ layout: default
 </v-clicks>
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: image
+image: napkin-devex-best.svg
+backgroundSize: contain
 ---
 
-# 7. DevEx導入のベストプラクティス
+<!-- 
+# 7. DevEx導入のベストプラクティス <twemoji-rocket class="text-blue-500" />
+
 
 <v-clicks>
 
-1. **ベースラインの確立**
-   - 自己報告データを活用した迅速な測定開始
-   - システムデータの段階的な統合
+1. <span class="font-bold text-blue-500">ベースラインの確立</span> <twemoji-chart-increasing />
+   - <strong class="text-green-500">自己報告データ</strong>を活用した迅速な測定開始
+   - <strong class="text-green-500">システムデータ</strong>の段階的な統合
 
-2. **小規模から始める**
-   - 共通の問題点や改善領域の特定
-   - 影響の大きい変更に焦点当てる
+2. <span class="font-bold text-blue-500">小規模から始める</span> <twemoji-seedling />
+   - 共通の<strong class="text-red-500">問題点</strong>や<strong class="text-red-500">改善領域</strong>の特定
+   - <strong class="text-purple-500">影響の大きい変更</strong>に焦点当てる
 
-3. **透明性のあるコミュニケーション**
-   - メトリクスの収集方法と使用目的の明確化
-   - 全組織メンバーへの情報共有
+3. <span class="font-bold text-blue-500">透明性のあるコミュニケーション</span> <twemoji-speech-balloon />
+   - <strong class="text-yellow-500">メトリクスの収集方法</strong>と<strong class="text-yellow-500">使用目的</strong>の明確化
+   - <strong class="text-indigo-500">全組織メンバー</strong>への情報共有
 
-4. **継続的な改善**
-   - 定期的なデータ収集と目標設定（3〜6ヶ月ごと）
-   - 大規模な目標に対する進捗確認
+4. <span class="font-bold text-blue-500">継続的な改善</span> <twemoji-clockwise-vertical-arrows />
+   - <strong class="text-orange-500">定期的なデータ収集</strong>と<strong class="text-orange-500">目標設定</strong>（3〜6ヶ月ごと）
+   - <strong class="text-teal-500">大規模な目標</strong>に対する進捗確認
 
-5. **開発者の参加促進**
-   - 匿名の調査結果公開
-   - 改善案への投票機会の提供
+5. <span class="font-bold text-blue-500">開発者の参加促進</span> <twemoji-raising-hands />
+   - <strong class="text-pink-500">匿名の調査結果</strong>公開
+   - <strong class="text-cyan-500">改善案</strong>への投票機会の提供
+
+</v-clicks> -->
+
+---
+layout: default
+---
+
+# 8. まとめ：DevExが切り開く未来 <twemoji-rocket class="text-blue-500" />
+
+<v-clicks>
+
+- <span class="text-green-500 font-bold">DevEx</span>は開発者の<span class="text-purple-500 font-bold">生産性</span>と<span class="text-orange-500 font-bold">満足度</span>を向上させる鍵 <twemoji-key class="text-yellow-500" />
+- <span class="text-blue-500 font-bold">3つの次元</span>（フィードバックループ、認知負荷、フロー状態）に注目 <twemoji-magnifying-glass-tilted-left class="text-blue-500" />
+- <span class="text-red-500 font-bold">適切な測定方法</span>の採用が重要 <twemoji-straight-ruler class="text-red-500" />
+- DevEx改善は<span class="text-green-500 font-bold">大きなROI</span>をもたらす <twemoji-chart-increasing class="text-green-500" />
+- <span class="text-indigo-500 font-bold">DX Core 4</span>は包括的で**実用的**なフレームワーク <twemoji-building-construction class="text-indigo-500" />
+- <span class="text-cyan-500 font-bold">AI時代</span>における**開発者体験の重要性**が増大 <twemoji-robot class="text-cyan-500" />
 
 </v-clicks>
 
+
+---
+layout: default
+---
+
+# 次のステップ
+
+### CTO統括室 DP室 Enabling Teamの動き
+
+1. <twemoji-chart-increasing /> **<span class="text-blue-500">生産性測定・改善</span>**
+   - チーム可視化支援
+   - 全社効率測定
+
+2. <twemoji-rocket /> **<span class="text-green-500">DevEx向上</span>**
+   - 課題特定・優先順位付け
+   - ケイパビリティ評価改善
+
+3. <twemoji-busts-in-silhouette /> **<span class="text-purple-500">生産性コミュニティ形成</span>**
+   - DevExツール発見ポータル構築
+
+4. <twemoji-hammer-and-wrench /> **<span class="text-orange-500">ツール導入簡易化</span>**
+   - DevExツール申請ポータル構築
+
+5. <twemoji-robot /> **<span class="text-red-500">生成AI全社活用</span>**
+   - ツール選定・試験導入
+
+---
+layout: image
+image: dp-portal-discovery.png
+backgroundSize: contain
+transition: fade
+---
+
+---
+layout: image
+image: dp-portal-compare.png
+backgroundSize: contain
+transition: fade
+---
+
+---
+layout: image
+image: dp-portal-use.png
+backgroundSize: contain
+transition: fade
+---
+
+
+<!-- </v-clicks> -->
 ---
 layout: two-cols
 ---
 
-# 8. まとめ：DevExが切り開く未来
+# 次のステップ
+
+### あなたが今できること
 
 <v-clicks>
 
-- DevExは開発者の生産性と満足度を向上させる鍵
-- 3つの次元（フィードバックループ、認知負荷、フロー状態）に注目
-- 適切な測定方法の採用が重要
-- DevEx改善は大きなROIをもたらす
-- DX Core 4は包括的で実用的なフレームワーク
-- AI時代における開発者体験の重要性が増大
+1. <twemoji-gear class="text-blue-500" /> **<span class="text-blue-500">自身の開発環境の最適化</span>**
+   - [ ] <twemoji-hammer-and-wrench class="text-cyan-500" /> 効率的なツールやプラクティスの採用
+
+2. <twemoji-people-hugging class="text-green-500" /> **<span class="text-green-500">チーム内でのDevEx文化の醸成</span>**
+   - [ ] <twemoji-handshake class="text-lime-500" /> ベストプラクティスの共有
+   - [ ] <twemoji-speech-balloon class="text-lime-500" /> 定期的なDevExに関する議論の場の設定
+
+3. <twemoji-chart-increasing class="text-purple-500" /> **<span class="text-purple-500">DevExメトリクスの導入と追跡</span>**
+   - [ ] <twemoji-bar-chart class="text-fuchsia-500" /> チームや個人レベルでの測定
+   - [ ] <twemoji-spiral-notepad class="text-fuchsia-500" /> データに基づく継続的な改善
 
 </v-clicks>
 
 ::right::
 
+
 <v-clicks>
 
-## 次のステップ
+4. <twemoji-light-bulb class="text-orange-500" /> **<span class="text-orange-500">新しい技術やツールの積極的な探求</span>**
+   - [ ] <twemoji-magnifying-glass-tilted-left class="text-amber-500" /> DevExを向上させる可能性のある革新的なソリューションの調査
+   - [ ] <twemoji-test-tube class="text-amber-500" /> 小規模な実験的導入
+   
+5. <twemoji-megaphone class="text-red-500" /> **<span class="text-red-500">組織全体へのDevExの推進と定着</span>**
+   - [ ] <twemoji-trophy class="text-rose-500" /> 成功事例と具体的な事業価値の共有
+   - [ ] <twemoji-money-with-wings class="text-rose-500" /> DevEx改善による**ROIと生産性向上**の実証
+   - [ ] <ph-presentation-bold class="text-violet-500" /> 経営層への**DevExの重要性**の説明と**投資の要請**
+   - [ ] <twemoji-rocket class="text-violet-500" /> DevEx向上が**イノベーション促進**に与える影響の実例提示
 
-1. 現状のDevEx評価を実施
-2. 改善が必要な領域の特定
-3. DX Core 4フレームワークの導入計画策定
-4. パイロットプロジェクトでの試験的導入
-5. 結果の測定と継続的な改善
 
-<twemoji-rocket class="text-5xl text-blue-500 mt-4" />
+<div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 rounded-md shadow-md">
+  <p class="font-semibold">
+    <twemoji-information class="inline-block mr-2" />
+    重要な責務
+  </p>
+  <p class="mt-2">
+    マネージャーの責務として、DevExの重要性を組織全体に浸透させ、継続的な改善を推進することが求められる。
+  </p>
+</div>
 
 </v-clicks>
 
