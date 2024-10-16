@@ -15,9 +15,7 @@ mdc: true
 
 # **職種問わずな<br>生成AIツールの紹介**
 
-<!--
-みなさん、こんにちは！今日は「DevExは究極のROI」というテーマでお話しします。DevExの重要性とビジネス貢献度について、これから10分間で見ていきます。DevExが企業にもたらす驚くべき価値を一緒に探っていきましょう。
--->
+
 
 ---
 layout: image
@@ -68,77 +66,110 @@ image: white-art-bg.jpg
 layout: center
 ---
 
-# ビジネス
+# ビジネス <mdi-briefcase />
 
 ---
-
-- ミーティング設定
-  - サイスケ
-- ミーティング文字起こし
-  - コエログ 
-- ミーティング要約
-  - Notion AI
-- 調査
-  - Genspark AI
-- クロスチェック
-  - Genspark Autopilot Agent
-- スライド
-  - イルシル
-
-
----
-layout: center
+layout: two-cols
 ---
 
-# エンジニア
+# ビジネス <mdi-briefcase />
 
----
+## ミーティング関連 <mdi-calendar-clock />
+  - 設定: <a href="https://cyberagent.slack.com/team/U07Q7AE4CDV" target="_blank">Cyber AI Scheduler</a> <img src="/CALogo.svg" alt="CA" width="20px" height="20px" style="display: inline-block; vertical-align: middle; margin-bottom: 5px;" />
+  - 文字起こし
+    - 日本語: <a href="https://coelog.cyberagent.group/" target="_blank">コエログ</a> <twemoji-flag-japan />
+    - 英語: <a href="https://coelog.cyberagent.group/" target="_blank">Granola</a> <twemoji-flag-united-states />
+  - 要約: <a href="https://www.notion.so/ja/help/guides/using-notion-ai" target="_blank">Notion AI</a> <simple-icons-notion />
+## 調査・分析 <mdi-magnify />
+  - 情報収集: <a href="https://www.genspark.ai/" target="_blank">Genspark</a> <img src="https://www.genspark.ai/favicon.ico" alt="Genspark" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - クロスチェック: Genspark Autopilot Agent <img src="https://www.genspark.ai/favicon.ico" alt="Genspark" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
 
-- コーディング
-  - BEFORE: VSCode + GitHub Copilot →　AFTER: Cursor
-  - BEFORE: IntelliJ + GitHub Copilot →　AFTER: IntelliJ AI Assistant
-  - BEFORE: Vim →　AFTER: Zed AI
-  - AIモデル：Claude Sonnet 3.5
+::right::
 
-- UI: 
-  - v0
-
-- 要件定義
-  - モデル: OpenAI o1-preview
-
-- スライド
-  - Sli.dev + Cursor
+##  プレゼンテーション <mdi-presentation />
+  - スライド作成: イルシル <img src="https://irusiru.jp/wp-content/uploads/2024/10/8ce5a770-a430-487e-a84f-55ef3010f531-150x150.png" alt="イルシル" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
 
 ---
 layout: center
 ---
 
-# クリエイティブ
+# エンジニア <mdi-developer-board />
+
+---
+layout: two-cols
+---
+
+# エンジニア <mdi-developer-board />
+
+## コーディング自動化 <mdi-code-braces />
+  - VSCode <logos-visual-studio-code /> → <a href="https://cursor.com/" target="_blank">Cursor</a> <img src="https://cdn.brandfetch.io/cursor.com/w/400/h/400" alt="Cursor" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - IntelliJ <logos-intellij-idea /> → <a href="https://www.jetbrains.com/help/idea/ai-assistant.html" target="_blank">IntelliJ AI Assistant</a> <img src="https://www.jetbrains.com/ai/img/ai-bg-top.svg" alt="JetBrains AI" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - Vim <logos-vim /> → <a href="https://zed.dev/" target="_blank">Zed AI</a> <img src="https://cdn.brandfetch.io/zed.dev/w/400/h/400" alt="Zed" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - AIモデル: <a href="https://www.anthropic.com/" target="_blank">Claude Sonnet 3.5</a> <simple-icons-anthropic />
+## UI <mdi-palette-outline />
+  - UI設計: <a href="https://v0.dev/" target="_blank">v0</a> <img src="https://v0.dev/assets/icon.svg" alt="v0" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+
+::right::
+## 要件定義 <mdi-file-document-outline />
+  - AIモデル: <a href="https://openai.com/blog/new-models-and-developer-products-announced-at-devday" target="_blank">OpenAI o1-preview</a> <simple-icons-openai />
+## プレゼンテーション <mdi-monitor />
+  - スライド作成: <a href="https://sli.dev/" target="_blank">Sli.dev</a> <logos-slidev /> + <a href="https://cursor.com/" target="_blank">Cursor</a>  <img src="https://cdn.brandfetch.io/cursor.com/w/400/h/400" alt="Cursor" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - グラフ作成: <a href="https://www.napkin.ai/" target="_blank">Napkin AI</a> <img src="https://cdn.brandfetch.io/napkin.ai/w/200/h/200" alt="Napkin AI" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+
+---
+layout: center
+---
+
+# クリエイティブ <mdi-palette />
 
 ---
 
-- 画像生成
-  - Midjourney
+# クリエイティブ <mdi-palette />
 
-- 動画編集
-  - CapCut
-- 音楽
-  - Udio
-- DJ
-  - DJ Studio
+- 画像生成: <a href="https://www.midjourney.com/" target="_blank">Midjourney</a> <logos-midjourney />
+- 動画編集: <a href="https://www.capcut.com/" target="_blank">CapCut</a> <img src="https://cdn.brandfetch.io/capcut.com/w/200/h/200/logo" alt="CapCut" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+- 音楽生成: <a href="https://udio.com/" target="_blank">Udio</a> <img src="https://cdn.brandfetch.io/udio.com/w/512/h/269/logo" alt="Udio" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+- 音声生成: <a href="https://elevenlabs.io/" target="_blank">Elevenlabs</a> <img src="https://cdn.brandfetch.io/getelevenlabs.com/w/400/h/400" alt="Elevenlabs" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - <a href="https://console.assistant-ai.cyberagent.ai/" target="_blank">AI SCREAM</a> 経由で無償利用可能 <img src="https://console.assistant-ai.cyberagent.ai/favicon/aiscream_icon_blue.png" alt="AI SCREAM" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+- DJ曲の順序決め: <a href="https://dj.studio/" target="_blank">DJ Studio</a> <img src="https://cdn.brandfetch.io/dj.studio/w/400/h/400" alt="DJ Studio" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+
+---
+layout: center
+---
+
+# 個人プロジェクト <mdi-star />
+
+---
+
+- アーティストデビュー: <a href="https://guntherbrunner.art/" target="_blank">Günther Brunner Art</a> <mdi-palette-outline />
+- DJデビュー: <a href="https://guntherbrunner.art/music/" target="_blank">DJ Gün.T</a> <mdi-music-note />
+- <a href="https://yakushin-manifesto.org/" target="_blank">AI翻訳躍進マニフェスト</a> <mdi-translate />
 
 ---
 layout: cover
 ---
 
-# https://cyberagent.tools
+# <a href="https://cyberagent.tools" target="_blank">CA Tools</a> <mdi-tools />
+
+- 生産性ツール紹介ポータル
+  - （公開前）※DP室で開発中 <mdi-hammer-wrench />
+  - 各種ツールの比較・申請が可能に！ <mdi-compare />
+- <span class="text-sm">https://cyberagent.tools</span>
+
+
+---
+layout: image
+image: ./CATools.png
+---
+
+
 
 ---
 layout: center
 class: text-center
 ---
 
-# ご清聴ありがとうございました
+# ご清聴ありがとうございました <mdi-hand-clap />
 
 質問やディスカッションをお待ちしています
 
@@ -147,8 +178,19 @@ class: text-center
 <div class="mt-8 flex items-center justify-center">
   <devicon-slack class="text-2xl mr-2" />
   <a href="https://cyberagent.enterprise.slack.com/archives/C024G643C5R" target="_blank" class="text-xl">#times_dp</a>
+ 
+  
 </div>
 
-<!--
-ご清聴ありがとうございました。質問やディスカッションをお待ちしています。Slackの#times_dpチャンネルもぜひご活用ください。
--->
+<div class="mt-8 flex items-center justify-center">
+  <devicon-slack class="text-2xl mr-2" />
+  <a href="https://cyberagent.enterprise.slack.com/archives/C030M1A28PK" target="_blank" class="text-xl">#times_gunta</a> 
+</div>
+
+<br><br>
+
+<div class="mt-4">
+  <p>ご質問や詳細が知りたいツールがあれば<br>お気軽にお問い合わせください！ <mdi-help-circle /></p>
+</div>
+
+
