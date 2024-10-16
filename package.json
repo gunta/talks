@@ -15,25 +15,28 @@
     "lint": "bunx @biomejs/biome lint ./"
   },
   "dependencies": {
-    "@react-three/fiber": "^8.17.7",
+    "@react-three/fiber": "^8.17.10",
     "@slidev/cli": "^0.49.29",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "^0.25.0",
-    "@types/three": "^0.168.0",
-    "framer-motion": "^11.5.4",
+    "@types/three": "^0.169.0",
+    "framer-motion": "^11.11.9",
     "shadergradient": "^1.2.14",
-    "three": "^0.168.0",
-    "vue": "^3.5.6"
+    "three": "^0.169.0",
+    "vue": "^3.5.12"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.1",
-    "@iconify/json": "^2.2.249",
+    "@biomejs/biome": "^1.9.3",
+    "@iconify/json": "^2.2.260",
     "execa": "9.4.0",
-    "playwright-chromium": "^1.47.1",
+    "playwright-chromium": "^1.48.1",
     "prompts": "^2.4.2",
     "typescript": "^5.6.2"
   },
   "trustedDependencies": [
-    "@biomejs/biome"
+    "@biomejs/biome",
+    "esbuild",
+    "playwright-chromium",
+    "vue-demi"
   ]
 }
