@@ -81,13 +81,13 @@ layout: two-cols
     - 英語: <a href="https://coelog.cyberagent.group/" target="_blank">Granola</a> <twemoji-flag-united-states />
   - 要約: <a href="https://www.notion.so/ja/help/guides/using-notion-ai" target="_blank">Notion AI</a> <simple-icons-notion class="text-black" />
 ## <span class="text-purple-600">調査・分析</span> <mdi-magnify class="text-purple-600" />
-  - 情報収集: <a href="https://www.genspark.ai/" target="_blank">Genspark</a> <img src="https://www.genspark.ai/favicon.ico" alt="Genspark" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-  - クロスチェック: [Genspark Autopilot Agent](https://www.genspark.ai/autopilotagent) <img src="https://www.genspark.ai/favicon.ico" alt="Genspark" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - 情報収集: <a href="https://www.genspark.ai/" target="_blank">Genspark</a> <!-- <img src="https://www.genspark.ai/favicon.ico" alt="Genspark" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+  - クロスチェック: [Genspark Autopilot Agent](https://www.genspark.ai/autopilotagent) <!-- <img src="https://www.genspark.ai/favicon.ico" alt="Genspark" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
 
 ::right::
 
 ## <span class="text-orange-600">プレゼンテーション</span> <mdi-presentation class="text-orange-600" />
-  - スライド作成: [イルシル](https://irusiru.jp/) <img src="https://irusiru.jp/wp-content/uploads/2024/10/8ce5a770-a430-487e-a84f-55ef3010f531-150x150.png" alt="イルシル" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - スライド作成: [イルシル](https://irusiru.jp/) <!-- <img src="https://irusiru.jp/wp-content/uploads/2024/10/8ce5a770-a430-487e-a84f-55ef3010f531-150x150.png" alt="イルシル" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
 
 ---
 layout: center
@@ -102,19 +102,19 @@ layout: two-cols
 # <span class="text-teal-600">エンジニア</span> <mdi-developer-board class="text-teal-600" />
 
 ## <span class="text-indigo-600">コーディング自動化</span> <mdi-code-braces class="text-indigo-600" />
-  - VSCode <logos-visual-studio-code /> → <a href="https://cursor.com/" target="_blank">Cursor</a> <img src="https://cdn.brandfetch.io/cursor.com/w/400/h/400" alt="Cursor" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-  - IntelliJ <logos-intellij-idea /> → <a href="https://www.jetbrains.com/help/idea/ai-assistant.html" target="_blank">IntelliJ AI Assistant</a> <img src="https://www.jetbrains.com/ai/img/ai-bg-top.svg" alt="JetBrains AI" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-  - Vim <logos-vim /> → <a href="https://zed.dev/" target="_blank">Zed AI</a> <img src="https://cdn.brandfetch.io/zed.dev/w/400/h/400" alt="Zed" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - VSCode <logos-visual-studio-code /> → <a href="https://cursor.com/" target="_blank">Cursor</a> <!-- <img src="https://cdn.brandfetch.io/cursor.com/w/400/h/400" alt="Cursor" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+  - IntelliJ <logos-intellij-idea /> → <a href="https://www.jetbrains.com/help/idea/ai-assistant.html" target="_blank">IntelliJ AI Assistant</a> <!-- <img src="https://www.jetbrains.com/ai/img/ai-bg-top.svg" alt="JetBrains AI" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+  - Vim <logos-vim /> → <a href="https://zed.dev/" target="_blank">Zed AI</a> <!-- <img src="https://cdn.brandfetch.io/zed.dev/w/400/h/400" alt="Zed" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
   - AIモデル: <a href="https://www.anthropic.com/" target="_blank">Claude Sonnet 3.5</a> <simple-icons-anthropic class="text-purple-600" />
 ## <span class="text-pink-600">UI</span> <mdi-palette-outline class="text-pink-600" />
-  - UI設計: <a href="https://v0.dev/" target="_blank">v0</a> <img src="https://v0.dev/assets/icon.svg" alt="v0" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - UI設計: <a href="https://v0.dev/" target="_blank">v0</a> <!-- <img src="https://v0.dev/assets/icon.svg" alt="v0" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
 
 ::right::
 ## <span class="text-yellow-600">要件定義</span> <mdi-file-document-outline class="text-yellow-600" />
   - AIモデル: <a href="https://openai.com/blog/new-models-and-developer-products-announced-at-devday" target="_blank">OpenAI o1-preview</a> <simple-icons-openai class="text-green-600" />
 ## <span class="text-red-600">プレゼンテーション</span> <mdi-monitor class="text-red-600" />
-  - スライド作成: <a href="https://sli.dev/" target="_blank">Sli.dev</a> <logos-slidev /> + <a href="https://cursor.com/" target="_blank">Cursor</a>  <img src="https://cdn.brandfetch.io/cursor.com/w/400/h/400" alt="Cursor" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-  - グラフ作成: <a href="https://www.napkin.ai/" target="_blank">Napkin AI</a> <img src="https://cdn.brandfetch.io/napkin.ai/w/200/h/200" alt="Napkin AI" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+  - スライド作成: <a href="https://sli.dev/" target="_blank">Sli.dev</a> <logos-slidev /> + <a href="https://cursor.com/" target="_blank">Cursor</a>  <!-- <img src="https://cdn.brandfetch.io/cursor.com/w/400/h/400" alt="Cursor" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+  - グラフ作成: <a href="https://www.napkin.ai/" target="_blank">Napkin AI</a> <!-- <img src="https://cdn.brandfetch.io/napkin.ai/w/200/h/200" alt="Napkin AI" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
 
 ---
 layout: center
@@ -127,11 +127,11 @@ layout: center
 # <span class="text-purple-600">クリエイティブ</span> <mdi-palette class="text-purple-600" />
 
 - 画像生成: <a href="https://www.midjourney.com/" target="_blank">Midjourney</a> <logos-midjourney class="text-indigo-600" />
-- 動画編集: <a href="https://www.capcut.com/" target="_blank">CapCut</a> <img src="https://cdn.brandfetch.io/capcut.com/w/200/h/200/logo" alt="CapCut" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-- 音楽生成: <a href="https://udio.com/" target="_blank">Udio</a> <img src="https://cdn.brandfetch.io/udio.com/w/512/h/269/logo" alt="Udio" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-- 音声生成: <a href="https://elevenlabs.io/" target="_blank">Elevenlabs</a> <img src="https://cdn.brandfetch.io/getelevenlabs.com/w/400/h/400" alt="Elevenlabs" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-  - <a href="https://console.assistant-ai.cyberagent.ai/" target="_blank">AI SCREAM</a> 経由で無償利用可能 <img src="https://console.assistant-ai.cyberagent.ai/favicon/aiscream_icon_blue.png" alt="AI SCREAM" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
-- DJ曲の順序決め: <a href="https://dj.studio/" target="_blank">DJ Studio</a> <img src="https://cdn.brandfetch.io/dj.studio/w/400/h/400" alt="DJ Studio" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;">
+- 動画編集: <a href="https://www.capcut.com/" target="_blank">CapCut</a> <!-- <img src="https://cdn.brandfetch.io/capcut.com/w/200/h/200/logo" alt="CapCut" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+- 音楽生成: <a href="https://udio.com/" target="_blank">Udio</a> <!-- <img src="https://cdn.brandfetch.io/udio.com/w/512/h/269/logo" alt="Udio" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+- 音声生成: <a href="https://elevenlabs.io/" target="_blank">Elevenlabs</a> <!-- <img src="https://cdn.brandfetch.io/getelevenlabs.com/w/400/h/400" alt="Elevenlabs" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+  - <a href="https://console.assistant-ai.cyberagent.ai/" target="_blank">AI SCREAM</a> 経由で無償利用可能 <!-- <img src="https://console.assistant-ai.cyberagent.ai/favicon/aiscream_icon_blue.png" alt="AI SCREAM" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
+- DJ曲の順序決め: <a href="https://dj.studio/" target="_blank">DJ Studio</a> <!-- <img src="https://cdn.brandfetch.io/dj.studio/w/400/h/400" alt="DJ Studio" width="16" height="16" style="display: inline-block; vertical-align: middle; margin-bottom: 2px;"> -->
 
 ---
 layout: center
@@ -192,6 +192,7 @@ class: text-center
 <div class="mt-4">
   <p>ご質問や詳細が知りたいツールがあれば<br>お気軽にお問い合わせください！ <mdi-help-circle /></p>
 </div>
+
 
 
 
