@@ -585,11 +585,100 @@ class: "text-center"
 </div>
 </div>
 
+
 ---
 layout: center
 ---
 
-# 実例：アートギャラリーサイト 🎨
+# 実験の場：友人の依頼 🎩
+
+---
+layout: two-cols
+---
+
+# <span class="text-violet-600">イベント招待状</span> <mdi-card-account-details class="text-violet-600" />
+
+## <span class="text-amber-600">要件定義</span> <mdi-clipboard-text class="text-amber-600" />
+- 手書き風の名前表示
+- 魔法のような演出効果 <mdi-sparkles class="text-yellow-400" />
+- イベントLP制作 <mdi-web class="text-blue-500" />
+- 決済システム連携 <mdi-credit-card class="text-green-500" />
+
+## <span class="text-indigo-600">実験的な挑戦</span> <mdi-flask class="text-indigo-600" />
+- シェーダーによる光の演出
+- 手書きフォントのアニメーション
+- インタラクティブな演出
+- スムーズな決済フロー
+
+::right::
+
+## <span class="text-red-600">重要な気づき</span> <mdi-lightbulb class="text-red-600" />
+
+<div class="mt-4 p-4 bg-gray-50 rounded-lg">
+<p class="text-lg font-bold text-gray-800">本業では試せない実験が、<br>個人開発で可能に</p>
+
+<div class="mt-4 space-y-2 text-sm">
+<div class="flex items-center gap-2">
+<mdi-check-circle class="text-green-500" /> 新技術の検証
+</div>
+<div class="flex items-center gap-2">
+<mdi-check-circle class="text-green-500" /> 失敗を恐れない挑戦
+</div>
+<div class="flex items-center gap-2">
+<mdi-check-circle class="text-green-500" /> 知見の蓄積
+</div>
+</div>
+
+<div class="mt-4 p-3 bg-blue-50 rounded border-l-4 border-blue-500">
+<p class="text-sm text-blue-800">
+<mdi-information class="text-blue-500" /> 個人開発での成功体験を、<br>実務のサービスに還元できる
+</p>
+</div>
+</div>
+
+---
+layout: center
+---
+
+# 実験 → 実践のサイクル 🔄
+
+<div class="grid grid-cols-3 gap-8 mt-8">
+<div class="text-center p-4 bg-gray-50 rounded-lg">
+<mdi-flask-outline class="text-4xl text-purple-500 mb-2" />
+<div class="font-bold text-lg">個人開発での実験</div>
+<div class="text-sm mt-2">
+- リスクを恐れない
+- 新技術への挑戦
+- 自由な発想
+</div>
+</div>
+
+<div class="text-center p-4 bg-gray-50 rounded-lg">
+<mdi-check-circle class="text-4xl text-green-500 mb-2" />
+<div class="font-bold text-lg">知見の獲得</div>
+<div class="text-sm mt-2">
+- 実装ノウハウ
+- パフォーマンス対策
+- 運用の注意点
+</div>
+</div>
+
+<div class="text-center p-4 bg-gray-50 rounded-lg">
+<mdi-rocket-launch class="text-4xl text-blue-500 mb-2" />
+<div class="font-bold text-lg">実務への還元</div>
+<div class="text-sm mt-2">
+- 検証済みの技術
+- 具体的な改善提案
+- 説得力のある提案
+</div>
+</div>
+</div>
+
+---
+layout: center
+---
+
+# 実例 🎨
 
 ---
 layout: two-cols
@@ -652,34 +741,7 @@ layout: two-cols
 <mdi-lightbulb class="text-yellow-400" /> Tip: 両方のアシスタントを試行錯誤しながら使うのがベスト
 </div>
 
----
-layout: center
----
 
-# 開発時間の劇的な短縮 ⚡
-
-<div class="grid grid-cols-2 gap-8 mt-8">
-<div>
-
-## 従来の開発フロー
-- 要件定義: 2-3日
-- 環境構築: 1-2日
-- 実装: 5-7日
-- デバッグ: 3-4日
-- **合計: 2週間以上** 😫
-
-</div>
-<div>
-
-## AI活用の開発フロー
-- 要件定義: 2時間
-- 環境構築: 30分
-- 実装: 4時間
-- デバッグ: 2時間
-- **合計: 1日以内** 🚀
-
-</div>
-</div>
 
 ---
 layout: center
