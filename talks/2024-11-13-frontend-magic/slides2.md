@@ -615,7 +615,7 @@ layout: two-cols
 - 決済システム連携 <mdi-credit-card class="text-green-500" />
 
 ## <span class="text-indigo-600">実験的な挑戦</span> <mdi-flask class="text-indigo-600" />
-- シェーダーによる光の���出
+- シェーダーによる光の演出
 - 手書きフォントのアニメーション
 - インタラクティブな演出
 - スムーズな決済フロー
