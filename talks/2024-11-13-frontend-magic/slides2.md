@@ -553,7 +553,7 @@ class: "text-center"
 </div>
 <div>
 <div class="text-4xl mb-4">📱</div>
-<div class="font-bold">��ロスプラットフォーム</div>
+<div class="font-bold">クロスプラットフォーム</div>
 <div class="text-sm">あらゆる環境で魅せる</div>
 </div>
 </div>
