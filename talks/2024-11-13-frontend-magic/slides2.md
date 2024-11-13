@@ -91,7 +91,7 @@ layout: center
 - チーム横断的な改善活動<
 
 ## <span class="text-indigo-600">AI部門</span> <mdi-robot class="text-indigo-600" />
-- バックエンド技術の習���
+- バックエンド技術の習
 - Figmaの習得
 - 生成AIの実践的活用
 - 最新技術のキャッチアップ
@@ -553,7 +553,7 @@ class: "text-center"
 </div>
 <div>
 <div class="text-4xl mb-4">📱</div>
-<div class="font-bold">クロスプラットフォーム</div>
+<div class="font-bold">��ロスプラットフォーム</div>
 <div class="text-sm">あらゆる環境で魅せる</div>
 </div>
 </div>
@@ -615,7 +615,7 @@ layout: two-cols
 - 決済システム連携 <mdi-credit-card class="text-green-500" />
 
 ## <span class="text-indigo-600">実験的な挑戦</span> <mdi-flask class="text-indigo-600" />
-- シェーダーによる光の演出
+- シェーダーによる光の���出
 - 手書きフォントのアニメーション
 - インタラクティブな演出
 - スムーズな決済フロー
@@ -751,9 +751,76 @@ layout: two-cols
 <mdi-lightbulb class="text-yellow-400" /> Tip: 両方のアシスタントを試行錯誤しながら使うのがベスト
 </div>
 
+---
+layout: center
+---
 
+# <span class="text-rose-600">0→1フェーズの新しいカタチ</span> <mdi-lightbulb-on class="text-rose-600" />
 
+<div class="grid grid-cols-2 gap-8 mt-8">
+<div>
 
+## <span class="text-red-500">アンチパターン</span> <mdi-close-circle class="text-red-500" />
+<div class="mt-4 space-y-4">
+<div class="flex items-center gap-2">
+<mdi-alert-circle class="text-orange-500" /> 従来の分業制
+</div>
+<div class="flex items-center gap-2">
+<mdi-clock-alert class="text-orange-500" /> コミュニケーションコスト
+</div>
+<div class="flex items-center gap-2">
+<mdi-arrow-decision class="text-orange-500" /> 意思決定の遅延
+</div>
+</div>
+
+</div>
+<div>
+
+## <span class="text-green-500">生成AI時代のベストプラクティス</span> <mdi-check-circle class="text-green-500" />
+<div class="mt-4 space-y-4">
+<div class="flex items-center gap-2">
+<mdi-rocket-launch class="text-blue-500" /> フルスタックスキル
+</div>
+<div class="flex items-center gap-2">
+<mdi-palette class="text-purple-500" /> デザインセンスの習得
+</div>
+<div class="flex items-center gap-2">
+<mdi-lightning-bolt class="text-yellow-500" /> 迅速な実装と改善
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="mt-8 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg">
+<div class="grid grid-cols-2 gap-4">
+<div>
+<p class="text-lg font-bold text-gray-800">
+<mdi-star class="text-yellow-400" /> フロントエンドエンジニアへの警告
+</p>
+
+<div class="mt-4 space-y-2 text-sm">
+<div class="flex items-center gap-2">
+<mdi-check-decagram class="text-green-500" /> デザインスキルを磨く
+</div>
+<div class="flex items-center gap-2">
+<mdi-check-decagram class="text-green-500" /> AIツールを使いこなす
+</div>
+<div class="flex items-center gap-2">
+<mdi-check-decagram class="text-green-500" /> 0→1の全工程を理解する
+</div>
+</div>
+</div>
+
+<div>
+<div class="p-3 bg-red-50 rounded border-l-4 border-red-500">
+<p class="text-sm text-red-800">
+<mdi-alert class="text-red-500" /> もしフロントエンドエンジニアがAIツールを活用しなければ、他の職種の方がフロントエンド開発を担うことになります。<br>「魔法使い」になるか、「魔法使い」に仕事を奪われるか、<br>選択は我々次第です。
+</p>
+</div>
+</div>
+</div>
+</div>
 
 ---
 layout: end
