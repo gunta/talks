@@ -92,6 +92,7 @@ layout: center
 
 ## <span class="text-indigo-600">AI部門</span> <mdi-robot class="text-indigo-600" />
 - バックエンド技術の習得
+- Figmaの習得
 - 生成AIの実践的活用
 - 最新技術のキャッチアップ
 
@@ -115,6 +116,10 @@ layout: statement
 
 # iOS 18のアニメーション🤯
 
+<div class="absolute top-0 left-0 w-full h-full">
+  <img src="/4103ba0909b84046bba37cf7c34172d5.jpeg" class="w-full h-full object-cover opacity-20" />
+</div>
+
 ---
 
 <div class="mt-12 text-center text-2xl">
@@ -126,22 +131,22 @@ layout: statement
 <div>
 
 ## 成功事例 🏆
-- **Apple iOS 18**の流麗なアニメーション
-  - ユーザーを魅了する完璧な動き
-  - プレミアム体験の象徴に
-- **Pixar & Disney**の哲学
-  - 細部へのこだわりが感動を生む
-  - 最高の品質が最高の価値を生む
+- **Apple iOS 18** ✨ の流麗なアニメーション
+  - 🎯 ユーザーを**魅了する完璧な動き**
+  - 👑 **プレミアム体験**の象徴に
+- **Pixar & Disney** の哲学
+  - ✨ **細部へのこだわり**が感動を生む
+  - 💎 **最高の品質**が最高の価値を生む
 
 </div>
 <div>
 
 ## Webの可能性 💫
-- ゲーム業界では当たり前の表現力
-- ネイティブアプリの洗練された動き
-- しかし、Webではまだ未開拓
-  - 技術的には十分可能
-  - 差別化の大きなチャンス
+- 🎮 **ゲーム業界**では当たり前の表現力
+- 📱 **ネイティブアプリ**の洗練された動き
+- しかし、**Web**ではまだ未開拓 <logos-chrome />
+  - ⚡ 技術的には**十分可能**
+  - 🚀 **差別化**の大きなチャンス
 
 </div>
 </div>
@@ -179,31 +184,59 @@ layout: center
 ---
 
 # フロントエンド表現の進化 🚀
+<div class="grid grid-cols-3 gap-8 mt-12">
+<div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+  <div class="text-2xl font-bold mb-4 text-blue-600">2010年代前半</div>
+  <div class="text-sm space-y-2">
+    <div class="flex items-center justify-center gap-2">
+      <mdi-animation class="text-orange-500" />
+      <span>CSS Animations</span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <logos-jquery class="text-blue-500" />
+      <span>jQuery効果</span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <mdi-drawing class="text-green-500" />
+      <span>Canvas 2D</span>
+    </div>
+  </div>
+</div>
 
-<div class="grid grid-cols-3 gap-4 mt-8">
-<div class="text-center">
-<div class="text-2xl mb-2">2010年代前半</div>
-<div class="text-sm">
-- CSS Animations
-- jQuery効果
-- Canvas 2D
+<div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+  <div class="text-2xl font-bold mb-4 text-purple-600">2010年代後半</div>
+  <div class="text-sm space-y-2">
+    <div class="flex items-center justify-center gap-2">
+      <mdi-rotate-3d class="text-cyan-500" />
+      <span>CSS 3D Transforms</span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <simple-icons-webgl class="text-red-500" />
+      <span>WebGL登場</span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <simple-icons-threedotjs class="text-black" />
+      <span>Three.js台頭</span>
+    </div>
+  </div>
 </div>
-</div>
-<div class="text-center">
-<div class="text-2xl mb-2">2010年代後半</div>
-<div class="text-sm">
-- CSS 3D Transforms
-- WebGL登場
-- Three.js台頭
-</div>
-</div>
-<div class="text-center">
-<div class="text-2xl mb-2">2020年代</div>
-<div class="text-sm">
-- WebGL2.0
-- WebGPU
-- シェーダー表現
-</div>
+
+<div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+  <div class="text-2xl font-bold mb-4 text-green-600">2020年代</div>
+  <div class="text-sm space-y-2">
+    <div class="flex items-center justify-center gap-2">
+      <mdi-gpu class="text-amber-500" />
+      <span>WebGL2.0</span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <mdi-lightning-bolt class="text-indigo-500" />
+      <span>WebGPU</span>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <mdi-shimmer class="text-pink-500" />
+      <span>シェーダー表現</span>
+    </div>
+  </div>
 </div>
 </div>
 
@@ -211,47 +244,47 @@ layout: center
 layout: two-cols
 ---
 
-# 従来の開発フロー 🏃‍♂️
+# 従来の開発フロー <mdi-run class="text-blue-500" /> 🐌
 
 <div class="mt-4 text-sm">
 
-1. **基礎学習** (1-2週間)
-   - WebGL基礎
-   - GLSL文法
-   - 数学の復習
+1. **基礎学習** (1-2週間) <mdi-book-open class="text-purple-500" />
+   - WebGL基礎 
+   - GLSL文法 <mdi-code-braces class="text-green-500" />
+   - 数学の復習 <mdi-math-integral class="text-blue-500" />
 
-2. **環境構築** (2-3日)
-   - ボイラープレート
-   - シェーダーローダー
-   - デバッグツール
+2. **環境構築** (2-3日) <mdi-cog class="text-gray-500" />
+   - ボイラープレート <mdi-file-code class="text-orange-500" />
+   - シェーダーローダー <mdi-file-import class="text-indigo-500" />
+   - デバッグツール <mdi-bug class="text-red-500" />
 
-3. **実装** (1-2週間)
-   - 試行錯誤
-   - パフォーマンス調整
-   - クロスブラウザ対応
+3. **実装** (1-2週間) <mdi-code class="text-teal-500" />
+   - 試行錯誤 <mdi-refresh class="text-blue-500" />
+   - パフォーマンス調整 <mdi-speedometer class="text-yellow-500" />
+   - クロスブラウザ対応 <mdi-web class="text-purple-500" />
 
 </div>
 
 ::right::
 
-# 魔法使いの開発フロー ✨
+# 魔法使いの開発フロー <mdi-magic-wand class="text-purple-500" /> 🚀
 
 <div class="mt-4 text-sm">
 
-1. **アイデアの具体化** (30分)
-   - エフェクトの明確化
-   - 参考実装の収集
-   - 要件の整理
+1. **アイデアの具体化** (30分) <mdi-lightbulb class="text-yellow-400" />
+   - エフェクトの明確化 <mdi-palette class="text-pink-500" />
+   - 参考実装の収集 <mdi-magnify class="text-blue-500" />
+   - 要件の整理 <mdi-clipboard-list class="text-green-500" />
 
-2. **Cursorとの対話** (30分)
-   - コード生成
-   - デバッグサポート
-   - 最適化アドバイス
+2. **Cursorとの対話** (30分) 
+   - コード生成 <mdi-code-tags-check class="text-green-500" />
+   - デバッグサポート <mdi-bug-check class="text-blue-500" />
+   - 最適化アドバイス <mdi-chart-line class="text-orange-500" />
 
-3. **実装＆調整** (1時間)
-   - 即座の試行錯誤
-   - リアルタイム改善
-   - パフォーマンス適化
+3. **実装＆調整** (1時間) <mdi-rocket-launch class="text-purple-500" />
+   - 即座の試行錯誤 <mdi-lightning-bolt class="text-yellow-500" />
+   - リアルタイム改善 <mdi-refresh-auto class="text-blue-500" />
+   - パフォーマンス最適化 <mdi-trending-up class="text-green-500" />
 
 </div>
 
