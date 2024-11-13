@@ -13,8 +13,8 @@ title: 今日からフロントエンドの魔法使い
 mdc: true
 ---
 
-# 今日からフロントエンドの<br>魔法使い
-## ～魅せる技で創るユーザーが恋するUX～
+# <span class="text-gradient-primary">今日からフロントエンドの<br>魔法使い</span> 
+## <span class="text-gradient-secondary">～魅せる技で創るユーザーが恋するUX～</span> <mdi-heart class="text-pink-500" />
 
 
 ---
@@ -91,7 +91,7 @@ layout: center
 - チーム横断的な改善活動<
 
 ## <span class="text-indigo-600">AI部門</span> <mdi-robot class="text-indigo-600" />
-- バックエンド技術の習得
+- バックエンド技術の習���
 - Figmaの習得
 - 生成AIの実践的活用
 - 最新技術のキャッチアップ
@@ -107,8 +107,8 @@ layout: center
 layout: statement
 ---
 
-# <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">魅せる体験が、</span>
-# <span class="bg-gradient-to-r from-blue-500 via-teal-500 to-emerald-500 bg-clip-text text-transparent">ユーザーの心を奪う。</span>
+# <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">魔法のような体験が、</span>
+# <span class="bg-gradient-to-r from-blue-500 via-teal-500 to-emerald-500 bg-clip-text text-transparent">製品の価値を高める。</span>
 
 ---
 layout: statement
@@ -130,23 +130,23 @@ layout: statement
 <div class="grid grid-cols-2 gap-8 mt-12">
 <div>
 
-## 成功事例 🏆
-- **Apple iOS 18** ✨ の流麗なアニメーション
-  - 🎯 ユーザーを**魅了する完璧な動き**
-  - 👑 **プレミアム体験**の象徴に
-- **Pixar & Disney** の哲学
-  - ✨ **細部へのこだわり**が感動を生む
-  - 💎 **最高の品質**が最高の価値を生む
+## 成功事例 <mdi-trophy class="text-yellow-400" />
+- **Apple iOS 18** <mdi-apple class="text-gray-800" /> の流麗なアニメーション
+  - <mdi-target class="text-red-500" /> ユーザーを**魅了する完璧な動き**
+  - <mdi-crown class="text-yellow-400" /> **プレミアム体験**の象徴に
+- **Pixar & Disney** <mdi-movie-open class="text-blue-500" /> の哲学
+  - <mdi-sparkles class="text-purple-500" /> **細部へのこだわり**が感動を生む
+  - <mdi-diamond class="text-cyan-400" /> **最高の品質**が最高の価値を生む
 
 </div>
 <div>
 
-## Webの可能性 💫
-- 🎮 **ゲーム業界**では当たり前の表現力
-- 📱 **ネイティブアプリ**の洗練された動き
-- しかし、**Web**ではまだ未開拓 <logos-chrome />
-  - ⚡ 技術的には**十分可能**
-  - 🚀 **差別化**の大きなチャンス
+## Webの可能性 <mdi-rocket-launch class="text-purple-500" />
+- <mdi-gamepad-variant class="text-indigo-500" /> **ゲーム業界**では当たり前の表現力
+- <mdi-cellphone class="text-green-500" /> **ネイティブアプリ**の洗練された動き
+- しかし、**Web**ではまだ未開拓 <logos-chrome class="text-blue-400" />
+  - <mdi-lightning-bolt class="text-yellow-400" /> 技術的には**十分可能**
+  - <mdi-rocket-launch class="text-purple-500" /> **差別化**の大きなチャンス
 
 </div>
 </div>
@@ -563,9 +563,13 @@ layout: center
 class: "text-center"
 ---
 
-# Call To Action 🚀
+# <span class="text-gradient-primary">Call To Action</span> <mdi-rocket-launch class="text-purple-500" />
 
-<div class="text-2xl font-bold mb-4 mt-8">今日から、あなたも魔法使いれる</div>
+<div class="text-2xl font-bold mb-4 mt-8">
+<span class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+今日から、あなたも魔法使いになれる
+</span>
+</div>
 
 <div class="grid grid-cols-3 gap-8 mt-12">
 <div>
@@ -591,6 +595,12 @@ layout: center
 ---
 
 # 実験の場：友人の依頼 🎩
+
+---
+layout: image
+image: /Simulator.png
+backgroundSize: contain
+---
 
 ---
 layout: two-cols
@@ -743,44 +753,25 @@ layout: two-cols
 
 
 
----
-layout: center
----
 
-# リソース集 📚
-
-<div class="grid grid-cols-2 gap-8 mt-8">
-<div>
-
-## 学習リソース
-- WebGL基礎
-- シェーダー入門
-- パフォーマンスチューニング
-- Cursorプロンプト例
-
-</div>
-<div>
-
-## ツール・ライブラリ
-- Three.js
-- GLSL Tools
-- デバッグツール
-- パフォーマンスモニタリング
-
-</div>
-</div>
 
 ---
 layout: end
 ---
 
-# Thank You! ✨
+# <span class="text-gradient-primary">Thank You!</span> <mdi-sparkles class="text-yellow-400" />
 
 <div class="mt-8">
-<div class="font-bold text-xl">Contact</div>
-<div class="mt-2">
-<mdi-twitter class="text-blue-400" /> @gunta85
-<br>
-<mdi-github /> @gunta
+<div class="font-bold text-xl">Contact & Social</div>
+<div class="mt-2 space-y-2">
+<div class="flex items-center gap-2">
+<mdi-twitter class="text-blue-400" /> <a href="https://twitter.com/gunta85" target="_blank">@gunta85</a>
+</div>
+<div class="flex items-center gap-2">
+<mdi-github class="text-gray-800" /> <a href="https://github.com/gunta" target="_blank">@gunta</a>
+</div>
+<div class="flex items-center gap-2">
+<mdi-brush class="text-red-500" /> <a href="https://guntherbrunner.art" target="_blank">guntherbrunner.art</a>
+</div>
 </div>
 </div>
