@@ -57,7 +57,7 @@ backgroundColor: #ffffff
 
 ---
 
-## 4. ブランド構造のビジュアル化
+## <mdi-sitemap class="text-purple-500" /> 4. ブランド構造のビジュアル化
 
 ```mermaid
 graph TD
@@ -76,156 +76,71 @@ graph TD
 
 ---
 
-## 5. 各プロジェクトの詳細
+## <mdi-file-document class="text-blue-500" /> 5. 各プロジェクトの詳細
 
-### 1. CyberAgent Boost Initiative
+### 1. CyberAgent Boost Initiative <mdi-flag-variant class="text-green-500" />
 
-- **目的**：生産性指標を向上させるための全社的な取り組み
-- **特徴**：定量的（DORA、SPACEなど）および定性的な指標の両面からアプローチ
-- **取り組み内容**：
-  - データ分析による課題抽出
-  - 改善策の実施と効果測定
-  - 社員参加型のワークショップ開催
-
----
-
-## 5. 各プロジェクトの詳細
-
-### 2. CyberAgent Boost Awards
-
-- **目的**：生産性向上に貢献したチームや個人を表彰
-- **効果**：
-  - モチベーションの向上
-  - 成功事例の共有
-- **表彰内容**：
-  - 年間MVPチーム・個人
-  - 最優秀改善プロジェクト
+- **目的** <mdi-target />：生産性指標を向上させるための全社的な取り組み
+- **特徴** <mdi-star />：定量的（DORA、SPACEなど）および定性的な指標の両面からアプローチ
+- **取り組み内容** <mdi-format-list-checks />：
+  - <mdi-chart-box /> データ分析による課題抽出
+  - <mdi-cog /> 改善策の実施と効果測定
+  - <mdi-account-group /> 社員参加型のワークショップ開催
 
 ---
 
-## 5. 各プロジェクトの詳細
+## <mdi-file-document class="text-blue-500" /> 5. 各プロジェクトの詳細
 
-### 3. CyberAgent Tools
+### 2. CyberAgent Boost Awards <mdi-trophy class="text-yellow-500" />
 
-- **目的**：生産性向上に役立つツールの情報や比較を提供
-- **特徴**：
-  - 職種を問わず利用可能
-  - ユーザーレビューや活用事例の掲載
-- **提供内容**：
-  - ツールの機能比較
-  - 導入手順とサポート情報
-
----
-
-## 5. 各プロジェクトの詳細
-
-### 4. CyberAgent Tools Awards
-
-- **目的**：生産性向上に貢献した優れたツールを表彰
-- **効果**：
-  - ツール開発者・提供者のモチベーション向上
-  - 社内外でのツール活用促進
-- **表彰部門**：
-  - ベストイノベーションツール
-  - ユーザー満足度No.1ツール
+- **目的** <mdi-target />：生産性向上に貢献したチームや個人を表彰
+- **効果** <mdi-star />：
+  - <mdi-rocket /> モチベーションの向上
+  - <mdi-share-variant /> 成功事例の共有
+- **表彰内容** <mdi-medal />：
+  - <mdi-crown class="text-yellow-500" /> 年間MVPチーム・個人
+  - <mdi-star class="text-yellow-500" /> 最優秀改善プロジェクト
 
 ---
 
-## 5. 各プロジェクトの詳細
+## <mdi-bullhorn class="text-blue-500" /> 6. コミュニケーション戦略
 
-### 5. CyberAgent Tools Access
+### 社内向け <mdi-office-building />
 
-- **目的**：従業員が必要なツールを迅速に導入できる申請・承認システム
-- **効果**：
-  - ツール導入のスピードアップ
-  - 管理部門との連携強化
-- **機能**：
-  - オンライン申請フォーム
-  - 承認プロセスの自動化
+- **イントラネットでの情報共有** <mdi-web />
+  - <mdi-file-document /> 専用ページの開設
+  - <mdi-newspaper /> 定期的なニュース配信
 
----
+- **ワークショップ・セミナー** <mdi-school />
+  - <mdi-trending-up /> 生産性向上のためのスキルアップ
+  - <mdi-teach /> ツールの使い方講座
 
-## 5. 各プロジェクトの詳細
-
-### 6. CyberAgent Productivity Guild
-
-- **目的**：職種を超えて生産性向上を推進する横断的なコミュニティ組織
-- **特徴**：
-  - 知識共有と共同学習の場
-  - 社員同士のネットワーキング促進
-- **活動内容**：
-  - 定期ミーティング
-  - ナレッジベースの構築
+- **成功事例の共有** <mdi-trophy class="text-yellow-500" />
+  - <mdi-newspaper-variant /> 社内報や掲示板での紹介
+  - <mdi-account-voice /> 社員インタビュー
 
 ---
 
-## 5. 各プロジェクトの詳細
+### 社外向け <mdi-earth />
 
-#### 子組織
+- **専用ウェブサイトの開設** <mdi-web class="text-blue-500" />
+  - <mdi-file-document /> 取り組み内容や成果を公開
+  - <mdi-account-group /> 採用ブランディング強化
 
-- **CyberAgent Developer Boost**
-  - **対象**：開発者
-  - **目的**：開発者の生産性向上
-  - **活動内容**：コードレビューの標準化、開発ツールの最適化
+- **プレスリリースとメディア露出** <mdi-newspaper-variant />
+  - <mdi-bullhorn /> 新しい取り組みや成果を発信
+  - <mdi-television /> 業界誌やオンラインメディアでの露出
 
----
-
-- **CyberAgent Designer Boost**
-  - **対象**：デザイナー
-  - **目的**：デザイナーの生産性向上
-  - **活動内容**：デザインシステムの共有、クリエイティブツールの導入
-
----
-
-- **CyberAgent Business Boost**
-  - **対象**：ビジネス職
-  - **目的**：ビジネス職の生産性向上
-  - **活動内容**：営業プロセスの効率化、CRMツールの活用
-
----
-
-- **CyberAgent AI Boost**
-  - **対象**：全職種
-  - **目的**：AI技術を活用した生産性向上
-  - **活動内容**：AIツールの導入支援、AI人材の育成
-
----
-
-## 6. コミュニケーション戦略
-
-### 社内向け
-
-- **イントラネットでの情報共有**
-  - 専用ページの開設
-  - 定期的なニュース配信
-
-- **ワークショップ・セミナー**
-  - 生産性向上のためのスキルアップ
-  - ツールの使い方講座
-
-- **成功事例の共有**
-  - 社内報や掲示板での紹介
-  - 社員インタビュー
-
----
-
-### 社外向け
-
-- **専用ウェブサイトの開設**
-  - 取り組み内容や成果を公開
-  - 採用ブランディング強化
-
-- **プレスリリースとメディア露出**
-  - 新しい取り組みや成果を発信
-  - 業界誌やオンラインメディアでの露出
-
-- **ソーシャルメディアでの情報発信**
-  - TwitterやLinkedInでの発信
-  - ハッシュタグキャンペーン
+- **ソーシャルメディアでの情報発信** <mdi-twitter class="text-blue-400" />
+  - <mdi-twitter /> TwitterやLinkedInでの発信
+  - <mdi-pound /> ハッシュタグキャンペーン
 
 ---
 
 ## <mdi-chart-bar class="text-green-500" /> 7. 期待される効果
+
+<div class="grid grid-cols-2 gap-4">
+<div>
 
 - **統一感のあるブランドイメージの確立** <mdi-image-filter-vintage />
   - 社内外での認知度向上
@@ -235,6 +150,9 @@ graph TD
   - モチベーションアップ
   - 離職率の低下
 
+</div>
+<div>
+
 - **業績向上と企業価値の向上**
   - 生産性向上によるコスト削減
   - 売上・利益の増加
@@ -243,9 +161,15 @@ graph TD
   - 優秀な人材の採用促進
   - パートナー企業からの信頼向上
 
+</div>
+</div>
+
 ---
 
 ## <mdi-stairs class="text-purple-500" /> 8. 今後のステップ
+
+<div class="grid grid-cols-2 gap-4">
+<div>
 
 1. **経営陣からの承認取得** <mdi-check-circle class="text-green-500" />
    - 提案内容の最終確認
@@ -255,6 +179,9 @@ graph TD
    - 各部門からのメンバー選出
    - 役割と責任の明確化
 
+</div>
+<div>
+
 3. **詳細な実施計画の策定**
    - スケジュール作成
    - KPIの設定
@@ -263,24 +190,27 @@ graph TD
    - 定期的な進捗報告
    - 課題の抽出と改善
 
+</div>
+</div>
+
 ---
 
-# CyberAgent Boostブランド足元で進む施策
+# <mdi-rocket class="text-purple-500" /> CyberAgent Boostブランド足元で進む施策
 
-## 現在進行中の施策
+## <mdi-run class="text-green-500" /> 現在進行中の施策
 
-### 1. 既存プロジェクトのリブランディング
-- **開発速度アゲ太郎** → **CyberAgent Boost Initiative**
-  - 開発生産性向上の取り組みを全社的な視点で再構築
-  - より包括的で専門性の高いブランドイメージへ
+### 1. 既存プロジェクトのリブランディング <mdi-refresh class="text-blue-500" />
+- **開発速度アゲ太郎** → **CyberAgent Boost Initiative** <mdi-arrow-right-bold />
+  - <mdi-chart-line /> 開発生産性向上の取り組みを全社的な視点で再構築
+  - <mdi-professional-hexagon /> より包括的で専門性の高いブランドイメージへ
 
-### 2. 新規プロジェクトの始動
-- **CyberAgent Boost Guild**の立ち上げ
-  - 元基さんと一緒に「新しいコミュニティ形成」
-  - 職種横断的な知見共有の場を創出
+### 2. 新規プロジェクトの始動 <mdi-rocket-launch class="text-orange-500" />
+- **CyberAgent Boost Guild**の立ち上げ <mdi-account-group class="text-blue-500" />
+  - <mdi-account /> 元基さんと一緒に「新しいコミュニティ形成」
+  - <mdi-share-variant /> 職種横断的な知見共有の場を創出
 
-### 3. 実施方針
-- 既存組織構造は維持
-- 社内外向けのブランディング強化に重点
-- 段階的な展開による円滑な移行
+### 3. 実施方針 <mdi-flag-checkered />
+- <mdi-office-building /> 既存組織構造は維持
+- <mdi-bullhorn /> 社内外向けのブランディング強化に重点
+- <mdi-stairs-up /> 段階的な展開による円滑な移行
 
