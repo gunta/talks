@@ -7,7 +7,7 @@
     "build": "slidev build talks/2024-07-04/slides.md",
     "dev-two": "slidev --open talks/2024-06-22/slides.md",
     "dev-three": "slidev --open talks/2024-07-04/slides.md",
-    "today": "slidev --open talks/2024-11-13-frontend-magic/slides2.md",
+    "today": "slidev --open talks/2024-12-01-branding/slides.md",
     "dev": "bun scripts/picker-bun.ts dev --open",
     "export": "slidev export",
     "clean": "rm -rf dist && echo 'Done.'",
