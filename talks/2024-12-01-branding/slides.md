@@ -5,13 +5,13 @@ paginate: true
 backgroundColor: #ffffff
 ---
 
-# CyberAgent Boost<br>包括的ブランディング戦略
+# <mdi-rocket class="text-blue-500" /> CyberAgent Boost<br>包括的ブランディング戦略
 
-**〜生産性向上への全社的取り組み〜**
+**〜生産性向上への全社的取り組み〜** <mdi-trending-up class="text-green-500" />
 
 ---
 
-## 目次
+## <mdi-format-list-bulleted /> 目次
 
 1. はじめに
 2. ブランドコンセプト
@@ -24,36 +24,36 @@ backgroundColor: #ffffff
 
 ---
 
-## 1. はじめに
+## <mdi-flag class="text-blue-500" /> 1. はじめに
 
-- **目的**：サイバーエージェント全体で生産性を向上させるための統合的なブランディング戦略を提案します。
-- **背景**：
+- **目的** <mdi-target />：サイバーエージェント全体で生産性を向上させるための統合的なブランディング戦略を図る。
+- **背景** <mdi-history />：
   - 既存の取り組みを統合し、社内外への認知度を高めたい。
   - 生産性向上に向けた定量的・定性的な取り組みを促進。
 
 ---
 
-## 2. ブランドコンセプト
+## <mdi-lightbulb class="text-yellow-500" /> 2. ブランドコンセプト
 
-### **ブランド名：CyberAgent Boost**
+### **ブランド名：CyberAgent Boost** <mdi-rocket-launch class="text-purple-500" />
 
-- **キーワード**：Boost（向上、加速）
-- **コンセプト**：生産性向上への全社的な取り組みを統合し、社員一人ひとりのパフォーマンスを最大化。
+- **キーワード** <mdi-key />：Boost（向上、加速）
+- **コンセプト** <mdi-star class="text-yellow-500" />：生産性向上への全社的な取り組みを統合し、社員一人ひとりのパフォーマンスを最大化。
 
 ---
 
-## 3. ブランド構成
+## <mdi-chart-timeline class="text-blue-500" /> 3. ブランド構成
 
-1. **CyberAgent Boost Initiative**
-2. **CyberAgent Boost Awards**
-3. **CyberAgent Tools**
-4. **CyberAgent Tools Awards**
-5. **CyberAgent Tools Access**
-6. **CyberAgent Productivity Guild**
-   - **CyberAgent Developer Boost**
-   - **CyberAgent Designer Boost**
-   - **CyberAgent Business Boost**
-   - **CyberAgent AI Boost**
+1. **CyberAgent Boost Initiative** <mdi-flag />
+2. **CyberAgent Boost Awards** <mdi-trophy class="text-yellow-500" />
+3. **CyberAgent Tools** <mdi-tools />
+4. **CyberAgent Tools Awards** <mdi-medal />
+5. **CyberAgent Tools Access** <mdi-key-variant />
+6. **CyberAgent Productivity Guild** <mdi-account-group />
+   - **CyberAgent Developer Boost** <mdi-code-tags />
+   - **CyberAgent Designer Boost** <mdi-palette />
+   - **CyberAgent Business Boost** <mdi-briefcase />
+   - **CyberAgent AI Boost** <mdi-robot />
 
 ---
 
@@ -225,13 +225,13 @@ graph TD
 
 ---
 
-## 7. 期待される効果
+## <mdi-chart-bar class="text-green-500" /> 7. 期待される効果
 
-- **統一感のあるブランドイメージの確立**
+- **統一感のあるブランドイメージの確立** <mdi-image-filter-vintage />
   - 社内外での認知度向上
   - 企業ブランド価値の向上
 
-- **生産性向上への社員エンゲージメント向上**
+- **生産性向上への社員エンゲージメント向上** <mdi-heart class="text-pink-500" />
   - モチベーションアップ
   - 離職率の低下
 
@@ -245,13 +245,13 @@ graph TD
 
 ---
 
-## 8. 今後のステップ
+## <mdi-stairs class="text-purple-500" /> 8. 今後のステップ
 
-1. **経営陣からの承認取得**
+1. **経営陣からの承認取得** <mdi-check-circle class="text-green-500" />
    - 提案内容の最終確認
    - 予算とリソースの確保
 
-2. **プロジェクトチームの編成**
+2. **プロジェクトチームの編成** <mdi-account-group class="text-blue-500" />
    - 各部門からのメンバー選出
    - 役割と責任の明確化
 
@@ -265,5 +265,22 @@ graph TD
 
 ---
 
----
+# CyberAgent Boostブランド足元で進む施策
+
+## 現在進行中の施策
+
+### 1. 既存プロジェクトのリブランディング
+- **開発速度アゲ太郎** → **CyberAgent Boost Initiative**
+  - 開発生産性向上の取り組みを全社的な視点で再構築
+  - より包括的で専門性の高いブランドイメージへ
+
+### 2. 新規プロジェクトの始動
+- **CyberAgent Boost Guild**の立ち上げ
+  - 元基さんと一緒に「新しいコミュニティ形成」
+  - 職種横断的な知見共有の場を創出
+
+### 3. 実施方針
+- 既存組織構造は維持
+- 社内外向けのブランディング強化に重点
+- 段階的な展開による円滑な移行
 
