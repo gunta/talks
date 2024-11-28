@@ -66,47 +66,46 @@ image: cursor.png
 
 ## 導入にあたっての進め方
 
-1. **CDC**と各事業部の責任者を一つのCAチームにまとめ、管理を一元化。
-2. アカウントの招待・削除管理は各事業責任者またはCDCが担当。
-3. 費用の按分はCDCが行います。
+1. <mdi-account-group class="text-blue-500" /> **CDC**と各事業部の責任者を一つのCAチームにまとめ、管理を一元化。
+2. <mdi-account-plus class="text-orange-500" /> アカウントの招待・削除管理は各事業責任者またはCDCが担当。
+3. <mdi-cash-multiple class="text-yellow-500" /> 費用の按分はCDCが行います。
 
 ## 招待・管理方法
 
-- **招待の仕組み**
+- <mdi-email-open class="text-purple-500" /> **招待の仕組み**
   - ドメインの縛り等は特にありません。
   - 管理画面から招待メールを送信、または招待リンクを配布します。
-- **Team単位での設定適用について**
+- <mdi-account-multiple class="text-green-500" /> **Team単位での設定適用について**
   - 個人向けの生産性ツールのため、情報漏洩の心配、共有設定などは、ほぼありません。
   - ビリング周りとアカウント管理のみです。
-
 
 ---
 
 ## Pricing・コスト管理
 
-- **Usage-based pricingの設定**
+- <mdi-cash-register class="text-green-500" /> **Usage-based pricingの設定**
   - 基本的に有効化とし、無効化の要望がある事業部は管理から外れて自分たちで管理を案内。
-  - **按分方法**
+  - <mdi-chart-donut class="text-blue-500" /> **按分方法**
     - ユーザーベース（メール単位）のRequests Usageの数字で按分。
-  - **ハードリミットの制限**
+  - <mdi-alert class="text-red-500" /> **ハードリミットの制限**
     - グループ全体で上限値を設定。業務に支障をきたさないように設定。
-- **支払いプラン**
+- <mdi-currency-usd class="text-blue-500" /> **支払いプラン**
   - ビジネスプラン以下はSSGからNGのため、ビジネスプランを選択。
-  - 年間払い（32$） または 月間払い（40$） の選択。
+  - <mdi-calendar-text class="text-blue-500" /> 年間払い（32$） または <mdi-calendar-month class="text-green-500" /> 月間払い（40$） の選択。
 
 ---
 
 ## 管理・運用に関するポイント
 
-- **各事業部の責任者にAdminを付与するか**
+- <mdi-account-key class="text-red-500" /> **各事業部の責任者にAdminを付与するか**
   - 現時点の機能では必要ありません。
-- **ユーザーごとの使用量の把握**
+- <mdi-chart-line class="text-green-500" /> **ユーザーごとの使用量の把握**
   - CDCに定期的にデータを出力してもらい、Slackで共有。
-- **Adminが他事業部メンバーの権限を持つ必要性**
+- <mdi-shield-account class="text-gray-600" /> **Adminが他事業部メンバーの権限を持つ必要性**
   - 現時点では不要です。
-- **兼務社員の対応**
+- <mdi-account-switch class="text-purple-500" /> **兼務社員の対応**
   - GitHubなどの他ツールと同様のルールで対応。
-- **事業責任者によるメンバー管理**
+- <mdi-account-cog class="text-blue-500" /> **事業責任者によるメンバー管理**
   - GitHubなどの他ツールと同様のルールで対応。
 
 ---
@@ -115,14 +114,14 @@ image: cursor.png
 
 ```mermaid
 flowchart TD
-    A[DP室 Zendeskにて申請] --> B[CDC Zendeskでチケット共有] --> C[CDCからアカウント招待]
+    A[<mdi-office-building class="text-gray-600" /> DP室 Zendeskにて申請] --> B[<mdi-account-group class="text-blue-500" /> CDC Zendeskでチケット共有] --> C[<mdi-email-open class="text-purple-500" /> CDCからアカウント招待]
 ```
 
 ## 削除フロー
 
 ```mermaid
 flowchart TD
-    A[要相談]
+    A[<mdi-help-circle class="text-red-500" /> 要相談]
 ```
 
 ---
@@ -131,14 +130,14 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    CDC[CDC] --> 請求1[席数按分]
-    CDC --> 請求2[従量課金]
-    請求1 & 請求2 --> 所属部署[所属部署に按分請求]
+    CDC[<mdi-account-group class="text-blue-500" /> CDC] --> 請求1[<mdi-numeric-1-circle class="text-green-500" /> 席数按分]
+    CDC --> 請求2[<mdi-numeric-2-circle class="text-yellow-500" /> 従量課金]
+    請求1 & 請求2 --> 所属部署[<mdi-office-building class="text-gray-600" /> 所属部署に按分請求]
 ```
 
 - **説明**:
-  - **請求1**: 席数按分（GitHubと同様）
-  - **請求2**: ユーザーごとの従量課金（GitHub Actionsと同様）
+  - <mdi-numeric-1-circle class="text-green-500" /> **請求1**: 席数按分（GitHubと同様）
+  - <mdi-numeric-2-circle class="text-yellow-500" /> **請求2**: ユーザーごとの従量課金（GitHub Actionsと同様）
 
 ---
 
