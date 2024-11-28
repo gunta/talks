@@ -1,15 +1,15 @@
-# Cursor導入の提案
+# <mdi-cursor-default-click class="text-blue-500" /> Cursor導入の提案
 
 ## 背景
 
-- **生成AI活用コンサル**として、DP室とAIオペ室の共同タスクフォースでツール導入の計画・検証を進めています。
-- エンジニアの開発生産性向上に最も効果が高いツールとして、**Cursor**の全社導入を決定しました。
+- **生成AI活用コンサル**として、<mdi-office-building class="text-gray-600" /> DP室と<mdi-robot-industrial class="text-gray-600" /> AIオペ室の共同タスクフォースでツール導入の計画・検証を進めています。
+- エンジニアの開発生産性向上に最も効果が高いツールとして、<mdi-star-circle class="text-yellow-500" /> **Cursor**の全社導入を決定しました。
 
 ## 先行導入ツールの選定
 
-- **Cursor**（インパクト：大）
-- **Dify**（インパクト：中）
-- **Copilot Code Review**（1月予定、インパクト：中）
+- <mdi-cursor-default-click class="text-blue-500" /> **Cursor**（インパクト：<span class="text-red-500 font-bold">大</span>）
+- <mdi-flash class="text-green-500" /> **Dify**（インパクト：<span class="text-yellow-500 font-bold">中</span>）
+- <mdi-github class="text-gray-800" /> **Copilot Code Review**（1月予定、インパクト：<span class="text-yellow-500 font-bold">中</span>）
 
 ---
 layout: two-cols
@@ -27,9 +27,9 @@ layout: two-cols
 
 ## AI IDE（AIエージェント）
 全体のコード理解し、自動コード生成・自動ツール実行
--  Cursor（VSCodeと互換性100%）
+- <mdi-cursor-default-click class="text-blue-500" /> Cursor（VSCodeと互換性100%）
     - 最も熟成度・完成度高く・最も使われている
--  Windsurf（VSCodeと互換性100%）
+- <mdi-waves class="text-purple-500" /> Windsurf（VSCodeと互換性100%）
 - <logos-replit-icon class="text-purple-500" /> Replit
 - <mdi-lightning-bolt class="text-yellow-500" /> Bolt
 - <mdi-robot class="text-gray-600" /> V0
@@ -38,24 +38,24 @@ layout: two-cols
 
 # 申請時の問題解決
 
-- 申請がスムーズに進むように、**CTO統括室で各CTOの事前承認を取得**。
+- 申請がスムーズに進むように、<mdi-account-tie class="text-red-500" /> **CTO統括室で各CTOの事前承認を取得**。
 
 ---
 
 ## Cursorとは
 
-- OpenAIが出資する最先端のAIコーディングツール
+- <mdi-lightbulb-on class="text-yellow-500" /> OpenAIが出資する最先端のAIコーディングツール
 - GitHub Copilotを超える高度な機能を提供：
-  - インテリジェントなコード生成
-  - 自然言語での対話によるコード編集・リファクタリング
-  - Agent機能により、より高度な開発支援が可能に：
+  - <mdi-wand class="text-purple-500" /> インテリジェントなコード生成
+  - <mdi-chat-processing class="text-green-500" /> 自然言語での対話によるコード編集・リファクタリング
+  - <mdi-robot class="text-gray-600" /> Agent機能により、より高度な開発支援が可能に：
     - プロジェクト全体を理解したコード生成
     - 複数ファイルを跨いだリファクタリング
     - ツールの自動実行
     - アーキテクチャ設計の提案
 - エンジニアの生産性を大幅に向上。
-- 社内の好評の声：[Cursorの声](https://www.notion.so/Cursor-1469cd65444980c48538cf59cf75f494?pvs=21)
-- 社内Slackチャンネル：`#ca-tech-cursor`
+- 社内の好評の声：<mdi-comment-multiple class="text-blue-500" /> [Cursorの声](https://www.notion.so/Cursor-1469cd65444980c48538cf59cf75f494?pvs=21)
+- 社内Slackチャンネル：<mdi-slack class="text-purple-500" /> `#ca-tech-cursor`
 
 ---
 layout: image
@@ -144,7 +144,7 @@ flowchart TD
 
 ## 決定が必要なポイント
 
-- **支払いプランの選択**（年間払い or 月間払い）
+- **支払いプランの選択**（<mdi-calendar-text class="text-blue-500" /> 年間払い or <mdi-calendar-month class="text-green-500" /> 月間払い）
 - **Usage-based pricingの有効化**と**ハードリミットの設定**
 - **請求フロー**
 - **管理・請求用に関する各種権限設定**
