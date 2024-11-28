@@ -12,6 +12,28 @@
 - **Copilot Code Review**（1月予定、インパクト：中）
 
 ---
+layout: two-cols
+---
+
+# 開発環境（IDE）
+
+## 旧IDE（テキストエディター）
+ファイルごとの自動コードコンプリート
+- <logos-visual-studio-code class="text-blue-500" /> VSCode
+- <logos-intellij-idea class="text-orange-500" /> IntelliJ Idea 
+- <logos-github-copilot class="text-gray-800" /> GitHub Copilot
+
+::right::
+
+## AI IDE（AIエージェント）
+全体のコード理解し、自動コード生成・自動ツール実行
+-  Cursor（VSCodeと互換性100%）
+-  Windsurf（VSCodeと互換性100%）
+- <logos-replit-icon class="text-purple-500" /> Replit
+- <mdi-lightning-bolt class="text-yellow-500" /> Bolt
+- <mdi-robot class="text-gray-600" /> V0
+
+---
 
 # 申請時の問題解決
 
