@@ -28,6 +28,7 @@ layout: two-cols
 ## AI IDE（AIエージェント）
 全体のコード理解し、自動コード生成・自動ツール実行
 -  Cursor（VSCodeと互換性100%）
+    - 最も熟成度・完成度高く・最も使われている
 -  Windsurf（VSCodeと互換性100%）
 - <logos-replit-icon class="text-purple-500" /> Replit
 - <mdi-lightning-bolt class="text-yellow-500" /> Bolt
