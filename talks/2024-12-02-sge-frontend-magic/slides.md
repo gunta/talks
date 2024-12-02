@@ -11,10 +11,6 @@ drawings:
 transition: slide-left
 title: 今日からフロントエンドの魔法使い
 mdc: true
-highlighter: shiki
-drawings:
-  persist: false
-mdc: true
 author: Günther Brunner
 download: true
 twoslash: true
@@ -22,7 +18,10 @@ monaco: false
 ---
 
 # <span class="text-gradient-primary">今日からフロントエンドの<br>魔法使い</span> 
-## <span class="text-gradient-secondary">～魅せる技で創るユーザーが恋するUX～</span> <mdi-heart class="text-pink-500" />
+## <span class="text-gradient-secondary">～魅せる技で創るユーザーが恋するUX～</span> <mdi-heart class="text-pink-500" /> 
+<br>
+
+### SGE 輪読会の成果発表会 x LT会 2024.12.02
 
 
 ---
