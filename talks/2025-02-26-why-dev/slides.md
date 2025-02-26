@@ -1,29 +1,7 @@
-# Presentation Main concept
 
-This is the main concept that should be embedded in the whole theme.
 
-## なぜ、いま開発を変えるのか
 
-世界は変わった。開発の常識が、いま大きく動き出している。
-まだチャットボットとコード補完で消耗してるのか？ 
-それじゃ遅すぎる。
-
-AIは既に、想像を超えた領域に到達している。 
-開発速度は5倍、いや、それ以上へ。 
-これは誇張でも幻想でもない。
-
-Cursor、Windsurf、Cline—— 
-これらは新時代を切り開く鍵だ。
-
-2025年はエージェントの年だ。 
-Sam Altmanも言った—— 
-「2025年末のソフトウェアエンジニアリングは、
-年初とは全く異なるものになる」
-
-この革命の最前線に、俺達は立つ。
-日本から、世界へ。
-
-# Intro (storytelling)
+# Part 1 Intro (storytelling)
 "Connecting the dots"
 
 [why image]
@@ -67,9 +45,6 @@ Programming in Assembly and C. Very low level.
 # Then I got onto Software
 So I started studying Computer Science.
 Hello C++ I love C++.
-My idols were Bjarne Stroustrup and John Carmack.
-
-[screen photo of c++ hello world]
 
 # And started making Open Source
 
@@ -356,6 +331,33 @@ https://yakushin-manifesto.org/ja/
 
 #　そして色んな形 
 - その最先端の情報を発信するイベント、祭りを作ろうではないか？
+
+# Part 2: Today, the event
+
+# Presentation Main concept
+
+
+## なぜ、いま開発を変えるのか
+
+世界は変わった。開発の常識が、いま大きく動き出している。
+まだチャットボットとコード補完で消耗してるのか？ 
+それじゃ遅すぎる。
+
+AIは既に、想像を超えた領域に到達している。 
+開発速度は5倍、いや、それ以上へ。 
+これは誇張でも幻想でもない。
+
+Cursor、Windsurf、Cline—— 
+これらは新時代を切り開く鍵だ。
+
+2025年はエージェントの年だ。 
+Sam Altmanも言った—— 
+「2025年末のソフトウェアエンジニアリングは、
+年初とは全く異なるものになる」
+
+この革命の最前線に、俺達は立つ。
+日本から、世界へ。
+
 
 # 今の波はAIコードエージェント
 
