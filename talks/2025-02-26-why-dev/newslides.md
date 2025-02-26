@@ -243,7 +243,7 @@
 
 [image: midjourney 6.1 prompt: newcomer looking up at Tokyo skyline in awe, neon lights, sense of wonder and opportunity]
 
-> こんにちは東京！ただいま！はじめまして！I arrived in Japan barely able to speak beyond basic greetings.
+> こんにちは東京！ただいま！はじめまして！日本語がほとんど話せない状態で、基本的な挨拶しかできないまま日本に到着しました。
 
 ---
 
@@ -252,7 +252,7 @@
 
 [image: midjourney 6.1 prompt: language student surrounded by kanji characters floating in air, determination, immersive learning]
 
-> 日本語を1年間勉強して、今のレベルを獲得した。I studied Japanese intensively for a year to reach my current level.
+> 日本語を1年間集中的に勉強して、今のレベルに到達することができました。毎日の努力と継続的な学習が今の私の日本語力を築き上げました。
 
 ---
 
@@ -261,7 +261,7 @@
 
 [image: midjourney 6.1 prompt: collage of diverse part-time jobs in Japan - wedding hall, TV commercial shooting, movie set, bartending]
 
-> To improve my Japanese, I took various part-time jobs: wedding hall staff, bartender at hotel weddings, appearing in TV commercials (J-League), and film shoots including "Zero Focus" by Matsumoto Seicho and TV shows like "Unbelievable".
+> 日本語力を向上させるため、様々なアルバイトを経験しました。結婚式場のスタッフ、ホテルの結婚式でのバーテンダー、テレビCM（Jリーグ）への出演、松本清張の「ゼロの焦点」などの映画撮影、「アンビリバボー」のような番組にも参加しました。実践的な環境で日本語を使うことが、最高の学習法でした。
 
 ---
 
@@ -270,7 +270,7 @@
 
 [image: midjourney 6.1 prompt: AI system performing translation work, human translator being sidelined, transition of jobs]
 
-> Some skills I developed, like translation (for the Japanese government), are now being replaced by AI.
+> 日本政府のための翻訳など、私が身につけたスキルの一部は、現在AIによって置き換えられつつあります。テクノロジーの進化により、私たちの仕事の在り方も大きく変わってきています。
 
 ---
 
@@ -279,7 +279,7 @@
 
 [image: midjourney 6.1 prompt: design student working in studio with graphics tablet, progression from amateur to professional work visible]
 
-> I spent two years studying graphic design. At first, I was terrible, but gradually improved through constant feedback.
+> グラフィックデザインを2年間学びました。最初はまったくダメでしたが、継続的なフィードバックを受けることで徐々に上達していきました。諦めずに挑戦し続けることの大切さを学びました。
 
 ---
 
@@ -288,7 +288,7 @@
 
 [image: midjourney 6.1 prompt: brain receiving feedback loops, reinforcement learning visualization, skill acquisition process]
 
-> I realized that developing "design sense" is exactly like RLHF (Reinforcement Learning from Human Feedback). My professor would point out issues, I'd adjust, and gradually my intuition improved. "Design sense can be cultivated" wasn't just a saying - it's how our brains and modern AI both learn!
+> 「デザインセンス」を磨くプロセスが、まさにRLHF（人間からのフィードバックによる強化学習）そのものだと気づきました。先生が問題点を指摘し、私が調整し、徐々に直感が向上していく。「センスは磨くもの」という言葉は単なる言い伝えではなく、私たちの脳と現代のAIの両方が学習する仕組みそのものだったのです！
 
 ---
 
@@ -297,7 +297,7 @@
 
 [image: midjourney 6.1 prompt: innovative Japanese tech startup office, people working on mobile apps, creative atmosphere]
 
-> I joined a forward-thinking Japanese venture company that was building iOS apps before Android even existed! I was doing everything: design in Photoshop, coding in Dreamweaver, programming in Flash, server-side in PHP, native apps...
+> Androidが存在する前からiOSアプリを開発していた先進的な日本のベンチャー企業に入社しました。PhotoshopでのデザインからDreamweaverでのコーディング、Flashでのプログラミング、PHPでのサーバーサイド開発、ネイティブアプリ開発まで、あらゆることを担当していました。
 
 ---
 
@@ -309,7 +309,7 @@
 ## 1. 行動人材ビザ → 所得税で還元
 ## 2. 帰国者は日本との貿易の架け橋に
 
-> I began to understand the brilliance of MEXT's scholarship program: those who stay in Japan often qualify for highly skilled professional visas and pay back many times the scholarship amount in income tax. Those who return home become bridges for trade with Japan, having positive attitudes toward the country. It's a masterful stealth investment by the Japanese government!
+> 文部科学省の奨学金プログラムの素晴らしさを理解し始めました。日本に残る人は高度人材ビザの資格を得て、奨学金の何倍もの所得税を払い戻します。帰国する人は日本に対して良い印象を持ち、母国と日本との貿易の架け橋になります。これは日本政府による見事なステルス投資なのです！
 
 ---
 
@@ -318,7 +318,7 @@
 
 [image: midjourney 6.1 prompt: CyberAgent office in 2012, mobile-first transition period, energetic digital workspace]
 
-> In 2012, CyberAgent was embracing the smartphone shift. I joined (13 years ago now!) and discovered something very interesting about Japanese development practices.
+> 2012年、サイバーエージェントはスマートフォンシフトに取り組んでいました。私は入社し（もう13年前ですね！）、日本の開発手法について非常に興味深い発見をしました。
 
 ---
 
@@ -329,7 +329,7 @@
 
 ## バックエンド、フロントエンド、コーダー、デザイナー...
 
-> Everything was completely separated! Not just backend and design, but even JavaScript programmers were separate from HTML/CSS coders. This specialization made sense for companies with budget looking to ship faster.
+> すべてが完全に分離されていました！バックエンドとデザインだけでなく、JavaScriptプログラマーはHTML/CSSコーダーとも分離されていました。この専門化は、予算のある企業が迅速にリリースするためには理にかなっていました。
 
 ---
 
@@ -338,7 +338,7 @@
 
 [image: midjourney 6.1 prompt: frustrated game developer surrounded by many different Android devices, testing nightmare, bugs appearing]
 
-> As a game developer, I found that most of my time wasn't spent developing, but testing on countless Android devices. Fix one bug, another appears. Total chaos and suffering!
+> ゲーム開発者として、開発自体よりも無数のAndroidデバイスでのテストに多くの時間を費やしていました。一つのバグを修正すると別のバグが現れる。完全なカオスと苦痛でした！
 
 ---
 
@@ -347,7 +347,7 @@
 
 [image: midjourney 6.1 prompt: innovative system showing multiple smartphone screens being remotely controlled from one computer, testing revolution]
 
-> With a colleague, I decided to fix this problem of manual testing. We created OpenSTF - a system for remote controlling, testing, and debugging Android devices in real-time.
+> 同僚と共に、この手動テストの問題を解決することにしました。OpenSTFというシステムを作り、Androidデバイスをリアルタイムでリモート制御、テスト、デバッグできるようにしました。
 
 ---
 
@@ -358,7 +358,7 @@
 
 ## 13,000+ GitHub Stars
 
-> I made OpenSTF open source with a nice UI, and it became very popular - over 13,000 GitHub stars! This time, focusing on both technology AND user experience paid off.
+> 優れたUIを備えたOpenSTFをオープンソースとして公開したところ、13,000以上のGitHubスターを獲得する大ヒットとなりました！今回は技術的な優秀さと優れたユーザー体験の両方に焦点を当てたことが成功につながりました。
 
 ---
 
@@ -369,7 +369,7 @@
 
 ## Google, Amazon, Mercari, CyberAgent...
 
-> The tool was adopted by major companies worldwide: Google, Amazon, Mercari, and of course CyberAgent. It solved a real problem with both technical excellence AND good design.
+> このツールは世界中の主要企業に採用されました：Google、Amazon、メルカリ、そしてもちろんサイバーエージェント。技術的な優秀さと優れたデザインの両方を兼ね備え、実際の問題を解決したのです。
 
 ---
 
@@ -378,7 +378,7 @@
 
 [image: midjourney 6.1 prompt: empty Tokyo streets during pandemic, remote work transition, questioning urban life]
 
-> When COVID hit, I started questioning the purpose of living in a city where you couldn't do anything. What was the point?
+> コロナが流行すると、何もできない都市に住む意味を疑問に思い始めました。そこに住む目的は何なのか？
 
 ---
 
@@ -387,7 +387,7 @@
 
 [image: midjourney 6.1 prompt: beautiful Okinawa coastline, remote work setup near beach, freedom and self-sufficiency]
 
-> I moved to Okinawa, embracing remote work and trying to see if self-sustained living was possible.
+> 沖縄に移住し、リモートワークを取り入れ、自給自足の生活が可能かどうか試してみました。都会を離れ、自然との共生を探求する新しい冒険の始まりでした。
 
 ---
 
@@ -398,7 +398,7 @@
 
 ## 20メートル潜水、捕獲、血抜き、調理...
 
-> I became addicted to spearfishing - diving 20 meters, hunting fish, cleaning them, and enjoying the freshest meals possible. It released tremendous dopamine. I realized humans have innate hunting instincts. Even if AI takes all jobs someday, at least in Okinawa, I could survive by spearfishing!
+> 魚突きに夢中になりました。20メートル潜って魚を捕まえ、血抜きし、調理して、最高に新鮮な食事を楽しむ。それは莫大なドーパミンを放出させました。人間には狩猟の本能が備わっているのだと実感しました。もしAIがいつか全ての仕事を奪ったとしても、少なくとも沖縄では魚突きで生きていけるでしょう！
 
 ---
 
@@ -407,7 +407,7 @@
 
 [image: midjourney 6.1 prompt: tsunami wave of AI technology washing over traditional programming, transformative force]
 
-> Then LLMs and AI arrived. I noticed an enormous widening gap between those who could read/write English and those who couldn't. The flow of new AI information was simply too fast to be translated into Japanese quickly enough.
+> そしてLLMとAIが到来しました。英語を読み書きできる人とできない人との間の格差が急速に広がっていることに気づきました。新しいAI情報の流れはあまりにも速く、日本語への翻訳が間に合わなくなっていたのです。
 
 ---
 
@@ -416,7 +416,7 @@
 
 [image: midjourney 6.1 prompt: visualized knowledge gap between English and Japanese speakers, information flow bottleneck, opportunity divide]
 
-> The English-Japanese gap was becoming larger than ever before. And no, Google Translate wasn't enough to bridge it.
+> 英語と日本語の間の格差はかつてないほど大きくなっていました。そして、Google翻訳だけではこの溝を埋めるには不十分でした。
 
 ---
 
@@ -425,7 +425,7 @@
 
 [image: midjourney 6.1 prompt: old Meiji era document being uncovered, historical connection to modern challenge, revelation]
 
-> Last year, I discovered a research paper that shocked me. It revealed how Japan had overcome a similar knowledge gap during the Meiji era.
+> 昨年、私を震撼させた研究論文を発見しました。明治時代の日本が同様の知識格差をどのように克服したかを明らかにしたものでした。
 
 ---
 
@@ -436,7 +436,7 @@
 
 ## 17年間で世界最先端の技術大国へ
 
-> During the Meiji era, Japan transformed into a cutting-edge technological nation in just 17 years. The key? Translating Western knowledge into Japanese and disseminating it widely.
+> 明治時代、日本はわずか17年で最先端の技術国家へと変貌を遂げました。その鍵は何だったのでしょうか？西洋の知識を日本語に翻訳し、広く普及させたことです。
 
 ---
 
@@ -447,7 +447,7 @@
 
 ## 1870年: 84%は英語、フランス語、ドイツ語、イタリア語
 
-> In 1870, 84% of the world's technical books were in just four languages: English, French, German, and Italian. Other countries were effectively cut off from access to the latest technology.
+> 1870年、世界の技術書の84%はわずか4言語：英語、フランス語、ドイツ語、イタリア語だけで占められていました。他の国々は事実上、最新技術へのアクセスから遮断されていたのです。
 
 ---
 
@@ -458,7 +458,7 @@
 
 ## 大規模翻訳プロジェクト
 
-> The Japanese government responded with a revolutionary approach: a massive translation project to convert Western knowledge into Japanese and spread it to all citizens.
+> 日本政府は革命的なアプローチで対応しました：西洋の知識を日本語に翻訳し、すべての市民に広めるための大規模な翻訳プロジェクトを開始したのです。
 
 ---
 
@@ -470,7 +470,7 @@
 ## 1868年: 製造業輸出30%未満 → 1895年: 60%
 ## 労働生産性: 年平均2.7%成長
 
-> The results were remarkable. From 1868 to 1895, Japan's manufacturing exports grew from less than 30% to 60%. Labor productivity grew at an annual rate of 2.7% - more than twice the per capita GDP growth rate!
+> その結果は驚異的でした。1868年から1895年の間に、日本の製造業輸出は30%未満から60%に成長しました。労働生産性は年平均2.7%の成長率を記録し、これは同時期の一人当たりGDP成長率の2倍以上でした！
 
 ---
 
@@ -481,7 +481,7 @@
 
 ## https://yakushin-manifesto.org/ja/
 
-> For those interested in this research, I've summarized it at yakushin-manifesto.org. Japan's industrial revolution secret was the translation and systematization of technical knowledge. We need more guides and books in Japanese (thank you Kinopee-san!).
+> この研究に興味がある方は、yakushin-manifesto.orgにまとめています。日本の産業革命の秘密は、技術知識の翻訳と体系化にありました。今こそ、日本語での解説書や専門書が必要です（きのぴーさん、ありがとうございます！）。
 
 ---
 
@@ -490,7 +490,7 @@
 
 [image: midjourney 6.1 prompt: vibrant tech conference, celebration of knowledge sharing, festival atmosphere with modern technology theme]
 
-> And in various forms, we should create events and festivals to share cutting-edge information. Which brings us to today's event!
+> そして今、さまざまな形で最先端の情報を共有するイベントや祭りを創造する時です。それが今日のイベントにつながっています！
 
 ---
 
@@ -499,7 +499,7 @@
 
 [image: midjourney 6.1 prompt: dramatic technological evolution, old development approaches shattering, new horizon of possibilities]
 
-> The world has changed. The common sense of development is now in major flux. Are you still struggling with chatbots and code completion? That's too slow.
+> 世界は変わりました。開発の常識が大きく変動しています。まだチャットボットやコード補完に苦戦していますか？それでは遅すぎます。
 
 ---
 
@@ -510,7 +510,7 @@
 
 ## 開発速度5倍以上へ
 
-> AI has already reached areas beyond imagination. Development speed is 5 times faster, or even more. This is not exaggeration or fantasy.
+> AIはすでに想像を超えた領域に到達しています。開発速度は5倍以上、あるいはそれ以上に加速します。これは誇張でも幻想でもありません。
 
 ---
 
@@ -521,7 +521,7 @@
 
 ## Cursor, Windsurf, Cline
 
-> Cursor, Windsurf, Cline — these are the keys to unlocking the new era.
+> Cursor、Windsurf、Cline — これらは新時代を切り開く鍵です。
 
 ---
 
@@ -533,7 +533,7 @@
 ## Sam Altman:
 ## 「2025年末のソフトウェアエンジニアリングは、年初とは全く異なるものになる」
 
-> 2025 is the year of agents. Sam Altman said: "Software engineering at the end of 2025 will be completely different from what it is at the beginning of the year."
+> 2025年はエージェントの年です。サム・アルトマンが言いました：「2025年末のソフトウェアエンジニアリングは、年初とは全く異なるものになるだろう」。
 
 ---
 
@@ -544,7 +544,7 @@
 
 ## 日本から、世界へ
 
-> We're standing at the frontline of this revolution. From Japan, to the world.
+> 私たちはこの革命の最前線に立っています。日本から、世界へ。
 
 ---
 
@@ -555,7 +555,7 @@
 
 ## スマホシフト以上の危機感
 
-> This wave of AI code agents feels more urgent than the smartphone shift. I see few people around me who can fully harness AI yet, and it's critical!
+> このAIコードエージェントの波は、スマートフォンシフト以上に緊急性を感じます。AIを十分に活用できる人がまだ周りに少なく、これは危機的状況です！
 
 ---
 
@@ -566,7 +566,7 @@
 
 ## 線形→指数関数的
 
-> The current growth of power and information is not linear now, it's exponential.
+> 現在の技術力と情報の成長は線形ではなく、指数関数的です。
 
 ---
 
@@ -577,7 +577,7 @@
 
 ## 7割のタスクをAIコーディングエージェントへ
 
-> Thanks to Claude 3.7's arrival, we're now closer to a world where we want to hand over 70% of tasks to AI coding agents rather than having humans develop everything.
+> Claude 3.7の登場により、人間が全てを開発するよりも、7割のタスクをAIコーディングエージェントに任せたい世界に近づきました。
 
 ---
 
@@ -588,7 +588,7 @@
 
 ## ビジョナリーな経営者の時代
 
-> For visionary business leaders: While engineers are still needed for production-ready polish, increasingly you can work directly with AI for initial prototypes. Like Shigeru Miyamoto, you need to communicate your vision clearly. The age of blindly delegating to technical teams is becoming dangerous - the pace is too fast. The business models, possibilities, and norms are all changing dramatically.
+> ビジョナリーな経営者にとって：本番環境に対応するためにはエンジニアが必要ですが、初期プロトタイプの段階では直接AIと協働する機会が増えています。宮本茂のように、ビジョンを明確に伝える能力が重要です。技術チームに盲目的に任せる時代は危険になりつつあります - 変化のペースが速すぎるのです。ビジネスモデル、可能性、規範のすべてが劇的に変化しています。
 
 ---
 
@@ -600,7 +600,7 @@
 ## MTエンジニア → 趣味
 ## AIエンジニア → 仕事
 
-> For engineers: Manual task (MT) engineering is becoming a hobby. AI engineering is becoming a career.
+> エンジニアにとって：マニュアルタスク（MT）エンジニアリングは趣味になりつつあります。AIエンジニアリングはキャリアになります。
 
 ---
 
@@ -611,7 +611,7 @@
 
 ## 起点力、発想力、行動力の時代
 
-> For designers and creators: Originality, imagination, and initiative have become the most important elements. This is when creative people can truly shine.
+> デザイナーやクリエイターにとって：独自性、発想力、主体性が最も重要な要素となりました。創造的な人々が真に輝ける時代が到来しています。
 
 ---
 
@@ -622,7 +622,7 @@
 
 ## 「我々が知っているプログラミングの終焉」
 
-> There's something important to recognize: we're witnessing "The End of Programming As We Know It."
+> 重要な認識すべきことがあります：私たちは「我々が知っているプログラミングの終焉」を目の当たりにしています。
 
 ---
 
@@ -633,7 +633,7 @@
 
 ## プログラミング、デザイン、経営の民主化
 
-> We're seeing the democratization of programming, designing, and even business management. Currently, AI is more intelligent than most humans. So you just need to work with it, regardless of your profession.
+> プログラミング、デザイン、さらには経営の民主化が進んでいます。現在、AIは多くの人間より知能的です。職業に関係なく、AIと協働するだけでよいのです。
 
 ---
 
@@ -644,7 +644,7 @@
 
 ## Cursor or Windsurf
 
-> These are my best two recommendations regardless of your profession: Cursor or Windsurf.
+> 職業に関係なく、私からの最良の2つの推奨ツールはCursorとWindsurfです。
 
 ---
 
@@ -655,7 +655,7 @@
 
 ## Claude 3.7
 
-> The best model today is Claude 3.7.
+> 現時点で最高のモデルはClaude 3.7です。
 
 ---
 
@@ -670,7 +670,7 @@
 - データ非学習モード
 - プライバシーモード
 
-> They can be used in enterprise environments. For example, Cursor: Department rules can be customized, security is OK with SOC2 certification, business plans available, data isn't used for training, and privacy mode is available.
+> これらはエンタープライズ環境でも利用可能です。例えばCursorの場合：部門ごとにルールをカスタマイズでき、SOC2認証によるセキュリティも確保され、ビジネスプランがあり、データが学習に使用されないモードやプライバシーモードも利用できます。
 
 ---
 
@@ -681,7 +681,7 @@
 
 ## AIによる専門化の解体
 
-> Specialization has been killed by AI. The communication cost of division of labor is now a liability. AI doesn't like excessive specialization - it prefers speaking the same language and using less code (tokens). This allows for MUCH faster releases, often by individuals working alone.
+> 専門化はAIによって解体されました。分業によるコミュニケーションコストが負債になっています。AIは過度な専門化を好まず、同じ言語で話し、少ないコード（トークン）を好みます。これにより、個人での作業でもはるかに速いリリースが可能になりました。
 
 ---
 
@@ -695,7 +695,7 @@
 - Serverless: TS
 - Native: TS/React/Expo
 
-> For most apps/services and use cases, it makes almost no sense to separate everything anymore. The FullTS Default Stack with TypeScript everywhere is becoming standard.
+> ほとんどのアプリやサービス、ユースケースにおいて、すべてを分離する意味はほとんどなくなりました。TypeScriptを全体で使用するFullTSデフォルトスタックが標準になりつつあります。
 
 ---
 
@@ -706,7 +706,7 @@
 
 ## Linear, Supabase, Clerk, ロジックス（アセンド株式会社）
 
-> More and more companies are taking this unified approach. It increases productivity A LOT - there's so much leverage.
+> 多くの企業がこの統合アプローチを採用しています。生産性が大幅に向上し、レバレッジが非常に大きくなります。
 
 ---
 
@@ -719,7 +719,7 @@
 ## Bolt: 15人で2ヶ月で$20M ARR達成
 ## Lovable: 15人で2ヶ月で$10M ARR達成
 
-> Small teams beating big teams has been conclusively demonstrated. Tiny teams are the future: Cursor reached $100M ARR in 21 months with just 20 people, Bolt reached $20M ARR in 2 months with 15 people, and Lovable reached $10M ARR in 2 months with 15 people.
+> 小さなチームが大きなチームに勝つことが実証されました。小規模チームが未来です：Cursorはわずか20人で21ヶ月で1億ドルのARRを達成、Boltは15人で2ヶ月で2000万ドルのARRを達成、Lovableは15人で2ヶ月で1000万ドルのARRを達成しました。
 
 ---
 
@@ -731,7 +731,7 @@
 ## サーバーレス化
 ## オンデマンド課金
 
-> There are many paradigm shifts happening. Nowadays it makes more economic sense to go serverless using Cloudflare or similar services rather than spinning up instances. Don't spend money when you're not using resources.
+> 多くのパラダイムシフトが起きています。現在はインスタンスを立ち上げるよりも、Cloudflareなどでサーバーレスにすることが経済的に理にかなっています。使用していない時にはお金を使わないようにしましょう。
 
 ---
 
@@ -746,7 +746,7 @@
 ## Coding Agents
 ## MCP
 
-> Any engineer in 2025 should have experience with the latest paradigms: Offline-first applications, Serverless architectures, Realtime capabilities, Coding Agents, and Model Context Protocol (MCP).
+> 2025年のエンジニアは最新のパラダイムを経験しているべきです：オフラインファーストのアプリケーション、サーバーレスアーキテクチャ、リアルタイム機能、コーディングエージェント、モデルコンテキストプロトコル（MCP）。
 
 ---
 
@@ -761,7 +761,7 @@
 ## 4. 高速分散時代（2020年前半）
 ## 5. オフライン共有時代（2020年後半-現在）
 
-> The evolution of computer applications has profoundly impacted how businesses operate. From the isolated PC era, through cloud computing, to automated operations, distributed high-speed systems, and now offline-capable shared applications.
+> コンピュータアプリケーションの進化は、ビジネスの運営方法に大きな影響を与えてきました。独立したPC時代からクラウドコンピューティング、自動運用、分散高速システム、そして現在のオフライン対応共有アプリケーションまで、大きく変化してきました。
 
 ---
 
@@ -775,7 +775,7 @@
 ## DX時代: Stripe
 ## AX時代: MCP
 
-> We've evolved from UI (User Interface) epitomized by Macintosh, to UX (User Experience) revolutionized by iPhone, to DX (Developer Experience) pioneered by Stripe, and now to AX (Agent Experience) enabled by MCP.
+> 私たちはマッキントッシュに象徴されるUI（ユーザーインターフェース）から、iPhoneによって革命的に変わったUX（ユーザー体験）、Stripeが先駆けたDX（開発者体験）、そして現在MCPによって可能になったAX（エージェント体験）へと進化してきました。
 
 ---
 
@@ -787,7 +787,7 @@
 ## Model Context Protocol
 ## 「AIアプリケーション用のUSB-Cポート」
 
-> Model Context Protocol (MCP) is a standard protocol for AI applications, described as "USB-C port for AI applications." Just as USB-C provides a standardized way to connect various devices and peripherals, MCP provides a standardized way to connect AI models to different data sources and tools.
+> モデルコンテキストプロトコル（MCP）は、AIアプリケーション用の標準プロトコルで、「AIアプリケーション用のUSB-Cポート」と表現されます。USB-Cが様々なデバイスと周辺機器を接続する標準化された方法を提供するように、MCPはAIモデルを異なるデータソースやツールに接続する標準化された方法を提供します。
 
 ---
 
@@ -798,7 +798,7 @@
 
 ## B2C, B2B → B2A, A2A
 
-> Traditional business models were B2C or B2B or combinations. Now we have B2A (Business-to-Agent), but the most profitable future business model will likely be A2A (Agent-to-Agent).
+> 従来のビジネスモデルはB2CやB2B、あるいはその組み合わせでした。現在、B2A（Business-to-Agent）もありますが、将来最も収益性の高いビジネスモデルはA2A（Agent-to-Agent）になるでしょう。
 
 ---
 
@@ -809,7 +809,7 @@
 
 ## A2A: Agent-to-Agent
 
-> The importance of Agent APIs allowing agents to talk to each other cannot be overstated. For now, there are few open protocols to do this.
+> エージェント同士が対話できるAPIの重要性は強調しきれません。現在のところ、このための公開プロトコルはほとんどありません。
 
 ---
 
@@ -819,7 +819,7 @@
 
 ## 80%効率アップのエージェント間プロトコル
 
-> GibberLink is a lightweight open-source protocol for efficient and error-proof over-the-phone communication between AI agents. What if an AI agent makes a phone call, then realizes the other "person" is also an AI agent? They can switch to this protocol that's 80% more efficient.
+> GibberLinkは、AIエージェント間の電話を通じた効率的でエラーのないコミュニケーションのための軽量オープンソースプロトコルです。AIエージェントが電話をかけて、相手も「人間」ではなくAIエージェントだと気づいたらどうなるでしょう？このプロトコルに切り替えれば、80％も効率が向上します。
 
 ---
 
@@ -830,7 +830,7 @@
 
 ## 好奇心による収益
 
-> In AI, momentum is the most important thing. Products and concepts that click skyrocket very fast! People try new things every day (what I call "curiosity revenue").
+> AIにおいて、モメンタムが最も重要です。クリックする製品やコンセプトは急速に普及します！人々は毎日新しいものを試しています（私はこれを「好奇心による収益」と呼んでいます）。
 
 ---
 
@@ -839,7 +839,7 @@
 
 [image: midjourney 6.1 prompt: barriers falling, knowledge and tools accessible to all, empowerment visualization]
 
-> Everything is being democratized now.
+> 今、あらゆるものが民主化されています。
 
 ---
 
@@ -853,7 +853,7 @@
 ## https://cursor-japan.org - Cursor日本コミュニティ
 ## https://cyberagent.tools/ - CyberAgentツール
 
-> I'm working on several initiatives: yakushin-manifesto.org for translation advancement, code-agents.com for AI code agent comparisons, cursor-japan.org for the Cursor Japan community, and cyberagent.tools to showcase tools used within CyberAgent. I'm looking for community volunteers to help maintain and update these resources!
+> いくつかのイニシアチブに取り組んでいます：yakushin-manifesto.orgは翻訳の躍進のため、code-agents.comはAIコードエージェントの比較のため、cursor-japan.orgはCursor日本コミュニティのため、cyberagent.toolsはサイバーエージェント内で使用されているツールを紹介するためのサイトです。これらのリソースの維持と更新を手伝ってくれるコミュニティボランティアを募集しています！
 
 ---
 
@@ -865,7 +865,7 @@
 ## サイバーエージェントの創造的未来を創る
 ## CTO統括室 Developer Productivity: Enabling Team
 
-> We're hiring at CyberAgent! Our slogan is "Let's enjoy the company" - we want people who are excited to help dramatically increase productivity across the group companies. We're looking for people who: 1) Move forward with excitement, 2) Think big but execute methodically, and 3) Always maintain high standards and goals.
+> サイバーエージェントでは採用を行っています！私たちのスローガンは「会社を、楽しもう」です。グループ企業全体の生産性を劇的に向上させるのを手伝うことに興奮している人を探しています。1) ワクワクしながら前進する人、2) 大きく考え、方法論的に実行する人、3) 常に高い基準と目標を持つ人を探しています。
 
 ---
 
@@ -877,4 +877,4 @@
 ## Twitter: @gunta85
 ## LinkedIn: /in/guntherb
 
-> Thank you for your attention! Feel free to connect with me on Twitter or LinkedIn.
+> ご清聴ありがとうございました！TwitterやLinkedInでつながりましょう。
