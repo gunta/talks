@@ -9,6 +9,7 @@ Anthropic created MCP
 
 
 
+
 # Who supports and is investing fully in MCP
 Now OpenAI, Vercel, Microsoft, everyone is betting on it.
 
