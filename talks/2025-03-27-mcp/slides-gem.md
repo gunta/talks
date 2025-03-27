@@ -564,17 +564,9 @@ backgroundSize: contain
         <li>Cursor ✨</li>
         <li>Windsurf (Codeium)</li>
         <li>Zed</li>
-        <li>Sourcegraph Cody</li>
       </ul>
     </div>
-    
-    <div class="bg-purple-50 p-3 rounded">
-      <p class="font-bold text-purple-700"><mdi-window-maximize /> デスクトップアプリ</p>
-      <ul class="list-disc list-inside">
-        <li>Claude Desktop</li>
-        <li>(近日対応: ChatGPT Desktop App! 🚀)</li>
-      </ul>
-    </div>
+ 
   </div>
   
   <div>
@@ -583,12 +575,6 @@ backgroundSize: contain
       <ul class="list-disc list-inside">
         <li>Claude Code</li>
         <li>Cline</li>
-      </ul>
-    </div>
-    
-    <div class="bg-amber-50 p-3 rounded">
-      <p class="font-bold text-amber-700"><mdi-package-variant-closed /> SDK</p>
-      <ul class="list-disc list-inside">
         <li>AI SDK (Vercel)</li>
         <li>Mastra</li>
         <li>Python / TypeScript SDK (Anthropic公式)</li>
