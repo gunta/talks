@@ -3,11 +3,6 @@
 ## サブタイトル：
 > 応用AIエンジニアのスキルを最大限活かせるMCPの現在と未来を解説。LLM活用経験を持つエンジニアが今すぐ取り組める基本機能から、これから実現するリモートMCP、階層型AI連携などの可能性まで紹介。私たちが描く次世代AIエコシステムのロードマップと、その実現に向けた取り組みを共有。ツールやLLMを使いこなす応用エンジニアにとって、新たな可能性を切り拓くための必須セッション。
 
-# WHy AI Agents
-AI Code Agents祭り
-
-# Target
-Engineers and Non-Engineers
 
 # Backstory
 Anthropic created MCP
@@ -29,8 +24,8 @@ This will graduate MCP from something that benefits developers to something that
 
 # PaC：Project as Code
 
-# Browser Use?
-Playwright MCP
+# Playwright MCP
+This is so better than Browser Use.
 
 マイクロソフトが「Playwright MCP」をリリース！ブラウザ自動化の常識を覆す
 

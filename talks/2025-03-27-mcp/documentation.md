@@ -1,4 +1,4 @@
-Introducing 
+# Introducing Mastra MCP Documentation server
 @mastra_ai’s MCP documentation server: turn any AI assistant or IDE that has MCP support
 
 It allows you to interact with your IDE and assume that it already knows everything about Mastra, for ex:
