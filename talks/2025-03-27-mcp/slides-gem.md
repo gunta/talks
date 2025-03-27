@@ -123,9 +123,9 @@ layout: 'center'
 class: 'text-center'
 ---
 
-# なぜ今、AIエージェントなのか？
+# なぜ今、AIエージェントなのか？ 🤔
 
-## AIによるコード生成・開発支援ツールの隆盛
+## AIによるコード生成・開発支援ツールの隆盛 🛠️
 
 <!--
 スピーカーノート：
@@ -137,11 +137,11 @@ class: 'text-center'
 
 ---
 
-# 対象オーディエンス
+# 対象オーディエンス 🎯
 
-*   **LLMやAIエージェントを活用した開発に興味があるエンジニア**
-*   **AIツールの連携や拡張性に関心がある方**
-*   **次世代の開発ワークフローを模索している方**
+*   **LLMやAIエージェントを活用した開発に興味があるエンジニア** 🤖
+*   **AIツールの連携や拡張性に関心がある方** 🔗
+*   **次世代の開発ワークフローを模索している方** <mdi-cogs />
 
 <!--
 スピーカーノート：
@@ -150,12 +150,12 @@ class: 'text-center'
 
 ---
 
-# 課題：AIエージェントのツール連携は複雑怪奇
+# 課題：AIエージェントのツール連携は複雑怪奇 🤯
 
-*   **ツール発見の難しさ**: 高品質なツールを見つけるのが困難。検索しても玉石混交。
-*   **品質のばらつき**: 標準化された評価基準がなく、ツールの品質が保証されない。
-*   **設定の煩雑さ**: 各ツールで設定方法が異なり、連携が手間。
-*   **エコシステムの断片化**: 各社が独自仕様でツールを提供し、相互運用性が低い。
+*   **ツール発見の難しさ**: 高品質なツールを見つけるのが困難。検索しても玉石混交。 <mdi-magnify />
+*   **品質のばらつき**: 標準化された評価基準がなく、ツールの品質が保証されない。 <mdi-star-off-outline />
+*   **設定の煩雑さ**: 各ツールで設定方法が異なり、連携が手間。 <mdi-cog-off-outline />
+*   **エコシステムの断片化**: 各社が独自仕様でツールを提供し、相互運用性が低い。 <mdi-puzzle-remove-outline />
 
 <!--
 スピーカーノート：
@@ -168,11 +168,11 @@ Mastra AIのブログ記事でも指摘されているように、「ツール�
 
 ---
 
-# MCPとは？ Model Context Protocol
+# MCPとは？ Model Context Protocol ℹ️
 
-*   **Anthropic社が提唱・推進するオープンスタンダード**
-*   AIアプリケーション（クライアント）と外部ツール/データソース（サーバー）間の **標準化された通信規約**
-*   **「AIのためのUSB-C」**: 様々なツールを統一的なインターフェースで接続
+*   **Anthropic社が提唱・推進するオープンスタンダード** <mdi-lightbulb-on-outline />
+*   AIアプリケーション（クライアント）と外部ツール/データソース（サーバー）間の **標準化された通信規約** 📜
+*   **「AIのためのUSB-C」**: 様々なツールを統一的なインターフェースで接続 <mdi-usb-c-port />
 
 <!--
 スピーカーノート：
@@ -184,12 +184,12 @@ Shopify CEOのTobi Lütke氏が例えたように、様々なデバイスを接�
 
 ---
 
-# MCPの仕組み：主要コンセプト
+# MCPの仕組み：主要コンセプト 🧱
 
-*   **クライアント (Client)**: AIアプリケーション (Cursor, Claude Desktop, AI SDK アプリなど)
-*   **サーバー (Server)**: ツールやデータを提供するプロセス (GitHub連携, ファイル操作, DBアクセスなど)
-*   **トランスポート (Transport)**: クライアントとサーバー間の通信手段 (stdio, SSE, Streamable HTTP)
-*   **メッセージ (Message)**: JSON-RPC形式でやり取りされる情報 (ツール一覧要求, ツール実行指示など)
+*   **クライアント (Client)**: AIアプリケーション (Cursor, Claude Desktop, AI SDK アプリなど) <mdi-laptop />
+*   **サーバー (Server)**: ツールやデータを提供するプロセス (GitHub連携, ファイル操作, DBアクセスなど) <mdi-server />
+*   **トランスポート (Transport)**: クライアントとサーバー間の通信手段 (stdio, SSE, Streamable HTTP) <mdi-transit-connection-variant />
+*   **メッセージ (Message)**: JSON-RPC形式でやり取りされる情報 (ツール一覧要求, ツール実行指示など) <mdi-message-text-outline />
 
 <!--
 スピーカーノート：
@@ -199,11 +199,11 @@ MCPの基本的な構成要素です。
 
 ---
 
-# MCPの仕組み：リソースとツール
+# MCPの仕組み：リソースとツール ⚖️
 
-*   **リソース (Resource)**: アプリケーションが管理するコンテキスト情報 (開いているファイル、選択中のコードなど)
-*   **ツール (Tool)**: モデル（LLM）が利用可能な機能 (ファイル書き込み、API呼び出しなど)
-*   **プロンプト (Prompt)**: ユーザーからの指示
+*   **リソース (Resource)**: アプリケーションが管理するコンテキスト情報 (開いているファイル、選択中のコードなど) 📄
+*   **ツール (Tool)**: モデル（LLM）が利用可能な機能 (ファイル書き込み、API呼び出しなど) 🛠️
+*   **プロンプト (Prompt)**: ユーザーからの指示 🗣️
 
 <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe07df610-fa0b-4e18-bca5-6ade934cb64a_2274x1264.png" alt="MCP Resources vs Tools" style="max-height: 400px; display: block; margin: auto;" />
 
@@ -219,12 +219,12 @@ MCPは、この動的なコンテキストアクセスを中心に設計され�
 
 ---
 
-# MCPの仕組み：LSPとの類似性
+# MCPの仕組み：LSPとの類似性 <mdi-vector-difference />
 
-*   **Language Server Protocol (LSP)** を参考に設計
-*   **クライアント (IDE) ⇔ サーバー (Language Server)** の分離
-*   JSON-RPCによる通信
-*   機能の発見 (Capabilities)
+*   **Language Server Protocol (LSP)** を参考に設計 <mdi-code-braces />
+*   **クライアント (IDE) ⇔ サーバー (Language Server)** の分離 💻 ↔️ <mdi-server />
+*   JSON-RPCによる通信 <mdi-code-json />
+*   機能の発見 (Capabilities) <mdi-format-list-checks />
 
 <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3098b44-18ae-4f70-8420-055ee1bbf45f_976x696.png" alt="LSP Diagram" style="max-height: 400px; display: block; margin: auto;" />
 
@@ -239,20 +239,20 @@ LSPがIDEと言語固有の機能（補完、定義ジャンプなど）を提�
 
 ---
 
-# MCPエコシステム：クライアント
+# MCPエコシステム：クライアント 💻
 
-*   **IDE / エディタ**:
+*   **IDE / エディタ**: <mdi-code-tags />
     *   Cursor ✨
     *   Windsurf (Codeium)
     *   Zed
     *   Sourcegraph Cody
-*   **デスクトップアプリ**:
+*   **デスクトップアプリ**: <mdi-window-maximize />
     *   Claude Desktop
     *   (近日対応: ChatGPT Desktop App! 🚀)
-*   **CLI**:
+*   **CLI**: <mdi-console />
     *   Claude Code
     *   Cline
-*   **SDK**:
+*   **SDK**: <mdi-package-variant-closed />
     *   AI SDK (Vercel)
     *   Mastra
     *   Python / TypeScript SDK (Anthropic公式)
@@ -268,15 +268,15 @@ VercelのAI SDKやMastraのようなフレームワークを使えば、独自�
 
 ---
 
-# MCPエコシステム：サーバー例
+# MCPエコシステム：サーバー例 <mdi-server />
 
-*   **公式リファレンス実装 (Anthropic)**:
+*   **公式リファレンス実装 (Anthropic)**: <mdi-check-decagram-outline />
     *   ファイルシステム操作 (ローカルファイルへの安全なアクセス)
     *   GitHub (Issue, PR操作)
     *   メモリ (会話履歴の管理)
     *   Sequential Thinking (思考プロセスの段階的実行)
     *   など19種類
-*   **サードパーティ**:
+*   **サードパーティ**: <mdi-account-group-outline />
     *   Mastra Docs Server (Mastraドキュメント検索)
     *   Playwright MCP (ブラウザ操作)
     *   Slack, Notion, Linear, etc. (Composio, Zapier経由)
@@ -294,11 +294,11 @@ Anthropic自身が、ファイルシステム、GitHub連携、メモリ管理�
 
 ---
 
-# MCPエコシステム：レジストリ
+# MCPエコシステム：レジストリ <mdi-book-open-page-variant-outline />
 
-*   **課題**: サーバーの発見、品質評価、設定方法の標準化
-*   **解決策**: MCPサーバーを集約・管理する「レジストリ」
-*   **主要なレジストリ**:
+*   **課題**: サーバーの発見、品質評価、設定方法の標準化 ❓
+*   **解決策**: MCPサーバーを集約・管理する「レジストリ」 ✅
+*   **主要なレジストリ**: <mdi-storefront-outline />
     *   **Composio**: 100+ のマネージドMCPサーバーを提供 (OAuth等認証も管理)
     *   **Smithery**: 2,900+ のMCPサーバー
     *   **Zapier MCP**: 7,000+ アプリ、30,000+ アクションに接続
@@ -317,13 +317,13 @@ Composio、Smithery、Zapierなどが大規模なレジストリを提供して�
 
 ---
 
-# 最近のMCP仕様変更 (2025-03-26)
+# 最近のMCP仕様変更 (2025-03-26) <mdi-update />
 
-*   **認証フレームワーク**: OAuth 2.1ベースの包括的な認証・認可を追加 (Remote MCPの基盤)
-*   **Streamable HTTP Transport**: 従来のHTTP+SSEを置き換え、より柔軟でステートレス運用も可能なトランスポートに (サーバーレス対応強化)
-*   **JSON-RPC Batching**: 複数リクエストをまとめて送信可能に
-*   **Tool Annotations**: ツールの挙動（Read-only, Destructiveなど）を詳細に記述可能に
-*   **その他**: `ProgressNotification`への`message`追加、音声データ対応、補完候補(`completions`) Capability追加など
+*   **認証フレームワーク**: OAuth 2.1ベースの包括的な認証・認可を追加 (Remote MCPの基盤) <mdi-lock-outline />
+*   **Streamable HTTP Transport**: 従来のHTTP+SSEを置き換え、より柔軟でステートレス運用も可能なトランスポートに (サーバーレス対応強化) <mdi-web />
+*   **JSON-RPC Batching**: 複数リクエストをまとめて送信可能に <mdi-layers-triple-outline />
+*   **Tool Annotations**: ツールの挙動（Read-only, Destructiveなど）を詳細に記述可能に <mdi-tag-text-outline />
+*   **その他**: `ProgressNotification`への`message`追加、音声データ対応、補完候補(`completions`) Capability追加など <mdi-dots-horizontal />
 
 <!--
 スピーカーノート：
@@ -336,16 +336,16 @@ Streamable HTTPにより、サーバーは完全にステートレスに実装�
 
 ---
 
-# MCPロードマップ (H1 2025)
+# MCPロードマップ (H1 2025) <mdi-road-variant />
 
-*   **Remote MCP Support**:
+*   **Remote MCP Support**: 🌐🔒
     *   認証・認可 (OAuth 2.0) ← 完了 (2025-03-26)
     *   サービスディスカバリ (サーバー発見方法)
     *   ステートレス運用 ← 完了 (Streamable HTTP)
-*   **リファレンス実装**: クライアント/サーバーの包括的な例
-*   **配布と発見**: パッケージ管理、インストールツール、サンドボックス、共通レジストリ
-*   **エージェントサポート**: 階層型エージェント、インタラクティブワークフロー、ストリーミング結果
-*   **その他**: 他モダリティ (音声、動画)、標準化団体での検討
+*   **リファレンス実装**: クライアント/サーバーの包括的な例 ��💻
+*   **配布と発見**: パッケージ管理、インストールツール、サンドボックス、共通レジストリ 📦🔍
+*   **エージェントサポート**: 階層型エージェント、インタラクティブワークフロー、ストリーミング結果 🤖🤝
+*   **その他**: 他モダリティ (音声、動画)、標準化団体での検討 🎤🎬🏛️
 
 <!--
 スピーカーノート：
@@ -359,7 +359,7 @@ MCPの公式ロードマップでは、引き続きRemote MCPの実現が最優�
 layout: 'two-cols'
 ---
 
-# 実用例①：AI SDK で MCPツールを利用
+# 実用例①：AI SDK で MCPツールを利用 <logos-vercel-icon />
 
 VercelのAI SDKはMCPクライアント機能をサポート。
 既存のAI SDKアプリケーションに、MCPサーバーが提供するツールを簡単に追加できます。
@@ -400,9 +400,9 @@ console.log(text);
 
 ## メリット
 
-*   数百の既存MCPツール (GitHub, Slack, Filesystemなど) にアクセス可能。
-*   ユーザーが独自のカスタムMCPサーバーを接続してアプリを拡張可能。
-*   ローカル(stdio) / リモート(SSE/Streamable HTTP) 両対応。
+*   数百の既存MCPツール (GitHub, Slack, Filesystemなど) にアクセス可能。 ✅
+*   ユーザーが独自のカスタムMCPサーバーを接続してアプリを拡張可能。 ✅
+*   ローカル(stdio) / リモート(SSE/Streamable HTTP) 両対応。 ✅
 
 <!--
 スピーカーノート：
@@ -418,7 +418,7 @@ console.log(text);
 layout: 'two-cols'
 ---
 
-# 実用例②：Mastra で MCPツールを利用
+# 実用例②：Mastra で MCPツールを利用 <mdi-cogs />
 
 エージェントフレームワーク Mastra もMCPをサポート。
 `MastraMCPClient` を使ってMCPサーバーに接続し、エージェントにツールを提供できます。
@@ -459,11 +459,11 @@ try {
 
 ::right::
 
-## Mastra + MCP の可能性
+## Mastra + MCP の可能性 ✨
 
-*   **レジストリ連携**: 将来的にはレジストリからサーバーを検索し、設定を自動生成・検証する仕組みを計画中。
-*   **IDEライクな体験**: 設定ファイルでサーバーIDを指定すると、利用可能な設定項目が型補完されるような開発体験を目指す。
-*   **Mastra Docs Server**: Mastra自身のドキュメントや用例を検索できるMCPサーバーを提供。IDE内でMastraに関する質問が可能に。
+*   **レジストリ連携**: 将来的にはレジストリからサーバーを検索し、設定を自動生成・検証する仕組みを計画中。 <mdi-lightbulb-on-outline />
+*   **IDEライクな体験**: 設定ファイルでサーバーIDを指定すると、利用可能な設定項目が型補完されるような開発体験を目指す。 <mdi-lightbulb-on-outline />
+*   **Mastra Docs Server**: Mastra自身のドキュメントや用例を検索できるMCPサーバーを提供。IDE内でMastraに関する質問が可能に。 <mdi-lightbulb-on-outline />
 
 <!--
 スピーカーノート：
@@ -477,23 +477,23 @@ Mastraはさらに進んで、将来的にMCPレジストリと連携し、サ�
 
 ---
 
-# 実用例③：開発ワークフローの自動化
+# 実用例③：開発ワークフローの自動化 <mdi-robot-industrial />
 
 MCPは、単一のツール連携を超え、開発プロセス全体の自動化を可能にします。
 
-1.  **要件把握**:
-    *   担当チケット(Jira/GitHub)をMCP経由で取得・理解 [@jira]
-    *   関連デザイン(Figma)をMCP経由で取得・分析 [@figma]
-2.  **実装**:
+1.  **要件把握**: <mdi-clipboard-text-outline />
+    *   担当チケット(Jira/GitHub)をMCP経由で取得・理解 [@jira] <mdi-jira /> [@github] <mdi-github />
+    *   関連デザイン(Figma)をMCP経由で取得・分析 [@figma] <logos-figma />
+2.  **実装**: <mdi-code-tags />
     *   Cursorが要件に基づきコード生成 [@workspace]
-    *   実装中にチケット更新や質問が必要なら、MCP経由で実行 [@jira] [@slack]
-3.  **レビュー・提出**:
-    *   変更をステージングし、コミットメッセージを自動生成 [@git]
-    *   PR作成、Jira連携、ラベル付けなどを自動化 [@github] [@jira]
-4.  **その他**:
-    *   ブラウザのコンソールログをMCP経由で取得・デバッグ [@browser]
-    *   ローカルのToDoアプリと連携 [@todo]
-    *   機能完了をSlackで関係者に自動通知 [@slack]
+    *   実装中にチケット更新や質問が必要なら、MCP経由で実行 [@jira] <mdi-jira /> [@slack] <logos-slack-icon />
+3.  **レビュー・提出**: <mdi-source-pull />
+    *   変更をステージングし、コミットメッセージを自動生成 [@git] <mdi-git />
+    *   PR作成、Jira連携、ラベル付けなどを自動化 [@github] <mdi-github /> [@jira] <mdi-jira />
+4.  **その他**: <mdi-dots-horizontal />
+    *   ブラウザのコンソールログをMCP経由で取得・デバッグ [@browser] <mdi-console-line /> <mdi-bug-outline />
+    *   ローカルのToDoアプリと連携 [@todo] <mdi-check-all />
+    *   機能完了をSlackで関係者に自動通知 [@slack] <logos-slack-icon /> 📢
 
 <!--
 スピーカーノート：
@@ -509,18 +509,18 @@ MCPの真価は、複数のツールを組み合わせたワークフローの�
 
 ---
 
-# 実用例④：「Project as Code」とMCP
+# 実用例④：「Project as Code」とMCP <mdi-folder-text-outline />
 
 **Project as Code (PaC)**: システム開発プロジェクトの **全て** をコード管理・バージョン管理する考え方。
 
-*   **なぜPaCがAI駆動開発で重要か？**
-    *   AIのコード生成品質は **コンテキスト** に依存する。
-    *   要件、仕様、設計、ルールなど、プロジェクトの **全情報** がコンテキストとなる。
+*   **なぜPaCがAI駆動開発で重要か？** 🤔
+    *   AIのコード生成品質は **コンテキスト** に依存する。 <mdi-brain />
+    *   要件、仕様、設計、ルールなど、プロジェクトの **全情報** がコンテキストとなる。 📄
     *   AIが理解しやすい形式 (Markdown, YAMLなど) で情報を管理する必要がある。
-*   **MCPとの関係**:
+*   **MCPとの関係**: 🔗
     *   PaCで管理された情報をMCPサーバー経由でAIに提供。
-    *   `docs/requirements.md`, `config/rules.yaml`, `architecture.md` などを [@workspace] や専用MCPサーバー [@docs] でコンテキストとして注入。
-    *   AIはプロジェクト固有の文脈を正確に理解し、より適切なコードを生成。
+    *   `docs/requirements.md`, `config/rules.yaml`, `architecture.md` などを [@workspace] や専用MCPサーバー [@docs] でコンテキストとして注入。 📦
+    *   AIはプロジェクト固有の文脈を正確に理解し、より適切なコードを生成。 🎯
 
 <!--
 スピーカーノート：
@@ -535,15 +535,15 @@ PaCとMCPは、AI駆動開発の精度を高める上で非常に相性の良い
 
 ---
 
-# なぜMCPは成功しつつあるのか？ (Why MCP Won)
+# なぜMCPは成功しつつあるのか？ (Why MCP Won) 🏆
 
-*   **AIネイティブ**: OpenAPI等既存規格に対し、AIエージェント特有の要求 (動的コンテキスト、ツール/リソース分離) を考慮。
-*   **オープンスタンダード + ビッグバッカー**: Anthropicという信頼ある企業が推進するオープンな仕様。ロックイン懸念が少ない。
-*   **Anthropicのブランド力**: 開発者からの信頼が厚いClaudeを提供。ツール連携に強いモデル。
-*   **LSPベース**: 実績のあるLSPを参考にし、堅牢な設計。JSON-RPC採用も良い選択。
-*   **ドッグフーディング**: Claude Desktop/Codeという公式クライアント、多数のサーバー、デバッグツールを自社開発・利用。
-*   **段階的進化**: 最小限の仕様から始め、ロードマップを示しつつコミュニティと共に発展。
-*   **エコシステムの勢い**: 主要プレイヤー (OpenAI, Vercel, Microsoft等) の参加表明。
+*   **AIネイティブ**: OpenAPI等既存規格に対し、AIエージェント特有の要求 (動的コンテキスト、ツール/リソース分離) を考慮。 🤖✨
+*   **オープンスタンダード + ビッグバッカー**: Anthropicという信頼ある企業が推進するオープンな仕様。ロックイン懸念が少ない。 <mdi-lock-open-variant-outline /> <mdi-handshake />
+*   **Anthropicのブランド力**: 開発者からの信頼が厚いClaudeを提供。ツール連携に強いモデル。 👍
+*   **LSPベース**: 実績のあるLSPを参考にし、堅牢な設計。JSON-RPC採用も良い選択。 🧱
+*   **ドッグフーディング**: Claude Desktop/Codeという公式クライアント、多数のサーバー、デバッグツールを自社開発・利用。 🐶 <mdi-food-drumstick-outline />
+*   **段階的進化**: 最小限の仕様から始め、ロードマップを示しつつコミュニティと共に発展。 📈
+*   **エコシステムの勢い**: 主要プレイヤー (OpenAI, Vercel, Microsoft等) の参加表明。 🚀
 
 <!--
 スピーカーノート：
@@ -561,13 +561,13 @@ layout: 'center'
 class: 'text-center'
 ---
 
-# MCPの未来：広がる可能性
+# MCPの未来：広がる可能性 <mdi-telescope />
 
-*   **Remote MCPの本格化**: インターネット経由での安全なツール利用が一般的に。
-*   **高度なエージェント連携**: 複数のAIエージェントが協調するシステムの実現。
-*   **ツールエコシステムの成熟**: レジストリによる発見・利用の容易化、品質向上。
-*   **多様なモダリティ**: テキストだけでなく、音声や画像、動画を扱うツールの登場。
-*   **一般ユーザーへの普及**: ChatGPT Desktopなどの対応により、開発者以外も恩恵を享受。
+*   **Remote MCPの本格化**: インターネット経由での安全なツール利用が一般的に。 🌐🔒
+*   **高度なエージェント連携**: 複数のAIエージェントが協調するシステムの実現。 🤖🤝🤖
+*   **ツールエコシステムの成熟**: レジストリによる発見・利用の容易化、品質向上。 🌳��
+*   **多様なモダリティ**: テキストだけでなく、音声や画像、動画を扱うツールの登場。 🎤🖼️🎬
+*   **一般ユーザーへの普及**: ChatGPT Desktopなどの対応により、開発者以外も恩恵を享受。 🧑‍💻➡️👨‍👩‍👧‍👦
 
 <!--
 スピーカーノート：
@@ -584,15 +584,15 @@ layout: 'center'
 class: 'text-center'
 ---
 
-# まとめ：MCPで未来の開発を体験しよう
+# まとめ：MCPで未来の開発を体験しよう <mdi-text-box-check-outline />
 
-*   MCPはAIエージェントとツール連携の **デファクトスタンダード** へ。
-*   **開かれたエコシステム** が急速に拡大中。
-*   開発ワークフローの **自動化・効率化** に大きく貢献。
-*   **Project as Code** と組み合わせることで、AI開発の精度向上。
-*   今すぐ **試せる技術** であり、**未来への投資** でもある。
+*   MCPはAIエージェントとツール連携の **デファクトスタンダード** へ。 ✨
+*   **開かれたエコシステム** が急速に拡大中。 ✨
+*   開発ワークフローの **自動化・効率化** に大きく貢献。 ✨
+*   **Project as Code** と組み合わせることで、AI開発の精度向上。 ✨
+*   今すぐ **試せる技術** であり、**未来への投資** でもある。 ✨
 
-## あなたもMCPサーバーを作ってみませんか？
+## あなたもMCPサーバーを作ってみませんか？ 💻
 
 <!--
 スピーカーノート：
@@ -609,9 +609,9 @@ layout: 'center'
 class: 'text-center'
 ---
 
-# ご清聴ありがとうございました
+# ご清聴ありがとうございました 🙏
 
-## Q&A
+## Q&A <mdi-comment-question-outline />
 
 <!--
 スピーカーノート：
