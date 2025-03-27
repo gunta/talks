@@ -14,7 +14,7 @@ mdc: true
 ---
 
 # <span class="text-gradient-primary">MCP世界への招待</span> 
-## <span class="text-gradient-secondary">AIエンジニアが創る次世代エージェント連携の世界</span> <mdi-heart class="text-pink-500" />
+## <span class="text-gradient-secondary">AIエンジニアが創る次世代エージェント連携の世界</span>
 
 <!-- 
 スピーカーノート：
@@ -31,8 +31,9 @@ AIエージェントの未来を大きく変える可能性を秘めた技術に
 ---
 layout: image
 image: white-art-bg.jpg
-# class: text-black
+
 ---
+
 <div class="text-black">
 
 # 自己紹介
