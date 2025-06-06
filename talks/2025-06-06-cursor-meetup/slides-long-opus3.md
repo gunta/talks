@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: /images/cover.png
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -30,7 +30,7 @@ mdc: true
 
 <div class="flex items-center justify-center gap-3">
   <div class="text-xl">
-    <strong>Gunther Brunner</strong>
+    <strong>Günther Brunner</strong>
   </div>
   <mdi-briefcase-variant class="text-gray-400" />
   <div class="text-gray-400">
@@ -234,7 +234,7 @@ Google Trendsを見てください。この半年で検索数が2倍以上に増
 <div class="text-center p-6 bg-gradient-to-r from-green-50 to-blue-50 rounded-xl">
   <div class="flex items-center justify-center gap-3 text-xl">
     <mdi-currency-usd class="text-green-600 text-3xl" />
-    <span class="font-bold">月額$40の投資で、年収1000万円のエンジニアの生産性が2倍になる</span>
+    <span class="font-bold">月額$40の投資で、年収1000万円のエンジニアの生産性が10倍になる</span>
     <mdi-rocket class="text-blue-600 text-3xl" />
   </div>
 </div>
@@ -255,25 +255,21 @@ Ubieさんは、エンジニアの満足度が85%も向上。
 
 <div class="text-center">
 
-<h2 class="flex items-center justify-center gap-2 text-2xl mb-8">
-  <mdi-chart-box class="text-purple-500" />
-  SWE-bench ベンチマーク結果
-</h2>
 
 <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl">
 
 ```mermaid
 graph TD
-    A[<div class='flex items-center gap-2'><i class='mdi mdi-github text-xl'></i> 500件のGitHub Issue</div>] --> B[<div class='flex items-center gap-2'><i class='mdi mdi-account-check text-xl'></i> 人間が解決可能と判定</div>]
-    B --> C[<div class='flex items-center gap-2'><i class='mdi mdi-robot text-xl'></i> AI エージェント実行</div>]
-    C --> D[<div class='flex items-center gap-2'><i class='mdi mdi-check-circle text-xl text-green-600'></i> 327件を自動解決</div>]
-    D --> E[<div class='flex items-center gap-2'><i class='mdi mdi-percent text-xl text-purple-600'></i> 成功率: 65.40%</div>]
+    A["500件のGitHub Issue"] --> B["人間が解決可能と判定"]
+    B --> C["AI エージェント実行"]
+    C --> D["327件を自動解決"]
+    D --> E["成功率: 65.40%"]
     
-    style A fill:#e0e7ff
-    style B fill:#ddd6fe
-    style C fill:#c7d2fe
-    style D fill:#a5f3fc
-    style E fill:#6ee7b7
+    style A fill:#e0e7ff,font-size:10px
+    style B fill:#ddd6fe,font-size:10px
+    style C fill:#c7d2fe,font-size:10px
+    style D fill:#a5f3fc,font-size:10px
+    style E fill:#6ee7b7,font-size:10px
 ```
 
 </div>
