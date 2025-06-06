@@ -226,6 +226,8 @@ This is why every profession should use Cursor, not only engineers.
 The task management, everything.
 
 SOme MCP News: Elicitations!
+I want to talk briefly about the concept and the real world use cases. 
+@mcp-elicitations.md
 
 The docs are complicated but my tl;dr: LLMs can now ask users for info instead of guessing or failing.
 
