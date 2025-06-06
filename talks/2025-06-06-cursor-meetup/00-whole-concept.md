@@ -1,4 +1,4 @@
-Today I am going to talk for 15min. 
+Today I am going to talk for 15min. Its ok if the talk has lots of slides and info.
 
 Cursor Meetup Tokyo
 AIコードエディタCursorのユーザー・ミートアップ
