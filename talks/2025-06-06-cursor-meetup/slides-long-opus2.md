@@ -651,7 +651,7 @@ layout: center
 <div>
 
 <h2 class="flex items-center gap-2 text-2xl mb-4">
-  <mdi-office-building-multiple class="text-blue-500" />
+  <mdi-office-building class="text-blue-500" />
   数百の子会社
 </h2>
 
@@ -759,7 +759,7 @@ layout: center
     <span>全社的なツール導入が困難</span>
   </div>
   <div class="flex items-center gap-3 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-lg">
-    <mdi-share-variant-remove class="text-orange-600 text-xl" />
+    <mdi-share-variant class="text-orange-600 text-xl" />
     <span>情報共有の分断</span>
   </div>
   <div class="flex items-center gap-3 p-4 bg-gradient-to-r from-gray-50 to-slate-50 rounded-lg">
@@ -797,18 +797,16 @@ layout: center
 # 従来のツール導入アプローチ（失敗例）
 
 <div class="mt-8 mb-8">
-
-```md
-      <span>Cursor使用開始（ほぼ一人）</span>
-    </div>
-    <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
-      <mdi-message-text class="text-purple-600 text-xl" />
-      <span>社内Slackチャンネル作成</span>
-    </div>
-    <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
-      <mdi-emoticon-sad class="text-gray-600 text-xl" />
-      <span class="font-bold text-gray-700">反応なし...</span>
-    </div>
+  <div>
+    <span>Cursor使用開始（ほぼ一人）</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
+    <mdi-message-text class="text-purple-600 text-xl" />
+    <span>社内Slackチャンネル作成</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+    <mdi-emoticon-sad class="text-gray-600 text-xl" />
+    <span class="font-bold text-gray-700">反応なし...</span>
   </div>
 </div>
 
@@ -846,7 +844,7 @@ layout: center
   </div>
 </div>
 
-</div>
+
 
 <!--
 【スライド16】
@@ -925,7 +923,7 @@ Slackチャンネル作っても、誰も来ない。
 
 <div class="space-y-3">
   <div class="flex items-center gap-3 p-3 bg-indigo-50 rounded-lg">
-    <mdi-type-definition class="text-indigo-600 text-xl" />
+    <mdi-language-typescript class="text-indigo-600 text-xl" />
     <span>完全なe2e型付け</span>
   </div>
   
@@ -1915,7 +1913,7 @@ MCPワークフローは段階的に進化します。
 <div class="flex items-start gap-4">
   <div class="flex-shrink-0">
     <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
-      <mdi-weather-sunrise class="text-white text-2xl" />
+      <mdi-weather-sunny class="text-white text-2xl" />
     </div>
   </div>
   <div class="flex-grow">
