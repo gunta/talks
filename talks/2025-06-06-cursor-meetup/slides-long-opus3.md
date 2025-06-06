@@ -249,48 +249,7 @@ Ubieさんは、エンジニアの満足度が85%も向上。
 採用コスト考えたら、とんでもない投資対効果です。
 -->
 
----
 
-# コーディング時間の劇的な変化
-
-<div class="text-center">
-
-
-<div class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl">
-
-```mermaid
-graph TD
-    A["500件のGitHub Issue"] --> B["人間が解決可能と判定"]
-    B --> C["AI エージェント実行"]
-    C --> D["327件を自動解決"]
-    D --> E["成功率: 65.40%"]
-    
-    style A fill:#e0e7ff,font-size:10px
-    style B fill:#ddd6fe,font-size:10px
-    style C fill:#c7d2fe,font-size:10px
-    style D fill:#a5f3fc,font-size:10px
-    style E fill:#6ee7b7,font-size:10px
-```
-
-</div>
-
-</div>
-
-<br>
-
-<div class="flex items-center justify-center gap-4 p-4 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl">
-  <mdi-timer-sand class="text-4xl text-purple-600" />
-  <span class="text-xl font-bold">3分の2のタスクをAIに任せられる = コーディング時間が1/3に</span>
-  <mdi-flash class="text-4xl text-pink-600" />
-</div>
-
-<!--
-【スライド4】
-これ、本当にすごい数字なんです。
-GitHubのIssueを500件集めて、AIに解かせたら65%以上解決できた。
-つまり、日常的なバグ修正や機能追加の3分の2は、もうAIができるんです。
-あなたは残りの1/3の、本当に創造的な仕事に集中できる。
--->
 
 ---
 layout: intro
@@ -1911,23 +1870,6 @@ PRDも自動生成、タスクも構造化、進捗もリアルタイム。
 これが10倍の意味です。もう昔には戻れません。
 -->
 
----
-layout: full
----
-
-<div class="w-full h-full flex items-center justify-center bg-black">
-  <SlidevVideo v-click autoplay controls class="w-full h-full object-contain">
-    <source src="/images/spindle-10x.mp4" type="video/mp4" />
-  </SlidevVideo>
-</div>
-
-<!--
-【スライド30.5】
-言葉だけでは伝わらない部分もあるので、実際の動作をご覧ください。
-FigmaのリンクからCursorで直接コンポーネントが生成される様子。
-これが私たちの日常になっています。
-本当に3分で完成する様子を、ぜひご覧ください。
--->
 
 ---
 layout: center
@@ -2526,21 +2468,30 @@ MCPはそれを可能にする魔法の技術です。
 
 # コンテキストスイッチングの実際のコスト
 
-<div class="text-center">
-
-
-<div class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl">
-
-```mermaid
-pie title "開発時間の内訳"
-    "実際のコーディング" : 3
-    "ツール間の移動" : 2
-    "コンテキスト再構築" : 1.5
-    "ドキュメント検索" : 1.5
-```
-
-</div>
-
+<div class="grid grid-cols-2 gap-6">
+  <div class="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl">
+    <div class="text-6xl font-bold text-green-600 mb-2">37.5%</div>
+    <div class="text-xl font-semibold text-green-800">実際のコーディング</div>
+    <div class="text-sm text-gray-600 mt-2">本来の開発作業</div>
+  </div>
+  
+  <div class="text-center p-6 bg-gradient-to-br from-red-50 to-orange-50 rounded-xl">
+    <div class="text-6xl font-bold text-red-600 mb-2">25%</div>
+    <div class="text-xl font-semibold text-red-800">ツール間の移動</div>
+    <div class="text-sm text-gray-600 mt-2">IDE ⟷ ブラウザ ⟷ ターミナル</div>
+  </div>
+  
+  <div class="text-center p-6 bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl">
+    <div class="text-6xl font-bold text-orange-600 mb-2">18.75%</div>
+    <div class="text-xl font-semibold text-orange-800">コンテキスト再構築</div>
+    <div class="text-sm text-gray-600 mt-2">何をしていたか思い出す時間</div>
+  </div>
+  
+  <div class="text-center p-6 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl">
+    <div class="text-6xl font-bold text-purple-600 mb-2">18.75%</div>
+    <div class="text-xl font-semibold text-purple-800">ドキュメント検索</div>
+    <div class="text-sm text-gray-600 mt-2">API仕様・使い方を調べる時間</div>
+  </div>
 </div>
 
 <br>
