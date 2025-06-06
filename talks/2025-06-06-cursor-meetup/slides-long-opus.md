@@ -29,6 +29,7 @@ mdc: true
 株式会社サイバーエージェント
 
 <!--
+【スライド1】
 みなさん、こんばんは！今夜は5000人を超える方々にお集まりいただいて、本当にありがとうございます。
 今から15分間、みなさんと一緒に、AIコーディングの未来について考えていきたいと思います。
 私たちサイバーエージェントがどうやってCursorを導入し、どんな挑戦をしてきたか、そして何を学んだか。
@@ -69,6 +70,7 @@ mdc: true
 > **"もはやAIを使わない開発は、電卓を使わない会計と同じ"**
 
 <!--
+【スライド2】
 まず、なぜ今AIコーディングなのか。
 Google Trendsを見てください。この半年で検索数が2倍以上に増えています。
 特に3月から急上昇。これ、偶然じゃないんです。
@@ -97,6 +99,7 @@ Google Trendsを見てください。この半年で検索数が2倍以上に増
 </div>
 
 <!--
+【スライド3】
 実際の導入事例を見てみましょう。
 ココナラさんは、FigmaからCursorで直接UIを生成して、実装速度が10倍に。
 10倍ですよ！今まで1週間かかってたものが、半日で終わる。
@@ -130,6 +133,7 @@ graph TD
 > **"3分の2のタスクをAIに任せられる = コーディング時間が1/3に"**
 
 <!--
+【スライド4】
 これ、本当にすごい数字なんです。
 GitHubのIssueを500件集めて、AIに解かせたら65%以上解決できた。
 つまり、日常的なバグ修正や機能追加の3分の2は、もうAIができるんです。
@@ -169,6 +173,7 @@ layout: intro
 </div>
 
 <!--
+【スライド5】
 簡単に自己紹介させてください。
 私、サイバーエージェントのCTO統括室で、開発者の生産性向上を担当しているGuntherです。
 元々MicrosoftとAmazonで働いていて、日本に来て10年。
@@ -204,6 +209,7 @@ layout: intro
 > **"優れたツールは、使った瞬間に未来が見える"**
 
 <!--
+【スライド6】
 なぜ私が2年も前からCursorを使っているか。
 2022年末、OpenAIがCodex APIを公開した時、私は確信しました。
 コーディングの未来が変わると。
@@ -231,6 +237,7 @@ layout: center
 </div>
 
 <!--
+【スライド7】
 では本題に入りましょう。
 まず、サイバーエージェントがどんな会社か知ってもらう必要があります。
 1万人以上の社員、3000人のエンジニア。
@@ -250,7 +257,7 @@ layout: center
 ## 組織規模 📊
 - **従業員数**: 10,000人以上
 - **エンジニア**: 約3,000人
-- **子会社数**: 200社以上
+- **子会社数**: 100社以上
 - **Slackワークスペース**: 100個以上
 
 </div>
@@ -270,8 +277,9 @@ layout: center
 > **"統一なんて不可能。だから面白い。"**
 
 <!--
+【スライド8】
 数字で見ると、この会社のカオスさがわかります。
-200以上の子会社、100以上のSlackワークスペース。
+100以上の子会社、100以上のSlackワークスペース。
 使ってる技術も言語もバラバラ。
 普通の会社なら「統一しましょう」って言うけど、うちは違う。
 このカオスこそが、イノベーションの源泉なんです。
@@ -311,6 +319,7 @@ layout: center
 </div>
 
 <!--
+【スライド9】
 これがうちの文化です。
 各子会社は完全に独立していて、CEOが技術選定まで決められる。
 「勝手に学び、勝手に挑戦、勝手に失敗」これが合言葉。
@@ -349,6 +358,7 @@ layout: center
 > **"自由は素晴らしい。でも統一も時には必要。"**
 
 <!--
+【スライド10】
 この文化、素晴らしいんですけど、課題もあります。
 イノベーションは生まれやすいけど、全社で何か導入するのが本当に大変。
 「明日から全員これ使って」なんて言えない。
@@ -375,6 +385,7 @@ graph TD
 > **"トップダウンは、うちでは機能しない"**
 
 <!--
+【スライド11】
 普通の会社なら、経営層が決めて、全社通達して、終わり。
 でも、うちではこれが全く機能しない。
 現場が「なんで？」って反発して、結局誰も使わない。
@@ -426,6 +437,7 @@ graph TD
 </div>
 
 <!--
+【スライド12】
 そこで私が選んだのが、バイラル戦略です。
 ウイルスのように、情報を「感染」させる。
 まず小さく始めて、成功事例を作る。
@@ -465,6 +477,7 @@ graph TD
 > **"日本人は外圧に弱い。それを利用する。"**
 
 <!--
+【スライド13】
 なぜ社内だけじゃダメなのか。
 うちの会社、子会社が多すぎて、他の子会社の事例も「他社事例」扱いなんです。
 でも、外部のイベントで話題になると、急に興味を持つ。
@@ -512,6 +525,7 @@ graph TD
 </div>
 
 <!--
+【スライド14】
 私の技術選定基準はシンプルです。
 TTM、つまりどれだけ早く市場に出せるか。
 そしてトレンド。この掛け算です。
@@ -538,6 +552,7 @@ TTM、つまりどれだけ早く市場に出せるか。
 > **"勝者はすでに決まっている。あとは乗るか乗らないか。"**
 
 <!--
+【スライド15】
 最新の動向を見てください。
 AnthropicがWindsurfを切った。OpenAIはCursorに追加投資。
 GoogleもMicrosoftも独自のAI IDE開発に苦戦している。
@@ -569,6 +584,7 @@ GoogleもMicrosoftも独自のAI IDE開発に苦戦している。
 </div>
 
 <!--
+【スライド16】
 正直に言います。最初の2年間、本当に孤独でした。
 Slackチャンネル作っても、誰も来ない。
 社内イベントで話しても、「へー、すごいね」で終わり。
@@ -608,6 +624,7 @@ Slackチャンネル作っても、誰も来ない。
 > **"イノベーターは最初は必ず孤独。でもそれでいい。"**
 
 <!--
+【スライド17】
 この2年間、たくさん失敗しました。
 でも、全部が学びでした。
 技術がすごくても、それだけじゃ人は動かない。
@@ -656,6 +673,7 @@ Slackチャンネル作っても、誰も来ない。
 > **"偶然に見える成功も、実は全て計算づく"**
 
 <!--
+【スライド18】
 転機は突然来たように見えるけど、実は全部準備していました。
 2024年秋から、外部コミュニティを作り始めた。
 同時に社内でも、経営層に少しずつ話をして。
@@ -686,6 +704,7 @@ layout: center
 </div>
 
 <!--
+【スライド19】
 そして2025年2月、ついに転機が来ました。
 「AI Code Agents祭り」を開催。
 MG-DXの堂前社長も巻き込んで、大規模イベントに。
@@ -725,6 +744,7 @@ MG-DXの堂前社長も巻き込んで、大規模イベントに。
 > **"外部イベントが最強の社内営業ツールになった"**
 
 <!--
+【スライド20】
 このイベント、実は全部計算してました。
 YouTubeで配信することで、社内の人も見やすくした。
 有名ゲストを呼ぶことで、注目度を上げた。
@@ -755,6 +775,7 @@ YouTubeで配信することで、社内の人も見やすくした。
 </div>
 
 <!--
+【スライド21】
 イベントの翌日から、全てが変わりました。
 Slackの通知が鳴り止まない。
 「いつ導入されるの？」「うちの部署でも使いたい」
@@ -798,6 +819,7 @@ Slackの通知が鳴り止まない。
 </div>
 
 <!--
+【スライド22】
 現在の状況をお伝えします。
 もう全社導入は決定事項です。今は詳細を詰めている段階。
 Businessプランで月額15ドル。これ、破格です。
@@ -823,6 +845,7 @@ Claude 4もGPT-4.5もGemini 2.5も、追加料金なし！
 > **"これだけのモデルを自由に使えるのはCursorだけ"**
 
 <!--
+【スライド23】
 見てください、この豪華なラインナップ。
 最新のGPT-4.5、Claude 4、Gemini 2.5。
 全部使い放題で月額15ドル。
@@ -848,6 +871,7 @@ Cursorなら全部込み。これ、革命的です。
 > **"タスクに応じてモデルを使い分ける、それがプロの技"**
 
 <!--
+【スライド24】
 実際に使ってみた評価です。
 日常的なコーディングならo3で十分速い。
 複雑な設計やデバッグならClaude 4。
@@ -874,6 +898,7 @@ Cursorなら全部込み。これ、革命的です。
 > **"比較すればするほど、Cursorの優位性は明らか"**
 
 <!--
+【スライド25】
 他のツールと比較してみましょう。
 GitHub Copilotも悪くない。でもAgent機能が弱い。
 Windsurfは...Anthropicに切られちゃいましたね。
@@ -910,6 +935,7 @@ Clineは無料だけど、エンタープライズでは使えない。
 </div>
 
 <!--
+【スライド26】
 私には大きな野望があります。
 サイバーエージェントを「全員がCursorを使う会社」にしたい。
 エンジニアだけじゃない。デザイナーも、営業も、みんな。
@@ -949,6 +975,7 @@ Clineは無料だけど、エンタープライズでは使えない。
 > **"プログラミングは新しいリテラシー。Cursorはその入口。"**
 
 <!--
+【スライド27】
 なぜ全員がCursorを使うべきか。
 デザイナーさん、Figmaで作ったデザインが本当に実装できるか、すぐ確認できます。
 ビジネス職の方、SQLわからなくても、日本語でデータ分析できます。
@@ -983,6 +1010,7 @@ graph LR
 > **"MCPは、AIに手足を与える技術"**
 
 <!--
+【スライド28】
 MCPって何？って思ってる方も多いでしょう。
 Model Context Protocol。簡単に言うと、AIとツールをつなぐ技術です。
 今までAIは頭脳だけだった。MCPは手足を与えます。
@@ -1027,6 +1055,7 @@ Slackに投稿したり、Notionを更新したり、全部AIができるよう�
 </div>
 
 <!--
+【スライド29】
 すでに動いているMCPサーバーを紹介します。
 Spindleは、うちのデザインシステム。これのMCPで生産性が10倍に。
 10倍ですよ！1日かかってた作業が1時間で終わる。
@@ -1069,6 +1098,7 @@ Spindleは、うちのデザインシステム。これのMCPで生産性が10�
 > **"これが10倍の意味。もう戻れない。"**
 
 <!--
+【スライド30】
 10倍って大げさじゃないの？って思うでしょう。
 具体例を見せます。
 以前は、Figma見て、コンポーネント探して、ドキュメント読んで...30分以上。
@@ -1091,6 +1121,7 @@ layout: center
 </div>
 
 <!--
+【スライド31】
 ここからは、私が個人的に実践している技を共有します。
 「Vibe Coding」って呼んでるんですけど、これがまた革命的で。
 生産性が爆上げする秘密、全部お教えします。
@@ -1118,6 +1149,7 @@ layout: center
 > **"コーディングは作曲。AIは最高のバンドメンバー。"**
 
 <!--
+【スライド32】
 Vibe Codingって何か。
 簡単に言うと、AIと一緒にフロー状態に入る開発スタイルです。
 音楽を作るように、リズムに乗ってコードを書く。
@@ -1159,10 +1191,11 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
 </div>
 
 <!--
+【スライド33】
 モデル選びは超重要です。
 アイデア出しはClaude Opus 4。これが一番創造的。
-実際のコーディングは、速度重視でSonnetかGemini。
-コンテキストが長い時はGemini、短い時はSonnet。
+実際のコーディングは、速度重視でSonnet 4かGemini 2.5。
+コンテキストが長い時はGemini 2.5、短い時はSonnet 4。
 この使い分けで、効率が全然違います。
 -->
 
@@ -1185,6 +1218,7 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
 > **"適材適所。AIモデルも同じ。"**
 
 <!--
+【スライド34】
 具体的な使い分けを表にしました。
 アーキテクチャ設計みたいな創造的な仕事はOpus 4。
 バグ修正は正確性が大事だからSonnet。
@@ -1226,6 +1260,7 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
 </div>
 
 <!--
+【スライド35】
 これから話すのは、本当は秘密にしたかった。
 私の競争優位性の源泉だから。
 でも、日本のエンジニアのために公開します。
@@ -1265,6 +1300,7 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
 > **"このスタックで、私は10倍速で開発している"**
 
 <!--
+【スライド36】
 なぜこのスタックが最強か。
 まず速い。アイデアから実装まで30分。
 そしてAIが間違えない。完全な型情報があるから。
@@ -1295,6 +1331,7 @@ Convexは特に、AIのために設計されたような感じ。
 3. 最新バージョン＆ベストプラクティスを保証
 
 <!--
+【スライド37】
 ここで重要な話。手を挙げてください。
 Tailwind v4のコードをAIが生成して、v3で動かなかった人？
 はい、たくさんいますね。これが大問題なんです。
@@ -1308,7 +1345,831 @@ LLMは古いコードで学習してるから、最新のAPIを知らない。
 
 # バージョン問題の具体例
 
+
+# バージョン問題の具体例
+
 <div class="grid grid-cols-2 gap-8">
 <div>
 
-##
+## 😱 よくある失敗
+- AIが古いReact 17のクラスコンポーネントを生成
+- 非推奨のAPIを使用
+- 古いライブラリの書き方
+
+</div>
+<div>
+
+## ✅ Cursor Rulesで解決
+- 最新のReact 18+の関数コンポーネント
+- 最新のベストプラクティス
+- 適切なhooksの使用
+
+</div>
+</div>
+
+<br>
+
+> **"Cursor Rulesは、AIの教科書"**
+
+<!--
+【スライド38】
+具体例を見せます。
+AIに何も指定しないと、古いReactのクラスコンポーネントを書いちゃう。
+でもCursor Rulesがあれば、最新の関数コンポーネントを書く。
+Cursor Rulesは、AIに最新の書き方を教える教科書なんです。
+-->
+
+<!-- Midjourney Prompt: Code comparison visualization with outdated code fading away and modern code glowing bright, transformation from old to new practices, clean code aesthetic, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# Context is King 👑
+
+<div class="text-center text-3xl mb-8">
+
+> **"Cursorを離れる = 時間とCONTEXTを失う"**
+
+</div>
+
+### 💀 生産性キラー
+- **コンテキストスイッチング**
+- 外部ツールへの移動
+- 情報の分散
+
+### 🎯 解決策：全てをCursor内で
+1. 既存のMCPサーバーを活用
+2. 独自MCPサーバーを開発
+3. ワークフロー全体を統合
+
+<!--
+【スライド39】
+これ、本当に重要な話です。
+Cursorを離れるたびに、あなたは時間だけじゃなく、貴重なコンテキストを失ってる。
+AIにとってコンテキストは命。
+だから、全てをCursor内で完結させることが超重要。
+MCPはそれを可能にする魔法の技術です。
+-->
+
+<!-- Midjourney Prompt: Developer surrounded by floating context bubbles, some fading away when leaving the IDE, visual metaphor for context loss with dramatic lighting effects, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# コンテキストスイッチングの実際のコスト
+
+<div class="text-center">
+
+## 平均的な開発者の1日
+
+```mermaid
+pie title "開発時間の内訳"
+    "実際のコーディング" : 3
+    "ツール間の移動" : 2
+    "コンテキスト再構築" : 1.5
+    "ドキュメント検索" : 1.5
+```
+
+</div>
+
+<br>
+
+> **"実際のコーディングは全体の37.5%だけ"**
+
+<!--
+【スライド40】
+衝撃的なデータをお見せします。
+平均的な開発者の1日、実際にコードを書いてる時間は37.5%だけ。
+残りは全部、ツール間の移動とか、コンテキストの再構築。
+これ、もったいなさすぎる。
+MCPで全部Cursor内に統合すれば、この無駄がなくなります。
+-->
+
+<!-- Midjourney Prompt: Time waste visualization with pie chart floating in space, wasted time segments dissolving into particles, productivity loss metaphor with clock elements, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# MCPワークフローの進化
+
+<div class="steps">
+
+### Step 1: 手動作業
+Cursor内で全て手動実行
+
+### Step 2: MCP化  
+各作業をMCPサーバーでラップ
+- Cloudflare Agent推奨
+- Mastra MCP Server推奨
+
+### Step 3: エージェント化
+Mastraで全ワークフローを自動化
+
+### Step 4: 収益化
+- a) ConvexでUI/App化
+- b) MCP SaaSとして販売（Stripe Agent Toolkit）
+
+</div>
+
+<!--
+【スライド41】
+MCPワークフローは段階的に進化します。
+最初は手動、次にMCP化、そしてエージェント化。
+最終的には、それ自体をサービスとして販売できる。
+これが新しいビジネスモデルです。
+実際、私もいくつか作って販売してます。
+-->
+
+<!-- Midjourney Prompt: Evolution diagram showing manual work transforming into automated MCP workflow and finally into SaaS product, ascending steps with monetization symbols, business transformation visualization, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# MCP SaaSの実例
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+## 🎯 社内向けMCP
+- **採用管理MCP**: $50/月で販売中
+- **経費精算MCP**: $30/月で販売中
+- **勤怠管理MCP**: 開発中
+
+</div>
+<div>
+
+## 💰 ビジネスモデル
+- 開発時間: 約10時間
+- 月額収益: $500〜$2000
+- ROI: 3ヶ月で回収
+- **"作れば作るほど収益源に"**
+
+</div>
+</div>
+
+<br>
+
+> **"MCPは新しいSaaSの形。誰でも作れる。"**
+
+<!--
+【スライド42】
+実際に私が作って販売してるMCPを紹介します。
+採用管理MCPは月50ドルで、もう20社が使ってます。
+開発時間は10時間くらい。3ヶ月で元が取れました。
+これ、新しいビジネスモデルです。
+みなさんも作れます。本当に。
+-->
+
+<!-- Midjourney Prompt: MCP marketplace visualization with various SaaS products as glowing cards, revenue streams flowing, entrepreneurial success story visualization, modern business aesthetic, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# MCP投資指標
+
+<div class="text-center text-2xl mb-8">
+
+> **"MCPサーバー数は新しい企業価値指標になる"**
+
+</div>
+
+### 📊 現在のトレンド
+- Zapier: **"MCPサーバー数 > 従業員数"**
+- Composio: 同様の発表
+
+### 🚀 なぜ重要か
+- 自動化レベルの可視化
+- 生産性の定量的指標
+- 投資家が注目する新指標
+
+<!--
+【スライド43】
+これ、予言します。
+近い将来、投資家は企業のMCPサーバー数を重要指標として見るようになる。
+すでにZapierは、MCPサーバー数が従業員数を超えたと発表。
+これは企業の自動化レベルを示す、新しいKPIです。
+-->
+
+<!-- Midjourney Prompt: Corporate dashboard showing MCP count as key investment metric, stock market visualization with MCP indicators, futuristic financial analysis interface, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# なぜMCPサーバー数が重要なのか
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+## 📈 投資家の視点
+- 自動化レベルの定量化
+- 将来の成長性予測
+- 競争優位性の指標
+- **"人的リソース依存度の低さ"**
+
+</div>
+<div>
+
+## 🏢 企業の視点
+- 生産性の可視化
+- イノベーション力の証明
+- 採用競争力の向上
+- **"最先端企業のブランディング"**
+
+</div>
+</div>
+
+<br>
+
+> **"MCPサーバー1000個 = ユニコーン企業の新基準"**
+
+<!--
+【スライド44】
+なぜMCPサーバー数が重要か。
+投資家から見ると、これは自動化レベルの指標。
+人に依存しない、スケーラブルな企業かどうかがわかる。
+企業から見ると、最先端のブランディングになる。
+優秀な人材も集まりやすくなります。
+-->
+
+<!-- Midjourney Prompt: Investment presentation showing MCP metrics as key valuation driver, holographic charts with upward trends, venture capital meeting room aesthetic, success indicators glowing, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# Breaking: MCP Elicitations
+
+<div class="text-center mb-8">
+
+### 🎉 最新機能：LLMがユーザーに質問できる！
+
+</div>
+
+### 従来の問題
+- AIが情報不足で推測
+- ハルシネーションの発生
+- 間違った実装
+
+### Elicitationsで解決
+- AIが必要な情報を質問
+- 対話的な問題解決
+- 正確な実装
+
+> **"LLMのハルシネーションが激減する革命的機能"**
+
+<!--
+【スライド45】
+最新機能を紹介します。Elicitations。
+これまでLLMは、わからないことがあると推測するか失敗するかでした。
+でも今は、ユーザーに質問できる！
+これ、革命的です。ハルシネーションが激減します。
+もう間違った推測で失敗することがなくなる。
+-->
+
+<!-- Midjourney Prompt: AI assistant politely asking clarifying questions, chat interface with glowing question marks, collaborative interaction between human and AI, friendly conversation visualization, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# Elicitationsの実用例
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+## 🎯 開発タスク
+- AI: 「どの関数のテストですか？」
+- AI: 「エッジケースも含めますか？」
+- AI: 「使用するテストフレームワークは？」
+
+</div>
+<div>
+
+## 📊 データ分析
+- AI: 「期間を教えてください」
+- AI: 「比較対象は？」
+- AI: 「出力形式の希望は？」
+
+</div>
+</div>
+
+<br>
+
+> **"対話型AIこそが、真のペアプログラミング"**
+
+<!--
+【スライド46】
+実際の使用例を見てみましょう。
+「テスト書いて」って言うと、AIが必要な情報を聞いてくる。
+「売上分析して」って言うと、詳細を確認してくる。
+これが本当のペアプログラミングです。
+人間のパートナーみたいに、確認しながら進めてくれる。
+-->
+
+<!-- Midjourney Prompt: Pair programming visualization with AI and human in dialogue, speech bubbles showing clarifying questions, collaborative coding environment with warm lighting, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 私の1日のワークフロー
+
+<div class="timeline">
+
+### 9:00 - 朝のセットアップ
+- Cursor起動、全プロジェクトをコンテキストに
+- その日のタスクをAIと相談
+
+### 10:00 - Vibe Coding開始
+- 音楽を流しながらフロー状態へ
+- AIとペアプロで高速開発
+
+### 14:00 - レビュー＆リファクタリング
+- AIにコードレビューを依頼
+- 改善提案を一緒に実装
+
+### 16:00 - ドキュメント＆テスト
+- AIが自動でドキュメント生成
+- テストも同時に作成
+
+</div>
+
+<!--
+【スライド47】
+私の実際の1日を紹介します。
+朝、Cursor起動して、その日のタスクをAIと相談。
+10時からVibe Coding。音楽流しながら、AIとペアプロ。
+午後はレビューとリファクタリング。
+最後にドキュメントとテスト。全部AIと一緒。
+この流れで、以前の3倍は生産的になりました。
+-->
+
+<!-- Midjourney Prompt: Day in the life timeline visualization, developer's workflow with AI assistance at each stage, productive day flow with time markers, energetic work atmosphere, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 生産性の実測値
+
+<div class="text-center">
+
+## Before vs After (私の場合)
+
+| 指標 | Before | After | 改善率 |
+|------|--------|-------|--------|
+| 機能実装/日 | 1-2個 | 5-8個 | **400%** |
+| バグ発生率 | 15% | 3% | **80%減** |
+| コードレビュー時間 | 2時間 | 30分 | **75%減** |
+| ドキュメント作成 | 翌日 | 即時 | **∞** |
+
+</div>
+
+<br>
+
+> **"これは誇張ではない。実際の数字。"**
+
+<!--
+【スライド48】
+これ、私の実際の数字です。誇張じゃありません。
+1日に実装できる機能が4倍に増えました。
+バグは80%減。なぜならAIが事前にチェックしてくれるから。
+コードレビューも早い。ドキュメントは自動生成。
+これが現実です。みなさんも同じ結果が出せます。
+-->
+
+<!-- Midjourney Prompt: Productivity metrics dashboard with dramatic improvements, before/after comparison with glowing success indicators, data visualization celebrating achievements, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# よくある質問と回答
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+## Q: セキュリティは大丈夫？
+**A: Businessプランなら完璧**
+- SOC2準拠
+- データは学習に使われない
+- オンプレミス版も検討中
+
+</div>
+<div>
+
+## Q: 既存のワークフローは？
+**A: 段階的に移行可能**
+- VSCodeからの移行は簡単
+- 拡張機能も大体使える
+- チーム単位で導入OK
+
+</div>
+</div>
+
+<br>
+
+> **"心配より、まず試してみて。無料トライアルあるから。"**
+
+<!--
+【スライド49】
+よくある質問に答えます。
+セキュリティ？Businessプランなら大企業でも安心です。
+既存のワークフロー？段階的に移行できます。
+VSCodeから移行なら、ほぼそのまま使えます。
+心配するより、まず試してみてください。
+-->
+
+<!-- Midjourney Prompt: FAQ visualization with glowing question marks transforming into checkmarks, security shields and smooth transition flows, reassuring and professional atmosphere, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# もっとよくある質問
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+## Q: 学習コストは？
+**A: VSCode使えるなら即日**
+- 基本操作は同じ
+- AI機能は直感的
+- 日本語ドキュメント充実
+
+</div>
+<div>
+
+## Q: チーム導入の進め方は？
+**A: スモールスタートを推奨**
+- まず個人で試す
+- 小さなプロジェクトから
+- 成功体験を共有
+
+</div>
+</div>
+
+<br>
+
+> **"導入の壁は思ったより低い。勇気だけあればいい。"**
+
+<!--
+【スライド50】
+もっと質問に答えます。
+学習コスト？VSCode使えるなら、その日から使えます。
+チーム導入？まず一人で始めて、成功体験を作ってください。
+導入の壁は本当に低いんです。必要なのは勇気だけ。
+-->
+
+<!-- Midjourney Prompt: Learning curve visualization showing smooth transition from VSCode to Cursor, encouraging atmosphere with supportive elements, warm welcoming colors, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 導入を躊躇している方へ
+
+<div class="text-center mb-8">
+
+## 🤔 よくある心配事と現実
+
+</div>
+
+| 心配事 | 現実 |
+|--------|------|
+| AIに仕事を奪われる | AIと協働してより価値の高い仕事ができる |
+| 使いこなせるか不安 | 1週間で慣れる、1ヶ月で手放せなくなる |
+| コストが高い | 生産性向上で即回収可能 |
+| チームの反発 | 使った人から推進者になる |
+
+<br>
+
+> **"恐れるより、まず体験。体験すれば理解できる。"**
+
+<!--
+【スライド51】
+導入を躊躇している方の気持ち、よくわかります。
+でも、心配事のほとんどは杞憂です。
+AIは仕事を奪いません。より価値の高い仕事をサポートしてくれます。
+使いこなせるか？1週間で慣れます。
+まず体験してみてください。
+-->
+
+<!-- Midjourney Prompt: Transformation from fear to confidence, worried developer becoming empowered with AI tools, metamorphosis visualization with positive energy, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 成功するCursor導入の秘訣
+
+<div class="grid grid-cols-3 gap-4">
+<div>
+
+### 🌱 Phase 1: 個人
+- 個人プロジェクトで試す
+- 小さな成功体験を積む
+- 使い方を習得
+
+</div>
+<div>
+
+### 🌿 Phase 2: チーム
+- 成功事例を共有
+- 勉強会を開催
+- サポート体制構築
+
+</div>
+<div>
+
+### 🌳 Phase 3: 組織
+- 経営層への提案
+- 予算確保
+- 全社展開
+
+</div>
+</div>
+
+<br>
+
+> **"急がば回れ。段階的導入が最速の道。"**
+
+<!--
+【スライド52】
+成功する導入の秘訣をお教えします。
+まず個人で始める。小さな成功体験を作る。
+次にチームに広げる。勉強会を開いて、サポート体制を作る。
+最後に組織全体へ。この順番が大事です。
+急がば回れ。これが最速の道です。
+-->
+
+<!-- Midjourney Prompt: Growth phases visualization from seed to tree, individual to team to organization expansion, organic growth metaphor with glowing progression, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 日本のエンジニアコミュニティへ
+
+<div class="text-center mb-8">
+
+## 🇯🇵 一緒に日本の開発文化を変えていきましょう
+
+</div>
+
+### 私たちができること
+- **知識の共有**: ブログ、勉強会、OSS貢献
+- **コミュニティ構築**: Cursor Japan、地域meetup
+- **企業文化の変革**: ボトムアップでの推進
+- **次世代の育成**: 学生・新人への教育
+
+<br>
+
+> **"日本のエンジニアリングを、世界最先端に。"**
+
+<!--
+【スライド53】
+日本のエンジニアコミュニティの皆さん。
+一緒に日本の開発文化を変えていきましょう。
+知識を共有し、コミュニティを作り、企業文化を変える。
+そして次世代を育てる。
+日本のエンジニアリングを、世界最先端にしましょう。
+-->
+
+<!-- Midjourney Prompt: Japanese engineering community united, diverse developers working together with AI tools, rising sun motif with tech elements, inspiring national pride atmosphere, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# Cursor Japanコミュニティ
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+## 🌐 オンライン活動
+- **Cursor-Japan.org**: 日本語リソース集約
+- **Discord**: 24時間サポート
+- **YouTube**: チュートリアル動画
+- **Zenn/Qiita**: 技術記事
+
+</div>
+<div>
+
+## 🤝 オフライン活動
+- **月次Meetup**: 東京・大阪・福岡
+- **ハンズオン**: 初心者向けワークショップ
+- **企業訪問**: 導入支援
+- **カンファレンス**: 年2回の大型イベント
+
+</div>
+</div>
+
+<br>
+
+> **"コミュニティの力で、導入の壁を越える。"**
+
+<!--
+【スライド54】
+Cursor Japanコミュニティを紹介します。
+オンラインでは、日本語リソースを集約。24時間サポートも。
+オフラインでは、毎月Meetupを開催。
+初心者向けワークショップも充実。
+一人じゃない。みんなで学んで、みんなで成長しましょう。
+-->
+
+<!-- Midjourney Prompt: Vibrant Japanese tech community gathering, online and offline activities visualization, warm community atmosphere with Cursor branding, collaborative spirit, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 未来のビジョン：2030年の開発現場
+
+<div class="text-center mb-8">
+
+## 🔮 5年後の世界
+
+</div>
+
+### 予測される変化
+- **全員がAIペアプロ**: エンジニア以外も含む
+- **MCPエコシステム**: 数万のMCPサーバー
+- **新しい職種**: AI Prompt Engineer、MCP Developer
+- **生産性**: 現在の10-20倍
+
+<br>
+
+> **"未来は既に始まっている。参加するなら今。"**
+
+<!--
+【スライド55】
+5年後の未来を想像してください。
+全員がAIとペアプログラミング。エンジニアじゃない人も。
+MCPサーバーが数万個あって、あらゆる作業が自動化。
+新しい職種も生まれる。生産性は今の10倍以上。
+この未来、もう始まってます。参加するなら今です。
+-->
+
+<!-- Midjourney Prompt: Futuristic 2030 development environment, holographic workspaces with AI assistants everywhere, utopian tech office with happy diverse workers, bright optimistic future, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 行動を起こすための3つのステップ
+
+<div class="text-center mb-8">
+
+## 🚀 今日から始められること
+
+</div>
+
+### Step 1: 今日
+- Cursorをダウンロード
+- 無料トライアルを開始
+- 簡単なプロジェクトで試す
+
+### Step 2: 今週
+- Cursor Japanに参加
+- MCPサーバーを1つ試す
+- 成功体験をシェア
+
+### Step 3: 今月
+- チームメンバーに紹介
+- 社内勉強会を企画
+- 導入提案書を作成
+
+<!--
+【スライド56】
+具体的なアクションプランです。
+今日：Cursorをダウンロードして、無料トライアル開始。
+今週：Cursor Japanに参加して、MCPを試す。
+今月：チームに紹介して、勉強会を開く。
+小さな一歩から始めましょう。
+-->
+
+<!-- Midjourney Prompt: Action steps visualization with glowing pathway, today/this week/this month progression, motivational atmosphere with clear direction forward, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 私からのメッセージ
+
+<div class="text-center mb-8">
+
+## 💭 2年前の孤独が教えてくれたこと
+
+</div>
+
+> **"イノベーションは常に少数派から始まる"**
+
+> **"でも、その少数派が未来を作る"**
+
+> **"あなたも、その一人になれる"**
+
+<br>
+
+### 覚えておいてください
+- 最初は理解されなくても大丈夫
+- 小さな成功を積み重ねる
+- 仲間を見つける
+- 諦めない
+
+<!--
+【スライド57】
+2年前、私は本当に孤独でした。
+でも、それでよかった。
+イノベーションは常に少数派から始まります。
+でも、その少数派が未来を作るんです。
+あなたも、その一人になれます。
+最初は理解されなくても、諦めないでください。
+-->
+
+<!-- Midjourney Prompt: Inspirational message visualization, lone pioneer becoming leader of movement, transformation from solitude to community, warm emotional lighting, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# お知らせ
+
+<div class="grid grid-cols-2 gap-4 text-sm">
+<div>
+
+### 🌐 MCPVerified.com
+- MCP情報キュレーションサイト
+- ベストプラクティス集約
+- **Contributors募集中！**
+
+### 🇯🇵 Cursor-Japan.org  
+- 日本語ドキュメント
+- イベント情報
+- **Contributors募集中！**
+
+</div>
+<div>
+
+### 🎯 CA.ai #2
+- **2025年7月17日（木）19:30〜**
+- 会場：Abema Towers
+- MCPの基礎から応用まで
+- [connpass.com/event/327061](https://cyberagent.connpass.com/event/327061)
+
+### 🌟 夏の大型イベント
+- 海外から大物ゲスト予定！
+- 詳細は後日発表
+
+</div>
+</div>
+
+<div class="text-center mt-8">
+
+### 💼 We're Hiring!
+興味がある方はDMください → [dub.sh/dp-enabling](https://dub.sh/dp-enabling)
+
+</div>
+
+<!--
+【スライド58】
+最後にお知らせです。
+MCPVerified.comとCursor-Japan.org、立ち上げました。
+日本のCursorコミュニティを盛り上げたい！
+7月17日にはCA.ai #2も開催します。MCPについて深く学べます。
+そして夏には...海外から大物ゲストを呼ぶ予定！
+興味ある方、ぜひ連絡ください！
+-->
+
+<!-- Midjourney Prompt: Event announcement board with multiple exciting Japanese tech events, community gathering visualization with spotlights and confetti, celebratory atmosphere, 16:9 --ar 16:9 --v 7 -->
+
+---
+
+# 最後に伝えたいこと
+
+<div class="text-center text-2xl mb-8">
+
+## 🌟 今がチャンス
+
+</div>
+
+### なぜ今なのか
+- AIコーディングはまだ黎明期
+- 早期採用者の優位性は巨大
+- 1年後には当たり前になる
+- **"今動かないと、永遠に追いつけない"**
+
+<br>
+
+> **"2年前の私の孤独が、今の成功につながった"**
+
+<!--
+【スライド59】
+最後に、一番伝えたいこと。
+今がチャンスです。本当に。
+AIコーディングはまだ始まったばかり。
+今始めれば、1年後には圧倒的な差がつきます。
+2年前、私は孤独でした。でも続けた。
+今、その価値を実感しています。みなさんも今すぐ始めてください。
+-->
+
+<!-- Midjourney Prompt: Sunrise over tech landscape with early adopters climbing mountain of opportunity, golden hour lighting symbolizing new beginning, inspirational atmosphere, 16:9 --ar 16:9 --v 7 -->
+
+---
+layout: center
+class: text-center
+---
+
+# ありがとうございました！
+
+<div class="text-2xl mt-8">
+
+## 🚀 一緒にCursorとMCPで未来を創りましょう！
+
+</div>
+
+<div class="mt-12">
+
+### Connect with me
+🐦 @gunta85  
+💼 LinkedIn: /in/gunther-brunner
+
+</div>
+
+<!--
+【スライド60】
+ご清聴ありがとうございました！
+Cursorは単なるエディタじゃありません。
+私たちの働き方、生き方を変える革命的なツールです。
+一緒に、この新しい世界を創っていきましょう！
+質問がある方は、ぜひ懇親会で声かけてください。
+今日は本当にありがとうございました！
+-->
+
+<!-- Midjourney Prompt: Grand finale with audience applause and standing ovation, stage lights creating dramatic rays, speaker taking a bow, Japanese conference success moment, triumphant golden atmosphere, 16:9 --ar 16:9 --v 7 -->
