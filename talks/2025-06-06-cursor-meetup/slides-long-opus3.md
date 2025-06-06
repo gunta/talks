@@ -969,22 +969,20 @@ layout: center
 # 従来のツール導入アプローチ（失敗例）
 
 <div class="flex justify-center items-center h-full">
-<div class="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-xl w-2/3">
+<div class="bg-gradient-to-br from-red-50 to-orange-50 p-8 rounded-xl w-full max-w-4xl">
 
 ```mermaid
-graph TD
-    A[<div class='flex items-center gap-2'><i class='mdi mdi-account-tie text-xl'></i> 経営層の決定</div>] --> B[<div class='flex items-center gap-2'><i class='mdi mdi-bullhorn text-xl'></i> 全社通達</div>]
-    B --> C[<div class='flex items-center gap-2'><i class='mdi mdi-sitemap text-xl'></i> 各部署への展開</div>]
-    C --> D[<div class='flex items-center gap-2'><i class='mdi mdi-account-cancel text-xl text-red-600'></i> 現場の反発</div>]
-    D --> E[<div class='flex items-center gap-2'><i class='mdi mdi-file-question-outline text-xl text-orange-600'></i> 形骸化</div>]
-    E --> F[<div class='flex items-center gap-2'><i class='mdi mdi-close-circle text-xl text-red-800'></i> 失敗</div>]
+graph LR
+    A["経営層の決定"] --> B["全社通達"]
+    B --> C["各部署への展開"]
+    C --> D["現場の反発"]
+    D --> E["形骸化"]
 
-    style A fill:#fff1f2
-    style B fill:#ffedd5
-    style C fill:#fef3c7
-    style D fill:#fee2e2
-    style E fill:#ffedd5
-    style F fill:#fecaca
+    style A fill:#fff1f2,font-size:12px
+    style B fill:#ffedd5,font-size:12px
+    style C fill:#fef3c7,font-size:12px
+    style D fill:#fee2e2,font-size:12px
+    style E fill:#ffedd5,font-size:12px
 ```
 </div>
 </div>
@@ -1187,7 +1185,7 @@ TTM、つまりどれだけ早く市場に出せるか。
 
 ---
 
-# 最新の業界動向（2025年5月時点）
+# 最新の業界動向（2025年6月時点）
 
 <div class="overflow-x-auto">
   <table class="w-full">
@@ -1242,7 +1240,7 @@ GoogleもMicrosoftも独自のAI IDE開発に苦戦している。
 
 ---
 
-# 2年間の孤独な戦い
+# 2年間の戦い
 
 <div class="mt-8 mb-8">
   <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
@@ -1254,7 +1252,7 @@ GoogleもMicrosoftも独自のAI IDE開発に苦戦している。
     <span>社内Slackチャンネル作成</span>
     <mdi-arrow-right />
     <mdi-emoticon-sad class="text-gray-600 text-xl" />
-    <span class="font-bold text-gray-700">反応なし...</span>
+    <span class="font-bold text-gray-700">反応数人...</span>
   </div>
 </div>
 
@@ -1275,22 +1273,11 @@ GoogleもMicrosoftも独自のAI IDE開発に苦戦している。
     <div class="flex items-center gap-3 p-3 bg-red-50 rounded-lg">
       <mdi-emoticon-cry class="text-red-600 text-xl" />
       <span class="font-bold text-red-700">まだほとんど使われず...</span>
-    </div>
-  </div>
-</div>
-
-<div>
-  <h3 class="flex items-center gap-3 text-2xl mb-6">
-    <mdi-calendar-range class="text-gray-500" />
-    2024年後半
-  </h3>
-  <div class="space-y-3 ml-8">
-    <div class="flex items-center gap-3 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg border-2 border-yellow-400">
-      <mdi-lightbulb-on class="text-yellow-600 text-xl" />
       <span class="font-bold text-yellow-700">"外から攻める"戦略に転換</span>
     </div>
   </div>
 </div>
+
 
 <!--
 【スライド16】
@@ -1303,7 +1290,7 @@ Slackチャンネル作っても、誰も来ない。
 
 ---
 
-# 孤独な戦いの中で学んだこと
+# 戦いの中で学んだこと
 
 <div class="grid grid-cols-2 gap-8">
 <div>
@@ -1380,69 +1367,6 @@ Slackチャンネル作っても、誰も来ない。
 -->
 
 ---
-
-# 転機の準備：戦略的な種まき
-
-<div class="grid grid-cols-3 gap-6">
-<div class="text-center">
-  <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-    <mdi-seedling class="text-green-600 text-4xl" />
-  </div>
-  <h3 class="text-xl font-bold mb-3">2024年秋</h3>
-  <div class="space-y-3 p-3 bg-green-50 rounded-lg">
-    <div class="font-semibold text-green-800">外部コミュニティ構築</div>
-    <ul class="text-sm text-left list-disc list-inside">
-      <li>Cursor Japan設立準備</li>
-      <li>キーパーソンとの連携</li>
-      <li>イベント企画開始</li>
-    </ul>
-  </div>
-</div>
-<div class="text-center">
-  <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-    <mdi-lightbulb-on-outline class="text-blue-600 text-4xl" />
-  </div>
-  <h3 class="text-xl font-bold mb-3">2024年冬</h3>
-  <div class="space-y-3 p-3 bg-blue-50 rounded-lg">
-    <div class="font-semibold text-blue-800">社内の機運醸成</div>
-    <ul class="text-sm text-left list-disc list-inside">
-      <li>経営層への働きかけ</li>
-      <li>予算確保の準備</li>
-      <li>協力者の発掘</li>
-    </ul>
-  </div>
-</div>
-<div class="text-center">
-  <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-    <mdi-check-all class="text-purple-600 text-4xl" />
-  </div>
-  <h3 class="text-xl font-bold mb-3">2025年初頭</h3>
-  <div class="space-y-3 p-3 bg-purple-50 rounded-lg">
-    <div class="font-semibold text-purple-800">実行準備完了</div>
-    <ul class="text-sm text-left list-disc list-inside">
-      <li>イベント会場確保</li>
-      <li>スピーカー調整</li>
-      <li>PR戦略策定</li>
-    </ul>
-  </div>
-</div>
-</div>
-<br>
-<div class="text-center p-4 bg-gradient-to-r from-yellow-100 to-orange-100 rounded-xl">
-  <div class="flex items-center justify-center gap-3 text-xl">
-    <mdi-chess-queen class="text-yellow-600 text-3xl" />
-    <span class="font-bold">"偶然に見える成功も、実は全て計算づく"</span>
-  </div>
-</div>
-<!--
-【スライド18】
-転機は突然来たように見えるけど、実は全部準備していました。
-2024年秋から、外部コミュニティを作り始めた。
-同時に社内でも、経営層に少しずつ話をして。
-全ては、あるイベントのためでした。
--->
-
----
 layout: center
 ---
 
@@ -1459,9 +1383,9 @@ layout: center
 <div class="p-6 bg-gradient-to-r from-blue-100 to-purple-100 rounded-xl inline-block shadow-lg">
   <h3 class="text-2xl font-bold text-blue-800">🎯 結果</h3>
   <ul class="text-xl mt-4 space-y-2">
-    <li class="flex items-center gap-2"><mdi-youtube class="text-red-500" /> **2万人以上が視聴**</li>
-    <li class="flex items-center gap-2"><mdi-trophy class="text-yellow-500" /> **CA開発者YouTube史上最高視聴数**</li>
-    <li class="flex items-center gap-2"><mdi-account-star class="text-green-500" /> **きのぴーさんも登壇！**</li>
+    <li class="flex items-center gap-2"><mdi-youtube class="text-red-500" /> 2万人以上が視聴</li>
+    <li class="flex items-center gap-2"><mdi-trophy class="text-yellow-500" /> CA Developers YouTube史上最高視聴数</li>
+    <li class="flex items-center gap-2"><mdi-account-star class="text-green-500" /> きのぴーさん登壇！</li>
   </ul>
 </div>
 
@@ -1499,7 +1423,7 @@ MG-DXの堂前社長も巻き込んで、大規模イベントに。
     <li>YouTubeライブ配信</li>
     <li>有名ゲストの招聘</li>
     <li>実践的なデモ中心</li>
-    <li>参加型のコンテンツ</li>
+    <li>デザイン・LP・祭り雰囲気にこだわった</li>
   </ul>
 </div>
 <div class="p-6 bg-purple-50 rounded-lg">
@@ -1568,9 +1492,8 @@ YouTubeで配信することで、社内の人も見やすくした。
     <mdi-calendar-month class="text-white text-2xl" />
   </div>
   <div class="flex-grow">
-    <h3 class="font-bold text-lg">1ヶ月後</h3>
+    <h3 class="font-bold text-lg">今</h3>
     <ul class="space-y-2 mt-2 list-disc list-inside">
-      <li>経営会議で全社導入が議題に</li>
       <li class="font-bold text-purple-700">"もう止められない流れ"</li>
     </ul>
   </div>
@@ -1605,12 +1528,11 @@ Slackの通知が鳴り止まない。
 <div class="p-6 bg-blue-50 rounded-lg">
   <h2 class="flex items-center gap-2 text-2xl mb-4">
     <mdi-check-decagram class="text-blue-500" />
-    全社導入決定！
+    全社導入流れになる！
   </h2>
   <ul class="space-y-3 list-disc list-inside">
-    <li>経営層との協議完了</li>
+    <li>まとめ契約の必要性が出た</li>
     <li>詳細を詰めている段階</li>
-    <li class="font-bold text-blue-700">Businessプラン $15/月</li>
   </ul>
 </div>
 </div>
@@ -1621,7 +1543,7 @@ Slackの通知が鳴り止まない。
   <h3 class="text-xl font-bold mb-2">Cursorの最大の利点</h3>
   <div class="flex items-center justify-center gap-3 text-xl">
     <mdi-infinity class="text-purple-600 text-3xl" />
-    <span class="font-bold">"全てのモデルを追加登録・支払いなしで使える"</span>
+    <span class="font-bold">"全てのモデルを追加登録なしで使える"</span>
   </div>
 </div>
 
@@ -1636,7 +1558,7 @@ Claude 4もGPT-4.5もGemini 2.5も、追加料金なし！
 
 ---
 
-# 利用可能なモデル（2025年5月現在）
+# 利用可能なモデル（2025年6月現在）
 
 <div class="overflow-x-auto">
   <table class="w-full">
@@ -1650,7 +1572,7 @@ Claude 4もGPT-4.5もGemini 2.5も、追加料金なし！
     <tbody>
       <tr class="border-b bg-green-50 hover:bg-green-100 transition-colors">
         <td class="p-3 font-semibold flex items-center gap-2"><simple-icons-openai class="text-green-600" /> OpenAI</td>
-        <td class="p-3">gpt-4.5-preview, o3</td>
+        <td class="p-3">o3</td>
         <td class="p-3">最新の推論能力</td>
       </tr>
       <tr class="border-b bg-blue-50 hover:bg-blue-100 transition-colors">
@@ -1660,13 +1582,8 @@ Claude 4もGPT-4.5もGemini 2.5も、追加料金なし！
       </tr>
       <tr class="border-b bg-purple-50 hover:bg-purple-100 transition-colors">
         <td class="p-3 font-semibold flex items-center gap-2"><simple-icons-anthropic class="text-purple-600" /> Anthropic</td>
-        <td class="p-3">claude-4-sonnet-max</td>
+        <td class="p-3">claude-4-sonnet-max & opus</td>
         <td class="p-3">最高精度のコード生成</td>
-      </tr>
-      <tr class="bg-orange-50 hover:bg-orange-100 transition-colors">
-        <td class="p-3 font-semibold flex items-center gap-2"><mdi-cursor-default-outline class="text-orange-600" /> Cursor独自</td>
-        <td class="p-3">cursor-fast</td>
-        <td class="p-3">高速レスポンス</td>
       </tr>
     </tbody>
   </table>
@@ -1675,7 +1592,7 @@ Claude 4もGPT-4.5もGemini 2.5も、追加料金なし！
 <div class="text-center p-4 bg-gradient-to-r from-indigo-100 to-violet-100 rounded-xl mt-4">
   <div class="flex items-center justify-center gap-3 text-xl">
     <mdi-star-four-points class="text-indigo-600 text-3xl" />
-    <span class="font-bold">"これだけのモデルを自由に使えるのはCursorだけ"</span>
+    <span class="font-bold">"これだけのモデルを自由に使える"</span>
   </div>
 </div>
 
@@ -1686,139 +1603,6 @@ Claude 4もGPT-4.5もGemini 2.5も、追加料金なし！
 全部使い放題で月額15ドル。
 他のサービスだと、それぞれ契約して、それぞれ課金。
 Cursorなら全部込み。これ、革命的です。
--->
-
----
-
-# モデル性能の実際（相対評価）
-
-<div class="overflow-x-auto">
-  <table class="w-full">
-    <thead>
-      <tr class="bg-gradient-to-r from-blue-500 to-purple-500 text-white">
-        <th class="p-3 text-left rounded-tl-lg">モデル</th>
-        <th class="p-3 text-center">コード生成精度</th>
-        <th class="p-3 text-center">最大入力トークン</th>
-        <th class="p-3 text-center">速度</th>
-        <th class="p-3 text-left rounded-tr-lg">おすすめ用途</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="border-b hover:bg-gray-50">
-        <td class="p-3 font-semibold">o3</td>
-        <td class="p-3 text-center text-yellow-500">★★★☆☆</td>
-        <td class="p-3 text-center">20万</td>
-        <td class="p-3 text-center text-green-500">高速</td>
-        <td class="p-3">日常的なコーディング</td>
-      </tr>
-      <tr class="border-b hover:bg-gray-50">
-        <td class="p-3 font-semibold">Claude 4 Sonnet</td>
-        <td class="p-3 text-center text-yellow-500">★★★★★</td>
-        <td class="p-3 text-center">100万</td>
-        <td class="p-3 text-center text-red-500">遅い</td>
-        <td class="p-3">複雑なデバッグ、設計</td>
-      </tr>
-      <tr class="border-b hover:bg-gray-50">
-        <td class="p-3 font-semibold">Gemini 2.5 Pro</td>
-        <td class="p-3 text-center text-yellow-500">★★★★☆</td>
-        <td class="p-3 text-center">100万</td>
-        <td class="p-3 text-center text-orange-500">中速</td>
-        <td class="p-3">プロジェクト横断解析</td>
-      </tr>
-      <tr class="hover:bg-gray-50">
-        <td class="p-3 font-semibold">Cursor-fast</td>
-        <td class="p-3 text-center text-yellow-500">★★★☆☆</td>
-        <td class="p-3 text-center">20万</td>
-        <td class="p-3 text-center text-green-500">速い</td>
-        <td class="p-3">即座の回答が必要な時</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-<br>
-<div class="text-center p-4 bg-gradient-to-r from-teal-100 to-cyan-100 rounded-xl mt-4">
-  <div class="flex items-center justify-center gap-3 text-xl">
-    <mdi-chef-hat class="text-teal-600 text-3xl" />
-    <span class="font-bold">"タスクに応じてモデルを使い分ける、それがプロの技"</span>
-  </div>
-</div>
-<!--
-【スライド24】
-実際に使ってみた評価です。
-日常的なコーディングならo3で十分速い。
-複雑な設計やデバッグならClaude 4。
-プロジェクト全体を見渡すならGemini。
-この使い分けができるのがCursorの強みです。
--->
-
----
-
-# 類似エディタとの詳細比較
-
-<div class="overflow-x-auto">
-  <table class="w-full">
-    <thead>
-      <tr class="bg-gradient-to-r from-gray-700 to-gray-800 text-white">
-        <th class="p-3 text-left rounded-tl-lg">項目</th>
-        <th class="p-3 text-center text-purple-300">Cursor</th>
-        <th class="p-3 text-center">GitHub Copilot</th>
-        <th class="p-3 text-center">Windsurf</th>
-        <th class="p-3 text-center">Cody</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="border-b">
-        <td class="p-3 font-semibold">プロジェクト理解</td>
-        <td class="p-3 text-center font-bold text-green-500">◎ 完璧</td>
-        <td class="p-3 text-center">○ 良好</td>
-        <td class="p-3 text-center">△ 限定的</td>
-        <td class="p-3 text-center">△ 限定的</td>
-      </tr>
-      <tr class="border-b">
-        <td class="p-3 font-semibold">Agent機能</td>
-        <td class="p-3 text-center font-bold text-green-500">◎ 最先端</td>
-        <td class="p-3 text-center">△ 基本のみ</td>
-        <td class="p-3 text-center text-red-500">× なし</td>
-        <td class="p-3 text-center text-red-500">× なし</td>
-      </tr>
-      <tr class="border-b">
-        <td class="p-3 font-semibold">モデル選択肢</td>
-        <td class="p-3 text-center font-bold text-green-500">15種類以上</td>
-        <td class="p-3 text-center">2種類</td>
-        <td class="p-3 text-center">3種類</td>
-        <td class="p-3 text-center">1種類</td>
-      </tr>
-      <tr class="border-b">
-        <td class="p-3 font-semibold">月額費用</td>
-        <td class="p-3 text-center font-bold text-green-500">$15〜$40</td>
-        <td class="p-3 text-center">$10〜$19</td>
-        <td class="p-3 text-center">$20</td>
-        <td class="p-3 text-center">無料</td>
-      </tr>
-      <tr>
-        <td class="p-3 font-semibold">エンタープライズ対応</td>
-        <td class="p-3 text-center font-bold text-green-500">◎ 完備</td>
-        <td class="p-3 text-center">◎ 完備</td>
-        <td class="p-3 text-center">△ 限定的</td>
-        <td class="p-3 text-center text-red-500">× なし</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-<br>
-<div class="text-center p-4 bg-gradient-to-r from-yellow-100 to-amber-100 rounded-xl mt-4">
-  <div class="flex items-center justify-center gap-3 text-xl">
-    <mdi-magnify class="text-yellow-700 text-3xl" />
-    <span class="font-bold">"比較すればするほど、Cursorの優位性は明らか"</span>
-  </div>
-</div>
-<!--
-【スライド25】
-他のツールと比較してみましょう。
-GitHub Copilotも悪くない。でもAgent機能が弱い。
-Windsurfは...Anthropicに切られちゃいましたね。
-Clineは無料だけど、エンタープライズでは使えない。
-総合的に見て、Cursorが圧倒的です。
 -->
 
 ---
@@ -1914,7 +1698,6 @@ Clineは無料だけど、エンタープライズでは使えない。
 # MCPとは何か？なぜ重要か？
 
 <div class="text-center mb-4">
-  <h2 class="text-3xl font-bold">Model Context Protocol</h2>
   <h3 class="text-xl text-gray-600">AIとツールをつなぐ標準プロトコル</h3>
 </div>
 
@@ -1956,7 +1739,7 @@ Slackに投稿したり、Notionを更新したり、全部AIができるよう�
 
 ---
 
-# 現在のMCPサーバー事例
+# 現在の社内MCPサーバー事例
 
 <div class="grid grid-cols-2 gap-6">
 <div class="p-4 bg-blue-50 rounded-lg">
@@ -1993,10 +1776,10 @@ Slackに投稿したり、Notionを更新したり、全部AIができるよう�
   </ul>
 </div>
 <div class="p-4 bg-gray-100 rounded-lg">
-  <h3 class="flex items-center gap-2 font-bold text-gray-800 mb-2"><mdi-web class="text-gray-600" />生産性ポータル & MCPポータル</h3>
+  <h3 class="flex items-center gap-2 font-bold text-gray-800 mb-2"><mdi-web class="text-gray-600" />ツールポータル & MCPポータル</h3>
   <ul class="text-sm list-disc list-inside">
-    <li>cyberagent.tools</li>
-    <li>社内MCP一覧（開発中）</li>
+    <li>cyberagent.tools（開発中）</li>
+    <li>社内MCPポータル一覧（開発中）</li>
   </ul>
 </div>
 </div>
@@ -2056,6 +1839,20 @@ Spindleは、うちのデザインシステム。これのMCPで生産性が10�
 以前は、Figma見て、コンポーネント探して、ドキュメント読んで...30分以上。
 今は？Figmaのリンク貼って3分。
 これが10倍の意味です。もう昔には戻れません。
+-->
+
+---
+
+<SlidevVideo v-click autoplay controls>
+  <source src="/images/spindle-10x.mp4" type="video/mp4" />
+</SlidevVideo>
+
+<!--
+【スライド30.5】
+言葉だけでは伝わらない部分もあるので、実際の動作をご覧ください。
+FigmaのリンクからCursorで直接コンポーネントが生成される様子。
+これが私たちの日常になっています。
+本当に3分で完成する様子を、ぜひご覧ください。
 -->
 
 ---
