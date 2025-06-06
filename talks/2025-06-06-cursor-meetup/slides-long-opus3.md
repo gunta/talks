@@ -1842,10 +1842,14 @@ Spindleは、うちのデザインシステム。これのMCPで生産性が10�
 -->
 
 ---
+layout: full
+---
 
-<SlidevVideo v-click autoplay controls>
-  <source src="/images/spindle-10x.mp4" type="video/mp4" />
-</SlidevVideo>
+<div class="w-full h-full flex items-center justify-center bg-black">
+  <SlidevVideo v-click autoplay controls class="w-full h-full object-contain">
+    <source src="/images/spindle-10x.mp4" type="video/mp4" />
+  </SlidevVideo>
+</div>
 
 <!--
 【スライド30.5】
@@ -1933,7 +1937,7 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
     アイデア・計画
   </h2>
   <ul class="space-y-3 list-disc list-inside">
-    <li><span class="font-bold">Claude 4 Opus</span> (メイン)</li>
+    <li><span class="font-bold">Claude Opus 4</span> (メイン)</li>
     <li><span class="font-bold">o3</span> (数値計算が必要な時)</li>
   </ul>
 </div>
@@ -1943,7 +1947,7 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
     コーディング
   </h2>
   <ul class="space-y-3 list-disc list-inside">
-    <li><span class="font-bold">Claude 3.5 Sonnet</span></li>
+    <li><span class="font-bold">Claude Sonnet 4</span></li>
     <li><span class="font-bold">Gemini 2.5 Pro</span></li>
     <li>(コンテキスト長で使い分け)</li>
   </ul>
@@ -1981,12 +1985,12 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
     <tbody>
       <tr class="border-b bg-purple-50 hover:bg-purple-100">
         <td class="p-3 font-semibold flex items-center gap-2"><mdi-sitemap class="text-purple-600" />アーキテクチャ設計</td>
-        <td class="p-3 font-bold">Claude 4 Opus</td>
+        <td class="p-3 font-bold">Claude Opus 4</td>
         <td class="p-3">深い思考と創造性</td>
       </tr>
       <tr class="border-b bg-red-50 hover:bg-red-100">
         <td class="p-3 font-semibold flex items-center gap-2"><mdi-bug class="text-red-600" />バグ修正</td>
-        <td class="p-3 font-bold">Claude 3.5 Sonnet</td>
+        <td class="p-3 font-bold">Claude Sonnet 4</td>
         <td class="p-3">正確性とスピードのバランス</td>
       </tr>
       <tr class="border-b bg-blue-50 hover:bg-blue-100">
@@ -1996,13 +2000,8 @@ AIは最高のバンドメンバーで、あなたの演奏に合わせてくれ
       </tr>
       <tr class="border-b bg-green-50 hover:bg-green-100">
         <td class="p-3 font-semibold flex items-center gap-2"><mdi-file-document class="text-green-600" />ドキュメント作成</td>
-        <td class="p-3 font-bold">o3</td>
+        <td class="p-3 font-bold">OpenAI o3</td>
         <td class="p-3">構造化された出力</td>
-      </tr>
-      <tr class="bg-yellow-50 hover:bg-yellow-100">
-        <td class="p-3 font-semibold flex items-center gap-2"><mdi-test-tube class="text-yellow-600" />テスト作成</td>
-        <td class="p-3 font-bold">Cursor-fast</td>
-        <td class="p-3">定型的なタスクに最適</td>
       </tr>
     </tbody>
   </table>
@@ -2208,7 +2207,7 @@ Convexは特に、AIのために設計されたような感じ。
 <div class="p-4 bg-gradient-to-r from-red-100 to-orange-100 rounded-xl">
   <div class="flex items-center justify-center gap-3">
     <mdi-alert-circle class="text-red-600 text-3xl" />
-    <span class="font-bold">Tailwind v4のコードを書いてv3で動かない経験、ありますよね？</span>
+    <span class="font-bold">Tailwind v4のコードを書いてほしいのに、v3が生成される経験<br>ありませんか？</span>
   </div>
 </div>
 
@@ -2225,7 +2224,7 @@ Convexは特に、AIのために設計されたような感じ。
 <div class="space-y-3">
   <div class="flex items-center gap-3 p-4 bg-red-50 rounded-lg">
     <mdi-history class="text-red-600 text-xl" />
-    <span>LLMは古いStackOverflowのコードで学習</span>
+    <span>LLMは古いStackOverflow等のコードで学習</span>
   </div>
   
   <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg">
@@ -2332,9 +2331,9 @@ LLMは古いコードで学習してるから、最新のAPIを知らない。
   <div class="bg-green-50 p-4 rounded-lg">
     <div class="flex items-center gap-2 mb-2">
       <mdi-react class="text-green-600 text-xl" />
-      <span class="font-semibold">React 18+の最新コード</span>
+      <span class="font-semibold">React 19の最新コード</span>
     </div>
-    <div class="text-sm text-gray-600">最新のReact 18+の関数コンポーネント</div>
+    <div class="text-sm text-gray-600">最新のReact 19の関数コンポーネント</div>
   </div>
   
   <div class="bg-blue-50 p-4 rounded-lg">
@@ -2459,7 +2458,6 @@ MCPはそれを可能にする魔法の技術です。
 
 <div class="text-center">
 
-<h2 class="text-2xl mb-6">平均的な開発者の1日</h2>
 
 <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl">
 
@@ -2496,7 +2494,7 @@ MCPで全部Cursor内に統合すれば、この無駄がなくなります。
 
 ---
 
-# MCPワークフローの進化
+# MCPワークフローでビジネスの未来
 
 <div class="space-y-6">
 
@@ -2524,11 +2522,7 @@ MCPで全部Cursor内に統合すれば、この無駄がなくなります。
     <div class="space-y-1">
       <div class="flex items-center gap-2">
         <mdi-check class="text-orange-600" />
-        <span class="text-sm">Cloudflare Agent推奨</span>
-      </div>
-      <div class="flex items-center gap-2">
-        <mdi-check class="text-orange-600" />
-        <span class="text-sm">Mastra MCP Server推奨</span>
+        <span class="text-sm">Cloudflare Agent推奨 & Mastra MCP Server推奨</span>
       </div>
     </div>
   </div>
@@ -2580,14 +2574,14 @@ MCPワークフローは段階的に進化します。
 
 ---
 
-# MCP SaaSの実例
+# MCP SaaSの例
 
 <div class="grid grid-cols-2 gap-8">
 <div>
 
 <h2 class="flex items-center gap-2 text-2xl mb-4">
   <mdi-target class="text-blue-500" />
-  社内向けMCP
+  企業向けMCP
 </h2>
 
 <div class="space-y-3">
@@ -2859,7 +2853,7 @@ MCPワークフローは段階的に進化します。
 
 ---
 
-# Breaking: MCP Elicitations
+# Breaking: MCP Elicitations（まだ未リリース）
 
 <div class="text-center mb-8">
 
@@ -3064,120 +3058,6 @@ MCPワークフローは段階的に進化します。
 
 ---
 
-# 私の1日のワークフロー
-
-<div class="space-y-6">
-
-<div class="flex items-start gap-4">
-  <div class="flex-shrink-0">
-    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
-      <mdi-weather-sunny class="text-white text-2xl" />
-    </div>
-  </div>
-  <div class="flex-grow">
-    <h3 class="font-bold text-lg flex items-center gap-2">
-      <mdi-clock class="text-blue-500" />
-      9:00 - 朝のセットアップ
-    </h3>
-    <ul class="space-y-1 mt-2">
-      <li class="flex items-center gap-2">
-        <mdi-cursor-default-outline class="text-blue-400" />
-        Cursor起動、全プロジェクトをコンテキストに
-      </li>
-      <li class="flex items-center gap-2">
-        <mdi-chat class="text-blue-400" />
-        その日のタスクをAIと相談
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="flex items-start gap-4">
-  <div class="flex-shrink-0">
-    <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center">
-      <mdi-music class="text-white text-2xl" />
-    </div>
-  </div>
-  <div class="flex-grow">
-    <h3 class="font-bold text-lg flex items-center gap-2">
-      <mdi-clock class="text-purple-500" />
-      10:00 - Vibe Coding開始
-    </h3>
-    <ul class="space-y-1 mt-2">
-      <li class="flex items-center gap-2">
-        <mdi-music-note class="text-purple-400" />
-        音楽を流しながらフロー状態へ
-      </li>
-      <li class="flex items-center gap-2">
-        <mdi-account-group class="text-purple-400" />
-        AIとペアプロで高速開発
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="flex items-start gap-4">
-  <div class="flex-shrink-0">
-    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center">
-      <mdi-magnify class="text-white text-2xl" />
-    </div>
-  </div>
-  <div class="flex-grow">
-    <h3 class="font-bold text-lg flex items-center gap-2">
-      <mdi-clock class="text-green-500" />
-      14:00 - レビュー＆リファクタリング
-    </h3>
-    <ul class="space-y-1 mt-2">
-      <li class="flex items-center gap-2">
-        <mdi-eye-check class="text-green-400" />
-        AIにコードレビューを依頼
-      </li>
-      <li class="flex items-center gap-2">
-        <mdi-wrench class="text-green-400" />
-        改善提案を一緒に実装
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="flex items-start gap-4">
-  <div class="flex-shrink-0">
-    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center">
-      <mdi-file-document class="text-white text-2xl" />
-    </div>
-  </div>
-  <div class="flex-grow">
-    <h3 class="font-bold text-lg flex items-center gap-2">
-      <mdi-clock class="text-orange-500" />
-      16:00 - ドキュメント＆テスト
-    </h3>
-    <ul class="space-y-1 mt-2">
-      <li class="flex items-center gap-2">
-        <mdi-auto-fix class="text-orange-400" />
-        AIが自動でドキュメント生成
-      </li>
-      <li class="flex items-center gap-2">
-        <mdi-test-tube class="text-orange-400" />
-        テストも同時に作成
-      </li>
-    </ul>
-  </div>
-</div>
-
-</div>
-
-<!--
-【スライド47】
-私の実際の1日を紹介します。
-朝、Cursor起動して、その日のタスクをAIと相談。
-10時からVibe Coding。音楽流しながら、AIとペアプロ。
-午後はレビューとリファクタリング。
-最後にドキュメントとテスト。全部AIと一緒。
-この流れで、以前の3倍は生産的になりました。
--->
-
----
-
 # 生産性の実測値
 
 <div class="text-center mb-8">
@@ -3289,7 +3169,7 @@ MCPワークフローは段階的に進化します。
 <div class="text-center p-6 bg-gradient-to-r from-yellow-100 to-orange-100 rounded-xl">
   <div class="flex items-center justify-center gap-3 text-xl">
     <mdi-check-decagram class="text-yellow-600 text-3xl" />
-    <span class="font-bold">これは誇張ではない。実際の数字。</span>
+    <span class="font-bold">これは誇張ではない。</span>
     <mdi-chart-line class="text-orange-600 text-3xl" />
   </div>
 </div>
@@ -3328,10 +3208,6 @@ MCPワークフローは段階的に進化します。
     <li class="flex items-center gap-2">
       <mdi-database-lock class="text-green-600" />
       <span>データは学習に使われない</span>
-    </li>
-    <li class="flex items-center gap-2">
-      <mdi-server class="text-green-600" />
-      <span>オンプレミス版も検討中</span>
     </li>
   </ul>
 </div>
@@ -3373,7 +3249,7 @@ MCPワークフローは段階的に進化します。
 <div class="text-center p-6 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl">
   <div class="flex items-center justify-center gap-3 text-xl">
     <mdi-lightbulb class="text-purple-600 text-3xl" />
-    <span class="font-bold">心配より、まず試してみて。無料トライアルあるから。</span>
+    <span class="font-bold">心配より、まず試してみる。無料枠あり。</span>
     <mdi-gift class="text-pink-600 text-3xl" />
   </div>
 </div>
@@ -3457,7 +3333,7 @@ VSCodeから移行なら、ほぼそのまま使えます。
 <div class="text-center p-6 bg-gradient-to-r from-green-100 to-blue-100 rounded-xl">
   <div class="flex items-center justify-center gap-3 text-xl">
     <mdi-wall class="text-green-600 text-3xl" />
-    <span class="font-bold">導入の壁は思ったより低い。勇気だけあればいい。</span>
+    <span class="font-bold">導入の壁は低い。</span>
     <mdi-heart class="text-blue-600 text-3xl" />
   </div>
 </div>
@@ -3716,7 +3592,7 @@ AIは仕事を奪いません。より価値の高い仕事をサポートして
     <mdi-account-group class="text-green-600 text-xl" />
     <div>
       <div class="font-bold">コミュニティ構築</div>
-      <div class="text-sm text-gray-600">Cursor Japan、地域meetup</div>
+      <div class="text-sm text-gray-600">Cursor Japan、地域Meetup</div>
     </div>
   </div>
   
@@ -3789,7 +3665,7 @@ AIは仕事を奪いません。より価値の高い仕事をサポートして
       <simple-icons-discord class="text-purple-600" />
       <span class="font-bold">Discord</span>
     </div>
-    <div class="text-sm text-gray-600">24時間サポート</div>
+    <div class="text-sm text-gray-600">AIエージェントユーザー会（AIAU）</div>
   </div>
   
   <div class="bg-red-50 p-4 rounded-lg">
@@ -4072,14 +3948,7 @@ MCPサーバーが数万個あって、あらゆる作業が自動化。
 
 # 私からのメッセージ
 
-<div class="text-center mb-8">
 
-<h2 class="flex items-center justify-center gap-2 text-2xl">
-  <mdi-heart class="text-red-500" />
-  2年前の孤独が教えてくれたこと
-</h2>
-
-</div>
 
 <div class="space-y-6">
 
