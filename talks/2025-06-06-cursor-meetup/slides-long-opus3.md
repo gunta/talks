@@ -3946,89 +3946,70 @@ MCPサーバーが数万個あって、あらゆる作業が自動化。
 
 ---
 
-# 私からのメッセージ
+# グンタからのメッセージ
 
+<div class="space-y-4">
 
-
-<div class="space-y-6">
-
-<div class="text-center p-6 bg-gradient-to-r from-blue-100 to-purple-100 rounded-xl">
-  <div class="flex items-center justify-center gap-3 text-xl mb-4">
-    <mdi-account-outline class="text-blue-600 text-3xl" />
-    <span class="font-bold">イノベーションは常に少数派から始まる</span>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg">
+  <div class="flex-shrink-0 w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
+    <span class="text-white font-bold text-lg">1</span>
+  </div>
+  <div class="flex-grow">
+    <span class="text-lg font-bold">ボトムアップ企業でのツール導入は"バイラル"が鍵</span>
+    <span class="text-gray-600 ml-2 text-sm">(外から攻めろ！)</span>
   </div>
 </div>
 
-<div class="text-center p-6 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl">
-  <div class="flex items-center justify-center gap-3 text-xl mb-4">
-    <mdi-rocket class="text-purple-600 text-3xl" />
-    <span class="font-bold">でも、その少数派が未来を作る</span>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg">
+  <div class="flex-shrink-0 w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center">
+    <span class="text-white font-bold text-lg">2</span>
+  </div>
+  <div class="flex-grow">
+    <span class="text-lg font-bold">未来の企業価値は"MCPサーバー数"で決まる</span>
   </div>
 </div>
 
-<div class="text-center p-6 bg-gradient-to-r from-pink-100 to-red-100 rounded-xl">
-  <div class="flex items-center justify-center gap-3 text-xl mb-4">
-    <mdi-star class="text-pink-600 text-3xl" />
-    <span class="font-bold">あなたも、その一人になれる</span>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg">
+  <div class="flex-shrink-0 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center">
+    <span class="text-white font-bold text-lg">3</span>
+  </div>
+  <div class="flex-grow">
+    <span class="text-lg font-bold">AI開発の最強スタックは存在する</span>
+    <span class="text-gray-600 ml-2 text-sm">(Convex最高！)</span>
   </div>
 </div>
 
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-lg">
+  <div class="flex-shrink-0 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
+    <span class="text-white font-bold text-lg">4</span>
+  </div>
+  <div class="flex-grow">
+    <span class="text-lg font-bold">LLMの知識を信じるな。"最新の教科書(MCP)"を与えろ</span>
+  </div>
 </div>
 
-<br>
-
-<div class="grid grid-cols-2 gap-6">
-<div>
-
-<h3 class="flex items-center gap-2 text-xl mb-4">
-  <mdi-lightbulb class="text-yellow-500" />
-  覚えておいてください
-</h3>
-
-<div class="space-y-3">
-  <div class="flex items-center gap-3 p-3 bg-yellow-50 rounded-lg">
-    <mdi-check-circle class="text-yellow-600" />
-    <span>最初は理解されなくても大丈夫</span>
+<div class="flex items-center gap-3 p-4 bg-gradient-to-r from-red-50 to-pink-50 rounded-lg border-2 border-red-300">
+  <div class="flex-shrink-0 w-10 h-10 bg-red-500 rounded-full flex items-center justify-center">
+    <span class="text-white font-bold text-lg">5</span>
   </div>
-  <div class="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-    <mdi-stairs-up class="text-green-600" />
-    <span>小さな成功を積み重ねる</span>
-  </div>
-  <div class="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
-    <mdi-account-group class="text-blue-600" />
-    <span>仲間を見つける</span>
-  </div>
-  <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
-    <mdi-heart-outline class="text-purple-600" />
-    <span>諦めない</span>
+  <div class="flex-grow">
+    <span class="text-lg font-bold">CONTEXT IS KING.</span>
+    <span class="text-gray-600 ml-2 text-sm">(Cursorから離れるな！)</span>
   </div>
 </div>
 
 </div>
-<div>
 
-<div class="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border-2 border-orange-200">
-  <div class="text-center">
-    <mdi-account-heart class="text-orange-600 text-6xl mb-4" />
-    <h3 class="text-xl font-bold text-orange-700 mb-4">私の信念</h3>
-    <div class="text-lg font-semibold text-gray-700">
-      技術で世界を<br>
-      もっと良くできる
-    </div>
-  </div>
-</div>
-
-</div>
-</div>
 
 <!--
 【スライド57】
-2年前、私は本当に孤独でした。
-でも、それでよかった。
-イノベーションは常に少数派から始まります。
-でも、その少数派が未来を作るんです。
-あなたも、その一人になれます。
-最初は理解されなくても、諦めないでください。
+今日のキーメッセージをまとめました。
+1. バイラル戦略でツール導入を成功させる
+2. MCPサーバー数こそが新しい企業価値指標
+3. Convex中心の最強スタックで開発効率を最大化
+4. LLMには最新の教科書(MCP)を与える
+5. コンテキストを失わないため、Cursorから離れない
+これらを実践すれば、あなたの生産性は確実に10倍になります。
 -->
 
 ---
@@ -4145,82 +4126,6 @@ MCPVerified.comとCursor-Japan.org、立ち上げました。
 -->
 
 ---
-
-# 最後に伝えたいこと
-
-<div class="text-center text-2xl mb-8">
-
-<h2 class="flex items-center justify-center gap-2">
-  <mdi-star class="text-yellow-500" />
-  今がチャンス
-</h2>
-
-</div>
-
-<div class="grid grid-cols-2 gap-8">
-<div>
-
-<h3 class="flex items-center gap-2 text-xl mb-4">
-  <mdi-clock-alert class="text-red-500" />
-  なぜ今なのか
-</h3>
-
-<div class="space-y-3">
-  <div class="flex items-center gap-3 p-4 bg-red-50 rounded-lg">
-    <mdi-sprout class="text-red-600 text-xl" />
-    <span>AIコーディングはまだ黎明期</span>
-  </div>
-  
-  <div class="flex items-center gap-3 p-4 bg-orange-50 rounded-lg">
-    <mdi-trophy class="text-orange-600 text-xl" />
-    <span>早期採用者の優位性は巨大</span>
-  </div>
-  
-  <div class="flex items-center gap-3 p-4 bg-yellow-50 rounded-lg">
-    <mdi-calendar-clock class="text-yellow-600 text-xl" />
-    <span>1年後には当たり前になる</span>
-  </div>
-  
-  <div class="flex items-center gap-3 p-4 bg-gradient-to-r from-purple-50 to-red-50 rounded-lg border-2 border-red-300">
-    <mdi-alert-octagon class="text-red-600 text-xl" />
-    <span class="font-bold text-red-700">"今動かないと、永遠に追いつけない"</span>
-  </div>
-</div>
-
-</div>
-<div>
-
-<div class="bg-gradient-to-br from-blue-50 to-purple-50 p-6 rounded-xl border-2 border-blue-200">
-  <div class="text-center">
-    <mdi-account-heart class="text-blue-600 text-6xl mb-4" />
-    <h3 class="text-2xl font-bold text-blue-700 mb-4">私の体験</h3>
-    <div class="text-lg font-semibold text-gray-700 mb-4">
-      2年前の私の孤独が<br>
-      今の成功につながった
-    </div>
-    <div class="bg-white/50 p-4 rounded-lg">
-      <mdi-rocket-launch class="text-purple-600 text-3xl mb-2" />
-      <div class="text-purple-700 font-bold">
-        みなさんも今すぐ始めてください
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
-</div>
-
-<!--
-【スライド59】
-最後に、一番伝えたいこと。
-今がチャンスです。本当に。
-AIコーディングはまだ始まったばかり。
-今始めれば、1年後には圧倒的な差がつきます。
-2年前、私は孤独でした。でも続けた。
-今、その価値を実感しています。みなさんも今すぐ始めてください。
--->
-
----
 layout: center
 class: text-center
 ---
@@ -4248,10 +4153,6 @@ class: text-center
   <div class="flex items-center gap-2">
     <mdi-twitter class="text-blue-400 text-2xl" />
     <span class="text-lg">@gunta85</span>
-  </div>
-  <div class="flex items-center gap-2">
-    <mdi-linkedin class="text-blue-600 text-2xl" />
-    <span class="text-lg">/in/gunther-brunner</span>
   </div>
 </div>
 
