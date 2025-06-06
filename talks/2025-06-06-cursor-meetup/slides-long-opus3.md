@@ -298,79 +298,58 @@ layout: intro
 
 # 自己紹介
 
+<div class="text-center mb-8">
+  <h2 class="text-3xl font-bold">
+    <ruby>Günther<rt>グンタ</rt></ruby> <ruby>Brunner<rt>ブルンナー</rt></ruby>
+  </h2>
+  <div class="flex items-center justify-center gap-2 mt-2">
+    <img src="/images/CALogo.svg" alt="CA" width="20px" height="20px" style="display: inline-block; vertical-align: middle;" />
+    <span>CyberAgent <span class="text-gray-500">since 2012</span></span>
+  </div>
+</div>
+
 <div class="grid grid-cols-2 gap-8">
 <div>
 
-<h2 class="flex items-center gap-2">
-  <mdi-account-circle class="text-blue-500" />
-  Gunther Brunner
-</h2>
-
-<h3 class="flex items-center gap-2 text-gray-600">
-  <mdi-briefcase class="text-gray-500" />
-  CTO統括室 Developer Productivity室
+<h3 class="flex items-center gap-2 mb-4">
+  <mdi-office-building class="text-orange-500" />
+  現在の役職
 </h3>
 
-<div class="space-y-3 mt-6">
-  <div class="flex items-center gap-3">
-    <mdi-rocket-launch-outline class="text-purple-500 text-xl" />
-    <span>元Microsoft/Amazon</span>
+<div class="space-y-3">
+  <div class="flex items-center gap-3 p-3 bg-orange-50 rounded-lg">
+    <mdi-cog class="text-orange-600" />
+    <span>CTO統括室</span>
   </div>
-  <div class="flex items-center gap-3">
-    <mdi-wrench class="text-green-500 text-xl" />
-    <span>開発者生産性向上のスペシャリスト</span>
-  </div>
-  <div class="flex items-center gap-3">
-    <mdi-robot class="text-blue-500 text-xl" />
-    <span>Cursor歴2年（国内最古参ユーザー）</span>
-  </div>
-  <div class="flex items-center gap-3">
-    <mdi-bullhorn class="text-orange-500 text-xl" />
-    <span>社内AI技術啓蒙活動のリーダー</span>
+  <div class="flex items-center gap-3 p-3 bg-teal-50 rounded-lg">
+    <mdi-rocket-launch class="text-teal-600" />
+    <span class="font-bold">Developer Productivity室</span>
   </div>
 </div>
+
 
 </div>
 <div>
 
 <h3 class="flex items-center gap-2 mb-4">
-  <mdi-swap-horizontal class="text-indigo-500" />
-  推進してきたツール移行
+  <mdi-account-network class="text-blue-500" />
+  Connect with me
 </h3>
 
 <div class="space-y-3">
-  <div class="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-    <span>SVN</span>
-    <mdi-arrow-right class="text-green-600" />
-    <span class="font-semibold">GitHub</span>
-    <mdi-check-circle class="text-green-600 ml-auto" />
+  <div class="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
+    <mdi-twitter class="text-blue-600" />
+    <span>@gunta85</span>
   </div>
-  <div class="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-    <span>HipChat</span>
-    <mdi-arrow-right class="text-green-600" />
-    <span class="font-semibold">Slack</span>
-    <mdi-check-circle class="text-green-600 ml-auto" />
-    <span class="text-sm text-gray-600">(1年かかった)</span>
+  <div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+    <mdi-github class="text-gray-600" />
+    <span>@gunta</span>
   </div>
-  <div class="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-    <span>Confluence</span>
-    <mdi-arrow-right class="text-green-600" />
-    <span class="font-semibold">Notion</span>
-    <mdi-check-circle class="text-green-600 ml-auto" />
+  <div class="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
+    <mdi-book-open class="text-blue-600" />
+    <span>zenn.dev/gunta</span>
   </div>
-  <div class="flex items-center gap-3 p-3 bg-yellow-50 rounded-lg">
-    <span>JIRA</span>
-    <mdi-arrow-right class="text-yellow-600" />
-    <span class="font-semibold">Linear</span>
-    <mdi-sync class="text-yellow-600 ml-auto animate-spin" />
-  </div>
-  <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg border-2 border-purple-300">
-    <span class="font-bold">IDE</span>
-    <mdi-arrow-right class="text-purple-600" />
-    <span class="font-bold text-purple-600">Cursor</span>
-    <mdi-fire class="text-purple-600 ml-auto text-xl" />
-    <span class="text-sm font-bold text-purple-600">(今ここ！)</span>
-  </div>
+  
 </div>
 
 </div>
@@ -379,11 +358,212 @@ layout: intro
 <!--
 【スライド5】
 簡単に自己紹介させてください。
-私、サイバーエージェントのCTO統括室で、開発者の生産性向上を担当しているGuntherです。
-元々MicrosoftとAmazonで働いていて、日本に来て10年。
-日本の開発文化に最新のツールを導入するのが私のミッションです。
-見てください、これまでの実績。SlackもGitHubも私が広めました。
+グンタ・ブルンナーと申します。サイバーエージェントに2012年から所属していまして、
+現在はCTO統括室のDeveloper Productivity室で働いています。
+AIやUX、デザイン、パフォーマンスなどに興味があって、
+最近は個人的にAIアートも始めました。
+-->
+
+---
+
+# 12年間のCAキャリア
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+<h2 class="flex items-center gap-2 text-xl mb-4">
+  <mdi-newspaper class="text-purple-600" />
+  メディア部門
+</h2>
+<ul class="space-y-2 list-disc list-inside">
+  <li>サービス精神の醸成</li>
+  <li>UXデザインスキルの向上</li>
+  <li>ユーザー中心の思考</li>
+</ul>
+
+<h2 class="flex items-center gap-2 text-xl mb-4 mt-6">
+  <mdi-gamepad-variant class="text-orange-600" />
+  ゲーム部門
+</h2>
+<ul class="space-y-2 list-disc list-inside">
+  <li>フロントエンド技術の極限追求</li>
+  <li>パフォーマンス最適化</li>
+  <li>インタラクティブ表現の探求</li>
+</ul>
+
+</div>
+<div>
+
+<h2 class="flex items-center gap-2 text-xl mb-4">
+  <mdi-chart-line class="text-green-600" />
+  横軸部門
+</h2>
+<ul class="space-y-2 list-disc list-inside">
+  <li>SLO（Service Level Objectives）</li>
+  <li class="font-bold text-green-700">開発生産性の追求 ⬅️ 🚀（今ここ）</li>
+  <li>チーム横断的な改善活動</li>
+</ul>
+
+<h2 class="flex items-center gap-2 text-xl mb-4 mt-6">
+  <mdi-robot class="text-indigo-600" />
+  AI部門
+</h2>
+<ul class="space-y-2 list-disc list-inside">
+  <li>バックエンド技術の習得</li>
+  <li>Figmaの習得</li>
+  <li>生成AIの実践的活用</li>
+  <li>最新技術のキャッチアップ</li>
+</ul>
+
+</div>
+</div>
+
+
+<!--
+【スライド6】
+12年間のサイバーエージェントでのキャリアを紹介します。
+メディア部門ではUXデザインを、ゲーム部門ではフロントエンド技術を極限まで追求。
+横軸部門では開発生産性を、AI部門では最新技術をキャッチアップしてきました。
+現在はこれらの経験を活かして、フルスタックAIエンジニア・デザイナーとして活動しています。
+-->
+
+---
+
+# 私のミッション
+
+<div class="grid grid-cols-2 gap-8">
+<div>
+
+<h3 class="flex items-center gap-2 text-xl mb-4">
+  <mdi-target class="text-indigo-500" />
+  個人的な目標
+</h3>
+
+<div class="space-y-3">
+  <div class="flex items-center gap-3 p-3 bg-indigo-50 rounded-lg">
+    <mdi-rocket class="text-indigo-600" />
+    <span>日本の開発文化を最先端に</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
+    <mdi-account-group class="text-purple-600" />
+    <span>開発者体験の向上</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
+    <mdi-lightbulb class="text-blue-600" />
+    <span>新技術の普及推進</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
+    <mdi-earth class="text-green-600" />
+    <span>グローバル基準の導入</span>
+  </div>
+</div>
+
+</div>
+<div>
+
+<h3 class="flex items-center gap-2 text-xl mb-4">
+  <mdi-wrench class="text-orange-500" />
+  具体的な活動
+</h3>
+
+<div class="space-y-3">
+  <div class="flex items-center gap-3 p-3 bg-orange-50 rounded-lg">
+    <mdi-robot class="text-orange-600" />
+    <span>AIツールの社内導入推進</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-red-50 rounded-lg">
+    <mdi-school class="text-red-600" />
+    <span>開発者教育・啓蒙活動</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-yellow-50 rounded-lg">
+    <mdi-account-group class="text-yellow-600" />
+    <span>コミュニティ活動</span>
+  </div>
+  <div class="flex items-center gap-3 p-3 bg-pink-50 rounded-lg">
+    <mdi-trending-up class="text-pink-600" />
+    <span>生産性向上の実証</span>
+  </div>
+</div>
+
+</div>
+</div>
+
+<br>
+
+<div class="text-center p-4 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl">
+  <div class="flex items-center justify-center gap-3 text-xl">
+    <mdi-heart class="text-purple-600 text-3xl" />
+    <span class="font-bold">技術で世界をもっと良くするためここにいる</span>
+  </div>
+</div>
+
+<!--
+【スライド7】
+私のミッションをお話しします。
+個人的な目標として、日本の開発文化を世界最先端にしたい。
+具体的には、AIツールの導入推進、開発者教育、コミュニティ活動を通じて、
+開発者の生産性と幸福度を向上させることです。
+技術で世界をもっと良くしたい、これが私の信念です。
+-->
+
+---
+
+# これまで推進してきたツール移行
+
+<div class="text-center mb-6">
+  <h2 class="flex items-center justify-center gap-2 text-2xl">
+    <mdi-swap-horizontal class="text-indigo-500" />
+    変革の歴史
+  </h2>
+</div>
+
+<div class="space-y-4">
+  <div class="flex items-center gap-3 p-4 bg-green-50 rounded-lg">
+    <span class="text-lg">SVN</span>
+    <mdi-arrow-right class="text-green-600 text-xl" />
+    <span class="text-lg font-semibold">GitHub</span>
+    <mdi-check-circle class="text-green-600 ml-auto text-xl" />
+
+  </div>
+  
+  <div class="flex items-center gap-3 p-4 bg-green-50 rounded-lg">
+    <span class="text-lg">HipChat</span>
+    <mdi-arrow-right class="text-green-600 text-xl" />
+    <span class="text-lg font-semibold">Slack</span>
+    <mdi-check-circle class="text-green-600 ml-auto text-xl" />
+  </div>
+  
+  <div class="flex items-center gap-3 p-4 bg-green-50 rounded-lg">
+    <span class="text-lg">Confluence</span>
+    <mdi-arrow-right class="text-green-600 text-xl" />
+    <span class="text-lg font-semibold">Notion</span>
+    <mdi-check-circle class="text-green-600 ml-auto text-xl" />
+  </div>
+  
+  <div class="flex items-center gap-3 p-4 bg-yellow-50 rounded-lg">
+    <span class="text-lg">JIRA</span>
+    <mdi-arrow-right class="text-yellow-600 text-xl" />
+    <span class="text-lg font-semibold">Linear</span>
+    <mdi-sync class="text-yellow-600 ml-auto text-xl animate-spin" />
+  </div>
+  
+  <div class="flex items-center gap-3 p-4 bg-purple-50 rounded-lg border-2 border-purple-300">
+    <span class="text-lg font-bold">IDE</span>
+    <mdi-arrow-right class="text-purple-600 text-xl" />
+    <span class="text-lg font-bold text-purple-600">Cursor</span>
+    <mdi-fire class="text-purple-600 ml-auto text-xl" />
+    <span class="text-sm font-bold text-purple-600">(今ここ！)</span>
+  </div>
+</div>
+
+
+
+<!--
+【スライド6】
+これまでの実績を見てください。SlackもGitHubも私が広めました。
+Notionへの移行も成功。今Linearも推進中。
 でも今回のCursor導入は、過去最大のチャレンジです。
+なぜなら、これはただのツール変更じゃない。働き方の革命だから。
 -->
 
 ---
@@ -403,11 +583,7 @@ layout: intro
     <ul class="space-y-2 mt-2">
       <li class="flex items-center gap-2">
         <mdi-chevron-right class="text-blue-400" />
-        OpenAI が Codex API を公開
-      </li>
-      <li class="flex items-center gap-2">
-        <mdi-chevron-right class="text-blue-400" />
-        VSCode の限界を感じ始める
+        OpenAI が IDEに投資した
       </li>
     </ul>
   </div>
@@ -493,12 +669,12 @@ layout: center
 <h2 class="text-3xl mb-2">連結従業員数 1万人以上</h2>
 <h3 class="text-2xl text-gray-600 mb-8">エンジニア約3,000人</h3>
 
-<div class="p-6 bg-gradient-to-r from-orange-100 to-red-100 rounded-xl inline-block">
+<div class="p-6 bg-gradient-to-r from-green-100 to-green-100 rounded-xl inline-block">
   <div class="flex items-center gap-3 text-2xl">
-    <mdi-hand-peace class="text-orange-600" />
+    <mdi-hand-peace class="text-green-600" />
     <span class="font-bold">"自由と自己責任"</span>
-    <span>- それが私たちの文化</span>
-    <mdi-fire class="text-red-600" />
+    <span>- それが我々の文化</span>
+    <mdi-fire class="text-green-600" />
   </div>
 </div>
 
@@ -602,7 +778,7 @@ layout: center
         <mdi-cloud class="text-indigo-600" />
         <span class="font-semibold">クラウドプロバイダ</span>
       </div>
-      <span class="text-xl font-bold text-indigo-700">AWS, GCP, Azure全て</span>
+      <span class="text-xl font-bold text-indigo-700">AWS, GCP, 全て</span>
     </div>
   </div>
   
@@ -625,7 +801,7 @@ layout: center
 <div class="text-center p-4 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl">
   <div class="flex items-center justify-center gap-3">
     <mdi-infinity class="text-3xl text-purple-600" />
-    <span class="text-xl font-bold">統一なんて不可能。だから面白い。</span>
+    <span class="text-xl font-bold">統一なんて不可能。だからこそ面白い。</span>
     <mdi-creation class="text-3xl text-pink-600" />
   </div>
 </div>
