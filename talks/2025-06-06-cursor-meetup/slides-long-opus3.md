@@ -1793,6 +1793,76 @@ Spindleは、うちのデザインシステム。これのMCPで生産性が10�
 
 ---
 
+# TaskMaster：リポジトリ内タスク管理の革命
+
+<div class="text-center mb-6">
+  <h2 class="flex items-center justify-center gap-2 text-2xl">
+    <mdi-check-all class="text-blue-500" />
+    PRD用のGitHub Issues、Linear、手動管理にさようなら
+  </h2>
+</div>
+
+<div class="grid grid-cols-2 gap-8">
+<div class="p-6 bg-red-50 rounded-lg border-2 border-red-200">
+  <h2 class="flex items-center gap-2 text-2xl mb-4">
+    <mdi-alert-circle class="text-red-500" />
+    従来の問題
+  </h2>
+  <ul class="space-y-2 list-disc list-inside">
+    <li>GitHub Issues ⟷ コード間の移動</li>
+    <li>タスクの詳細をMarkdownで手動管理</li>
+    <li>実装とタスクの乖離</li>
+    <li>コンテキストスイッチングの頻発</li>
+    <li>プロジェクト全体の進捗が見えない</li>
+  </ul>
+</div>
+<div class="p-6 bg-green-50 rounded-lg border-2 border-green-200">
+  <h2 class="flex items-center gap-2 text-2xl mb-4">
+    <mdi-robot-excited class="text-green-500" />
+    TaskMaster MCP
+  </h2>
+  <ul class="space-y-2 list-disc list-inside">
+    <li>リポジトリ内で完結するタスク管理</li>
+    <li>AIとの自然な対話でタスク作成</li>
+    <li>実装とタスクが常に同期</li>
+    <li>PRD生成から実装まで一気通貫</li>
+    <li>Cursor内ですべてが完結</li>
+  </ul>
+</div>
+</div>
+
+<br>
+
+
+<div class="text-center p-4 bg-gradient-to-r from-purple-100 to-blue-100 rounded-xl mt-4">
+  <div class="flex items-center justify-center gap-3 text-xl">
+    <mdi-fire class="text-purple-600 text-3xl" />
+    <span class="font-bold">"リポジトリ内タスク管理の決定版。もう外部ツールは不要。"</span>
+    <mdi-check-decagram class="text-blue-600 text-3xl" />
+  </div>
+</div>
+
+<br>
+
+<div class="text-center p-3 bg-gray-50 rounded-lg">
+  <div class="flex items-center justify-center gap-2 text-lg">
+    <mdi-web class="text-gray-600" />
+    <span class="font-semibold">詳細情報:</span>
+    <a href="https://www.task-master.dev/" class="text-blue-600 font-bold underline">task-master.dev</a>
+  </div>
+</div>
+
+<!--
+【TaskMasterスライド】
+TaskMaster、これは本当にゲームチェンジャーです。
+GitHub IssuesやLinearを使って、いちいち外に移動する必要がない。
+リポジトリの中で、AIと会話しながらタスクを作って、そのまま実装。
+PRDも自動生成、タスクも構造化、進捗もリアルタイム。
+もう外部のタスク管理ツールは不要です。
+-->
+
+---
+
 # Spindle MCP：10倍の生産性向上の秘密
 
 <div class="grid grid-cols-2 gap-8">
