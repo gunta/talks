@@ -4126,43 +4126,44 @@ MCPVerified.comとCursor-Japan.org、立ち上げました。
 -->
 
 ---
-layout: center
-class: text-center
+layout: cover
+background: /images/lastcover.png
+class: text-center text-white
 ---
 
 # ありがとうございました！
 
 <div class="text-2xl mt-8">
 
-<h2 class="flex items-center justify-center gap-2">
-  <mdi-rocket-launch class="text-purple-500" />
+<h2 class="flex items-center justify-center gap-2 text-white">
+  <mdi-rocket-launch class="text-white" />
   一緒にCursorとMCPで未来を創りましょう！
-  <mdi-heart class="text-red-500" />
+  <mdi-heart class="text-white" />
 </h2>
 
 </div>
 
 <div class="mt-12">
 
-<h3 class="flex items-center justify-center gap-2 text-xl mb-4">
-  <mdi-account-network class="text-blue-500" />
+<h3 class="flex items-center justify-center gap-2 text-xl mb-4 text-white">
+  <mdi-account-network class="text-white" />
   Connect with me
 </h3>
 
 <div class="flex items-center justify-center gap-6">
   <div class="flex items-center gap-2">
-    <mdi-twitter class="text-blue-400 text-2xl" />
-    <span class="text-lg">@gunta85</span>
+    <mdi-twitter class="text-white text-2xl" />
+    <span class="text-lg text-white">@gunta85</span>
   </div>
 </div>
 
 </div>
 
-<div class="mt-8 p-6 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl inline-block">
+<div class="mt-8 p-6 bg-black/30 backdrop-blur-sm rounded-xl inline-block">
   <div class="flex items-center gap-3">
-    <mdi-sparkles class="text-purple-600 text-3xl" />
-    <span class="text-lg font-semibold">未来は今、ここから始まります</span>
-    <mdi-flag class="text-pink-600 text-3xl" />
+    <mdi-sparkles class="text-white text-3xl" />
+    <span class="text-lg font-semibold text-white">未来は今、ここから始まります</span>
+    <mdi-flag class="text-white text-3xl" />
   </div>
 </div>
 
