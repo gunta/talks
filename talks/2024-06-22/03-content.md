@@ -250,7 +250,7 @@ transition: slide-up
 
 | <img src="/T4LogoLarge.png" width="40" /> | <img src="/OrbitkitLight.svg" width="100"  /> | <img src="/cella.svg" width="100"  /> |
 |----------------------|-------------------|----------------|
-| [timothymiller/t4-app](https://github.com/timothymiller/t4-app) | [ixahmedxi/orbkit](https://github.com/ixahmedxi/orbkit) | [cellajs/cella](https://github.com/cellajs/cella) |
+| [timothymiller/t4-app](https://github.com/timothymiller/t4-app) | [ixahmedxi/orbitkit](https://github.com/ixahmedxi/orbitkit) | [cellajs/cella](https://github.com/cellajs/cella) |
 | <logos-hono /> Hono | <logos-hono /> Hono | <logos-hono /> Hono |
 | <logos-drizzle /> Drizzle | <logos-drizzle /> Drizzle | <logos-drizzle /> Drizzle |
 | <logos-react /> React | <logos-react /> React | <logos-react /> React |
@@ -267,7 +267,7 @@ transition: fade
 
 | <img src="/T4LogoLarge.png" width="40" /> | <img src="/OrbitkitLight.svg" width="100"  /> | <img src="/cella.svg" width="100"  /> |
 |----------------------|-------------------|----------------|
-| [timothymiller/t4-app](https://github.com/timothymiller/t4-app) | [ixahmedxi/orbkit](https://github.com/ixahmedxi/orbkit) | [cellajs/cella](https://github.com/cellajs/cella) |
+| [timothymiller/t4-app](https://github.com/timothymiller/t4-app) | [ixahmedxi/orbitkit](https://github.com/ixahmedxi/orbitkit) | [cellajs/cella](https://github.com/cellajs/cella) |
 | <logos-nextjs-icon /> Next.js | <logos-nextjs-icon /> Next.js | <logos-vitejs /> Vite |
 | <logos-react-query-icon /> React Query | <simple-icons-lucia /> Lucia Auth | <logos-cloudflare /> Cloudflare |
 | <logos-vitejs /> Vite | <logos-zod /> Zod | <logos-zod /> Zod |
