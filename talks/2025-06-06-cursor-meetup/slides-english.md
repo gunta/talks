@@ -5,18 +5,18 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Breaking Down Enterprise AI Tool Adoption Barriers
+  ## Breaking Down Enterprise AI Tool Adoption Barriers in Japan
   CyberAgent's Cursor Implementation Strategy
 
   Cursor Meetup Tokyo 2025
 drawings:
   persist: false
 transition: slide-left
-title: Breaking Down Enterprise AI Tool Adoption Barriers
+title: Breaking Down Enterprise AI Tool Adoption Barriers in Japan
 mdc: true
 ---
 
-# Breaking Down Enterprise AI Tool Adoption Barriers
+# Breaking Down Enterprise AI Tool Adoption Barriers in Japan
 ## CyberAgent's Cursor Implementation Strategy
 
 <br>
@@ -115,7 +115,7 @@ Whether you're an engineer, designer, or CEO - let's build the future together!
   <div class="bg-gradient-to-r from-red-50 to-pink-50 p-4 rounded-lg flex items-center gap-3">
     <mdi-fire class="text-red-500 text-3xl" />
     <div>
-      <div class="font-bold">50% of Zenn trends are AI-related</div>
+      <div class="font-bold">50% of Japan blog entry trends are AI-related</div>
       <div class="text-sm text-gray-600">(April 2025)</div>
     </div>
   </div>
@@ -1563,7 +1563,7 @@ With Cursor, everything's included. Revolutionary.
 
 ---
 
-# My Ambition: CA's Future
+# My Ambition: CyberAgent's Future
 
 <div class="grid grid-cols-2 gap-8">
 <div class="p-6 bg-blue-50 rounded-lg">
@@ -1758,7 +1758,7 @@ We've also MCP-ified security, dictionary, deployment tools, everything.
 <div class="text-center mb-6">
   <h2 class="flex items-center justify-center gap-2 text-2xl">
     <mdi-check-all class="text-blue-500" />
-    Say goodbye to GitHub Issues, Linear, and manual tracking for PRDs
+    Say goodbye to GitHub Issues, JIRA, and manual tracking for PRDs
   </h2>
 </div>
 
@@ -1783,7 +1783,6 @@ We've also MCP-ified security, dictionary, deployment tools, everything.
   </h2>
   <ul class="space-y-2 list-disc list-inside">
     <li>Complete task management in repository</li>
-    <li>Natural conversation with AI for task creation</li>
     <li>Implementation and tasks always in sync</li>
     <li>PRD generation to implementation seamlessly</li>
     <li>Everything happens inside Cursor</li>
@@ -1814,7 +1813,7 @@ We've also MCP-ified security, dictionary, deployment tools, everything.
 <!--
 【TaskMaster Slide】
 TaskMaster is truly a game-changer.
-No need to use GitHub Issues or Linear, no switching out.
+No need to use GitHub Issues or JIRA, no switching out.
 In the repository, chat with AI to create tasks and implement.
 Auto-generate PRDs, structured tasks, real-time progress.
 No more external task management tools needed.
@@ -2111,7 +2110,7 @@ Master this selection and your efficiency soars.
   
   <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
     <mdi-shield-check class="text-purple-600 text-xl" />
-    <span>Schema enforcement = perfect AI generation</span>
+    <span>Schema enforcement = perfect AI gen</span>
   </div>
 </div>
 </div>
@@ -2279,7 +2278,7 @@ Actually, I'm developing 10x faster with this.
   
   <div class="flex items-center gap-3 p-4 bg-purple-50 rounded-lg">
     <mdi-shield-check class="text-purple-600 text-xl" />
-    <span>Guarantees latest version & best practices</span>
+    <span>Context7 and GitMCP guarantees latest version & best practices</span>
   </div>
 </div>
 
@@ -3678,17 +3677,17 @@ Make engineering world-class everywhere.
   <div class="bg-blue-50 p-4 rounded-lg">
     <div class="flex items-center gap-2 mb-2">
       <mdi-web class="text-blue-600" />
-      <span class="font-bold">Cursor.sh Community</span>
+      <span class="font-bold">Cursor-Japan.org Community</span>
     </div>
-    <div class="text-sm text-gray-600">Global resource hub</div>
+    <div class="text-sm text-gray-600">Japanese Resource Hub</div>
   </div>
   
   <div class="bg-purple-50 p-4 rounded-lg">
     <div class="flex items-center gap-2 mb-2">
       <simple-icons-discord class="text-purple-600" />
-      <span class="font-bold">Discord</span>
+      <span class="font-bold">MCPVerified.com</span>
     </div>
-    <div class="text-sm text-gray-600">AI Agent Users Association (AIAU)</div>
+    <div class="text-sm text-gray-600">MCP Curated Info</div>
   </div>
   
   <div class="bg-red-50 p-4 rounded-lg">
@@ -3722,7 +3721,7 @@ Make engineering world-class everywhere.
       <mdi-calendar-month class="text-orange-600" />
       <span class="font-bold">Monthly Meetups</span>
     </div>
-    <div class="text-sm text-gray-600">SF, NYC, London, Tokyo</div>
+    <div class="text-sm text-gray-600">Tokyo, Osaka, etc</div>
   </div>
   
   <div class="bg-indigo-50 p-4 rounded-lg">
@@ -4062,7 +4061,7 @@ Practice these and your productivity will 10x. Guaranteed.
   <div class="bg-red-50 p-4 rounded-lg">
     <div class="flex items-center gap-2 mb-2">
       <mdi-earth class="text-red-600" />
-      <span class="font-bold">Global Cursor Community</span>
+      <span class="font-bold">Cursor-Japan.org Community</span>
     </div>
     <ul class="text-sm text-gray-600 space-y-1">
       <li>• Documentation</li>
@@ -4081,26 +4080,7 @@ Practice these and your productivity will 10x. Guaranteed.
 </h3>
 
 <div class="space-y-4">
-  <div class="bg-purple-50 p-4 rounded-lg border-2 border-purple-200">
-    <div class="flex items-center gap-2 mb-2">
-      <mdi-target class="text-purple-600" />
-      <span class="font-bold">Summer Tech Summit</span>
-    </div>
-    <ul class="text-sm space-y-1">
-      <li class="flex items-center gap-2">
-        <mdi-calendar class="text-purple-600" />
-        <span class="font-bold">July 2025</span>
-      </li>
-      <li class="flex items-center gap-2">
-        <mdi-map-marker class="text-purple-600" />
-        <span>Location: San Francisco</span>
-      </li>
-      <li class="flex items-center gap-2">
-        <mdi-book-open class="text-purple-600" />
-        <span>MCP from basics to advanced</span>
-      </li>
-    </ul>
-  </div>
+  
   
   <div class="bg-yellow-50 p-4 rounded-lg">
     <div class="flex items-center gap-2 mb-2">
