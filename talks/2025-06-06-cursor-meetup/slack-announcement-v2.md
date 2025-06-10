@@ -22,6 +22,15 @@
 
 > :100: **「めっちゃ勉強になりました 時間無くて全部見れなかった人もグンタさんの発表は見て欲しい」**
 
+> :rocket: **「LTがとても印象的だった。変化の激しい業界でスタンスを取って進めることはとても勇気がいるが、だからこそそれができることが強い優位性に繋がり得ることを強く感じた。」**
+
+> :eyes: **「2年前からCursor使ってるの早すぎる」**
+
+> :zap: **「グンタ氏のスライド、強烈に面白い」**
+
+> :gift: **「本当は教えたくない秘密のタレ！技術スタック」**
+
+
 ### :zap: 発表で明かした衝撃の事実
 
 :one: **月額$40で年収1000万円エンジニアの生産性が10倍に**
@@ -49,16 +58,22 @@
 
 ### :tv: 今すぐ視聴（15分だけでも価値あり）
 
-**:youtube: YouTube（1:48:15から）:**
+**:youtube: YouTube:**
 https://www.youtube.com/live/j9d8mbjPSMQ?si=QlYqGgrlPh7-tWxZ&t=6495
 
 **:books: スライド:**
 https://speakerdeck.com/gunta/da-shou-qi-ye-noaiturudao-ru-nobi-woyue-ete-saibaezientonocursorhuo-yong-zhan-lue
 
-:line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b:
+:line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b::line-b:
 
-**サイバーエージェントがAI活用で日本の最先端を走っていることを改めて実感しています。**
+:warning: **他社から問い合わせ殺到中** :warning:
+「どうやってCA全社にCursor導入したの？」
+「MCPサーバーの作り方教えて」
+「うちでも同じことできる？」
 
-CAの皆さん、一緒に未来を創りましょう！:rocket:
+**:chart_with_upwards_trend: 未来の企業価値は"MCPサーバー数"で決まる時代が来ます。**
 
-質問・感想・MCP開発の相談、なんでもDMください！:envelope:
+**:rocket: CAのMCPサーバーをもっと増やしていきましょう！何か作ったら #ca-mcp-union に投稿してください！**
+
+興味がある方はぜひご覧ください。
+MCP開発やCursor活用について質問があればお気軽にDMください :computer:
