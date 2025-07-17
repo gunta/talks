@@ -27,6 +27,8 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@21st-extension/toolbar-vue": "^0.5.14",
+    "@21st-extension/vue": "^0.5.14",
     "@biomejs/biome": "^1.9.4",
     "@iconify/json": "^2.2.346",
     "execa": "9.6.0",
