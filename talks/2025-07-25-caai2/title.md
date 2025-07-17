@@ -37,8 +37,10 @@ Task Master MCP Server (#7 this week, #10 this month) by @eyaltoledano
 
 
 # Final CTA
-Create MCP Servers
-Create DXT extensions
-Share with non-engineers.
+Create MCP Servers!
+Create DXT extensions!
+Share with non-engineers!
 Tell all your non-engineers to use Claude as client.
 Enable everyone in your org, and organizations in parallel to have amazing productivity.
+Don't sleep on MCP!　Is evolving very fast.
+Before creating an UI, create an MCP server.
