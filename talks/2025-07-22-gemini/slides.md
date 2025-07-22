@@ -289,24 +289,35 @@ import Avatar from '../../components/Avatar.vue'
 layout: center
 ---
 
+<script setup>
+import Avatar from '../../components/Avatar.vue'
+</script>
+
 <div class="max-w-4xl mx-auto">
-  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+  <!-- <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
     Industry Recognition
   </h2>
-  <p class="text-xl text-gray-600 text-center mb-12">業界のリーダーたちからの評価</p>
+  <p class="text-xl text-gray-600 text-center mb-12">業界のリーダーたちからの評価</p> -->
+  
   
   <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
     <div class="flex items-start gap-6">
       <div class="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-        <span class="text-2xl font-medium text-green-600">SC</span>
+        <!-- <span class="text-2xl font-medium text-green-600">SC</span> -->
+         <Avatar
+            platform="github"
+            username="schacon"
+            size="xl"
+            quality="max"
+            fallback-name="Scott Chacon"
+          />
       </div>
       <div class="flex-1">
         <div class="flex items-center gap-4 mb-2">
           <h3 class="text-2xl font-medium text-gray-900">Scott Chacon</h3>
           <p class="text-gray-500">@chacon</p>
         </div>
-        <p class="text-lg text-gray-600 mb-1">GitHub Co-founder</p>
-        <p class="text-gray-600 mb-6">GitHubの共同創業者</p>
+        <p class="text-lg text-gray-600 mb-1">GitHub Co-founder | 共同創業者</p>
         <div class="p-6 bg-gray-50 rounded-lg border-l-4 border-green-500">
           <p class="text-lg text-gray-800 italic leading-relaxed">
             "If you like CLIs, Jujutsu is really interesting, and Git backended. If you want to try a new GUI I can highly recommend the @gitbutler beta. 😉"
@@ -326,23 +337,29 @@ layout: center
 ---
 
 <div class="max-w-4xl mx-auto">
-  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+  <!-- <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
     Industry Recognition
   </h2>
-  <p class="text-xl text-gray-600 text-center mb-12">業界のリーダーたちからの評価</p>
+  <p class="text-xl text-gray-600 text-center mb-12">業界のリーダーたちからの評価</p> -->
   
   <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
     <div class="flex items-start gap-6">
       <div class="w-20 h-20 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-        <span class="text-2xl font-medium text-purple-600">MH</span>
+        <!-- <span class="text-2xl font-medium text-purple-600">MH</span> -->
+        <Avatar
+            platform="github"
+            username="mitchellh"
+            size="xl"
+            quality="max"
+            fallback-name="Mitchell Hashimoto"
+          />
       </div>
       <div class="flex-1">
         <div class="flex items-center gap-4 mb-2">
           <h3 class="text-2xl font-medium text-gray-900">Mitchell Hashimoto</h3>
           <p class="text-gray-500">@mitchellh</p>
         </div>
-        <p class="text-lg text-gray-600 mb-1">HashiCorp Founder</p>
-        <p class="text-gray-600 mb-6">HashiCorpの創業者</p>
+        <p class="text-lg text-gray-600 mb-1">HashiCorp Founder | 創業者</p>
         <div class="p-6 bg-gray-50 rounded-lg border-l-4 border-purple-500">
           <p class="text-lg text-gray-800 italic leading-relaxed">
             "Almost two months since I tweeted this and I've used jujutsu exclusively the entire time. I want to write something longer form but the tweet form: jj is fantastic and I can't see myself going back, only one exception is I drop down to `git` for bisect still. That's it."

@@ -59,7 +59,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 
 interface Props {
-  platform: 'github' | 'twitter'
+  platform: 'github' | 'twitter' | 'linkedin'
   username: string
   size?: 'sm' | 'md' | 'lg' | 'xl' | '2xl'
   showPlatformBadge?: boolean
