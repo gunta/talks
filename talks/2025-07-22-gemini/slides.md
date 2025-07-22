@@ -44,26 +44,52 @@ layout: two-cols
 
 <div class="space-y-4 text-lg">
   <div class="flex items-start gap-3">
+    <span class="text-2xl">👨‍💻</span>
+    <div>
+      <div class="font-bold">エンジニア & デザイナー</div>
+      <div class="text-sm opacity-60">Engineer & Designer</div>
+    </div>
+  </div>
+  
+  <div class="flex items-start gap-3">
     <span class="text-2xl">🚀</span>
     <div>
-      <div class="font-bold">開発生産性のスペシャリスト</div>
-      <div class="text-sm opacity-60">Developer Productivity Specialist</div>
+      <div class="font-bold">開発生産性 & パフォーマンス専門</div>
+      <div class="text-sm opacity-60">Developer Productivity & Performance Specialist</div>
     </div>
   </div>
   
   <div class="flex items-start gap-3">
     <span class="text-2xl">🌏</span>
     <div>
-      <div class="font-bold">元Google・Amazon・Microsoft</div>
-      <div class="text-sm opacity-60">Ex-Google, Amazon, Microsoft</div>
+      <div class="font-bold">2012年サイバーエージェント入社</div>
+      <div class="text-sm opacity-60">Joined CyberAgent in 2012</div>
+    </div>
+  </div>
+  
+  <div class="flex items-start gap-3">
+    <span class="text-2xl">⭐</span>
+    <div>
+      <div class="font-bold">OSS OpenSTF創設者</div>
+      <div class="text-sm opacity-60">Original creator of OpenSTF (13k+ GitHub stars)</div>
+      <div class="text-xs opacity-50">Realtime Android device remote debugging</div>
     </div>
   </div>
   
   <div class="flex items-start gap-3">
     <span class="text-2xl">🎯</span>
     <div>
-      <div class="font-bold">Jujutsu早期採用者</div>
-      <div class="text-sm opacity-60">Early Jujutsu Adopter</div>
+      <div class="font-bold">AI Code Agents祭り主催</div>
+      <div class="text-sm opacity-60">Organizer of AI Code Agents Festival</div>
+      <div class="text-xs opacity-50">2万人以上視聴 • events.code-agents.com/2025-winter</div>
+    </div>
+  </div>
+  
+  <div class="flex items-start gap-3">
+    <span class="text-2xl">𝕏</span>
+    <div>
+      <div class="font-bold">Follow me on X</div>
+      <div class="text-sm opacity-60">@gunta85</div>
     </div>
   </div>
 </div>
@@ -682,7 +708,10 @@ class: text-center
     </p>
     <div class="mb-12">
       <p class="text-xl text-gray-700 mb-2">Günther Brunner</p>
-      <p class="text-gray-600">@gunta85 • CyberAgent, Inc.</p>
+      <p class="text-gray-600">CyberAgent, Inc.</p>
+      <p class="text-blue-600 font-medium mt-2">
+        <span class="text-lg">𝕏</span> @gunta85
+      </p>
     </div>
     <div class="bg-gray-50 rounded-2xl px-8 py-6 inline-block">
       <p class="text-xl font-medium text-gray-900" style="font-family: 'Google Sans', sans-serif">
