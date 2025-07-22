@@ -44,7 +44,7 @@ layout: two-cols
 
 <div class="space-y-4 text-lg">
   <div class="flex items-start gap-3">
-    <span class="text-2xl">👨‍💻</span>
+    <mdi-code-braces class="text-3xl text-blue-500" />
     <div>
       <div class="font-bold">エンジニア & デザイナー</div>
       <div class="text-sm opacity-60">Engineer & Designer</div>
@@ -52,7 +52,7 @@ layout: two-cols
   </div>
   
   <div class="flex items-start gap-3">
-    <span class="text-2xl">🚀</span>
+    <mdi-rocket-launch class="text-3xl text-red-500" />
     <div>
       <div class="font-bold">開発生産性 & パフォーマンス専門</div>
       <div class="text-sm opacity-60">Developer Productivity & Performance Specialist</div>
@@ -60,7 +60,7 @@ layout: two-cols
   </div>
   
   <div class="flex items-start gap-3">
-    <span class="text-2xl">🌏</span>
+    <mdi-office-building class="text-3xl text-green-500" />
     <div>
       <div class="font-bold">2012年サイバーエージェント入社</div>
       <div class="text-sm opacity-60">Joined CyberAgent in 2012</div>
@@ -68,7 +68,7 @@ layout: two-cols
   </div>
   
   <div class="flex items-start gap-3">
-    <span class="text-2xl">⭐</span>
+    <mdi-star class="text-3xl text-yellow-500" />
     <div>
       <div class="font-bold">OSS OpenSTF創設者</div>
       <div class="text-sm opacity-60">Original creator of OpenSTF (13k+ GitHub stars)</div>
@@ -77,7 +77,7 @@ layout: two-cols
   </div>
   
   <div class="flex items-start gap-3">
-    <span class="text-2xl">🎯</span>
+    <mdi-calendar-star class="text-3xl text-purple-500" />
     <div>
       <div class="font-bold">AI Code Agents祭り主催</div>
       <div class="text-sm opacity-60">Organizer of AI Code Agents Festival</div>
@@ -86,7 +86,7 @@ layout: two-cols
   </div>
   
   <div class="flex items-start gap-3">
-    <span class="text-2xl">𝕏</span>
+    <mdi-twitter class="text-3xl text-blue-400" />
     <div>
       <div class="font-bold">Follow me on X</div>
       <div class="text-sm opacity-60">@gunta85</div>
@@ -117,7 +117,7 @@ layout: center
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
   <div class="bg-red-900/20 p-8 rounded-xl border border-red-500/30">
-    <h3 class="text-2xl font-bold mb-4">🚧 現在の限界 Current Limitations</h3>
+    <h3 class="text-2xl font-bold mb-4"><mdi-alert-circle class="inline text-red-500" /> 現在の限界 Current Limitations</h3>
     <ul class="space-y-3 text-lg">
       <li>1つのGemini CLIで順番に作業</li>
       <li class="text-sm opacity-60">Working sequentially with one Gemini CLI</li>
@@ -129,7 +129,7 @@ layout: center
   </div>
   
   <div class="bg-green-900/20 p-8 rounded-xl border border-green-500/30">
-    <h3 class="text-2xl font-bold mb-4">✨ 理想の世界 Ideal World</h3>
+    <h3 class="text-2xl font-bold mb-4"><mdi-star-outline class="inline text-green-500" /> 理想の世界 Ideal World</h3>
     <ul class="space-y-3 text-lg">
       <li>複数のGeminiが同時開発</li>
       <li class="text-sm opacity-60">Multiple Geminis developing simultaneously</li>
@@ -145,7 +145,7 @@ layout: center
 layout: center
 ---
 
-# 🎯 解決策：Jujutsu
+# <mdi-target class="inline text-purple-500" /> 解決策：Jujutsu
 <p class="text-sm opacity-60 !mt-0">The Solution: Jujutsu</p>
 
 <div class="relative">
@@ -162,17 +162,17 @@ layout: center
     </div>
     <div class="grid grid-cols-3 gap-6 mt-8">
       <div class="text-center">
-        <div class="text-3xl mb-2">🧠</div>
+        <mdi-brain class="text-4xl mb-2 text-purple-400" />
         <div class="font-bold">賢い</div>
         <div class="text-sm opacity-60">Smart</div>
       </div>
       <div class="text-center">
-        <div class="text-3xl mb-2">⚡</div>
+        <mdi-lightning-bolt class="text-4xl mb-2 text-yellow-400" />
         <div class="font-bold">高速</div>
         <div class="text-sm opacity-60">Fast</div>
       </div>
       <div class="text-center">
-        <div class="text-3xl mb-2">🔄</div>
+        <mdi-sync class="text-4xl mb-2 text-green-400" />
         <div class="font-bold">並列対応</div>
         <div class="text-sm opacity-60">Parallel-ready</div>
       </div>
@@ -204,17 +204,17 @@ layout: center
         </div>
         <div class="space-y-3 text-gray-700">
           <p class="flex items-start gap-2">
-            <span class="text-blue-500 mt-1">•</span>
+            <mdi-circle-small class="text-blue-500 mt-1" />
             <span>Improved Git rebase command<br/>
             <span class="text-sm text-gray-600">Git rebaseコマンドの改善者</span></span>
           </p>
           <p class="flex items-start gap-2">
-            <span class="text-blue-500 mt-1">•</span>
+            <mdi-circle-small class="text-blue-500 mt-1" />
             <span>Developer of Google's "Fig" VCS<br/>
             <span class="text-sm text-gray-600">Google内部VCS「Fig」の開発者</span></span>
           </p>
           <p class="flex items-start gap-2">
-            <span class="text-blue-500 mt-1">•</span>
+            <mdi-circle-small class="text-blue-500 mt-1" />
             <span>Piper monorepo expert<br/>
             <span class="text-sm text-gray-600">Piperモノレポ対応の専門家</span></span>
           </p>
@@ -270,9 +270,7 @@ layout: center
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
         <div class="flex items-start gap-4">
           <div class="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0">
-            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
-            </svg>
+            <mdi-cancel class="w-6 h-6 text-red-600" />
           </div>
           <div>
             <h3 class="text-lg font-medium text-gray-900">No Staging Area</h3>
@@ -284,9 +282,7 @@ layout: center
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
         <div class="flex items-start gap-4">
           <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"/>
-            </svg>
+            <mdi-undo class="w-6 h-6 text-blue-600" />
           </div>
           <div>
             <h3 class="text-lg font-medium text-gray-900">Complete Undo</h3>
@@ -300,9 +296,7 @@ layout: center
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
         <div class="flex items-start gap-4">
           <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-            </svg>
+            <mdi-heart class="w-6 h-6 text-green-600" />
           </div>
           <div>
             <h3 class="text-lg font-medium text-gray-900">First-class Conflicts</h3>
@@ -314,9 +308,7 @@ layout: center
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
         <div class="flex items-start gap-4">
           <div class="w-12 h-12 rounded-full bg-yellow-100 flex items-center justify-center flex-shrink-0">
-            <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
-            </svg>
+            <mdi-folder-multiple class="w-6 h-6 text-yellow-600" />
           </div>
           <div>
             <h3 class="text-lg font-medium text-gray-900">True Workspaces</h3>
@@ -347,9 +339,9 @@ layout: center
       </div>
       <code class="text-sm text-gray-600 font-mono block mb-3">backend-workspace</code>
       <ul class="space-y-2 text-sm text-gray-700">
-        <li>• REST API development</li>
+        <li><mdi-circle-small class="inline" /> REST API development</li>
         <li class="text-gray-500">API開発担当</li>
-        <li>• Database schema</li>
+        <li><mdi-circle-small class="inline" /> Database schema</li>
         <li class="text-gray-500">データベース設計</li>
       </ul>
     </div>
@@ -362,9 +354,9 @@ layout: center
       </div>
       <code class="text-sm text-gray-600 font-mono block mb-3">frontend-workspace</code>
       <ul class="space-y-2 text-sm text-gray-700">
-        <li>• React components</li>
+        <li><mdi-circle-small class="inline" /> React components</li>
         <li class="text-gray-500">UI実装担当</li>
-        <li>• User interface</li>
+        <li><mdi-circle-small class="inline" /> User interface</li>
         <li class="text-gray-500">コンポーネント開発</li>
       </ul>
     </div>
@@ -377,9 +369,9 @@ layout: center
       </div>
       <code class="text-sm text-gray-600 font-mono block mb-3">test-workspace</code>
       <ul class="space-y-2 text-sm text-gray-700">
-        <li>• Unit tests</li>
+        <li><mdi-circle-small class="inline" /> Unit tests</li>
         <li class="text-gray-500">テスト作成</li>
-        <li>• Documentation</li>
+        <li><mdi-circle-small class="inline" /> Documentation</li>
         <li class="text-gray-500">ドキュメント生成</li>
       </ul>
     </div>
@@ -412,36 +404,28 @@ layout: center
   <div class="flex items-center justify-center gap-4 mb-12">
     <div class="text-center">
       <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mb-2">
-        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/>
-        </svg>
+        <mdi-server class="w-10 h-10 text-blue-600" />
       </div>
       <p class="text-sm text-gray-600">Backend</p>
     </div>
     <span class="text-2xl text-gray-400">+</span>
     <div class="text-center">
       <div class="w-20 h-20 bg-green-100 rounded-2xl flex items-center justify-center mb-2">
-        <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-        </svg>
+        <mdi-monitor class="w-10 h-10 text-green-600" />
       </div>
       <p class="text-sm text-gray-600">Frontend</p>
     </div>
     <span class="text-2xl text-gray-400">+</span>
     <div class="text-center">
       <div class="w-20 h-20 bg-yellow-100 rounded-2xl flex items-center justify-center mb-2">
-        <svg class="w-10 h-10 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
-        </svg>
+        <mdi-clipboard-check class="w-10 h-10 text-yellow-600" />
       </div>
       <p class="text-sm text-gray-600">Tests</p>
     </div>
     <span class="text-2xl text-gray-400">=</span>
     <div class="text-center">
       <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-green-500 rounded-2xl flex items-center justify-center mb-2 shadow-lg">
-        <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-        </svg>
+        <mdi-check-bold class="w-12 h-12 text-white" />
       </div>
       <p class="text-lg font-medium text-gray-900">Complete!</p>
     </div>
@@ -466,9 +450,7 @@ layout: center
     <div>
       <div class="flex items-center gap-3 mb-6">
         <div class="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
-          <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-          </svg>
+          <mdi-close class="w-5 h-5 text-red-600" />
         </div>
         <h3 class="text-xl font-medium text-gray-900">Traditional Git</h3>
       </div>
@@ -479,9 +461,7 @@ const api = "old";
 const api = "new";
 >>>>>>> feature</code></pre>
         <div class="mt-4 flex items-center gap-2 text-red-700">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-          </svg>
+          <mdi-alert-circle class="w-5 h-5" />
           <p class="font-medium">Work halted</p>
           <p class="text-sm text-red-600">作業停止</p>
         </div>
@@ -490,9 +470,7 @@ const api = "new";
     <div>
       <div class="flex items-center gap-3 mb-6">
         <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-          <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-          </svg>
+          <mdi-check class="w-5 h-5 text-green-600" />
         </div>
         <h3 class="text-xl font-medium text-gray-900">Jujutsu</h3>
       </div>
@@ -504,9 +482,7 @@ const api = "new";
           # Resolve when ready
           jj resolve</code></pre>
         <div class="mt-4 flex items-center gap-2 text-green-700">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-          </svg>
+          <mdi-lightning-bolt class="w-5 h-5" />
           <p class="font-medium">Work continues</p>
           <p class="text-sm text-green-600">作業継続</p>
         </div>
@@ -554,27 +530,21 @@ layout: center
     <div class="grid grid-cols-3 gap-8 text-center">
       <div>
         <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-blue-100 flex items-center justify-center">
-          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
-          </svg>
+          <mdi-application-brackets class="w-8 h-8 text-blue-600" />
         </div>
         <p class="text-lg font-medium text-gray-900">Full-Stack Application</p>
         <p class="text-sm text-gray-600">フルスタックアプリ</p>
       </div>
       <div>
         <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-green-100 flex items-center justify-center">
-          <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-          </svg>
+          <mdi-check-circle class="w-8 h-8 text-green-600" />
         </div>
         <p class="text-lg font-medium text-gray-900">100% Test Coverage</p>
         <p class="text-sm text-gray-600">完全なテストカバレッジ</p>
       </div>
       <div>
         <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-yellow-100 flex items-center justify-center">
-          <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-          </svg>
+          <mdi-file-document class="w-8 h-8 text-yellow-600" />
         </div>
         <p class="text-lg font-medium text-gray-900">Auto-Generated Docs</p>
         <p class="text-sm text-gray-600">自動生成ドキュメント</p>
@@ -601,9 +571,7 @@ layout: center
     <div class="grid grid-cols-3 gap-6">
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 text-center">
         <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-blue-100 flex items-center justify-center">
-          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/>
-          </svg>
+          <mdi-database class="w-8 h-8 text-blue-600" />
         </div>
         <h3 class="text-lg font-medium text-gray-900 mb-2">Microservices</h3>
         <p class="text-sm text-gray-600">マイクロサービス</p>
@@ -612,9 +580,7 @@ layout: center
       </div>
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 text-center">
         <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-green-100 flex items-center justify-center">
-          <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
-          </svg>
+          <mdi-translate class="w-8 h-8 text-green-600" />
         </div>
         <h3 class="text-lg font-medium text-gray-900 mb-2">Polyglot</h3>
         <p class="text-sm text-gray-600">多言語対応</p>
@@ -623,9 +589,7 @@ layout: center
       </div>
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 text-center">
         <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-yellow-100 flex items-center justify-center">
-          <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-          </svg>
+          <mdi-account-group class="w-8 h-8 text-yellow-600" />
         </div>
         <h3 class="text-lg font-medium text-gray-900 mb-2">Specialized Roles</h3>
         <p class="text-sm text-gray-600">役割分担</p>
@@ -662,9 +626,7 @@ layout: center
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
         <div class="flex items-center gap-4">
           <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
-            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-            </svg>
+            <mdi-book-open-variant class="w-6 h-6 text-blue-600" />
           </div>
           <div>
             <p class="font-medium text-gray-900">Documentation</p>
@@ -676,11 +638,7 @@ layout: center
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
         <div class="flex items-center gap-4">
           <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0v7"/>
-            </svg>
+            <mdi-school class="w-6 h-6 text-green-600" />
           </div>
           <div>
             <p class="font-medium text-gray-900">Tutorial</p>
@@ -710,7 +668,7 @@ class: text-center
       <p class="text-xl text-gray-700 mb-2">Günther Brunner</p>
       <p class="text-gray-600">CyberAgent, Inc.</p>
       <p class="text-blue-600 font-medium mt-2">
-        <span class="text-lg">𝕏</span> @gunta85
+        <mdi-twitter class="inline text-lg" /> @gunta85
       </p>
     </div>
     <div class="bg-gray-50 rounded-2xl px-8 py-6 inline-block">
