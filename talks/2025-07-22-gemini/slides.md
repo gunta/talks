@@ -17,7 +17,8 @@ colorSchema: light
 fonts:
   sans: 'Google Sans, Noto Sans JP, Arial'
   mono: 'Google Sans Mono, Roboto Mono'
-
+layout: image
+image: geminibg.png
 ---
 
 <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
@@ -35,10 +36,6 @@ fonts:
       A New World of AI Agent Collaboration Enabled by Jujutsu
     </p>
   </div>
-</div>
-
----
-
 
   <div class="fixed inset-x-0 bottom-0 pb-6 flex justify-center pointer-events-none z-50">
     <div class="bg-black/60 backdrop-blur-sm inline-block px-8 py-6 rounded-2xl shadow-2xl pointer-events-auto">
@@ -51,6 +48,8 @@ fonts:
       </div>
     </div>
   </div>
+</div>
+
 
 ---
 layout: two-cols
@@ -137,11 +136,11 @@ layout: center
     <h3 class="text-2xl font-bold mb-4"><mdi-alert-circle class="inline text-red-500" /> 現在の限界 Current Limitations</h3>
     <ul class="space-y-3 text-lg">
       <li>1つのGemini CLIで順番に作業</li>
-      <li class="text-sm opacity-60">Working sequentially with one Gemini CLI</li>
+      <span class="text-sm opacity-60">Working sequentially with one Gemini CLI</span>
       <li>ファイル競合の恐怖</li>
-      <li class="text-sm opacity-60">Fear of file conflicts</li>
+      <span class="text-sm opacity-60">Fear of file conflicts</span>
       <li>並列開発は夢のまた夢</li>
-      <li class="text-sm opacity-60">Parallel development remains a dream</li>
+      <span class="text-sm opacity-60">Parallel development remains a dream</span>
     </ul>
   </div>
   
@@ -149,11 +148,11 @@ layout: center
     <h3 class="text-2xl font-bold mb-4"><mdi-star-outline class="inline text-green-500" /> 理想の世界 Ideal World</h3>
     <ul class="space-y-3 text-lg">
       <li>複数のGeminiが同時開発</li>
-      <li class="text-sm opacity-60">Multiple Geminis developing simultaneously</li>
+      <span class="text-sm opacity-60">Multiple Geminis developing simultaneously</span>
       <li>コンフリクトフリー</li>
-      <li class="text-sm opacity-60">Conflict-free</li>
+      <span class="text-sm opacity-60">Conflict-free</span>
       <li>10倍速の開発</li>
-      <li class="text-sm opacity-60">10x development speed</li>
+      <span class="text-sm opacity-60">10x development speed</span>
     </ul>
   </div>
 </div>
@@ -167,7 +166,7 @@ layout: center
 
 <div class="relative">
   <div class="absolute -inset-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur-lg opacity-30 animate-pulse"></div>
-  <div class="relative bg-black/50 p-10 rounded-lg backdrop-blur-sm">
+  <div class="relative bg-white/0 p-10 rounded-lg backdrop-blur-sm">
     <h2 class="text-4xl font-bold text-center mb-8">
       <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
         Jujutsu (jj)
@@ -175,7 +174,7 @@ layout: center
     </h2>
     <div class="text-center text-2xl mb-6">
       Googleが支援する次世代VCS
-      <p class="text-sm opacity-60">Next-gen VCS developed by Google</p>
+      <p class="text-sm opacity-60">Next-gen VCS supported by Google</p>
     </div>
     <div class="grid grid-cols-3 gap-6 mt-8">
       <div class="text-center">
@@ -345,7 +344,7 @@ layout: center
 ---
 
 <div class="max-w-5xl mx-auto">
-  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+  <h2 class="text-4xl font-normal text-gray-900 mb-12 text-center" style="font-family: 'Google Sans', sans-serif">
     Jujutsu: Open Source Innovation
   </h2>
   <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-gray-200">
