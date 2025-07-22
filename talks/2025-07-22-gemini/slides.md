@@ -17,23 +17,40 @@ colorSchema: light
 fonts:
   sans: 'Google Sans, Noto Sans JP, Arial'
   mono: 'Google Sans Mono, Roboto Mono'
+
 ---
 
-# 複数のGemini CLIが同時開発する狂気
-## Jujutsuが実現するAIエージェント協調の新世界
-<p class="text-sm opacity-60 !mt-1">Multiple Gemini CLIs Developing Simultaneously: The Madness<br/>A New World of AI Agent Collaboration Enabled by Jujutsu</p>
+<div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
 
-<div class="absolute bottom-20 left-0 right-0">
-  <div class="text-2xl font-bold">グンタ・ブルナー Günther Brunner</div>
-  <div class="text-lg opacity-80">株式会社サイバーエージェント CyberAgent, Inc.</div>
-  <div class="text-sm opacity-60 mt-2">2025年7月22日 • Gemini CLI Meetup Japan #1</div>
+<div class="relative z-10 h-full flex flex-col justify-center items-center text-white">
+  <div class="max-w-4xl mx-auto text-center px-8">
+    <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-2xl">
+      複数のGemini CLIが同時開発する狂気
+    </h1>
+    <h2 class="text-2xl md:text-3xl font-medium mb-4 text-blue-200 drop-shadow-xl">
+      Jujutsuが実現するAIエージェント協調の新世界
+    </h2>
+    <p class="text-lg opacity-90 drop-shadow-lg">
+      Multiple Gemini CLIs Developing Simultaneously: The Madness<br/>
+      A New World of AI Agent Collaboration Enabled by Jujutsu
+    </p>
+  </div>
 </div>
 
-<div class="absolute bottom-5 left-1/2 transform -translate-x-1/2">
-  <svg class="w-10 h-10 text-white/60 animate-bounce" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-  </svg>
-</div>
+---
+
+
+  <div class="fixed inset-x-0 bottom-0 pb-6 flex justify-center pointer-events-none z-50">
+    <div class="bg-black/60 backdrop-blur-sm inline-block px-8 py-6 rounded-2xl shadow-2xl pointer-events-auto">
+      <div class="text-2xl font-bold mb-2">グンタ・ブルナー Günther Brunner</div>
+      <div class="text-lg opacity-90">株式会社サイバーエージェント CyberAgent, Inc.</div>
+      <div class="text-base opacity-80 mt-3">
+        <mdi-calendar class="inline mr-1" /> 2025年7月22日 
+        <span class="mx-2">•</span>
+        <mdi-map-marker class="inline mr-1" /> Gemini CLI Meetup Japan #1
+      </div>
+    </div>
+  </div>
 
 ---
 layout: two-cols
@@ -60,7 +77,7 @@ layout: two-cols
   </div>
   
   <div class="flex items-start gap-3">
-    <mdi-office-building class="text-3xl text-green-500" />
+    <img src="/CALogo.svg" class="w-8 h-8" />
     <div>
       <div class="font-bold">2012年サイバーエージェント入社</div>
       <div class="text-sm opacity-60">Joined CyberAgent in 2012</div>
@@ -157,7 +174,7 @@ layout: center
       </span>
     </h2>
     <div class="text-center text-2xl mb-6">
-      Googleが開発する次世代VCS
+      Googleが支援する次世代VCS
       <p class="text-sm opacity-60">Next-gen VCS developed by Google</p>
     </div>
     <div class="grid grid-cols-3 gap-6 mt-8">
@@ -180,6 +197,8 @@ layout: center
   </div>
 </div>
 
+---
+zoom: 1.0
 ---
 
 <div class="max-w-6xl mx-auto">
@@ -322,10 +341,273 @@ layout: center
 </div>
 
 ---
+layout: center
+---
+
+<div class="max-w-5xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Jujutsu: Open Source Innovation
+  </h2>
+  <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-gray-200">
+    <div class="flex items-center justify-center gap-8 mb-8">
+      <mdi-open-source-initiative class="text-6xl text-blue-600" />
+      <div class="text-center">
+        <h3 class="text-2xl font-medium text-gray-900">100% Open Source</h3>
+        <p class="text-gray-600">Apache 2.0 License</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-8">
+      <div class="bg-white rounded-xl p-6">
+        <div class="flex items-start gap-4">
+          <mdi-account-tie class="text-3xl text-green-600 flex-shrink-0" />
+          <div>
+            <h4 class="font-medium text-gray-900">Martin von Zweigbergk</h4>
+            <p class="text-sm text-gray-600 mt-1">Googleが正式にフルタイムで開発を支援</p>
+            <p class="text-xs text-gray-500">Full-time development sponsored by Google</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl p-6">
+        <div class="flex items-start gap-4">
+          <mdi-account-group class="text-3xl text-purple-600 flex-shrink-0" />
+          <div>
+            <h4 class="font-medium text-gray-900">Community Driven</h4>
+            <p class="text-sm text-gray-600 mt-1">世界中の開発者が貢献</p>
+            <p class="text-xs text-gray-500">Contributors from around the world</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+zoom: 0.9
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-12 text-center" style="font-family: 'Google Sans', sans-serif">
+    Git vs Jujutsu: Core Differences
+  </h2>
+  <div class="overflow-x-auto">
+    <table class="w-full border-collapse">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="border border-gray-300 p-4 text-left font-medium text-gray-900">Feature</th>
+          <th class="border border-gray-300 p-4 text-center font-medium text-gray-900">Git <mdi-git class="inline text-orange-600" /></th>
+          <th class="border border-gray-300 p-4 text-center font-medium text-gray-900">Jujutsu <img src="/jj-logo.svg" class="inline w-5 h-5" /></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border border-gray-300 p-4 font-medium">Working Copy</td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-red-600">Mutable</span>
+            <p class="text-sm text-gray-600">変更可能な作業コピー</p>
+          </td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-green-600">Immutable Snapshots</span>
+            <p class="text-sm text-gray-600">不変のスナップショット</p>
+          </td>
+        </tr>
+        <tr class="bg-gray-50">
+          <td class="border border-gray-300 p-4 font-medium">Staging Area</td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-orange-600">Required</span>
+            <p class="text-sm text-gray-600">git add必須</p>
+          </td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-green-600">Not Needed</span>
+            <p class="text-sm text-gray-600">自動追跡</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="border border-gray-300 p-4 font-medium">Conflicts</td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-red-600">Block Progress</span>
+            <p class="text-sm text-gray-600">作業停止</p>
+          </td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-green-600">First-class Citizens</span>
+            <p class="text-sm text-gray-600">コミット可能</p>
+          </td>
+        </tr>
+        <tr class="bg-gray-50">
+          <td class="border border-gray-300 p-4 font-medium">History Editing</td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-orange-600">Complex & Risky</span>
+            <p class="text-sm text-gray-600">rebase地獄</p>
+          </td>
+          <td class="border border-gray-300 p-4 text-center">
+            <span class="text-green-600">Safe & Simple</span>
+            <p class="text-sm text-gray-600">自動リベース</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-12 text-center" style="font-family: 'Google Sans', sans-serif">
+    Revolutionary Concepts
+  </h2>
+  <div class="grid grid-cols-2 gap-8">
+    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-200">
+      <h3 class="text-2xl font-medium text-gray-900 mb-6">
+        <mdi-cube-outline class="inline text-purple-600" /> Working Copy = Commit
+      </h3>
+      <div class="space-y-4">
+        <p class="text-gray-700">
+          Jujutsuでは、作業中の変更も即座にコミット
+          <span class="text-sm text-gray-600 block">Changes are instantly committed</span>
+        </p>
+        <div class="bg-white rounded-lg p-4 font-mono text-sm">
+          <div class="text-gray-600"># Git</div>
+          <div>git add .</div>
+          <div>git commit -m "WIP"</div>
+          <div class="text-gray-600 mt-2"># Jujutsu</div>
+          <div class="text-green-600">jj new  # That's it!</div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-8 border border-blue-200">
+      <h3 class="text-2xl font-medium text-gray-900 mb-6">
+        <mdi-source-branch class="inline text-blue-600" /> Anonymous Branches
+      </h3>
+      <div class="space-y-4">
+        <p class="text-gray-700">
+          ブランチ名は不要、変更セットで管理
+          <span class="text-sm text-gray-600 block">No branch names needed</span>
+        </p>
+        <div class="bg-white rounded-lg p-4 font-mono text-sm">
+          <div class="text-gray-600"># Git</div>
+          <div>git checkout -b feature-xyz</div>
+          <div>git push -u origin feature-xyz</div>
+          <div class="text-gray-600 mt-2"># Jujutsu</div>
+          <div class="text-green-600">jj new  # Work directly</div>
+          <div class="text-green-600">jj branch create feature-xyz -r @  # Optional</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+<div class="max-w-5xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-12 text-center" style="font-family: 'Google Sans', sans-serif">
+    Automatic Conflict Resolution
+  </h2>
+  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
+    <div class="grid grid-cols-2 gap-8 mb-8">
+      <div class="text-center">
+        <mdi-git class="text-6xl text-orange-600 mb-4" />
+        <h3 class="text-xl font-medium text-gray-900 mb-2">Git Workflow</h3>
+        <div class="bg-red-50 rounded-lg p-4 text-left">
+          <p class="font-mono text-sm">
+            <span class="text-red-600">error: Your local changes would be overwritten</span><br/>
+            <span class="text-gray-600">Please commit or stash before merge.</span>
+          </p>
+        </div>
+      </div>
+      <div class="text-center">
+        <img src="/jj-logo.svg" class="w-16 h-16 mx-auto mb-4" />
+        <h3 class="text-xl font-medium text-gray-900 mb-2">Jujutsu Workflow</h3>
+        <div class="bg-green-50 rounded-lg p-4 text-left">
+          <p class="font-mono text-sm">
+            <span class="text-green-600">✓ Merged with conflicts</span><br/>
+            <span class="text-gray-600">Continue working, resolve later</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-blue-50 rounded-lg p-6">
+      <h4 class="font-medium text-gray-900 mb-3">
+        <mdi-lightbulb class="inline text-yellow-500" /> Key Innovation
+      </h4>
+      <p class="text-gray-700">
+        Jujutsuは3-way mergeアルゴリズムを使用し、コンフリクトをコミット内に保存
+        <span class="text-sm text-gray-600 block mt-1">
+          Stores conflicts as first-class objects using 3-way merge algorithms
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+---
 
 <div class="max-w-6xl mx-auto">
   <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
-    Parallel Development Demo
+    Workspace Magic for AI Agents
+  </h2>
+  <div class="grid grid-cols-2 gap-8">
+    <div>
+      <h3 class="text-2xl font-medium text-gray-900 mb-6">
+        <mdi-git class="inline text-orange-600" /> Git Worktree Limitations
+      </h3>
+      <div class="space-y-4">
+        <div class="bg-white rounded-lg border border-gray-200 p-4">
+          <mdi-close-circle class="text-red-500 inline" />
+          <span class="font-medium">Separate directories required</span>
+          <p class="text-sm text-gray-600 mt-1">別ディレクトリが必要</p>
+        </div>
+        <div class="bg-white rounded-lg border border-gray-200 p-4">
+          <mdi-close-circle class="text-red-500 inline" />
+          <span class="font-medium">Complex setup & management</span>
+          <p class="text-sm text-gray-600 mt-1">複雑な設定と管理</p>
+        </div>
+        <div class="bg-white rounded-lg border border-gray-200 p-4">
+          <mdi-close-circle class="text-red-500 inline" />
+          <span class="font-medium">Limited tool support</span>
+          <p class="text-sm text-gray-600 mt-1">ツールサポートが限定的</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-2xl font-medium text-gray-900 mb-6">
+        <img src="/jj-logo.svg" class="inline w-8 h-8" /> Jujutsu Workspaces
+      </h3>
+      <div class="space-y-4">
+        <div class="bg-white rounded-lg border border-green-200 p-4">
+          <mdi-check-circle class="text-green-500 inline" />
+          <span class="font-medium">Lightweight & instant</span>
+          <p class="text-sm text-gray-600 mt-1">軽量で即座に作成</p>
+        </div>
+        <div class="bg-white rounded-lg border border-green-200 p-4">
+          <mdi-check-circle class="text-green-500 inline" />
+          <span class="font-medium">Share repository state</span>
+          <p class="text-sm text-gray-600 mt-1">リポジトリ状態を共有</p>
+        </div>
+        <div class="bg-white rounded-lg border border-green-200 p-4">
+          <mdi-check-circle class="text-green-500 inline" />
+          <span class="font-medium">Perfect for AI agents</span>
+          <p class="text-sm text-gray-600 mt-1">AIエージェントに最適</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8 bg-purple-50 rounded-xl p-6 text-center">
+    <p class="text-xl font-medium text-gray-900">
+      Each AI Agent Gets Its Own Workspace
+    </p>
+    <p class="text-gray-600 mt-2">
+      各AIエージェントが独自のワークスペースで並列作業
+    </p>
+  </div>
+</div>
+
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Parallel Development Sample
   </h2>
   <p class="text-center text-gray-600 mb-12">3 Gemini CLIs working simultaneously</p>
   
@@ -377,6 +659,13 @@ layout: center
     </div>
   </div>
   
+
+</div>
+
+---
+
+# Create three workspaces
+
   <div class="mt-8 bg-gray-50 rounded-xl p-6">
     <pre class="text-sm font-mono text-gray-800">
     <code># Create three workspaces
@@ -384,12 +673,12 @@ layout: center
       jj workspace add frontend  
       jj workspace add test
       # Launch Gemini CLI in each
-      cd backend && gemini-cli "Build REST API" &
-      cd ../frontend && gemini-cli "Create React UI" &
-      cd ../test && gemini-cli "Write tests" &
+      cd backend && gemini "Build REST API" &
+      cd ../frontend && gemini "Create React UI" &
+      cd ../test && gemini "Write tests" &
       </code></pre>
   </div>
-</div>
+
 
 ---
 layout: center
@@ -500,6 +789,164 @@ const api = "new";
 </div>
 
 ---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Real-World Example: Feature Development
+  </h2>
+  <div class="grid grid-cols-2 gap-8">
+    <div>
+      <h3 class="text-xl font-medium text-gray-900 mb-4">
+        <mdi-git class="inline text-orange-600" /> Git Workflow
+      </h3>
+      <div class="bg-gray-50 rounded-lg p-4 font-mono text-sm space-y-2">
+        <div class="text-gray-600"># Create feature branch</div>
+        <div>git checkout -b feature-payment</div>
+        <div class="text-gray-600"># Work on backend</div>
+        <div>git add backend/*</div>
+        <div>git commit -m "Add payment API"</div>
+        <div class="text-gray-600"># Switch context</div>
+        <div>git stash</div>
+        <div>git checkout -b feature-payment-ui</div>
+        <div class="text-gray-600"># Merge conflicts!</div>
+        <div class="text-red-600">git merge feature-payment</div>
+        <div class="text-red-600"># CONFLICT (content): Merge conflict</div>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-xl font-medium text-gray-900 mb-4">
+        <img src="/jj-logo.svg" class="inline w-6 h-6" /> Jujutsu Workflow
+      </h3>
+      <div class="bg-gray-50 rounded-lg p-4 font-mono text-sm space-y-2">
+        <div class="text-gray-600"># Create workspace for backend</div>
+        <div>jj workspace add backend</div>
+        <div class="text-gray-600"># Create workspace for frontend</div>
+        <div>jj workspace add frontend</div>
+        <div class="text-gray-600"># Work simultaneously</div>
+        <div>cd backend && jj new</div>
+        <div>cd ../frontend && jj new</div>
+        <div class="text-gray-600"># Merge anytime</div>
+        <div class="text-green-600">jj new @backend @frontend</div>
+        <div class="text-green-600"># Conflicts stored, work continues!</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+zoom: 0.9
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Undo Anything, Anytime
+  </h2>
+  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
+    <div class="grid grid-cols-3 gap-6 mb-8">
+      <div class="text-center">
+        <mdi-history class="text-5xl text-blue-600 mb-4" />
+        <h3 class="text-lg font-medium text-gray-900">Operation Log</h3>
+        <p class="text-sm text-gray-600">全操作を記録</p>
+      </div>
+      <div class="text-center">
+        <mdi-backup-restore class="text-5xl text-green-600 mb-4" />
+        <h3 class="text-lg font-medium text-gray-900">Instant Undo</h3>
+        <p class="text-sm text-gray-600">即座に元に戻す</p>
+      </div>
+      <div class="text-center">
+        <mdi-shield-check class="text-5xl text-purple-600 mb-4" />
+        <h3 class="text-lg font-medium text-gray-900">Never Lose Work</h3>
+        <p class="text-sm text-gray-600">作業を失わない</p>
+      </div>
+    </div>
+    <div class="bg-gray-50 rounded-lg p-6">
+      <h4 class="font-medium text-gray-900 mb-3">Example: Undo a Bad Merge</h4>
+      <div class="font-mono text-sm space-y-2">
+        <div class="text-gray-600"># View operation history</div>
+        <div>jj op log</div>
+        <div class="text-gray-500">@  rlvkpnrz 2025-07-22 10:30:45 merge</div>
+        <div class="text-gray-500">◉  qpvuntsm 2025-07-22 10:30:00 new empty commit</div>
+        <div class="text-gray-600 mt-4"># Undo the merge</div>
+        <div class="text-green-600">jj undo</div>
+        <div class="text-green-600">✓ Restored to previous state</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Gemini CLI + Jujutsu: Perfect Match
+  </h2>
+  <div class="grid grid-cols-2 gap-8">
+    <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 border border-blue-200">
+      <h3 class="text-2xl font-medium text-gray-900 mb-6">
+        <mdi-robot class="inline text-blue-600" /> AI-Friendly Features
+      </h3>
+      <ul class="space-y-4">
+        <li class="flex items-start gap-3">
+          <mdi-check class="text-green-500 mt-1" />
+          <div>
+            <p class="font-medium">No staging confusion</p>
+            <p class="text-sm text-gray-600">AIが git add を忘れない</p>
+          </div>
+        </li>
+        <li class="flex items-start gap-3">
+          <mdi-check class="text-green-500 mt-1" />
+          <div>
+            <p class="font-medium">Automatic snapshots</p>
+            <p class="text-sm text-gray-600">全変更が自動保存</p>
+          </div>
+        </li>
+        <li class="flex items-start gap-3">
+          <mdi-check class="text-green-500 mt-1" />
+          <div>
+            <p class="font-medium">Conflict-resilient</p>
+            <p class="text-sm text-gray-600">コンフリクトでも継続</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="bg-gradient-to-br from-green-50 to-yellow-50 rounded-xl p-8 border border-green-200">
+      <h3 class="text-2xl font-medium text-gray-900 mb-6">
+        <mdi-speedometer class="inline text-green-600" /> Productivity Gains
+      </h3>
+      <div class="space-y-6">
+        <div class="bg-white rounded-lg p-4">
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-medium">Setup Time</span>
+            <span class="text-green-600 font-bold">-90%</span>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2">
+            <div class="bg-green-500 h-2 rounded-full" style="width: 10%"></div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-4">
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-medium">Conflict Resolution</span>
+            <span class="text-green-600 font-bold">-95%</span>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2">
+            <div class="bg-green-500 h-2 rounded-full" style="width: 5%"></div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-4">
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-medium">Overall Speed</span>
+            <span class="text-green-600 font-bold">+1000%</span>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2">
+            <div class="bg-green-500 h-2 rounded-full" style="width: 100%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
 layout: center
 ---
 
@@ -549,6 +996,71 @@ layout: center
         <p class="text-lg font-medium text-gray-900">Auto-Generated Docs</p>
         <p class="text-sm text-gray-600">自動生成ドキュメント</p>
       </div>
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Advanced: Multi-Agent Orchestration
+  </h2>
+  <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-200">
+    <div class="grid grid-cols-2 gap-8 mb-8">
+      <div>
+        <h3 class="text-xl font-medium text-gray-900 mb-4">
+          <mdi-network class="inline text-purple-600" /> Agent Network Architecture
+        </h3>
+        <div class="bg-white rounded-lg p-4 space-y-3">
+          <div class="flex items-center gap-3">
+            <mdi-circle class="text-blue-500" />
+            <span class="font-medium">Coordinator Agent</span>
+            <span class="text-sm text-gray-600">タスク分配</span>
+          </div>
+          <div class="flex items-center gap-3 ml-6">
+            <mdi-circle class="text-green-500" />
+            <span>Backend Agents (x3)</span>
+            <span class="text-sm text-gray-600">API開発</span>
+          </div>
+          <div class="flex items-center gap-3 ml-6">
+            <mdi-circle class="text-yellow-500" />
+            <span>Frontend Agents (x3)</span>
+            <span class="text-sm text-gray-600">UI開発</span>
+          </div>
+          <div class="flex items-center gap-3 ml-6">
+            <mdi-circle class="text-purple-500" />
+            <span>Test Agents (x2)</span>
+            <span class="text-sm text-gray-600">品質保証</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-xl font-medium text-gray-900 mb-4">
+          <mdi-code-tags class="inline text-green-600" /> Sample Orchestration
+        </h3>
+        <div class="bg-gray-900 text-gray-100 rounded-lg p-4 font-mono text-sm">
+          <div class="text-green-400"># Coordinator creates tasks</div>
+          <div>jj workspace add coordinator</div>
+          <div>jj new -m "Project structure"</div>
+          <div class="text-green-400 mt-3"># Spawn specialized agents</div>
+          <div>for i in {1..3}; do</div>
+          <div class="ml-4">jj workspace add backend-$i</div>
+          <div class="ml-4">gemini-cli "Build service $i" &</div>
+          <div>done</div>
+          <div class="text-green-400 mt-3"># Auto-merge all work</div>
+          <div>jj new @backend-* @frontend-*</div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white rounded-lg p-6 text-center">
+      <p class="text-xl font-medium text-gray-900">
+        <mdi-lightning-bolt class="inline text-yellow-500" /> 
+        Real-time collaboration without conflicts
+      </p>
+      <p class="text-gray-600 mt-2">
+        リアルタイムでコンフリクトなしの協調作業
+      </p>
     </div>
   </div>
 </div>
