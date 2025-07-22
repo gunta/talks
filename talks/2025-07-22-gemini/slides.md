@@ -340,14 +340,6 @@ zoom: 0.9
             <p class="text-sm text-gray-600">
               <mdi-laptop-account class="inline text-purple-400" /> クラウドベースの作業環境
             </p>
-            <div class="mt-1 flex gap-2">
-              <span class="text-xs px-2 py-1 bg-purple-100 text-purple-700 rounded-full">
-                <mdi-folder-network class="inline" /> Virtual FS
-              </span>
-              <span class="text-xs px-2 py-1 bg-purple-100 text-purple-700 rounded-full">
-                <mdi-cloud-download class="inline" /> On-demand
-              </span>
-            </div>
           </div>
         </li>
         <li class="flex items-start gap-4 group hover:transform hover:scale-105 transition-all duration-200">
@@ -361,14 +353,6 @@ zoom: 0.9
             <p class="text-sm text-gray-600">
               <mdi-code-braces class="inline text-green-400" /> 分散VCS機能の追加
             </p>
-            <div class="mt-1 flex gap-2">
-              <span class="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full">
-                <mdi-source-merge class="inline" /> Mercurial Fork
-              </span>
-              <span class="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full">
-                <mdi-laptop class="inline" /> Local Dev
-              </span>
-            </div>
           </div>
         </li>
       </ul>
