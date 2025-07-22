@@ -19,6 +19,8 @@ fonts:
   mono: 'Google Sans Mono, Roboto Mono'
 layout: image
 image: geminibg.png
+exportScale: 2
+canvasWidth: 1024
 ---
 
 <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
@@ -113,8 +115,7 @@ zoom: 0.9
 
 # 問題提起
 
-<p class="text-sm opacity-60 !mt-0">AIエージェントが人間のチームのように働けたら？</p>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
   <div class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-red-600/10 to-orange-600/10 blur-3xl"></div>
     <div class="relative bg-gradient-to-br from-red-50/80 via-red-50/60 to-orange-50/40 p-8 rounded-2xl border border-red-300/50 shadow-xl">
@@ -406,74 +407,59 @@ import Avatar from '../../components/Avatar.vue'
 </div>
 
 ---
-layout: center
-zoom: 0.7
+layout: default
 ---
 
-# ゲームチェンジャー：コンフリクト共有
-<p class="text-sm opacity-60 !mt-0">Jujutsuが真の並列AI開発を可能にする理由</p>
+<div class="h-full w-full flex flex-col items-center justify-center  px-8">
+<h1 class="text-2xl font-bold mb-3">ゲームチェンジャー：コンフリクト共有</h1>
 
-<div class="bg-gradient-to-r from-purple-50 via-blue-50 to-green-50 rounded-2xl p-8 border border-purple-200 shadow-xl">
-  <div class="grid grid-cols-2 gap-8 mb-8">
+<div class="bg-gradient-to-r from-purple-50 via-blue-50 to-green-50 rounded-lg p-3 border border-purple-200 shadow-md max-w-5xl">
+  <div class="grid grid-cols-2 gap-3 mb-3">
     <div>
-      <h3 class="text-xl font-medium text-gray-900 mb-4 flex items-center gap-2">
-        <mdi-git class="text-orange-600" /> 従来のGitモデル
+      <h3 class="text-base font-medium text-gray-900 mb-2 flex items-center gap-1">
+        <mdi-git class="text-orange-600 text-sm" /> 従来のGitモデル
       </h3>
-      <div class="bg-white rounded-lg px-6 py-2 ">
-        <div class="flex items-start gap-3"> 
-          <div>
-            <p class="font-medium"><mdi-numeric-1-circle class="text-gray-500 " /> コンフリクトは作業を止める</p>
-            <p class="text-sm text-gray-600">解決するまで進めない</p>
-          </div>
+      <div class="bg-white rounded px-2 py-1 space-y-1 text-xs">
+        <div>
+          <p class="font-medium"><mdi-numeric-1-circle class="text-gray-500 text-xs" /> コンフリクトは作業を止める</p>
+          <p class="text-gray-600 text-xs">解決するまで進めない</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-2-circle class="text-gray-500 " /> コミット前に解決必須</p>
-            <p class="text-sm text-gray-600">コンフリクト状態は保存不可</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-2-circle class="text-gray-500 text-xs" /> コミット前に解決必須</p>
+          <p class="text-gray-600 text-xs">コンフリクト状態は保存不可</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-3-circle class="text-gray-500 " /> 各ワークツリーは独立</p>
-            <p class="text-sm text-gray-600">共有された理解なし</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-3-circle class="text-gray-500 text-xs" /> 各ワークツリーは独立</p>
+          <p class="text-gray-600 text-xs">共有された理解なし</p>
         </div>
       </div>
     </div>
     <div>
-      <h3 class="text-xl font-medium text-gray-900 mb-4 flex items-center gap-2">
-        <img src="/jj-logo.svg" class="w-6 h-6" /> Jujutsu革命
+      <h3 class="text-base font-medium text-gray-900 mb-2 flex items-center gap-1">
+        <img src="/jj-logo.svg" class="w-4 h-4" /> Jujutsu革命
       </h3>
-      <div class="bg-white rounded-lg px-6 py-2 ">
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-1-circle class="text-green-500 " /> コンフリクトはデータ</p>
-            <p class="text-sm text-gray-600">ファーストクラスオブジェクトとして保存</p>
-          </div>
+      <div class="bg-white rounded px-2 py-1 space-y-1 text-xs">
+        <div>
+          <p class="font-medium"><mdi-numeric-1-circle class="text-green-500 text-xs" /> コンフリクトはデータ</p>
+          <p class="text-gray-600 text-xs">ファーストクラスオブジェクトとして保存</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-2-circle class="text-green-500 " /> コンフリクトのままコミット</p>
-            <p class="text-sm text-gray-600">すぐに作業を継続</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-2-circle class="text-green-500 text-xs" /> コンフリクトのままコミット</p>
+          <p class="text-gray-600 text-xs">すぐに作業を継続</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-3-circle class="text-green-500 " /> ワークスペース間で状態共有</p>
-            <p class="text-sm text-gray-600">全エージェントが同じコンフリクトを見る</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-3-circle class="text-green-500 text-xs" /> ワークスペース間で状態共有</p>
+          <p class="text-gray-600 text-xs">全エージェントが同じコンフリクトを見る</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="bg-yellow-50 rounded-xl p-6 border border-yellow-300">
-    <h4 class="text-lg font-medium text-gray-900 mb-2 flex items-center gap-2">
-      <mdi-lightbulb class="text-yellow-600" /> 重要な洞察
-    </h4>
-    <p class="text-gray-700">
+  <div class="bg-yellow-50 rounded p-2 border border-yellow-300">
+    <p class="text-xs text-gray-700">
       複数のAIエージェントが同じコンフリクトのあるコミットで同時に作業可能
     </p>
   </div>
+</div>
 </div>
 
 ---
@@ -539,88 +525,90 @@ cd ../test && gemini -p "テストを作成" &
 ```
 
 ---
-zoom: 0.75
+layout: default
 ---
 
-# コンフリクト解決の実例
+<div class="h-full w-full flex flex-col items-center justify-center overflow-hidden px-8">
+<h1 class="text-2xl font-bold mb-3">コンフリクト解決の実例</h1>
 
-<div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-200">
-  <div class="mb-8">
-    <h3 class="text-2xl font-medium text-gray-900 mb-4">
-      <mdi-merge class="inline text-orange-600" /> コンフリクトシナリオ
+<div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-3 border border-blue-200 max-w-5xl">
+  <div class="mb-3">
+    <h3 class="text-base font-medium text-gray-900 mb-2">
+      <mdi-merge class="inline text-orange-600 text-sm" /> コンフリクトシナリオ
     </h3>
-    <div class="bg-white rounded-lg p-6 font-mono text-sm">
+    <div class="bg-white rounded p-2 font-mono text-xs">
       <div class="text-gray-600"># 3つのAIエージェントがserver.jsを異なる方法で修正:</div>
-      <div class="mt-2 grid grid-cols-3 gap-4">
-        <div class="border-l-4 border-blue-500 pl-4">
-          <div class="text-blue-600 font-bold">認証チーム</div>
-          <div>app.use(auth)</div>
+      <div class="mt-1 grid grid-cols-3 gap-2">
+        <div class="border-l-2 border-blue-500 pl-2">
+          <div class="text-blue-600 font-bold text-xs">認証チーム</div>
+          <div class="text-xs">app.use(auth)</div>
         </div>
-        <div class="border-l-4 border-green-500 pl-4">
-          <div class="text-green-600 font-bold">データベースチーム</div>
-          <div>app.use(database)</div>
+        <div class="border-l-2 border-green-500 pl-2">
+          <div class="text-green-600 font-bold text-xs">データベースチーム</div>
+          <div class="text-xs">app.use(database)</div>
         </div>
-        <div class="border-l-4 border-purple-500 pl-4">
-          <div class="text-purple-600 font-bold">ロギングチーム</div>
-          <div>app.use(logger)</div>
+        <div class="border-l-2 border-purple-500 pl-2">
+          <div class="text-purple-600 font-bold text-xs">ロギングチーム</div>
+          <div class="text-xs">app.use(logger)</div>
         </div>
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-8">
+  <div class="grid grid-cols-2 gap-3">
     <div>
-      <h4 class="text-lg font-medium text-gray-900 mb-4">
-        <mdi-git class="inline text-orange-600" /> Git: 順次解決
+      <h4 class="text-sm font-medium text-gray-900 mb-1">
+        <mdi-git class="inline text-orange-600 text-xs" /> Git: 順次解決
       </h4>
-      <div class="space-y-3">
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center">
-            <span class="text-xs font-bold">1</span>
+      <div class="space-y-1">
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center">
+            <span class="text-xs">1</span>
           </div>
-          <p class="text-sm">エージェントAがコンフリクトに遭遇 → ブロック</p>
+          <p class="text-xs">エージェントAがコンフリクトに遭遇 → ブロック</p>
         </div>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center">
-            <span class="text-xs font-bold">2</span>
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center">
+            <span class="text-xs">2</span>
           </div>
-          <p class="text-sm">エージェントBがAを待つ → ブロック</p>
+          <p class="text-xs">エージェントBがAを待つ → ブロック</p>
         </div>
-        <div class="mt-4 px-6 py-1 bg-red-50 rounded-lg">
-          <p class="text-sm text-red-700 font-bold">
-            <mdi-timer-sand class="inline" /> 合計時間: 3倍の解決時間
+        <div class="mt-2 px-2 py-1 bg-red-50 rounded">
+          <p class="text-xs text-red-700 font-bold">
+            <mdi-timer-sand class="inline text-xs" /> 合計: 3倍の解決時間
           </p>
         </div>
       </div>
     </div>
     <div>
-      <h4 class="text-lg font-medium text-gray-900 mb-4">
-        <img src="/jj-logo.svg" class="inline w-5 h-5" /> Jujutsu: 並列解決
+      <h4 class="text-sm font-medium text-gray-900 mb-1">
+        <img src="/jj-logo.svg" class="inline w-3 h-3" /> Jujutsu: 並列解決
       </h4>
-      <div class="space-y-3">
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
-            <span class="text-xs font-bold">1</span>
+      <div class="space-y-1">
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
+            <span class="text-xs">1</span>
           </div>
-          <p class="text-sm">全エージェントがコンフリクトを確認</p>
+          <p class="text-xs">全エージェントがコンフリクトを確認</p>
         </div>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
-            <span class="text-xs font-bold">2</span>
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
+            <span class="text-xs">2</span>
           </div>
-          <p class="text-sm">それぞれが自分の部分を作業</p>
+          <p class="text-xs">それぞれが自分の部分を作業</p>
         </div>
-        <div class="mt-4 px-6 py-1 bg-green-50 rounded-lg">
-          <p class="text-sm text-green-700 font-bold">
-            <mdi-lightning-bolt class="inline" /> 合計時間: 1倍の解決時間
+        <div class="mt-2 px-2 py-1 bg-green-50 rounded">
+          <p class="text-xs text-green-700 font-bold">
+            <mdi-lightning-bolt class="inline text-xs" /> 合計: 1倍の解決時間
           </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="bg-gray-900 text-gray-100 rounded-lg p-4 m-4 font-mono text-sm">
+  <div class="bg-gray-900 rounded p-2 mt-2 font-mono text-xs">
     <div class="text-green-400"># 各ワークスペースのエージェントは:</div>
     <div>jj edit @  <span class="text-gray-500"># 同じコンフリクトのあるコミットで作業可能！</span></div>
   </div>
+</div>
 </div>
 
 ---

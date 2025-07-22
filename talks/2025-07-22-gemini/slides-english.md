@@ -19,6 +19,8 @@ fonts:
   mono: 'Google Sans Mono, Roboto Mono'
 layout: image
 image: geminibg.png
+exportScale: 2
+canvasWidth: 1024
 ---
 
 <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
@@ -401,74 +403,59 @@ import Avatar from '../../components/Avatar.vue'
 </div>
 
 ---
-layout: center
-zoom: 0.7
+layout: default
 ---
 
-# The Game Changer: Conflict Sharing
-<p class="text-sm opacity-60 !mt-0">Why Jujutsu enables true parallel AI development</p>
+<div class="h-full w-full flex flex-col items-center justify-center overflow-hidden px-8">
+<h1 class="text-2xl font-bold mb-3">The Game Changer: Conflict Sharing</h1>
 
-<div class="bg-gradient-to-r from-purple-50 via-blue-50 to-green-50 rounded-2xl p-8 border border-purple-200 shadow-xl">
-  <div class="grid grid-cols-2 gap-8 mb-8">
+<div class="bg-gradient-to-r from-purple-50 via-blue-50 to-green-50 rounded-lg p-3 border border-purple-200 shadow-md max-w-5xl">
+  <div class="grid grid-cols-2 gap-3 mb-3">
     <div>
-      <h3 class="text-xl font-medium text-gray-900 mb-4 flex items-center gap-2">
-        <mdi-git class="text-orange-600" /> Traditional Git Model
+      <h3 class="text-base font-medium text-gray-900 mb-2 flex items-center gap-1">
+        <mdi-git class="text-orange-600 text-sm" /> Traditional Git Model
       </h3>
-      <div class="bg-white rounded-lg px-6 py-2 ">
-        <div class="flex items-start gap-3"> 
-          <div>
-            <p class="font-medium"><mdi-numeric-1-circle class="text-gray-500 " /> Conflicts are blockers</p>
-            <p class="text-sm text-gray-600">Work stops until resolved</p>
-          </div>
+      <div class="bg-white rounded px-2 py-1 space-y-1 text-xs">
+        <div>
+          <p class="font-medium"><mdi-numeric-1-circle class="text-gray-500 text-xs" /> Conflicts are blockers</p>
+          <p class="text-gray-600 text-xs">Work stops until resolved</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-2-circle class="text-gray-500 " /> Must resolve before commit</p>
-            <p class="text-sm text-gray-600">Cannot save conflicted state</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-2-circle class="text-gray-500 text-xs" /> Must resolve before commit</p>
+          <p class="text-gray-600 text-xs">Cannot save conflicted state</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-3-circle class="text-gray-500 " /> Each worktree is isolated</p>
-            <p class="text-sm text-gray-600">No shared understanding</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-3-circle class="text-gray-500 text-xs" /> Each worktree is isolated</p>
+          <p class="text-gray-600 text-xs">No shared understanding</p>
         </div>
       </div>
     </div>
     <div>
-      <h3 class="text-xl font-medium text-gray-900 mb-4 flex items-center gap-2">
-        <img src="/jj-logo.svg" class="w-6 h-6" /> Jujutsu Revolution
+      <h3 class="text-base font-medium text-gray-900 mb-2 flex items-center gap-1">
+        <img src="/jj-logo.svg" class="w-2 h-2" /> Jujutsu Revolution
       </h3>
-      <div class="bg-white rounded-lg px-6 py-2 ">
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-1-circle class="text-green-500 " /> Conflicts are data</p>
-            <p class="text-sm text-gray-600">Stored as first-class objects</p>
-          </div>
+      <div class="bg-white rounded px-2 py-1 space-y-1 text-xs">
+        <div>
+          <p class="font-medium"><mdi-numeric-1-circle class="text-green-500 text-xs" /> Conflicts are data</p>
+          <p class="text-gray-600 text-xs">Stored as first-class objects</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-2-circle class="text-green-500 " /> Commit with conflicts</p>
-            <p class="text-sm text-gray-600">Continue working immediately</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-2-circle class="text-green-500 text-xs" /> Commit with conflicts</p>
+          <p class="text-gray-600 text-xs">Continue working immediately</p>
         </div>
-        <div class="flex items-start gap-3">
-          <div>
-            <p class="font-medium"><mdi-numeric-3-circle class="text-green-500 " /> Workspaces share state</p>
-            <p class="text-sm text-gray-600">All agents see the same conflicts</p>
-          </div>
+        <div>
+          <p class="font-medium"><mdi-numeric-3-circle class="text-green-500 text-xs" /> Workspaces share state</p>
+          <p class="text-gray-600 text-xs">All agents see the same conflicts</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="bg-yellow-50 rounded-xl p-6 border border-yellow-300">
-    <h4 class="text-lg font-medium text-gray-900 mb-2 flex items-center gap-2">
-      <mdi-lightbulb class="text-yellow-600" /> Key Insight
-    </h4>
-    <p class="text-gray-700">
+  <div class="bg-yellow-50 rounded p-2 border border-yellow-300">
+    <p class="text-xs text-gray-700">
       Multiple AI agents can work on the SAME conflicted commit simultaneously
     </p>
   </div>
+</div>
 </div>
 
 ---
@@ -534,88 +521,90 @@ cd ../test && gemini -p "Write tests" &
 ```
 
 ---
-zoom: 0.7
+layout: default
 ---
 
-# Conflict Resolution in Action
+<div class="h-full w-full flex flex-col items-center justify-center overflow-hidden px-8">
+<h1 class="text-2xl font-bold mb-3">Conflict Resolution in Action</h1>
 
-<div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-200">
-  <div class="mb-8">
-    <h3 class="text-2xl font-medium text-gray-900 mb-4">
-      <mdi-merge class="inline text-orange-600" /> The Conflict Scenario
+<div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-3 border border-blue-200 max-w-5xl">
+  <div class="mb-3">
+    <h3 class="text-base font-medium text-gray-900 mb-2">
+      <mdi-merge class="inline text-orange-600 text-sm" /> The Conflict Scenario
     </h3>
-    <div class="bg-white rounded-lg p-6 font-mono text-sm">
+    <div class="bg-white rounded p-2 font-mono text-xs">
       <div class="text-gray-600"># Three AI agents modified server.js differently:</div>
-      <div class="mt-2 grid grid-cols-3 gap-4">
-        <div class="border-l-4 border-blue-500 pl-4">
-          <div class="text-blue-600 font-bold">Team Auth</div>
-          <div>app.use(auth)</div>
+      <div class="mt-1 grid grid-cols-3 gap-2">
+        <div class="border-l-2 border-blue-500 pl-2">
+          <div class="text-blue-600 font-bold text-xs">Team Auth</div>
+          <div class="text-xs">app.use(auth)</div>
         </div>
-        <div class="border-l-4 border-green-500 pl-4">
-          <div class="text-green-600 font-bold">Team Database</div>
-          <div>app.use(database)</div>
+        <div class="border-l-2 border-green-500 pl-2">
+          <div class="text-green-600 font-bold text-xs">Team Database</div>
+          <div class="text-xs">app.use(database)</div>
         </div>
-        <div class="border-l-4 border-purple-500 pl-4">
-          <div class="text-purple-600 font-bold">Team Logging</div>
-          <div>app.use(logger)</div>
+        <div class="border-l-2 border-purple-500 pl-2">
+          <div class="text-purple-600 font-bold text-xs">Team Logging</div>
+          <div class="text-xs">app.use(logger)</div>
         </div>
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-8">
+  <div class="grid grid-cols-2 gap-3">
     <div>
-      <h4 class="text-lg font-medium text-gray-900 mb-4">
-        <mdi-git class="inline text-orange-600" /> Git: Sequential Resolution
+      <h4 class="text-sm font-medium text-gray-900 mb-1">
+        <mdi-git class="inline text-orange-600 text-xs" /> Git: Sequential Resolution
       </h4>
-      <div class="space-y-3">
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center">
-            <span class="text-xs font-bold">1</span>
+      <div class="space-y-1">
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center">
+            <span class="text-xs">1</span>
           </div>
-          <p class="text-sm">Agent A hits conflict → BLOCKED</p>
+          <p class="text-xs">Agent A hits conflict → BLOCKED</p>
         </div>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center">
-            <span class="text-xs font-bold">2</span>
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-red-100 flex items-center justify-center">
+            <span class="text-xs">2</span>
           </div>
-          <p class="text-sm">Agent B waits for A → BLOCKED</p>
+          <p class="text-xs">Agent B waits for A → BLOCKED</p>
         </div>
-        <div class="mt-4 px-6 py-1 bg-red-50 rounded-lg">
-          <p class="text-sm text-red-700 font-bold">
-            <mdi-timer-sand class="inline" /> Total time: 3x resolution time
+        <div class="mt-2 px-2 py-1 bg-red-50 rounded">
+          <p class="text-xs text-red-700 font-bold">
+            <mdi-timer-sand class="inline text-xs" /> Total: 3x resolution time
           </p>
         </div>
       </div>
     </div>
     <div>
-      <h4 class="text-lg font-medium text-gray-900 mb-4">
-        <img src="/jj-logo.svg" class="inline w-5 h-5" /> Jujutsu: Parallel Resolution
+      <h4 class="text-sm font-medium text-gray-900 mb-1">
+        <img src="/jj-logo.svg" class="inline w-3 h-3" /> Jujutsu: Parallel Resolution
       </h4>
-      <div class="space-y-3">
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
-            <span class="text-xs font-bold">1</span>
+      <div class="space-y-1">
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
+            <span class="text-xs">1</span>
           </div>
-          <p class="text-sm">All agents see the conflict</p>
+          <p class="text-xs">All agents see the conflict</p>
         </div>
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
-            <span class="text-xs font-bold">2</span>
+        <div class="flex items-center gap-1">
+          <div class="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
+            <span class="text-xs">2</span>
           </div>
-          <p class="text-sm">Each works on their part</p>
+          <p class="text-xs">Each works on their part</p>
         </div>
-        <div class="mt-4 px-6 py-1 bg-green-50 rounded-lg">
-          <p class="text-sm text-green-700 font-bold">
-            <mdi-lightning-bolt class="inline" /> Total time: 1x resolution time
+        <div class="mt-2 px-2 py-1 bg-green-50 rounded">
+          <p class="text-xs text-green-700 font-bold">
+            <mdi-lightning-bolt class="inline text-xs" /> Total: 1x resolution time
           </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="bg-gray-900 rounded-lg p-4 m-4 font-mono text-sm">
+  <div class="bg-gray-900 rounded p-2 mt-2 font-mono text-xs">
     <div class="text-green-400"># Each agent in their workspace can:</div>
     <div>jj edit @  <span class="text-gray-500"># Work on the SAME conflicted commit!</span></div>
   </div>
+</div>
 </div>
 
 ---
