@@ -197,79 +197,146 @@ layout: center
 </div>
 
 ---
-zoom: 1.0
+layout: center
 ---
 
 <div class="max-w-6xl mx-auto">
-  <h2 class="text-4xl font-normal text-gray-900 mb-12 text-center" style="font-family: 'Google Sans', sans-serif">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
     The Story Behind Jujutsu
   </h2>
+  <p class="text-xl text-gray-600 text-center mb-10">誕生の背景とGoogleの挑戦</p>
   
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+  <div class="grid grid-cols-2 gap-8">
     <div>
-      <h3 class="text-2xl font-normal text-gray-900 mb-6" style="font-family: 'Google Sans', sans-serif">
-        Creator
+      <h3 class="text-xl font-normal text-gray-900 mb-4" style="font-family: 'Google Sans', sans-serif">
+        <mdi-account-circle class="inline text-blue-600" /> Creator
       </h3>
-      <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
+      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
         <div class="flex items-center gap-4 mb-4">
-          <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
-            <span class="text-2xl font-medium text-blue-600">MZ</span>
+          <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center">
+            <span class="text-xl font-medium text-blue-600">MZ</span>
           </div>
           <div>
-            <p class="text-lg font-medium text-gray-900">Martin von Zweigbergk</p>
+            <p class="text-base font-medium text-gray-900">Martin von Zweigbergk</p>
             <p class="text-sm text-gray-600">Software Engineer at Google</p>
           </div>
         </div>
-        <div class="space-y-3 text-gray-700">
+        <div class="space-y-2 text-sm">
           <p class="flex items-start gap-2">
-            <mdi-circle-small class="text-blue-500 mt-1" />
-            <span>Improved Git rebase command<br/>
-            <span class="text-sm text-gray-600">Git rebaseコマンドの改善者</span></span>
+            <mdi-check-circle class="text-green-500 mt-0.5" />
+            <span>Git rebase co-author (2008)<br/>
+            <span class="text-xs text-gray-600">Git rebaseコマンドの共同開発者</span></span>
           </p>
           <p class="flex items-start gap-2">
-            <mdi-circle-small class="text-blue-500 mt-1" />
-            <span>Developer of Google's "Fig" VCS<br/>
-            <span class="text-sm text-gray-600">Google内部VCS「Fig」の開発者</span></span>
+            <mdi-check-circle class="text-green-500 mt-0.5" />
+            <span>Google's "Fig" VCS architect<br/>
+            <span class="text-xs text-gray-600">Google内部VCS「Fig」の設計者</span></span>
           </p>
           <p class="flex items-start gap-2">
-            <mdi-circle-small class="text-blue-500 mt-1" />
-            <span>Piper monorepo expert<br/>
-            <span class="text-sm text-gray-600">Piperモノレポ対応の専門家</span></span>
+            <mdi-check-circle class="text-green-500 mt-0.5" />
+            <span>20+ years VCS experience<br/>
+            <span class="text-xs text-gray-600">20年以上のVCS開発経験</span></span>
           </p>
         </div>
       </div>
     </div>
     <div>
-      <h3 class="text-2xl font-normal text-gray-900 mb-6" style="font-family: 'Google Sans', sans-serif">
-        Industry Recognition
+      <h3 class="text-xl font-normal text-gray-900 mb-4" style="font-family: 'Google Sans', sans-serif">
+        <mdi-office-building class="inline text-green-600" /> The Google Connection
       </h3>
-      <div class="space-y-4">
-        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-4">
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-              <span class="text-lg font-medium text-green-600">SC</span>
-            </div>
-            <div>
-              <p class="font-medium text-gray-900">Scott Chacon</p>
-              <p class="text-sm text-gray-600">GitHub Co-founder</p>
-              <p class="text-gray-700 mt-2 italic">"Jujutsu is amazing"</p>
-              <p class="text-sm text-gray-600">「Jujutsuは素晴らしい」</p>
-            </div>
+      <div class="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-5 border border-blue-200">
+        <div class="space-y-3">
+          <div class="flex items-start gap-3">
+            <p class="font-medium text-gray-900"><mdi-database class="text-blue-600 text-xl mt-0.5" />Google's Scale Challenge</p>
+            <p class="text-sm text-gray-600">86TBのモノレポ、10億ファイル</p>
+            <p class="text-xs text-gray-500">Managing billions of files</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <p class="font-medium text-gray-900"><mdi-lightbulb class="text-yellow-600 text-xl mt-0.5" />Learning from Piper/Fig</p>
+            <p class="text-sm text-gray-600">Google内部ツールの知見を活用</p>
+            <p class="text-xs text-gray-500">Best practices from internal tools</p>
           </div>
         </div>
-        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-4">
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-              <span class="text-lg font-medium text-purple-600">MH</span>
-            </div>
-            <div>
-              <p class="font-medium text-gray-900">Mitchell Hashimoto</p>
-              <p class="text-sm text-gray-600">HashiCorp Founder</p>
-              <p class="text-gray-700 mt-2 italic">"I use it every day"</p>
-              <p class="text-sm text-gray-600">「毎日使っている」</p>
-            </div>
-          </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-6 bg-purple-50 rounded-xl p-4 text-center">
+    <p class="text-base text-gray-800">
+      <mdi-format-quote-open class="inline text-purple-500" />
+      <span class="italic">Started in 2020 as a personal project, now Google's open source VCS</span>
+      <mdi-format-quote-close class="inline text-purple-500" />
+    </p>
+    <p class="text-sm text-gray-600 mt-1">2020年に個人プロジェクトとして開始、現在はGoogleのオープンソースVCS</p>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+<div class="max-w-4xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Industry Recognition
+  </h2>
+  <p class="text-xl text-gray-600 text-center mb-12">業界のリーダーたちからの評価</p>
+  
+  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
+    <div class="flex items-start gap-6">
+      <div class="w-20 h-20 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-2xl font-medium text-green-600">SC</span>
+      </div>
+      <div class="flex-1">
+        <div class="flex items-center gap-4 mb-2">
+          <h3 class="text-2xl font-medium text-gray-900">Scott Chacon</h3>
+          <p class="text-gray-500">@chacon</p>
         </div>
+        <p class="text-lg text-gray-600 mb-1">GitHub Co-founder</p>
+        <p class="text-gray-600 mb-6">GitHubの共同創業者</p>
+        <div class="p-6 bg-gray-50 rounded-lg border-l-4 border-green-500">
+          <p class="text-lg text-gray-800 italic leading-relaxed">
+            "If you like CLIs, Jujutsu is really interesting, and Git backended. If you want to try a new GUI I can highly recommend the @gitbutler beta. 😉"
+          </p>
+          <p class="text-gray-600 mt-4">
+            「CLIが好きなら、Jujutsuは本当に興味深い。Gitバックエンドです。新しいGUIを試したいなら、@gitbutlerのベータ版を強くお勧めします。」
+          </p>
+        </div>
+        <p class="text-gray-500 mt-4">Feb 17, 2024</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+<div class="max-w-4xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Industry Recognition
+  </h2>
+  <p class="text-xl text-gray-600 text-center mb-12">業界のリーダーたちからの評価</p>
+  
+  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
+    <div class="flex items-start gap-6">
+      <div class="w-20 h-20 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
+        <span class="text-2xl font-medium text-purple-600">MH</span>
+      </div>
+      <div class="flex-1">
+        <div class="flex items-center gap-4 mb-2">
+          <h3 class="text-2xl font-medium text-gray-900">Mitchell Hashimoto</h3>
+          <p class="text-gray-500">@mitchellh</p>
+        </div>
+        <p class="text-lg text-gray-600 mb-1">HashiCorp Founder</p>
+        <p class="text-gray-600 mb-6">HashiCorpの創業者</p>
+        <div class="p-6 bg-gray-50 rounded-lg border-l-4 border-purple-500">
+          <p class="text-lg text-gray-800 italic leading-relaxed">
+            "Almost two months since I tweeted this and I've used jujutsu exclusively the entire time. I want to write something longer form but the tweet form: jj is fantastic and I can't see myself going back, only one exception is I drop down to `git` for bisect still. That's it."
+          </p>
+          <p class="text-gray-600 mt-4">
+            「このツイートから約2ヶ月、その間ずっとjujutsuを独占的に使用しています。もっと長い形式で書きたいと思っていますが、簡潔に言えば：jjは素晴らしく、もう戻ることは考えられません。唯一の例外はbisectのときだけgitを使います。それだけです。」
+          </p>
+        </div>
+        <p class="text-gray-500 mt-4">Oct 15, 2024</p>
       </div>
     </div>
   </div>
@@ -784,6 +851,143 @@ const api = "new";
     <p class="text-gray-600 mt-2">
       コンフリクトは進行を止めない
     </p>
+  </div>
+</div>
+
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Why Commit Conflicts? The Game Changer
+  </h2>
+  <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-8 border border-blue-200">
+    <div class="grid grid-cols-2 gap-8 mb-8">
+      <div>
+        <h3 class="text-xl font-medium text-gray-900 mb-4">
+          <mdi-git class="inline text-orange-600" /> Git: Conflicts Block Everything
+        </h3>
+        <div class="space-y-4">
+          <div class="bg-white rounded-lg p-4 border border-red-200">
+            <mdi-close-circle class="text-red-500 inline" />
+            <span class="font-medium"> Work stops immediately</span>
+            <p class="text-sm text-gray-600 mt-1">コンフリクトで作業が完全停止</p>
+          </div>
+          <div class="bg-white rounded-lg p-4 border border-red-200">
+            <mdi-close-circle class="text-red-500 inline" />
+            <span class="font-medium"> Must resolve NOW</span>
+            <p class="text-sm text-gray-600 mt-1">今すぐ解決しないと進めない</p>
+          </div>
+          <div class="bg-white rounded-lg p-4 border border-red-200">
+            <mdi-close-circle class="text-red-500 inline" />
+            <span class="font-medium"> Context switching nightmare</span>
+            <p class="text-sm text-gray-600 mt-1">コンテキストスイッチの悪夢</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-xl font-medium text-gray-900 mb-4">
+          <img src="/jj-logo.svg" class="inline w-6 h-6" /> Jujutsu: Conflicts Are Data
+        </h3>
+        <div class="space-y-4">
+          <div class="bg-white rounded-lg p-4 border border-green-200">
+            <mdi-check-circle class="text-green-500 inline" />
+            <span class="font-medium"> Keep working uninterrupted</span>
+            <p class="text-sm text-gray-600 mt-1">作業を中断せずに継続</p>
+          </div>
+          <div class="bg-white rounded-lg p-4 border border-green-200">
+            <mdi-check-circle class="text-green-500 inline" />
+            <span class="font-medium"> Resolve when convenient</span>
+            <p class="text-sm text-gray-600 mt-1">都合の良い時に解決</p>
+          </div>
+          <div class="bg-white rounded-lg p-4 border border-green-200">
+            <mdi-check-circle class="text-green-500 inline" />
+            <span class="font-medium"> Perfect for AI agents</span>
+            <p class="text-sm text-gray-600 mt-1">AIエージェントに最適</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-yellow-50 rounded-lg p-6 border border-yellow-300">
+      <h4 class="font-medium text-gray-900 mb-2">
+        <mdi-lightbulb class="inline text-yellow-600" /> Key Insight
+      </h4>
+      <p class="text-gray-700">
+        Conflicts are just another type of content. Why shouldn't we be able to version them?
+        <span class="text-sm text-gray-600 block mt-1">
+          コンフリクトも単なるコンテンツの一種。なぜバージョン管理できないのか？
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="max-w-6xl mx-auto">
+  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
+    Multi-Agent Conflict Scenario: Real Example
+  </h2>
+  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
+    <h3 class="text-xl font-medium text-gray-900 mb-6">
+      <mdi-file-code class="inline text-blue-600" /> File: api/server.js
+    </h3>
+    <div class="grid grid-cols-3 gap-6 mb-8">
+      <div>
+        <h4 class="font-medium text-gray-900 mb-3">
+          <mdi-robot class="inline text-blue-500" /> Agent A: Auth
+        </h4>
+        <div class="bg-gray-50 rounded-lg p-4 font-mono text-xs">
+          <div class="text-blue-600">const express = require('express');</div>
+          <div class="text-blue-600">const auth = require('./auth');</div>
+          <div>const app = express();</div>
+          <div class="text-blue-600">app.use(auth.middleware());</div>
+          <div>app.listen(3000);</div>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-medium text-gray-900 mb-3">
+          <mdi-robot class="inline text-green-500" /> Agent B: Database
+        </h4>
+        <div class="bg-gray-50 rounded-lg p-4 font-mono text-xs">
+          <div class="text-green-600">const express = require('express');</div>
+          <div class="text-green-600">const db = require('./database');</div>
+          <div>const app = express();</div>
+          <div class="text-green-600">db.connect();</div>
+          <div>app.listen(3000);</div>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-medium text-gray-900 mb-3">
+          <mdi-robot class="inline text-purple-500" /> Agent C: Logging
+        </h4>
+        <div class="bg-gray-50 rounded-lg p-4 font-mono text-xs">
+          <div class="text-purple-600">const express = require('express');</div>
+          <div class="text-purple-600">const logger = require('./logger');</div>
+          <div>const app = express();</div>
+          <div class="text-purple-600">app.use(logger.morgan());</div>
+          <div>app.listen(3000);</div>
+        </div>
+      </div>
+    </div>
+    <div class="border-t pt-6">
+      <h4 class="font-medium text-gray-900 mb-3">
+        <img src="/jj-logo.svg" class="inline w-5 h-5" /> Jujutsu Magic: Auto-merged with conflicts
+      </h4>
+      <div class="bg-gray-900 text-gray-100 rounded-lg p-4 font-mono text-sm">
+        <div class="text-green-400"># All three agents continue working!</div>
+        <div>jj new @agent-a @agent-b @agent-c</div>
+        <div class="text-yellow-400 mt-2"># Later, coordinator resolves:</div>
+        <div>const express = require('express');</div>
+        <div class="text-blue-400">const auth = require('./auth');</div>
+        <div class="text-green-400">const db = require('./database');</div>
+        <div class="text-purple-400">const logger = require('./logger');</div>
+        <div>const app = express();</div>
+        <div class="text-blue-400">app.use(auth.middleware());</div>
+        <div class="text-purple-400">app.use(logger.morgan());</div>
+        <div class="text-green-400">db.connect();</div>
+        <div>app.listen(3000);</div>
+      </div>
+    </div>
   </div>
 </div>
 
