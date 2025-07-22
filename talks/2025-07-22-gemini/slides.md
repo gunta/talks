@@ -104,7 +104,7 @@ layout: two-cols
   </div>
   
   <div class="flex items-start gap-3">
-    <mdi-twitter class="text-3xl text-blue-400" />
+    <line-md-twitter-x class="text-3xl text-black" />
     <div>
       <div class="font-bold">Follow me on X</div>
       <div class="text-sm opacity-60">@gunta85</div>
@@ -130,32 +130,398 @@ layout: two-cols
 layout: center
 ---
 
-# 問題提起 The Problem
-<p class="text-sm opacity-60 !mt-0">Problem Statement</p>
+# Today's Mission: Unleash AI Potential
+<p class="text-sm opacity-60 !mt-0">今日のミッション：AIの可能性を解き放つ</p>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-  <div class="bg-red-900/20 p-8 rounded-xl border border-red-500/30">
-    <h3 class="text-2xl font-bold mb-4"><mdi-alert-circle class="inline text-red-500" /> 現在の限界 Current Limitations</h3>
-    <ul class="space-y-3 text-lg">
-      <li>1つのGemini CLIで順番に作業</li>
-      <span class="text-sm opacity-60">Working sequentially with one Gemini CLI</span>
-      <li>ファイル競合の恐怖</li>
-      <span class="text-sm opacity-60">Fear of file conflicts</span>
-      <li>並列開発は夢のまた夢</li>
-      <span class="text-sm opacity-60">Parallel development remains a dream</span>
-    </ul>
+<div class="mt-12 relative">
+  <div class="absolute -inset-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur-2xl opacity-20"></div>
+  <div class="relative bg-white rounded-2xl shadow-2xl p-12 border border-gray-100">
+    <div class="flex items-center justify-center gap-8 mb-8">
+      <img src="/jj-logo.svg" class="w-24 h-24 animate-pulse" />
+      <div class="text-6xl">×</div>
+      <div class="w-24 h-24 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
+        <mdi-robot class="text-5xl text-white" />
+      </div>
+    </div>
+    <h2 class="text-4xl font-bold text-center mb-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+      Jujutsu: The Missing Piece
+    </h2>
+    <p class="text-xl text-gray-700 text-center mb-8">
+      A version control system designed for the future
+      <span class="block text-lg text-gray-600 mt-2">未来のために設計されたバージョン管理システム</span>
+    </p>
+    <div class="grid grid-cols-3 gap-6">
+      <div class="text-center">
+        <div class="w-16 h-16 mx-auto mb-3 rounded-full bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
+          <mdi-google class="text-3xl text-purple-600" />
+        </div>
+        <p class="font-medium text-gray-900">Google-Born</p>
+        <p class="text-sm text-gray-600">Googleで生まれた技術</p>
+      </div>
+      <div class="text-center">
+        <div class="w-16 h-16 mx-auto mb-3 rounded-full bg-gradient-to-br from-blue-100 to-cyan-100 flex items-center justify-center">
+          <mdi-infinity class="text-3xl text-blue-600" />
+        </div>
+        <p class="font-medium text-gray-900">Unlimited Scale</p>
+        <p class="text-sm text-gray-600">無限のスケール</p>
+      </div>
+      <div class="text-center">
+        <div class="w-16 h-16 mx-auto mb-3 rounded-full bg-gradient-to-br from-green-100 to-emerald-100 flex items-center justify-center">
+          <mdi-lightning-bolt class="text-3xl text-green-600" />
+        </div>
+        <p class="font-medium text-gray-900">AI-Ready</p>
+        <p class="text-sm text-gray-600">AI時代に最適</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mt-8 text-center">
+  <p class="text-lg text-gray-700">
+    <mdi-arrow-right class="inline text-purple-500" /> Let's explore how Google solved version control at scale
+  </p>
+  <p class="text-sm text-gray-600">Googleがどのようにバージョン管理の規模の問題を解決したかを探ってみましょう</p>
+</div>
+
+---
+layout: center
+---
+
+# Google's VCS Evolution
+<p class="text-sm opacity-60 !mt-0">The Journey to Scale</p>
+
+<div class="mt-4" style="transform: scale(2.5); transform-origin: top center;">
+
+```mermaid
+timeline    
+    2006 : 🚀 Piper Created
+         : Custom VCS System
+         : Bigtable Backend
+    
+    2012 : ☁️ CitC Launch
+         : Cloud Workspaces
+         : Spanner Backend
+    
+    2014 : 🔧 Fig Development
+         : Mercurial Fork
+         : DVCS Features
+    
+    2020 : ⚡ Jujutsu Born
+         : Martin's Project
+         : Open Source
+    
+    2024 : 📊 Current State
+         : 86TB Repository
+         : Fig/Mercurial Active
+    
+    2025 : 🎯 Migration Plan
+         : → Jujutsu
+         : Future State
+```
+</div>
+
+
+
+<div class="grid grid-cols-3 gap-6 p-6 mt-34">
+  <div class="text-center">
+    <div class="text-3xl font-bold text-blue-600">86TB</div>
+    <p class="text-sm text-gray-600">Repository Size</p>
+  </div>
+  <div class="text-center">
+    <div class="text-3xl font-bold text-green-600">2B</div>
+    <p class="text-sm text-gray-600">Lines of Code</p>
+  </div>
+  <div class="text-center">
+    <div class="text-3xl font-bold text-purple-600">35M</div>
+    <p class="text-sm text-gray-600">Total Commits</p>
+  </div>
+</div>
+
+---
+layout: center
+zoom: 0.9
+---
+
+# The Scale Challenge at Google
+<p class="text-sm opacity-60 !mt-0">Why Traditional VCS Failed</p>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-red-600/10 to-orange-600/10 blur-3xl"></div>
+    <div class="relative bg-gradient-to-br from-red-50 via-orange-50/80 to-yellow-50/60 rounded-2xl p-8 border border-red-200/50 shadow-xl">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center shadow-lg">
+          <mdi-alert-octagon class="text-3xl text-white" />
+        </div>
+        <span>The Breaking Points</span>
+      </h3>
+      <ul class="space-y-5">
+        <li class="flex items-start gap-4 group hover:transform hover:scale-105 transition-all duration-200">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center flex-shrink-0 shadow-md group-hover:shadow-xl transition-shadow">
+            <mdi-server-off class="text-2xl text-white" />
+          </div>
+          <div>
+            <p class="font-bold text-gray-900 text-lg">
+              <mdi-desktop-classic class="inline text-red-600" /> Perforce: Single Machine Limit
+            </p>
+            <p class="text-sm text-gray-600">
+              <mdi-alert class="inline text-red-400" /> 単一マシンの限界に到達
+            </p>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 group hover:transform hover:scale-105 transition-all duration-200">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center flex-shrink-0 shadow-md group-hover:shadow-xl transition-shadow">
+            <mdi-chart-line class="text-2xl text-white" />
+          </div>
+          <div>
+            <p class="font-bold text-gray-900 text-lg">
+              <mdi-source-commit class="inline text-orange-600" /> <span class="text-3xl font-extrabold text-orange-600">45,000</span> commits/day
+            </p>
+            <p class="text-sm text-gray-600">
+              <mdi-calendar-clock class="inline text-orange-400" /> 毎日45,000件のコミット
+            </p>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 group hover:transform hover:scale-105 transition-all duration-200">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-yellow-400 to-amber-600 flex items-center justify-center flex-shrink-0 shadow-md group-hover:shadow-xl transition-shadow">
+            <mdi-speedometer class="text-2xl text-white" />
+          </div>
+          <div>
+            <p class="font-bold text-gray-900 text-lg">
+              <mdi-lightning-bolt class="inline text-amber-600" /> <span class="text-3xl font-extrabold text-amber-600">800,000</span> QPS peak
+            </p>
+            <p class="text-sm text-gray-600">
+              <mdi-gauge class="inline text-amber-400" /> ピーク時80万クエリ/秒
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
   
-  <div class="bg-green-900/20 p-8 rounded-xl border border-green-500/30">
-    <h3 class="text-2xl font-bold mb-4"><mdi-star-outline class="inline text-green-500" /> 理想の世界 Ideal World</h3>
-    <ul class="space-y-3 text-lg">
-      <li>複数のGeminiが同時開発</li>
-      <span class="text-sm opacity-60">Multiple Geminis developing simultaneously</span>
-      <li>コンフリクトフリー</li>
-      <span class="text-sm opacity-60">Conflict-free</span>
-      <li>10倍速の開発</li>
-      <span class="text-sm opacity-60">10x development speed</span>
-    </ul>
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-green-600/10 to-blue-600/10 blur-3xl"></div>
+    <div class="relative bg-gradient-to-br from-green-50 via-emerald-50/80 to-blue-50/60 rounded-2xl p-8 border border-green-200/50 shadow-xl">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center shadow-lg">
+          <mdi-lightbulb-on class="text-3xl text-white animate-pulse" />
+        </div>
+        <span>Google's Solutions</span>
+      </h3>
+      <ul class="space-y-5">
+        <li class="flex items-start gap-4 group hover:transform hover:scale-105 transition-all duration-200">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center flex-shrink-0 shadow-md group-hover:shadow-xl transition-shadow">
+            <mdi-server-network class="text-2xl text-white" />
+          </div>
+          <div>
+            <p class="font-bold text-gray-900 text-lg">
+              <mdi-pipe class="inline text-blue-600" /> Piper: Distributed VCS
+            </p>
+            <p class="text-sm text-gray-600">
+              <mdi-database class="inline text-blue-400" /> 分散型VCSの開発
+            </p>
+            <div class="mt-1 flex gap-2">
+              <span class="text-xs px-2 py-1 bg-blue-100 text-blue-700 rounded-full">
+                <mdi-database-outline class="inline" /> Bigtable
+              </span>
+              <span class="text-xs px-2 py-1 bg-blue-100 text-blue-700 rounded-full">
+                <mdi-arrow-expand-all class="inline" /> Scalable
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 group hover:transform hover:scale-105 transition-all duration-200">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center flex-shrink-0 shadow-md group-hover:shadow-xl transition-shadow">
+            <mdi-cloud-outline class="text-2xl text-white" />
+          </div>
+          <div>
+            <p class="font-bold text-gray-900 text-lg">
+              <mdi-cloud-check class="inline text-purple-600" /> CitC: Cloud Workspaces
+            </p>
+            <p class="text-sm text-gray-600">
+              <mdi-laptop-account class="inline text-purple-400" /> クラウドベースの作業環境
+            </p>
+            <div class="mt-1 flex gap-2">
+              <span class="text-xs px-2 py-1 bg-purple-100 text-purple-700 rounded-full">
+                <mdi-folder-network class="inline" /> Virtual FS
+              </span>
+              <span class="text-xs px-2 py-1 bg-purple-100 text-purple-700 rounded-full">
+                <mdi-cloud-download class="inline" /> On-demand
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="flex items-start gap-4 group hover:transform hover:scale-105 transition-all duration-200">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center flex-shrink-0 shadow-md group-hover:shadow-xl transition-shadow">
+            <mdi-source-branch class="text-2xl text-white" />
+          </div>
+          <div>
+            <p class="font-bold text-gray-900 text-lg">
+              <mdi-source-fork class="inline text-green-600" /> Fig: DVCS Features
+            </p>
+            <p class="text-sm text-gray-600">
+              <mdi-code-braces class="inline text-green-400" /> 分散VCS機能の追加
+            </p>
+            <div class="mt-1 flex gap-2">
+              <span class="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full">
+                <mdi-source-merge class="inline" /> Mercurial Fork
+              </span>
+              <span class="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full">
+                <mdi-laptop class="inline" /> Local Dev
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+---
+
+# Martin's Journey at Google
+<p class="text-sm opacity-60 !mt-0">From Git to Jujutsu</p>
+
+```mermaid
+timeline
+    2008-2013 : 🔧 Git contributor
+              : 🔄 Co-authored git rebase
+              : ✨ Cleaned up rebase code
+
+    2011-2014 : 💻 Full-stack developer
+              : 💰 Compensation app
+    
+    2014-now  : 🚀 SWE on internal VCS
+              : 🌳 Fig development
+              : 🔀 Mercurial as Piper client
+    
+    2020      : 🎯 Started Jujutsu
+              : 💡 Personal project
+              : 📚 Applied Fig learnings
+    
+    2025-2026 : 🎉 Migration plan
+              : 🔄 Replace Google's Mercurial
+              : ⚡ With Jujutsu
+```
+
+<div class="mt-2 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-2">
+  <p class="text-center text-lg">
+    <mdi-format-quote-open class="inline text-purple-500" />
+    20+ years of version control expertise, from Git rebase to Google-scale VCS
+    <mdi-format-quote-close class="inline text-purple-500" />
+  </p>
+  <p class="text-center text-sm text-gray-600 mt-2">
+    20年以上のバージョン管理の専門知識、GitリベースからGoogleスケールのVCSまで
+  </p>
+</div>
+
+---
+layout: center
+zoom: 0.9
+---
+
+# 問題提起 The Problem
+
+<p class="text-sm opacity-60 !mt-0">Problem Statement</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-red-600/10 to-orange-600/10 blur-3xl"></div>
+    <div class="relative bg-gradient-to-br from-red-50/80 via-red-50/60 to-orange-50/40 p-8 rounded-2xl border border-red-300/50 shadow-xl">
+      <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center shadow-lg">
+          <mdi-alert-circle class="text-3xl text-white" />
+        </div>
+        <span>現在の限界 <span class="text-lg font-normal opacity-70">Current Limitations</span></span>
+      </h3>
+      <ul class="space-y-4">
+        <li class="group">
+          <div class="flex items-start gap-3">
+            <div>
+              <p class="text-lg font-medium text-gray-900">
+                <mdi-robot class="inline text-red-600" /> 1つのGemini CLIで順番に作業
+              </p>
+              <p class="text-sm text-gray-600">
+                <mdi-timer-sand class="inline text-red-400" /> Working sequentially with one Gemini CLI
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="group">
+          <div class="flex items-start gap-3">
+            <div>
+              <p class="text-lg font-medium text-gray-900">
+                <mdi-file-alert class="inline text-orange-600" /> ファイル競合の恐怖
+              </p>
+              <p class="text-sm text-gray-600">
+                <mdi-sword-cross class="inline text-orange-400" /> Fear of file conflicts
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="group">
+          <div class="flex items-start gap-3">
+            <div>
+              <p class="text-lg font-medium text-gray-900">
+                <mdi-sleep class="inline text-red-700" /> 並列開発は夢のまた夢
+              </p>
+              <p class="text-sm text-gray-600">
+                <mdi-thought-bubble class="inline text-red-400" /> Parallel development remains a dream
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-green-600/10 to-blue-600/10 blur-3xl"></div>
+    <div class="relative bg-gradient-to-br from-green-50/80 via-emerald-50/60 to-blue-50/40 p-8 rounded-2xl border border-green-300/50 shadow-xl">
+      <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center shadow-lg">
+          <mdi-star class="text-3xl text-white animate-pulse" />
+        </div>
+        <span>理想の世界 <span class="text-lg font-normal opacity-70">Ideal World</span></span>
+      </h3>
+      <ul class="space-y-4">
+        <li class="group">
+          <div class="flex items-start gap-3">
+            <div>
+              <p class="text-lg font-medium text-gray-900">
+                <mdi-account-multiple class="inline text-green-600" /> 複数のGeminiが同時開発
+              </p>
+              <p class="text-sm text-gray-600">
+                <mdi-sync class="inline text-green-400" /> Multiple Geminis developing simultaneously
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="group">
+          <div class="flex items-start gap-3">
+            <div>
+              <p class="text-lg font-medium text-gray-900">
+                <mdi-peace class="inline text-blue-600" /> コンフリクトフリー
+              </p>
+              <p class="text-sm text-gray-600">
+                <mdi-check-all class="inline text-blue-400" /> Conflict-free
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="group">
+          <div class="flex items-start gap-3">
+            <div>
+              <p class="text-lg font-medium text-gray-900">
+                <mdi-speedometer class="inline text-purple-600" /> 10倍速の開発
+              </p>
+              <p class="text-sm text-gray-600">
+                <mdi-flash class="inline text-purple-400" /> 10x development speed
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -208,90 +574,69 @@ import Avatar from '../../components/Avatar.vue'
 
 <div class="max-w-6xl mx-auto">
   <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
-    The Story Behind Jujutsu
+    Jujutsu: From Google's Learnings
   </h2>
-  <p class="text-xl text-gray-600 text-center mb-10">誕生の背景とGoogleの挑戦</p>
+  <p class="text-xl text-gray-600 text-center mb-10">Googleの経験から生まれた次世代VCS</p>
   
   <div class="grid grid-cols-2 gap-8">
-    <div>
-      <h3 class="text-xl font-normal text-gray-900 mb-4" style="font-family: 'Google Sans', sans-serif">
-        <mdi-account-circle class="inline text-blue-600" /> Creator
-      </h3>
-      <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
-        <div class="flex items-center gap-4 mb-4">
-          <Avatar
-            platform="github"
-            username="martinvonz"
-            size="xl"
-            quality="max"
-            fallback-name="Martin von Zweigbergk"
-          />
-          <div>
-            <p class="text-base font-medium text-gray-900">Martin von Zweigbergk</p>
-            <p class="text-sm text-gray-600">Software Engineer at Google</p>
-          </div>
-        </div>
-        <div class="space-y-2 text-sm">
-          <p class="flex items-start gap-2">
-            <mdi-check-circle class="text-green-500 mt-0.5" />
-            <span>Git rebase co-author (2008)<br/>
-            <span class="text-xs text-gray-600">Git rebaseコマンドの共同開発者</span></span>
-          </p>
-          <p class="flex items-start gap-2">
-            <mdi-check-circle class="text-green-500 mt-0.5" />
-            <span>Google's "Fig" VCS architect<br/>
-            <span class="text-xs text-gray-600">Google内部VCS「Fig」の設計者</span></span>
-          </p>
-          <p class="flex items-start gap-2">
-            <mdi-check-circle class="text-green-500 mt-0.5" />
-            <span>20+ years VCS experience<br/>
-            <span class="text-xs text-gray-600">20年以上のVCS開発経験</span></span>
-          </p>
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+      <div class="flex items-center gap-4 mb-4">
+        <Avatar
+          platform="github"
+          username="martinvonz"
+          size="lg"
+          quality="max"
+          fallback-name="Martin von Zweigbergk"
+        />
+        <div>
+          <p class="text-lg font-medium text-gray-900">Martin von Zweigbergk</p>
+          <p class="text-sm text-gray-600">Creator of Jujutsu</p>
         </div>
       </div>
+      <ul class="space-y-2 text-sm">
+        <li class="flex items-start gap-2">
+          <mdi-check-circle class="text-green-500 mt-0.5" />
+          <span>Git rebase co-author (2008)</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <mdi-check-circle class="text-green-500 mt-0.5" />
+          <span>Google Fig VCS architect</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <mdi-check-circle class="text-green-500 mt-0.5" />
+          <span>20+ years VCS experience</span>
+        </li>
+      </ul>
     </div>
-    <div>
-      <h3 class="text-xl font-normal text-gray-900 mb-4" style="font-family: 'Google Sans', sans-serif">
-        <mdi-office-building class="inline text-green-600" /> The Google Connection
-      </h3>
-      <div class="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-5 border border-blue-200">
-        <div class="space-y-3">
-          <div class="flex items-start gap-3">
-            <p class="font-medium text-gray-900"><mdi-database class="text-blue-600 text-xl mt-0.5" />Google's Scale Challenge</p>
-            <p class="text-sm text-gray-600">86TBのモノレポ、10億ファイル</p>
-            <p class="text-xs text-gray-500">Managing billions of files</p>
-          </div>
-          <div class="flex items-start gap-3">
-            <p class="font-medium text-gray-900"><mdi-lightbulb class="text-yellow-600 text-xl mt-0.5" />Learning from Piper/Fig</p>
-            <p class="text-sm text-gray-600">Google内部ツールの知見を活用</p>
-            <p class="text-xs text-gray-500">Best practices from internal tools</p>
-          </div>
-          <div class="flex items-start gap-3">
-            <p class="font-medium text-gray-900"><mdi-rocket-launch class="text-purple-600 text-xl mt-0.5" />Migration Plan</p>
-            <p class="text-sm text-gray-600">来年中にGoogle内部のMercurialから移行予定</p>
-            <p class="text-xs text-gray-500">Replacing Google's Mercurial fork within next year</p>
-          </div>
-        </div>
-      </div>
+    <div class="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-6 border border-blue-200">
+      <h4 class="font-medium text-gray-900 mb-3">
+        <mdi-lightbulb class="inline text-yellow-600" /> Key Innovations
+      </h4>
+      <ul class="space-y-2 text-sm">
+        <li class="flex items-start gap-2">
+          <mdi-language-rust class="text-orange-600 mt-0.5" />
+          <span>Built with Rust for performance</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <mdi-git class="text-orange-600 mt-0.5" />
+          <span>Git-compatible backend</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <mdi-heart class="text-red-600 mt-0.5" />
+          <span>First-class conflict handling</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <mdi-rocket-launch class="text-purple-600 mt-0.5" />
+          <span>Google migration planned 2025</span>
+        </li>
+      </ul>
     </div>
-  </div>
-  <div class="mt-2 bg-purple-50 rounded-xl p-1 text-center">
-    <p class="text-base text-gray-800">
-      <mdi-format-quote-open class="inline text-purple-500" />
-      <span class="italic">Started in 2020 as a personal project, now Google's open source VCS</span>
-      <mdi-format-quote-close class="inline text-purple-500" />
-    </p>
-    <p class="text-sm text-gray-600 mt-1">2020年に個人プロジェクトとして開始、現在はGoogleのオープンソースVCS</p>
   </div>
 </div>
 
 ---
 layout: center
 ---
-
-<script setup>
-import Avatar from '../../components/Avatar.vue'
-</script>
 
 <div class="max-w-4xl mx-auto">
   <!-- <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
