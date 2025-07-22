@@ -21,6 +21,8 @@ layout: image
 image: geminibg.png
 ---
 
+
+
 <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
 
 <div class="relative z-10 h-full flex flex-col justify-center items-center text-white">
@@ -200,6 +202,10 @@ layout: center
 layout: center
 ---
 
+<script setup>
+import Avatar from '../../components/Avatar.vue'
+</script>
+
 <div class="max-w-6xl mx-auto">
   <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
     The Story Behind Jujutsu
@@ -213,9 +219,13 @@ layout: center
       </h3>
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
         <div class="flex items-center gap-4 mb-4">
-          <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center">
-            <span class="text-xl font-medium text-blue-600">MZ</span>
-          </div>
+          <Avatar
+            platform="github"
+            username="martinvonz"
+            size="xl"
+            quality="max"
+            fallback-name="Martin von Zweigbergk"
+          />
           <div>
             <p class="text-base font-medium text-gray-900">Martin von Zweigbergk</p>
             <p class="text-sm text-gray-600">Software Engineer at Google</p>
@@ -256,11 +266,16 @@ layout: center
             <p class="text-sm text-gray-600">Google内部ツールの知見を活用</p>
             <p class="text-xs text-gray-500">Best practices from internal tools</p>
           </div>
+          <div class="flex items-start gap-3">
+            <p class="font-medium text-gray-900"><mdi-rocket-launch class="text-purple-600 text-xl mt-0.5" />Migration Plan</p>
+            <p class="text-sm text-gray-600">来年中にGoogle内部のMercurialから移行予定</p>
+            <p class="text-xs text-gray-500">Replacing Google's Mercurial fork within next year</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="mt-6 bg-purple-50 rounded-xl p-4 text-center">
+  <div class="mt-2 bg-purple-50 rounded-xl p-1 text-center">
     <p class="text-base text-gray-800">
       <mdi-format-quote-open class="inline text-purple-500" />
       <span class="italic">Started in 2020 as a personal project, now Google's open source VCS</span>
