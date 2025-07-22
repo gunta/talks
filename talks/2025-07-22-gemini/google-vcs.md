@@ -1,46 +1,46 @@
 ---
 # Why Google Stores Billions of Lines of Code in a Single Repository
-### Rachel Potvin, Google
+#### Rachel Potvin, Google | @Scale 2015
 
 ---
 
 ## Introduction
 
 - Overview of Google’s source control management strategy
-- Why use a single, monolithic repository?
-- Outline of talk: scale, systems, workflows, advantages, and trade-offs
+- Why use a single, monolithic repository (“monorepo”)?
+- Outline: scale, systems, workflows, advantages, trade-offs
 
 ---
 
-## About the Speaker
+## Speaker & Background
 
 - Rachel Potvin, Engineering Manager at Google
-- Background in video game industry
+- Previously in the video game industry
 - Fascinated by Google’s single-repo model since joining
 
 ---
 
 ## The Monolithic Repository at Google
 
-- Google uses one giant, shared codebase
-- 95% of engineers use this repository
-- Possibly the largest single repo in the world
+- One giant, shared codebase for nearly all Google projects
+- About 95% of Google engineers use this repository
+- Possibly the largest single repository in the world
 
 ---
 
-## Scale of Google’s Repository
+## Repository Scale: Numbers
 
-- ~1 billion files (including deleted and branched files)
-- 35 million commits in history
-- 45,000 commits per workday
+- ~1 billion files (includes deleted files, release branch copies)
+- ~35 million commits in history (as of January snapshot)
+- 45,000 commits per workday (average)
 - Billions of file read requests daily
-- QPS: 800,000 peak, 500,000 average
+- QPS (queries per second): ~800,000 peak, ~500,000 average
 
 ---
 
 ## Growth Over Time
 
-- Exponential increase in size and rate of change
+- Exponential increase in both size and rate of change
 - 2004 (Gmail launch) barely visible on growth graph
 - Significant investments in tooling to sustain growth
 
@@ -48,21 +48,22 @@
 
 ## Usage Patterns
 
-- High volume of commits and file reads
-- Consistency and performance are critical
-- Distributed build and test systems drive most traffic
+- Highly used and modified: 45,000 daily commits
+- Consistency and performance are key for thousands of global users
+- Most traffic from Google’s distributed build and test systems
 
 ---
 
 ## Human vs. Automated Commits
 
 - Early years: most commits by humans
-- After custom source control system: automated commits dominate
-- Both human and robot use cases are key
+- After switch from Perforce to custom system (Piper): automated commits dominate
+- Both human and robot use cases are critical
+- Regular dips in commit graph correspond to holidays (even robots “take holidays”)
 
 ---
 
-## Comparison: Linux Kernel
+## Perspective: Linux Kernel Comparison
 
 - Linux kernel: ~15 million lines of code
 - Google: 15 million lines modified every week by humans
@@ -83,34 +84,37 @@
 - Tree structure: each directory has owners
 - Owners approve changes in their directories
 - Automated analysis and testing at every stage
-- Problematic changes can be rolled back automatically
+- System can automatically roll back problematic changes
 
 ---
 
 ## Piper and CitC
 
-- Piper: custom system hosting the monolithic repo
-- Globally replicated, optimized for latency
-- CitC (Clients in the Cloud): cloud-based file system overlay
-- Developers see personal changes overlaid on full repo
+- **Piper**: custom system hosting the monolithic repo
+  - Built on standard Google infrastructure, globally replicated
+  - Uses caching and async operations to optimize latency
+- **CitC (Clients in the Cloud)**: cloud-based file system overlay
+  - Developers see personal changes overlaid on full repo
+  - No need to clone or sync state locally
 
 ---
 
 ## Developer Workflow
 
-- No need to clone or sync state locally
 - Seamless code browsing, building, and editing
 - Snapshots allow recovery and support automated tooling
+- Developers can change machines/tools and retain workspace state
+- Only modified files are stored in personal workspace
 
 ---
 
 ## Custom Tools at Google
 
-- Critique: code review tool
-- Code Search: semantic code browsing and history
-- Tricorder: static analysis system
-- Tap: automated test infrastructure
-- Rosie: tool for managing large-scale code changes
+- **Critique**: code review tool
+- **Code Search**: semantic code browsing and history
+- **Tricorder**: static analysis system (suggests fixes, coverage, quality)
+- **Tap**: automated test infrastructure (defends against breaking changes)
+- **Rosie**: manages large-scale code changes (splits patches, automates review & submit)
 
 ---
 
@@ -118,37 +122,41 @@
 
 - All developers work from “head” (latest code)
 - Branching is rare (mainly for releases)
-- Feature flags control code paths
+- Feature flags control code paths for new/old features
 - Single, consistent view of codebase
+- Release branches: snapshot from trunk + cherry-picks
 
 ---
 
 ## Advantages of a Monolithic Repository
 
 - Unified versioning and single source of truth
-- Extensive code sharing and reuse
-- Simplified dependency management
-- Atomic changes (large-scale refactoring possible)
-- Collaboration across teams
+- Extensive code sharing and reuse (libraries, utilities)
+- Simplified dependency management (no “diamond dependency” problem)
+- Atomic changes: large-scale refactoring possible in single commits
+- Collaboration across teams (fix bugs in other teams’ code)
 - Flexible team boundaries and code ownership
-- Easier reasoning about code relationships
+- Easier reasoning about code relationships and dependencies
 
 ---
 
-## Single Source of Truth
+## Unified Source of Truth
 
 - No confusion about authoritative file versions
 - Easy to depend on other teams’ code
 - Fluid team boundaries and easy refactoring
+- Entire history of projects remains intact
 
 ---
 
 ## Simplified Dependency Management
 
-- All code versioned together
-- Avoids “diamond dependency” problem
-- Updates to libraries propagate instantly
+- All code versioned together; only one version of truth
+- Avoids “diamond dependency” problem:
+  - Example: A depends on B and C; B and C depend on D, but on different versions
+  - In monorepo, all dependencies updated atomically
 - No technical debt from outdated dependencies
+- Changes to base libraries instantly propagate through dependency chain
 
 ---
 
@@ -156,81 +164,71 @@
 
 - Major changes can touch thousands of files in one commit
 - Enables large-scale refactoring and modernization
+- Example: renaming a class/function across entire repo in a single consistent operation
 
 ---
 
 ## Codebase Modernization
 
-- Centralized teams can update codebase-wide
-- Compiler team can enforce new standards and fix patterns
-- Old APIs can be safely removed
+- Centralized teams can update codebase-wide (e.g., half a million call sites)
+- Compiler team enforces new standards, fixes patterns, and can block problematic code
+- Old APIs can be safely removed after all callers migrate
 
 ---
 
 ## Disadvantages and Trade-Offs
 
-- Heavy investment in tooling required
-- Codebase complexity can be challenging
+- Heavy investment in tooling required (code review, analysis, test infra, refactoring)
+- Codebase complexity can be challenging (hard to understand/maintain)
+- Easy to add dependencies, which can cause issues (dependency bloat, binary size, abandoned projects)
 - Need for strong code health practices
 
 ---
 
-## Tooling Investment
+## Managing Code Health
 
-- Custom tools for code review, analysis, testing, refactoring
-- Trade-off between tool cost and user benefit
-
----
-
-## Codebase Complexity
-
-- Large codebase can be hard to understand and maintain
-- Easy to add dependencies, which can cause issues
-- Risk of unnecessary or abandoned dependencies
-
----
-
-## Managing Dependencies
-
-- Tools to find/remove dead or underutilized code
-- API visibility defaults to private to encourage hygiene
-- Structures in place to prevent unwanted dependencies
+- Tools to find/remove dead or underutilized code (Code Search shows dead code layer)
+- Tools to find/remove unneeded dependencies, identify candidates for refactoring
+- API visibility defaults to private (since 2011), must be explicitly marked for cross-team use
+- Structures in place to prevent unwanted dependencies and encourage hygienic dependency graphs
 
 ---
 
 ## Rosie and Large-Scale Changes
 
-- Rosie automates large-scale code changes
-- Review committee ensures value outweighs review cost
-- Controls in place to prevent unnecessary churn
+- Rosie automates large-scale code changes and distributes review
+- As Rosie’s usage grew, controls were added to prevent unnecessary churn
+- Review committee ensures value of changes outweighs review cost
+- Some changes submitted as single atomic changes; some rejected or redirected
 
 ---
 
-## When Monorepos Work
+## When Does This Model Work?
 
 - Best for open, collaborative cultures
 - Not suitable where code must be private between groups
-- Google’s investment has enabled scaling to 1B files, 35M commits
+- Google’s investment has enabled scaling to 1B files, 35M commits, 45,000 daily commits
 
 ---
 
 ## Conclusion
 
 - Monolithic model not for everyone
-- Google continues to invest in scalability
+- Google continues to invest in scalability and code health
 - Model has enabled global collaboration and rapid growth
+- With investment, this model can scale to massive size and change rate
 
 ---
 
 ## Further Reading
 
-- Paper by Rachel Potvin and Josh Levenberg in Communications of the ACM (2015)
+- Paper by Rachel Potvin and Josh Levenberg: “Why Google Stores Billions of Lines of Code in a Single Repository” (Communications of the ACM, 2016)
 
 ---
 
 ## Thank You
 
 - Questions?
-- [@Scale YouTube Channel](https://www.youtube.com/@Scale)
+- Watch the full talk: [YouTube Link](https://www.youtube.com/watch?v=W71BTkUbdqE)
 
 ---
