@@ -51,6 +51,7 @@ This is a Slidev-based presentation repository containing technical talks organi
 - File naming: kebab-case for files, PascalCase for Vue components
 - Organize imports enabled in Biome
 - TypeScript for all scripts
+- In Markdown files, when you write HTML, don't add more than 1 breaklines  between html elements cause sli.dev breaks
 
 ## Development Workflow
 1. Create a new talk directory: `talks/YYYY-MM-DD-topic-name/`
