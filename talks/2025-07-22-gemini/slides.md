@@ -622,6 +622,10 @@ import Avatar from '../../components/Avatar.vue'
 layout: center
 ---
 
+<script setup>
+import Avatar from '../../components/Avatar.vue'
+</script>
+
 <div class="max-w-4xl mx-auto">
   <!-- <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
     Industry Recognition
@@ -652,7 +656,7 @@ layout: center
             "If you like CLIs, Jujutsu is really interesting, and Git backended. If you want to try a new GUI I can highly recommend the @gitbutler beta. 😉"
           </p>
           <p class="text-gray-600 mt-4">
-            「CLIが好きなら、Jujutsuは本当に興味深い。Gitバックエンドです。新しいGUIを試したいなら、@gitbutlerのベータ版を強くお勧めします。」
+            「CLIが好きなら、Jujutsuはすごく面白い。Gitがバックエンドだしね。新しいGUIを試したいなら、@gitbutlerのベータ版が超おすすめだよ 😉」
           </p>
         </div>
         <p class="text-gray-500 mt-4">Feb 17, 2024</p>
@@ -664,6 +668,10 @@ layout: center
 ---
 layout: center
 ---
+
+<script setup>
+import Avatar from '../../components/Avatar.vue'
+</script>
 
 <div class="max-w-4xl mx-auto">
   <!-- <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
@@ -694,7 +702,7 @@ layout: center
             "Almost two months since I tweeted this and I've used jujutsu exclusively the entire time. I want to write something longer form but the tweet form: jj is fantastic and I can't see myself going back, only one exception is I drop down to `git` for bisect still. That's it."
           </p>
           <p class="text-gray-600 mt-4">
-            「このツイートから約2ヶ月、その間ずっとjujutsuを独占的に使用しています。もっと長い形式で書きたいと思っていますが、簡潔に言えば：jjは素晴らしく、もう戻ることは考えられません。唯一の例外はbisectのときだけgitを使います。それだけです。」
+            「このツイートから約2ヶ月、ずっとjjだけを使ってる。もっと長く書きたいけど、一言で言うと「jjは最高、もう元には戻れない」。唯一の例外は `git bisect` の時だけgitを使うこと。それだけ。」
           </p>
         </div>
         <p class="text-gray-500 mt-4">Oct 15, 2024</p>
@@ -889,7 +897,7 @@ zoom: 0.9
       </h3>
       <div class="space-y-4">
         <p class="text-gray-700">
-          Jujutsuでは、作業中の変更も即座にコミット
+          作業中の変更も即座にコミット
           <span class="text-sm text-gray-600 block">Changes are instantly committed</span>
         </p>
         <div class="bg-white rounded-lg p-4 font-mono text-sm">
@@ -927,17 +935,16 @@ zoom: 0.9
 layout: center
 ---
 
+# Automatic Conflict Resolution
+
 <div class="max-w-5xl mx-auto">
-  <h2 class="text-4xl font-normal text-gray-900 mb-12 text-center" style="font-family: 'Google Sans', sans-serif">
-    Automatic Conflict Resolution
-  </h2>
   <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
     <div class="grid grid-cols-2 gap-8 mb-8">
       <div class="text-center">
-        <mdi-git class="text-6xl text-orange-600 mb-4" />
+        <mdi-git class="text-5xl text-orange-600 mb-4" />
         <h3 class="text-xl font-medium text-gray-900 mb-2">Git Workflow</h3>
         <div class="bg-red-50 rounded-lg p-4 text-left">
-          <p class="font-mono text-sm">
+          <p class="font-mono text-xs">
             <span class="text-red-600">error: Your local changes would be overwritten</span><br/>
             <span class="text-gray-600">Please commit or stash before merge.</span>
           </p>
@@ -947,14 +954,14 @@ layout: center
         <img src="/jj-logo.svg" class="w-16 h-16 mx-auto mb-4" />
         <h3 class="text-xl font-medium text-gray-900 mb-2">Jujutsu Workflow</h3>
         <div class="bg-green-50 rounded-lg p-4 text-left">
-          <p class="font-mono text-sm">
+          <p class="font-mono text-xs">
             <span class="text-green-600">✓ Merged with conflicts</span><br/>
             <span class="text-gray-600">Continue working, resolve later</span>
           </p>
         </div>
       </div>
     </div>
-    <div class="bg-blue-50 rounded-lg p-6">
+    <div class="bg-blue-50 rounded-lg p-4">
       <h4 class="font-medium text-gray-900 mb-3">
         <mdi-lightbulb class="inline text-yellow-500" /> Key Innovation
       </h4>

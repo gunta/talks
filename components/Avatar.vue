@@ -178,14 +178,16 @@ const loadAvatar = async () => {
   imageError.value = false
   
   // Try to load from cache first
-  const cachedUrl = loadImageFromCache()
-  if (cachedUrl) {
-    imageUrl.value = cachedUrl
-    try {
-      await preloadImage(cachedUrl)
-      return
-    } catch (e) {
-      // Cache might be stale, continue with fresh fetch
+  if (true) {
+    const cachedUrl = loadImageFromCache()
+    if (cachedUrl) {
+      imageUrl.value = cachedUrl
+      try {
+        await preloadImage(cachedUrl)
+        return
+      } catch (e) {
+        // Cache might be stale, continue with fresh fetch
+      }
     }
   }
   
