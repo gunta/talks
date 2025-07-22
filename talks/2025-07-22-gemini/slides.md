@@ -1260,9 +1260,9 @@ zoom: 0.6
       </div>
       <code class="text-sm text-gray-600 font-mono block mb-3">backend-workspace</code>
       <ul class="space-y-2 text-sm text-gray-700">
-        <li><mdi-circle-small class="inline" /> REST API development</li>
+        <li>REST API development</li>
         <li class="text-gray-500">API開発担当</li>
-        <li><mdi-circle-small class="inline" /> Database schema</li>
+        <li>Database schema</li>
         <li class="text-gray-500">データベース設計</li>
       </ul>
     </div>
@@ -1275,9 +1275,9 @@ zoom: 0.6
       </div>
       <code class="text-sm text-gray-600 font-mono block mb-3">frontend-workspace</code>
       <ul class="space-y-2 text-sm text-gray-700">
-        <li><mdi-circle-small class="inline" /> React components</li>
+        <li>React components</li>
         <li class="text-gray-500">UI実装担当</li>
-        <li><mdi-circle-small class="inline" /> User interface</li>
+        <li>User interface</li>
         <li class="text-gray-500">コンポーネント開発</li>
       </ul>
     </div>
@@ -1290,9 +1290,9 @@ zoom: 0.6
       </div>
       <code class="text-sm text-gray-600 font-mono block mb-3">test-workspace</code>
       <ul class="space-y-2 text-sm text-gray-700">
-        <li><mdi-circle-small class="inline" /> Unit tests</li>
+        <li>Unit tests</li>
         <li class="text-gray-500">テスト作成</li>
-        <li><mdi-circle-small class="inline" /> Documentation</li>
+        <li>Documentation</li>
         <li class="text-gray-500">ドキュメント生成</li>
       </ul>
     </div>
@@ -1305,18 +1305,18 @@ zoom: 0.6
 
 # Create three workspaces
 
-  <div class="mt-8 bg-gray-50 rounded-xl p-6">
-    <pre class="text-sm font-mono text-gray-800">
-    <code># Create three workspaces
-      jj workspace add backend
-      jj workspace add frontend  
-      jj workspace add test
-      # Launch Gemini CLI in each
-      cd backend && gemini "Build REST API" &
-      cd ../frontend && gemini "Create React UI" &
-      cd ../test && gemini "Write tests" &
-      </code></pre>
-  </div>
+```bash
+# Create three workspaces
+jj workspace add backend
+jj workspace add frontend  
+jj workspace add test
+
+# Launch Gemini CLI in each
+cd backend && gemini -p "Build REST API" &
+cd ../frontend && gemini -p "Create React UI" &
+cd ../test && gemini -p "Write tests" &
+```
+
 
 
 ---
@@ -1403,12 +1403,11 @@ const api = "new";
         <h3 class="text-xl font-medium text-gray-900">Jujutsu</h3>
       </div>
       <div class="bg-green-50 rounded-xl p-6 border border-green-200">
-        <pre class="text-sm font-mono text-gray-800">
-        <code># Store conflict in commit
-          jj new
-          # Continue working
-          # Resolve when ready
-          jj resolve</code></pre>
+        <pre class="text-sm font-mono text-gray-800"><code># Store conflict in commit
+jj new
+# Continue working
+# Resolve when ready
+jj resolve</code></pre>
         <div class="mt-4 flex items-center gap-2 text-green-700">
           <mdi-lightning-bolt class="w-5 h-5" />
           <p class="font-medium">Work continues</p>
@@ -1417,7 +1416,7 @@ const api = "new";
       </div>
     </div>
   </div>
-  <div class="mt-8 bg-blue-50 rounded-xl p-6 text-center">
+  <div class="mt-4 bg-blue-50 rounded-xl p-2 text-center">
     <p class="text-xl font-medium text-gray-900">
       Conflicts Don't Block Progress
     </p>
@@ -1494,75 +1493,6 @@ const api = "new";
   </div>
 </div>
 
----
-
-<div class="max-w-6xl mx-auto">
-  <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
-    Multi-Agent Conflict Scenario: Real Example
-  </h2>
-  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
-    <h3 class="text-xl font-medium text-gray-900 mb-6">
-      <mdi-file-code class="inline text-blue-600" /> File: api/server.js
-    </h3>
-    <div class="grid grid-cols-3 gap-6 mb-8">
-      <div>
-        <h4 class="font-medium text-gray-900 mb-3">
-          <mdi-robot class="inline text-blue-500" /> Agent A: Auth
-        </h4>
-        <div class="bg-gray-50 rounded-lg p-4 font-mono text-xs">
-          <div class="text-blue-600">const express = require('express');</div>
-          <div class="text-blue-600">const auth = require('./auth');</div>
-          <div>const app = express();</div>
-          <div class="text-blue-600">app.use(auth.middleware());</div>
-          <div>app.listen(3000);</div>
-        </div>
-      </div>
-      <div>
-        <h4 class="font-medium text-gray-900 mb-3">
-          <mdi-robot class="inline text-green-500" /> Agent B: Database
-        </h4>
-        <div class="bg-gray-50 rounded-lg p-4 font-mono text-xs">
-          <div class="text-green-600">const express = require('express');</div>
-          <div class="text-green-600">const db = require('./database');</div>
-          <div>const app = express();</div>
-          <div class="text-green-600">db.connect();</div>
-          <div>app.listen(3000);</div>
-        </div>
-      </div>
-      <div>
-        <h4 class="font-medium text-gray-900 mb-3">
-          <mdi-robot class="inline text-purple-500" /> Agent C: Logging
-        </h4>
-        <div class="bg-gray-50 rounded-lg p-4 font-mono text-xs">
-          <div class="text-purple-600">const express = require('express');</div>
-          <div class="text-purple-600">const logger = require('./logger');</div>
-          <div>const app = express();</div>
-          <div class="text-purple-600">app.use(logger.morgan());</div>
-          <div>app.listen(3000);</div>
-        </div>
-      </div>
-    </div>
-    <div class="border-t pt-6">
-      <h4 class="font-medium text-gray-900 mb-3">
-        <img src="/jj-logo.svg" class="inline w-5 h-5" /> Jujutsu Magic: Auto-merged with conflicts
-      </h4>
-      <div class="bg-gray-900 text-gray-100 rounded-lg p-4 font-mono text-sm">
-        <div class="text-green-400"># All three agents continue working!</div>
-        <div>jj new @agent-a @agent-b @agent-c</div>
-        <div class="text-yellow-400 mt-2"># Later, coordinator resolves:</div>
-        <div>const express = require('express');</div>
-        <div class="text-blue-400">const auth = require('./auth');</div>
-        <div class="text-green-400">const db = require('./database');</div>
-        <div class="text-purple-400">const logger = require('./logger');</div>
-        <div>const app = express();</div>
-        <div class="text-blue-400">app.use(auth.middleware());</div>
-        <div class="text-purple-400">app.use(logger.morgan());</div>
-        <div class="text-green-400">db.connect();</div>
-        <div>app.listen(3000);</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -1617,7 +1547,7 @@ zoom: 0.9
   <h2 class="text-4xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
     Undo Anything, Anytime
   </h2>
-  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-8">
+  <div class="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
     <div class="grid grid-cols-3 gap-6 mb-8">
       <div class="text-center">
         <mdi-history class="text-5xl text-blue-600 mb-4" />
@@ -1635,9 +1565,9 @@ zoom: 0.9
         <p class="text-sm text-gray-600">作業を失わない</p>
       </div>
     </div>
-    <div class="bg-gray-50 rounded-lg p-6">
+    <div class="bg-gray-50 rounded-lg p-6" >
       <h4 class="font-medium text-gray-900 mb-3">Example: Undo a Bad Merge</h4>
-      <div class="font-mono text-sm space-y-2">
+      <div class="font-mono text-xs space-y-2">
         <div class="text-gray-600"># View operation history</div>
         <div>jj op log</div>
         <div class="text-gray-500">@  rlvkpnrz 2025-07-22 10:30:45 merge</div>
@@ -1658,28 +1588,25 @@ zoom: 0.9
   </h2>
   <div class="grid grid-cols-2 gap-8">
     <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 border border-blue-200">
-      <h3 class="text-2xl font-medium text-gray-900 mb-6">
+      <h3 class="text-2xl font-medium text-gray-900 mb-2">
         <mdi-robot class="inline text-blue-600" /> AI-Friendly Features
       </h3>
-      <ul class="space-y-4">
+      <ul class="space-y-2">
         <li class="flex items-start gap-3">
-          <mdi-check class="text-green-500 mt-1" />
           <div>
-            <p class="font-medium">No staging confusion</p>
+            <p class="font-medium"><mdi-check class="text-green-500 mt-1" /> No staging confusion</p>
             <p class="text-sm text-gray-600">AIが git add を忘れない</p>
           </div>
         </li>
         <li class="flex items-start gap-3">
-          <mdi-check class="text-green-500 mt-1" />
           <div>
-            <p class="font-medium">Automatic snapshots</p>
+            <p class="font-medium"><mdi-check class="text-green-500 mt-1" /> Automatic snapshots</p>
             <p class="text-sm text-gray-600">全変更が自動保存</p>
           </div>
         </li>
         <li class="flex items-start gap-3">
-          <mdi-check class="text-green-500 mt-1" />
           <div>
-            <p class="font-medium">Conflict-resilient</p>
+            <p class="font-medium"><mdi-check class="text-green-500 mt-1" /> Conflict-resilient</p>
             <p class="text-sm text-gray-600">コンフリクトでも継続</p>
           </div>
         </li>
@@ -1746,36 +1673,10 @@ layout: center
       <p class="text-gray-600">マージコンフリクト</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-2xl p-8 max-w-5xl mx-auto">
-    <h3 class="text-2xl font-normal text-gray-900 mb-8 text-center" style="font-family: 'Google Sans', sans-serif">
-      What We Built
-    </h3>
-    <div class="grid grid-cols-3 gap-8 text-center">
-      <div>
-        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-blue-100 flex items-center justify-center">
-          <mdi-application-brackets class="w-8 h-8 text-blue-600" />
-        </div>
-        <p class="text-lg font-medium text-gray-900">Full-Stack Application</p>
-        <p class="text-sm text-gray-600">フルスタックアプリ</p>
-      </div>
-      <div>
-        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-green-100 flex items-center justify-center">
-          <mdi-check-circle class="w-8 h-8 text-green-600" />
-        </div>
-        <p class="text-lg font-medium text-gray-900">100% Test Coverage</p>
-        <p class="text-sm text-gray-600">完全なテストカバレッジ</p>
-      </div>
-      <div>
-        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-yellow-100 flex items-center justify-center">
-          <mdi-file-document class="w-8 h-8 text-yellow-600" />
-        </div>
-        <p class="text-lg font-medium text-gray-900">Auto-Generated Docs</p>
-        <p class="text-sm text-gray-600">自動生成ドキュメント</p>
-      </div>
-    </div>
-  </div>
 </div>
 
+---
+zoom: 0.8
 ---
 
 <div class="max-w-6xl mx-auto">
@@ -1822,7 +1723,7 @@ layout: center
           <div class="text-green-400 mt-3"># Spawn specialized agents</div>
           <div>for i in {1..3}; do</div>
           <div class="ml-4">jj workspace add backend-$i</div>
-          <div class="ml-4">gemini-cli "Build service $i" &</div>
+          <div class="ml-4">gemini -p "Build service $i" &</div>
           <div>done</div>
           <div class="text-green-400 mt-3"># Auto-merge all work</div>
           <div>jj new @backend-* @frontend-*</div>
@@ -1832,23 +1733,24 @@ layout: center
     <div class="bg-white rounded-lg p-6 text-center">
       <p class="text-xl font-medium text-gray-900">
         <mdi-lightning-bolt class="inline text-yellow-500" /> 
-        Real-time collaboration without conflicts
+        Real-time collaboration with minimal conflicts
       </p>
       <p class="text-gray-600 mt-2">
-        リアルタイムでコンフリクトなしの協調作業
+        リアルタイムでコンフリクト最小限の協調作業
       </p>
     </div>
   </div>
 </div>
 
 ---
+zoom: 0.9
+---
 
-<div class="h-screen flex flex-col justify-center">
+<div class="flex flex-col justify-center">
   <h2 class="text-4xl font-normal text-gray-900 mb-4 text-center" style="font-family: 'Google Sans', sans-serif">
     The Future at Scale
   </h2>
   <p class="text-xl text-gray-600 text-center mb-12">Imagine 100 Gemini CLIs working in harmony</p>
-  
   <div class="max-w-5xl mx-auto">
     <div class="text-center mb-12">
       <span class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600" style="font-family: 'Google Sans', sans-serif">
@@ -1900,15 +1802,14 @@ layout: center
   <div class="max-w-4xl mx-auto">
     <div class="bg-gray-50 rounded-xl p-8 mb-8">
       <pre class="text-sm font-mono text-gray-800"><code># Install Jujutsu
-        brew install jj    # macOS
-        cargo install jj   # Alternative
-        # Initialize repository  
-        jj init --git
-        # Create workspaces
-        jj workspace add feature-a
-        jj workspace add feature-b
-        # Launch Gemini CLI
-        gemini-cli "Build amazing features"</code></pre>
+brew install jj
+# Initialize repository  
+jj init --git
+# Create workspaces
+jj workspace add feature-a
+jj workspace add feature-b
+# Launch Gemini CLI
+gemini -p "Build amazing features"</code></pre>
     </div>
     <div class="grid grid-cols-2 gap-6">
       <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
@@ -1919,7 +1820,7 @@ layout: center
           <div>
             <p class="font-medium text-gray-900">Documentation</p>
             <p class="text-sm text-gray-600">Jujutsu公式ドキュメント</p>
-            <a href="https://github.com/martinvonz/jj" class="text-sm text-blue-600 hover:underline">github.com/martinvonz/jj</a>
+            <a href="https://github.com/jj-vcs/jj" class="text-sm text-blue-600 hover:underline">github.com/jj-vcs/jj</a>
           </div>
         </div>
       </div>
@@ -1940,23 +1841,25 @@ layout: center
 </div>
 
 ---
-layout: center
+# layout: center
 class: text-center
+layout: image
+image: geminibg.png
 ---
 
-<div class="h-screen flex flex-col justify-center items-center bg-white">
+<div class="flex flex-col justify-center items-center">
   <div class="text-center">
     <h1 class="text-6xl font-normal text-gray-900 mb-4" style="font-family: 'Google Sans', sans-serif">
       Thank You
     </h1>
-    <p class="text-2xl text-gray-600 mb-12">
+    <p class="text-xl mb-12 text-white">
       ありがとうございました
     </p>
     <div class="mb-12">
-      <p class="text-xl text-gray-700 mb-2">Günther Brunner</p>
-      <p class="text-gray-600">CyberAgent, Inc.</p>
-      <p class="text-blue-600 font-medium mt-2">
-        <mdi-twitter class="inline text-lg" /> @gunta85
+      <p class="text-xl text-white mb-2">Günther Brunner</p>
+      <p class="text-white-500">CyberAgent, Inc.</p>
+      <p class="text-white font-medium mt-2">
+        <line-md-twitter-x class="inline text-lg" /> @gunta85
       </p>
     </div>
     <div class="bg-gray-50 rounded-2xl px-8 py-6 inline-block">
@@ -1969,12 +1872,12 @@ class: text-center
     </div>
   </div>
   
-  <div class="absolute bottom-8 left-0 right-0 flex justify-center gap-8 text-sm text-gray-500">
+  <div class="absolute bottom-8 left-0 right-0 flex justify-center gap-8 text-sm text-gray-100">
     <span>Jujutsu Evangelist</span>
     <span>•</span>
     <span>AI-Driven Development</span>
     <span>•</span>
-    <span>Gemini CLI Meetup Japan</span>
+    <span class="text-gray-800">Gemini CLI Meetup Japan</span>
   </div>
   
   <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-red-500 via-yellow-500 to-green-500"></div>
