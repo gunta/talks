@@ -73,7 +73,7 @@ layout: two-cols
 
 <div class="flex items-center justify-center h-full">
   <div class="bg-gradient-to-br from-purple-600/20 to-pink-600/20 p-8 rounded-2xl backdrop-blur-sm">
-    <img src="/talks/2025-07-22-gemini/jj-logo.svg" class="w-40 h-40 mx-auto animate-pulse" />
+    <img src="/jj-logo.svg" class="w-40 h-40 mx-auto animate-pulse" />
     <div class="text-center mt-4">
       <div class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
         Jujutsu
@@ -131,12 +131,10 @@ layout: center
         Jujutsu (jj)
       </span>
     </h2>
-    
     <div class="text-center text-2xl mb-6">
       Googleが開発する次世代VCS
       <p class="text-sm opacity-60">Next-gen VCS developed by Google</p>
     </div>
-    
     <div class="grid grid-cols-3 gap-6 mt-8">
       <div class="text-center">
         <div class="text-3xl mb-2">🧠</div>
@@ -178,7 +176,6 @@ layout: center
       </ul>
     </div>
   </div>
-  
   <div>
     <h3 class="text-2xl font-bold mb-4">🌟 著名な支持者 Notable Supporters</h3>
     <div class="space-y-4">
@@ -215,17 +212,15 @@ layout: center
         <code class="text-sm bg-gray-800 px-2 py-1 rounded">git add</code> は過去のもの
       </div>
     </div>
-    
     <div class="flex items-start gap-4">
       <span class="text-3xl">⏮️</span>
       <div>
-        <div class="font-bold text-xl">完全なアンドゥ</div>
+        <div class="font-bold text-xl">完全なUndo</div>
         <div class="text-sm opacity-60">Complete undo capability</div>
         <code class="text-sm bg-gray-800 px-2 py-1 rounded">jj undo</code> で何でも元通り
       </div>
     </div>
   </div>
-  
   <div class="space-y-6">
     <div class="flex items-start gap-4">
       <span class="text-3xl">🎯</span>
@@ -235,7 +230,6 @@ layout: center
         <div class="text-sm">First-class conflict storage</div>
       </div>
     </div>
-    
     <div class="flex items-start gap-4">
       <span class="text-3xl">🏗️</span>
       <div>
@@ -249,7 +243,7 @@ layout: center
 
 ---
 
-# 🚀 実演：3人のGemini CLIが同時開発
+# 🚀 3人のGemini CLIが同時開発
 <p class="text-sm opacity-60 !mt-0">Demo: 3 Gemini CLIs Developing Simultaneously</p>
 
 <div class="grid grid-cols-3 gap-4 mt-8">
