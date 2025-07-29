@@ -1,5 +1,5 @@
 
-I am gonna talk for 15 min for the 世界中で注目のAI駆動開発・バイブコーディングの最前線を六本木ヒルズ。
+I am gonna talk for 25 min for the 世界中で注目のAI駆動開発・バイブコーディングの最前線を六本木ヒルズ。
 The audience is developers, beginners, non-engineers. but mostly people who want to win the contest, all Japanese.
 
 Basically I wanna talk about The Stack to Win this hackathon.
@@ -16,6 +16,7 @@ For any inquiry, my own company is G Productions, Inc Wyoming  https://g-product
 Also for the marketing part, lets add a teaser I made myself using all AI (https://dots.ly)
 
 Make the whole slides compelling, full of latest info you research, some short nice comparisons, icons, etc. Think well of a viral title, etc. Lets go!
+Also dont forget to write the speaker notes!
 
 ---
 
