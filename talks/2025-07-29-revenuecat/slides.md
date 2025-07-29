@@ -72,7 +72,7 @@ class: text-left
 </div>
 <div class="flex items-center justify-center">
   <div class="text-center">
-    <img src="/gunta-profile.jpg" class="w-48 h-48 rounded-full mx-auto mb-4" />
+    <!-- <img src="/gunta-profile.jpg" class="w-48 h-48 rounded-full mx-auto mb-4" /> -->
     <div class="text-sm opacity-80">@gunta85</div>
   </div>
 </div>
@@ -388,6 +388,8 @@ G Stackの基盤部分です。
 -->
 
 ---
+zoom: 0.9
+---
 
 # 🌐 G Stack - Web
 
@@ -534,7 +536,7 @@ Expoを使えば、Webエンジニアでもネイティブアプリが作れま�
 
 <div class="mt-4 text-center">
   <div class="text-2xl">☕</div>
-  <div class="text-sm opacity-80">あとはコーヒーでも飲んで待つだけ！</div>
+  <div class="text-sm opacity-80">あとはCatfe（コーヒー）でも飲んで待つだけ！</div>
 </div>
 
 </div>
@@ -710,7 +712,7 @@ AIツールを使い分けて、効率的に開発します。
 <div class="bg-gradient-to-br from-blue-500/20 to-green-500/20 p-6 rounded-xl">
   <div class="text-4xl mb-3">🤖</div>
   <div class="font-bold">dots.ly</div>
-  <div class="text-sm opacity-80">AI統合マーケティング</div>
+  <div class="text-sm opacity-80">ソロメーカー向けの統合ソリューション</div>
 </div>
 </div>
 
@@ -771,7 +773,7 @@ class: text-center
       <div class="text-3xl mb-6 font-bold">🔓 アンロックするには？</div>
       <div class="space-y-4">
         <div class="text-xl">Twitter (X): <span class="font-bold text-blue-400">@gunta85</span></div>
-        <div class="text-lg opacity-80">G Productions, Inc Wyoming</div>
+        <div class="text-lg opacity-80">G Productions, Inc</div>
         <div class="text-lg opacity-80">https://g-productions.studio</div>
       </div>
       <div class="mt-8">
