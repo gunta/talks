@@ -5,7 +5,10 @@ const talksDir = `${import.meta.dir}/../talks`;
 const distDir = `${import.meta.dir}/../dist`;
 
 // Get concurrency from env var or default to 2 (safe for GitHub Actions)
-const CONCURRENCY = parseInt(process.env.BUILD_CONCURRENCY || "4", 10);
+const CONCURRENCY = parseInt(process.env.BUILD_CONCURRENCY || "2", 10);
+
+// Check if we should skip PDF generation (useful in CI to avoid timeouts)
+const SKIP_PDF = process.env.SKIP_PDF === "true";
 
 // Ensure dist directory exists using shell
 await $`mkdir -p ${distDir}`;
@@ -21,6 +24,24 @@ const talkDirs = talks
 
 console.log(`Found ${talkDirs.length} talks to build`);
 console.log(`Building with concurrency: ${CONCURRENCY}`);
+console.log(`PDF generation: ${SKIP_PDF ? 'DISABLED' : 'ENABLED'}`);
+
+// Function to build a single talk with retry logic
+async function buildTalkWithRetry(talkDir: string, maxRetries = 2): Promise<void> {
+	for (let attempt = 1; attempt <= maxRetries; attempt++) {
+		try {
+			await buildTalk(talkDir);
+			return; // Success, exit the retry loop
+		} catch (error) {
+			if (attempt === maxRetries) {
+				throw error; // Final attempt failed, re-throw
+			}
+			console.log(`⚠️  Attempt ${attempt} failed for ${talkDir}, retrying...`);
+			// Wait a bit before retrying (exponential backoff)
+			await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+		}
+	}
+}
 
 // Function to build a single talk
 async function buildTalk(talkDir: string): Promise<void> {
@@ -38,11 +59,21 @@ async function buildTalk(talkDir: string): Promise<void> {
 	try {
 		// Build the talk to a specific output directory
 		const outputDir = `${distDir}/${talkDir}`;
-		await $`slidev build ${slidesPath} --out ${outputDir} --base /talks/${talkDir}/`.quiet();
+
+		// Build command with optional PDF skip
+		const buildCmd = SKIP_PDF
+			? `slidev build ${slidesPath} --out ${outputDir} --base /talks/${talkDir}/ --without-pdf`
+			: `slidev build ${slidesPath} --out ${outputDir} --base /talks/${talkDir}/`;
+
+		await $`${buildCmd}`.quiet();
 
 		console.log(`✅ Built ${talkDir} successfully`);
-	} catch (error) {
-		console.error(`❌ Failed to build ${talkDir}:`, error);
+	} catch (error: any) {
+		// Check if it's a timeout error related to PDF generation
+		if (error.stderr && error.stderr.includes('Timeout') && error.stderr.includes('page.goto')) {
+			console.error(`⏱️  ${talkDir} timed out during PDF generation. Consider using SKIP_PDF=true for talks with large media files.`);
+		}
+		console.error(`❌ Failed to build ${talkDir}:`, error.message || error);
 		throw error; // Re-throw to track failed builds
 	}
 }
@@ -50,21 +81,31 @@ async function buildTalk(talkDir: string): Promise<void> {
 // Function to process talks in chunks
 async function processInChunks<T>(items: T[], chunkSize: number, processor: (item: T) => Promise<void>) {
 	const results = [];
+	const failedTalks: string[] = [];
+
 	for (let i = 0; i < items.length; i += chunkSize) {
 		const chunk = items.slice(i, i + chunkSize);
 		const chunkResults = await Promise.allSettled(chunk.map(processor));
 		results.push(...chunkResults);
 
+		// Track failed talks
+		chunkResults.forEach((result, index) => {
+			if (result.status === 'rejected') {
+				failedTalks.push(chunk[index] as string);
+			}
+		});
+
 		// Log progress
 		const completed = Math.min(i + chunkSize, items.length);
 		console.log(`Progress: ${completed}/${items.length} talks processed`);
 	}
-	return results;
+
+	return { results, failedTalks };
 }
 
 // Build all talks with concurrency control
 const startTime = performance.now();
-const results = await processInChunks(talkDirs, CONCURRENCY, buildTalk);
+const { results, failedTalks } = await processInChunks(talkDirs, CONCURRENCY, buildTalkWithRetry);
 
 // Count successes and failures
 const succeeded = results.filter(r => r.status === 'fulfilled').length;
@@ -77,6 +118,10 @@ console.log("\n" + "=".repeat(50));
 console.log(`✅ Successfully built: ${succeeded} talks`);
 if (failed > 0) {
 	console.log(`❌ Failed to build: ${failed} talks`);
+	console.log(`Failed talks: ${failedTalks.join(', ')}`);
+	if (!SKIP_PDF) {
+		console.log(`\n💡 Tip: If builds are timing out, try setting SKIP_PDF=true`);
+	}
 }
 console.log(`⏱️  Total time: ${duration}s`);
 console.log("=".repeat(50));

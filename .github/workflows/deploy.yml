@@ -36,7 +36,8 @@ jobs:
       - name: Build all talks
         run: bun run build:all
         env:
-          BUILD_CONCURRENCY: 4  # Adjust based on runner specs (default: 2)
+          BUILD_CONCURRENCY: 2  # Reduced for stability with large media files
+          SKIP_PDF: true        # Skip PDF generation to avoid timeouts with large assets
 
       - name: Generate index page
         run: bun run generate:index
