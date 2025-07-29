@@ -346,7 +346,7 @@ layout: section
 ## 🌐 Language: TypeScript
 - 前後端で統一、スキーマ共有
 - AI生成に最適（型安全）
-- **tsgo (TS7 preview)** で10倍速
+- **tsgo (TS7)** で10倍速
 
 ## 🛠️ Tools: Rust/Native優先
 - Rolldown、Biome等

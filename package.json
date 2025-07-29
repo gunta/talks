@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@react-three/fiber": "^9.1.2",
-    "@slidev/cli": "^52.0.0",
+    "@slidev/cli": "^52.1.0",
     "@slidev/theme-apple-basic": "^0.25.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "^0.25.0",
