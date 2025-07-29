@@ -1,5 +1,6 @@
 #!/usr/bin/env bun
 import { $ } from "bun";
+import { execa } from 'execa';
 
 const talksDir = `${import.meta.dir}/../talks`;
 const distDir = `${import.meta.dir}/../dist`;
@@ -9,6 +10,9 @@ const CONCURRENCY = parseInt(process.env.BUILD_CONCURRENCY || "2", 10);
 
 // Check if we should skip PDF generation (useful in CI to avoid timeouts)
 const SKIP_PDF = process.env.SKIP_PDF === "true";
+
+// Timeout for PDF generation in milliseconds (default 30s, increase for large talks)
+const PDF_TIMEOUT = parseInt(process.env.PDF_TIMEOUT || "60000", 10);
 
 // Ensure dist directory exists using shell
 await $`mkdir -p ${distDir}`;
@@ -25,6 +29,9 @@ const talkDirs = talks
 console.log(`Found ${talkDirs.length} talks to build`);
 console.log(`Building with concurrency: ${CONCURRENCY}`);
 console.log(`PDF generation: ${SKIP_PDF ? 'DISABLED' : 'ENABLED'}`);
+if (!SKIP_PDF) {
+	console.log(`PDF timeout: ${PDF_TIMEOUT}ms`);
+}
 
 // Function to build a single talk with retry logic
 async function buildTalkWithRetry(talkDir: string, maxRetries = 2): Promise<void> {
@@ -61,11 +68,19 @@ async function buildTalk(talkDir: string): Promise<void> {
 		const outputDir = `${distDir}/${talkDir}`;
 
 		// Build command with optional PDF skip
-		const buildCmd = SKIP_PDF
-			? `slidev build ${slidesPath} --out ${outputDir} --base /talks/${talkDir}/ --without-pdf`
-			: `slidev build ${slidesPath} --out ${outputDir} --base /talks/${talkDir}/`;
+		const args = ['slidev', 'build', slidesPath, '--out', outputDir, '--base', `/talks/${talkDir}/`];
 
-		await $`${buildCmd}`.quiet();
+		if (SKIP_PDF) {
+			args.push('--download', 'false');
+		} else {
+			args.push('--timeout', PDF_TIMEOUT.toString());
+		}
+
+		// Use execa for better command execution - inherit stdio to show output in real-time
+		await execa('bunx', args, {
+			stdio: 'inherit',
+			reject: true
+		});
 
 		console.log(`✅ Built ${talkDir} successfully`);
 	} catch (error: any) {
@@ -74,6 +89,15 @@ async function buildTalk(talkDir: string): Promise<void> {
 			console.error(`⏱️  ${talkDir} timed out during PDF generation. Consider using SKIP_PDF=true for talks with large media files.`);
 		}
 		console.error(`❌ Failed to build ${talkDir}:`, error.message || error);
+
+		// Show the actual error output
+		if (error.stderr) {
+			console.error(`stderr: ${error.stderr}`);
+		}
+		if (error.stdout) {
+			console.error(`stdout: ${error.stdout}`);
+		}
+
 		throw error; // Re-throw to track failed builds
 	}
 }
