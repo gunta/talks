@@ -56,160 +56,164 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, watch } from "vue";
 
 interface Props {
-  platform: 'github' | 'twitter' | 'linkedin'
-  username: string
-  size?: 'sm' | 'md' | 'lg' | 'xl' | '2xl'
-  showPlatformBadge?: boolean
-  quality?: 'low' | 'medium' | 'high' | 'max'
-  fallbackName?: string
+	platform: "github" | "twitter" | "linkedin";
+	username: string;
+	size?: "sm" | "md" | "lg" | "xl" | "2xl";
+	showPlatformBadge?: boolean;
+	quality?: "low" | "medium" | "high" | "max";
+	fallbackName?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  size: 'md',
-  showPlatformBadge: false,
-  quality: 'max',
-  fallbackName: ''
-})
+	size: "md",
+	showPlatformBadge: false,
+	quality: "max",
+	fallbackName: "",
+});
 
-const imageUrl = ref<string>('')
-const imageLoaded = ref(false)
-const imageError = ref(false)
+const imageUrl = ref<string>("");
+const imageLoaded = ref(false);
+const imageError = ref(false);
 
 const sizeClasses = computed(() => {
-  const sizes = {
-    sm: 'w-8 h-8',
-    md: 'w-12 h-12',
-    lg: 'w-16 h-16',
-    xl: 'w-20 h-20',
-    '2xl': 'w-24 h-24'
-  }
-  return sizes[props.size]
-})
+	const sizes = {
+		sm: "w-8 h-8",
+		md: "w-12 h-12",
+		lg: "w-16 h-16",
+		xl: "w-20 h-20",
+		"2xl": "w-24 h-24",
+	};
+	return sizes[props.size];
+});
 
 const textSizeClasses = computed(() => {
-  const sizes = {
-    sm: 'text-xs',
-    md: 'text-sm',
-    lg: 'text-base',
-    xl: 'text-lg',
-    '2xl': 'text-xl'
-  }
-  return sizes[props.size]
-})
+	const sizes = {
+		sm: "text-xs",
+		md: "text-sm",
+		lg: "text-base",
+		xl: "text-lg",
+		"2xl": "text-xl",
+	};
+	return sizes[props.size];
+});
 
 const initials = computed(() => {
-  const name = props.fallbackName || props.username
-  return name
-    .split(/[-_\s]/)
-    .filter(Boolean)
-    .map(part => part[0])
-    .join('')
-    .toUpperCase()
-    .slice(0, 2)
-})
+	const name = props.fallbackName || props.username;
+	return name
+		.split(/[-_\s]/)
+		.filter(Boolean)
+		.map((part) => part[0])
+		.join("")
+		.toUpperCase()
+		.slice(0, 2);
+});
 
 const getImageUrl = () => {
-  if (props.platform === 'github') {
-    // GitHub provides avatar URLs with size parameter
-    const sizeParam = props.quality === 'max' ? 460 : props.quality === 'high' ? 200 : 100
-    return `https://github.com/${props.username}.png?size=${sizeParam}`
-  } else if (props.platform === 'twitter') {
-    // For Twitter/X, we need to use a proxy service or have the URL provided externally
-    // As Twitter requires authentication for their API
-    // For now, we'll use unavatar.io as a fallback service
-    return `https://unavatar.io/twitter/${props.username}?fallback=false`
-  }
-  return ''
-}
+	if (props.platform === "github") {
+		// GitHub provides avatar URLs with size parameter
+		const sizeParam =
+			props.quality === "max" ? 460 : props.quality === "high" ? 200 : 100;
+		return `https://github.com/${props.username}.png?size=${sizeParam}`;
+	} else if (props.platform === "twitter") {
+		// For Twitter/X, we need to use a proxy service or have the URL provided externally
+		// As Twitter requires authentication for their API
+		// For now, we'll use unavatar.io as a fallback service
+		return `https://unavatar.io/twitter/${props.username}?fallback=false`;
+	}
+	return "";
+};
 
 const getCacheKey = () => {
-  return `avatar_${props.platform}_${props.username}_${props.quality}`
-}
+	return `avatar_${props.platform}_${props.username}_${props.quality}`;
+};
 
 const loadImageFromCache = () => {
-  const cacheKey = getCacheKey()
-  const cached = localStorage.getItem(cacheKey)
-  if (cached) {
-    try {
-      const data = JSON.parse(cached)
-      // Check if cache is still valid (24 hours)
-      if (Date.now() - data.timestamp < 86400000) {
-        return data.url
-      }
-    } catch (e) {
-      // Invalid cache data
-    }
-  }
-  return null
-}
+	const cacheKey = getCacheKey();
+	const cached = localStorage.getItem(cacheKey);
+	if (cached) {
+		try {
+			const data = JSON.parse(cached);
+			// Check if cache is still valid (24 hours)
+			if (Date.now() - data.timestamp < 86400000) {
+				return data.url;
+			}
+		} catch (e) {
+			// Invalid cache data
+		}
+	}
+	return null;
+};
 
 const saveImageToCache = (url: string) => {
-  const cacheKey = getCacheKey()
-  localStorage.setItem(cacheKey, JSON.stringify({
-    url,
-    timestamp: Date.now()
-  }))
-}
+	const cacheKey = getCacheKey();
+	localStorage.setItem(
+		cacheKey,
+		JSON.stringify({
+			url,
+			timestamp: Date.now(),
+		}),
+	);
+};
 
 const preloadImage = (url: string): Promise<void> => {
-  return new Promise((resolve, reject) => {
-    const img = new Image()
-    img.onload = () => resolve()
-    img.onerror = () => reject(new Error('Failed to load image'))
-    img.src = url
-  })
-}
+	return new Promise((resolve, reject) => {
+		const img = new Image();
+		img.onload = () => resolve();
+		img.onerror = () => reject(new Error("Failed to load image"));
+		img.src = url;
+	});
+};
 
 const handleImageLoad = () => {
-  imageLoaded.value = true
-  imageError.value = false
-}
+	imageLoaded.value = true;
+	imageError.value = false;
+};
 
 const handleImageError = () => {
-  imageError.value = true
-  imageLoaded.value = false
-}
+	imageError.value = true;
+	imageLoaded.value = false;
+};
 
 const loadAvatar = async () => {
-  imageLoaded.value = false
-  imageError.value = false
-  
-  // Try to load from cache first
-  if (true) {
-    const cachedUrl = loadImageFromCache()
-    if (cachedUrl) {
-      imageUrl.value = cachedUrl
-      try {
-        await preloadImage(cachedUrl)
-        return
-      } catch (e) {
-        // Cache might be stale, continue with fresh fetch
-      }
-    }
-  }
-  
-  // Get fresh URL
-  const url = getImageUrl()
-  if (url) {
-    try {
-      await preloadImage(url)
-      imageUrl.value = url
-      saveImageToCache(url)
-    } catch (e) {
-      imageError.value = true
-    }
-  }
-}
+	imageLoaded.value = false;
+	imageError.value = false;
+
+	// Try to load from cache first
+	if (true) {
+		const cachedUrl = loadImageFromCache();
+		if (cachedUrl) {
+			imageUrl.value = cachedUrl;
+			try {
+				await preloadImage(cachedUrl);
+				return;
+			} catch (e) {
+				// Cache might be stale, continue with fresh fetch
+			}
+		}
+	}
+
+	// Get fresh URL
+	const url = getImageUrl();
+	if (url) {
+		try {
+			await preloadImage(url);
+			imageUrl.value = url;
+			saveImageToCache(url);
+		} catch (e) {
+			imageError.value = true;
+		}
+	}
+};
 
 // Load avatar on mount and when props change
 onMounted(() => {
-  loadAvatar()
-})
+	loadAvatar();
+});
 
 watch([() => props.platform, () => props.username, () => props.quality], () => {
-  loadAvatar()
-})
+	loadAvatar();
+});
 </script> 

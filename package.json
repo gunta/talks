@@ -1,46 +1,48 @@
 {
-  "name": "developer-productivity-202404",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build-one": "slidev build talks/2024-04-17/slides.ja.md talks/2024-04-17/slides.md ",
-    "build": "slidev build talks/2024-07-04/slides.md",
-    "dev-two": "slidev --open talks/2024-06-22/slides.md",
-    "dev-three": "slidev --open talks/2024-07-04/slides.md",
-    "today": "slidev --open talks/2025-06-06-cursor-meetup/slides.md",
-    "today-ex": "slidev --open talks/2025-06-06-cursor-meetup/slides-long-opus3.md",
-    "dev": "bun scripts/picker-bun.ts dev --open",
-    "export": "slidev export",
-    "clean": "rm -rf dist && echo 'Done.'",
-    "format": "bunx @biomejs/biome format --write ./",
-    "lint": "bunx @biomejs/biome lint ./"
-  },
-  "dependencies": {
-    "@react-three/fiber": "^9.1.2",
-    "@slidev/cli": "^52.1.0",
-    "@slidev/theme-apple-basic": "^0.25.1",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "^0.25.0",
-    "@types/three": "^0.178.1",
-    "framer-motion": "^12.16.0",
-    "shadergradient": "^1.3.5",
-    "three": "^0.178.0",
-    "vue": "^3.5.13"
-  },
-  "devDependencies": {
-    "@21st-extension/toolbar-vue": "^0.5.14",
-    "@21st-extension/vue": "^0.5.14",
-    "@biomejs/biome": "^1.9.4",
-    "@iconify/json": "^2.2.346",
-    "execa": "9.6.0",
-    "playwright-chromium": "^1.48.1",
-    "prompts": "^2.4.2",
-    "typescript": "^5.8.2"
-  },
-  "trustedDependencies": [
-    "@biomejs/biome",
-    "esbuild",
-    "playwright-chromium",
-    "vue-demi"
-  ]
+	"name": "developer-productivity-202404",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build-one": "slidev build talks/2024-04-17/slides.ja.md talks/2024-04-17/slides.md ",
+		"build": "slidev build talks/2024-07-04/slides.md",
+		"build:all": "bun scripts/build-all-talks.ts",
+		"generate:index": "bun scripts/generate-index.ts",
+		"dev-two": "slidev --open talks/2024-06-22/slides.md",
+		"dev-three": "slidev --open talks/2024-07-04/slides.md",
+		"today": "slidev --open talks/2025-06-06-cursor-meetup/slides.md",
+		"today-ex": "slidev --open talks/2025-06-06-cursor-meetup/slides-long-opus3.md",
+		"dev": "bun scripts/picker-bun.ts dev --open",
+		"export": "slidev export",
+		"clean": "rm -rf dist && echo 'Done.'",
+		"format": "bunx @biomejs/biome format --write ./",
+		"lint": "bunx @biomejs/biome lint ./"
+	},
+	"dependencies": {
+		"@react-three/fiber": "^9.1.2",
+		"@slidev/cli": "^52.1.0",
+		"@slidev/theme-apple-basic": "^0.25.1",
+		"@slidev/theme-default": "latest",
+		"@slidev/theme-seriph": "^0.25.0",
+		"@types/three": "^0.178.1",
+		"framer-motion": "^12.16.0",
+		"shadergradient": "^1.3.5",
+		"three": "^0.178.0",
+		"vue": "^3.5.13"
+	},
+	"devDependencies": {
+		"@21st-extension/toolbar-vue": "^0.5.14",
+		"@21st-extension/vue": "^0.5.14",
+		"@biomejs/biome": "^1.9.4",
+		"@iconify/json": "^2.2.346",
+		"execa": "9.6.0",
+		"playwright-chromium": "^1.48.1",
+		"prompts": "^2.4.2",
+		"typescript": "^5.8.2"
+	},
+	"trustedDependencies": [
+		"@biomejs/biome",
+		"esbuild",
+		"playwright-chromium",
+		"vue-demi"
+	]
 }
