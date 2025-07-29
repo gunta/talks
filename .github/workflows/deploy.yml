@@ -35,6 +35,8 @@ jobs:
 
       - name: Build all talks
         run: bun run build:all
+        env:
+          BUILD_CONCURRENCY: 4  # Adjust based on runner specs (default: 2)
 
       - name: Generate index page
         run: bun run generate:index

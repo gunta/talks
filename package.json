@@ -18,6 +18,7 @@
 		"lint": "bunx @biomejs/biome lint ./"
 	},
 	"dependencies": {
+		"@niklaserik/effect-mcp": "^1.0.6",
 		"@react-three/fiber": "^9.1.2",
 		"@slidev/cli": "^52.1.0",
 		"@slidev/theme-apple-basic": "^0.25.1",
