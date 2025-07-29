@@ -18,6 +18,8 @@
 		"lint": "bunx @biomejs/biome lint ./"
 	},
 	"dependencies": {
+		"@effect/platform": "^0.90.0",
+		"@effect/platform-node": "^0.94.0",
 		"@niklaserik/effect-mcp": "^1.0.6",
 		"@react-three/fiber": "^9.1.2",
 		"@slidev/cli": "^52.1.0",
@@ -25,6 +27,7 @@
 		"@slidev/theme-default": "latest",
 		"@slidev/theme-seriph": "^0.25.0",
 		"@types/three": "^0.178.1",
+		"effect": "^3.17.3",
 		"framer-motion": "^12.16.0",
 		"shadergradient": "^1.3.5",
 		"three": "^0.178.0",
