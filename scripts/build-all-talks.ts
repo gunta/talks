@@ -1,32 +1,30 @@
 #!/usr/bin/env bun
 import { $ } from "bun";
-import { existsSync, mkdirSync } from "node:fs";
-import { readdir } from "node:fs/promises";
-import { join } from "node:path";
 
-const talksDir = join(import.meta.dir, "../talks");
-const distDir = join(import.meta.dir, "../dist");
+const talksDir = `${import.meta.dir}/../talks`;
+const distDir = `${import.meta.dir}/../dist`;
 
-// Ensure dist directory exists
-if (!existsSync(distDir)) {
-	mkdirSync(distDir, { recursive: true });
-}
+// Ensure dist directory exists using shell
+await $`mkdir -p ${distDir}`;
 
-// Get all talk directories
-const talks = await readdir(talksDir, { withFileTypes: true });
+// Get all talk directories using shell
+const talks = await $`ls -d ${talksDir}/*/`.text();
 const talkDirs = talks
-	.filter((dirent) => dirent.isDirectory())
-	.map((dirent) => dirent.name)
+	.trim()
+	.split('\n')
+	.filter(Boolean)
+	.map(path => path.split('/').slice(-2, -1)[0])
 	.sort();
 
 console.log(`Found ${talkDirs.length} talks to build`);
 
 // Build each talk
 for (const talkDir of talkDirs) {
-	const slidesPath = join(talksDir, talkDir, "slides.md");
+	const slidesPath = `${talksDir}/${talkDir}/slides.md`;
 
-	// Check if slides.md exists
-	if (!existsSync(slidesPath)) {
+	// Check if slides.md exists using Bun.file
+	const slidesFile = Bun.file(slidesPath);
+	if (!(await slidesFile.exists())) {
 		console.log(`⚠️  No slides.md found in ${talkDir}, skipping...`);
 		continue;
 	}
@@ -35,7 +33,7 @@ for (const talkDir of talkDirs) {
 
 	try {
 		// Build the talk to a specific output directory
-		const outputDir = join(distDir, talkDir);
+		const outputDir = `${distDir}/${talkDir}`;
 		await $`slidev build ${slidesPath} --out ${outputDir} --base /talks/${talkDir}/`;
 
 		console.log(`✅ Built ${talkDir} successfully`);

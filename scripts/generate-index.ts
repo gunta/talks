@@ -1,10 +1,8 @@
 #!/usr/bin/env bun
-import { readdir, readFile, writeFile } from "node:fs/promises";
-import { join } from "node:path";
-import { existsSync } from "node:fs";
+import { $ } from "bun";
 
-const talksDir = join(import.meta.dir, "../talks");
-const distDir = join(import.meta.dir, "../dist");
+const talksDir = `${import.meta.dir}/../talks`;
+const distDir = `${import.meta.dir}/../dist`;
 
 interface TalkInfo {
   name: string;
@@ -16,7 +14,9 @@ interface TalkInfo {
 // Extract title from slides.md
 async function extractTitle(slidesPath: string): Promise<string> {
   try {
-    const content = await readFile(slidesPath, "utf-8");
+    const file = Bun.file(slidesPath);
+    const content = await file.text();
+
     // Try to find title in frontmatter
     const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
     if (frontmatterMatch) {
@@ -38,16 +38,21 @@ async function extractTitle(slidesPath: string): Promise<string> {
 
 // Get all talks with their metadata
 async function getTalks(): Promise<TalkInfo[]> {
-  const talks = await readdir(talksDir, { withFileTypes: true });
+  // Get all talk directories using shell
+  const talks = await $`ls -d ${talksDir}/*/`.text();
+  const talkDirs = talks
+    .trim()
+    .split('\n')
+    .filter(Boolean)
+    .map(path => path.split('/').slice(-2, -1)[0]);
+
   const talkInfos: TalkInfo[] = [];
 
-  for (const dirent of talks) {
-    if (!dirent.isDirectory()) continue;
+  for (const talkDir of talkDirs) {
+    const slidesPath = `${talksDir}/${talkDir}/slides.md`;
+    const slidesFile = Bun.file(slidesPath);
 
-    const talkDir = dirent.name;
-    const slidesPath = join(talksDir, talkDir, "slides.md");
-
-    if (!existsSync(slidesPath)) continue;
+    if (!(await slidesFile.exists())) continue;
 
     // Extract date from directory name (YYYY-MM-DD format)
     const dateMatch = talkDir.match(/^(\d{4}-\d{2}-\d{2})/);
@@ -161,7 +166,7 @@ async function generateIndex() {
 </body>
 </html>`;
 
-  await writeFile(join(distDir, "index.html"), html);
+  await Bun.write(`${distDir}/index.html`, html);
   console.log("✅ Generated index.html");
 }
 
