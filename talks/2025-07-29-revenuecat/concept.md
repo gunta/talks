@@ -1,6 +1,6 @@
 
 I am gonna talk for 15 min for the 世界中で注目のAI駆動開発・バイブコーディングの最前線を六本木ヒルズ。
-The audience is developers, beginners, non-engineers. but mostly people who want to win the contest.
+The audience is developers, beginners, non-engineers. but mostly people who want to win the contest, all Japanese.
 
 Basically I wanna talk about The Stack to Win this hackathon.
 Think well the whole storytelling, for each category of tools also mention some alternatives, and why the choosen ones are worth. 
@@ -13,6 +13,9 @@ Lets call this 「G Stack」（ジー・スタック）.
 For the presentation I should present myself as CyberAgent employee first for Enabling Team for Developer Productivity. But at the end I want to catch the audience with strong message. and all the 有料級 info I am providing, make like a paywall pixelated that if audience wants to hear more, I am open to discuss and share my knowledge, contact me at Twitter (X) and a Pay button. @gunta85
 For any inquiry, my own company is G Productions, Inc Wyoming  https://g-productions.studio
 
+Also for the marketing part, lets add a teaser I made myself using all AI (https://dots.ly)
+
+Make the whole slides compelling, full of latest info you research, some short nice comparisons, icons, etc. Think well of a viral title, etc. Lets go!
 
 ---
 
@@ -190,12 +193,18 @@ Now finally to use AI coding agents.
 Some of the good for this month: 
 Claude Code, Gemini CLI, Cursor, AMP, Warp.
 
+## Sub agents 
+List of lots of sub agents for Claude Code.
+https://github.com/contains-studio/agents
+
 ## Orchestrator
 This is an active area and there is no winner yet.
 
 For simplicity: https://conductor.build/ for Cursor for parallel agents.
 
-Wait some hours.
+Then take a coffee! 
+
+
 
 
 e. Testing
