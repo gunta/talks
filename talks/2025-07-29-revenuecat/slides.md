@@ -725,10 +725,17 @@ AIツールを使い分けて、効率的に開発します。
 審査員の印象を左右する、プロ級のデモ動画を作りましょう。
 -->
 ---
-layout: center
+layout: full
 ---
+# デモ
+
+<br>
 
 <Youtube id="XZ2IiJdXzkQ" />
+
+<br>
+
+<h2>https://dots.ly</h2>
 
 
 ---
