@@ -36,7 +36,7 @@ for (const talkDir of talkDirs) {
 	try {
 		// Build the talk to a specific output directory
 		const outputDir = join(distDir, talkDir);
-		await $`slidev build ${slidesPath} --out ${outputDir} --base /${talkDir}/`;
+		await $`slidev build ${slidesPath} --out ${outputDir} --base /talks/${talkDir}/`;
 
 		console.log(`✅ Built ${talkDir} successfully`);
 	} catch (error) {

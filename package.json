@@ -12,7 +12,7 @@
 		"today": "slidev --open talks/2025-06-06-cursor-meetup/slides.md",
 		"today-ex": "slidev --open talks/2025-06-06-cursor-meetup/slides-long-opus3.md",
 		"dev": "bun scripts/picker-bun.ts dev --open",
-		"export": "slidev export",
+		"export": "slidev export --base /talks/",
 		"clean": "rm -rf dist && echo 'Done.'",
 		"format": "bunx @biomejs/biome format --write ./",
 		"lint": "bunx @biomejs/biome lint ./"

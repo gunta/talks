@@ -7,71 +7,71 @@ const talksDir = join(import.meta.dir, "../talks");
 const distDir = join(import.meta.dir, "../dist");
 
 interface TalkInfo {
-	name: string;
-	title: string;
-	date: string;
-	path: string;
+  name: string;
+  title: string;
+  date: string;
+  path: string;
 }
 
 // Extract title from slides.md
 async function extractTitle(slidesPath: string): Promise<string> {
-	try {
-		const content = await readFile(slidesPath, "utf-8");
-		// Try to find title in frontmatter
-		const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
-		if (frontmatterMatch) {
-			const titleMatch = frontmatterMatch[1].match(/title:\s*(.+)/);
-			if (titleMatch) {
-				return titleMatch[1].replace(/['"]/g, "").trim();
-			}
-		}
-		// Try to find first # heading
-		const headingMatch = content.match(/^#\s+(.+)$/m);
-		if (headingMatch) {
-			return headingMatch[1].trim();
-		}
-	} catch (error) {
-		console.error(`Failed to read ${slidesPath}:`, error);
-	}
-	return "Untitled";
+  try {
+    const content = await readFile(slidesPath, "utf-8");
+    // Try to find title in frontmatter
+    const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
+    if (frontmatterMatch) {
+      const titleMatch = frontmatterMatch[1].match(/title:\s*(.+)/);
+      if (titleMatch) {
+        return titleMatch[1].replace(/['"]/g, "").trim();
+      }
+    }
+    // Try to find first # heading
+    const headingMatch = content.match(/^#\s+(.+)$/m);
+    if (headingMatch) {
+      return headingMatch[1].trim();
+    }
+  } catch (error) {
+    console.error(`Failed to read ${slidesPath}:`, error);
+  }
+  return "Untitled";
 }
 
 // Get all talks with their metadata
 async function getTalks(): Promise<TalkInfo[]> {
-	const talks = await readdir(talksDir, { withFileTypes: true });
-	const talkInfos: TalkInfo[] = [];
+  const talks = await readdir(talksDir, { withFileTypes: true });
+  const talkInfos: TalkInfo[] = [];
 
-	for (const dirent of talks) {
-		if (!dirent.isDirectory()) continue;
+  for (const dirent of talks) {
+    if (!dirent.isDirectory()) continue;
 
-		const talkDir = dirent.name;
-		const slidesPath = join(talksDir, talkDir, "slides.md");
+    const talkDir = dirent.name;
+    const slidesPath = join(talksDir, talkDir, "slides.md");
 
-		if (!existsSync(slidesPath)) continue;
+    if (!existsSync(slidesPath)) continue;
 
-		// Extract date from directory name (YYYY-MM-DD format)
-		const dateMatch = talkDir.match(/^(\d{4}-\d{2}-\d{2})/);
-		const date = dateMatch ? dateMatch[1] : "Unknown";
+    // Extract date from directory name (YYYY-MM-DD format)
+    const dateMatch = talkDir.match(/^(\d{4}-\d{2}-\d{2})/);
+    const date = dateMatch ? dateMatch[1] : "Unknown";
 
-		const title = await extractTitle(slidesPath);
+    const title = await extractTitle(slidesPath);
 
-		talkInfos.push({
-			name: talkDir,
-			title,
-			date,
-			path: `/${talkDir}/`,
-		});
-	}
+    talkInfos.push({
+      name: talkDir,
+      title,
+      date,
+      path: `/talks/${talkDir}/`,
+    });
+  }
 
-	// Sort by date (newest first)
-	return talkInfos.sort((a, b) => b.date.localeCompare(a.date));
+  // Sort by date (newest first)
+  return talkInfos.sort((a, b) => b.date.localeCompare(a.date));
 }
 
 // Generate HTML index page
 async function generateIndex() {
-	const talks = await getTalks();
+  const talks = await getTalks();
 
-	const html = `<!DOCTYPE html>
+  const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -146,23 +146,23 @@ async function generateIndex() {
     <h1>Technical Talks</h1>
     <div class="talks-grid">
       ${talks
-				.map(
-					(talk) => `
+      .map(
+        (talk) => `
       <a href="${talk.path}" class="talk-card">
         <div class="talk-date">${talk.date}</div>
         <div class="talk-title">${talk.title}</div>
         <div class="talk-name">${talk.name}</div>
       </a>
       `,
-				)
-				.join("")}
+      )
+      .join("")}
     </div>
   </div>
 </body>
 </html>`;
 
-	await writeFile(join(distDir, "index.html"), html);
-	console.log("✅ Generated index.html");
+  await writeFile(join(distDir, "index.html"), html);
+  console.log("✅ Generated index.html");
 }
 
 // Run the generator
