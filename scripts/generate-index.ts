@@ -40,11 +40,16 @@ async function extractTitle(slidesPath: string): Promise<string> {
 async function getTalks(): Promise<TalkInfo[]> {
   // Get all talk directories using shell
   const talks = await $`ls -d ${talksDir}/*/`.text();
+
   const talkDirs = talks
     .trim()
     .split('\n')
     .filter(Boolean)
-    .map(path => path.split('/').slice(-2, -1)[0]);
+    .map(path => {
+      // Remove trailing slash and get the last part of the path
+      const cleanPath = path.endsWith('/') ? path.slice(0, -1) : path;
+      return cleanPath.split('/').pop() || '';
+    });
 
   const talkInfos: TalkInfo[] = [];
 
@@ -52,7 +57,9 @@ async function getTalks(): Promise<TalkInfo[]> {
     const slidesPath = `${talksDir}/${talkDir}/slides.md`;
     const slidesFile = Bun.file(slidesPath);
 
-    if (!(await slidesFile.exists())) continue;
+    if (!(await slidesFile.exists())) {
+      continue;
+    }
 
     // Extract date from directory name (YYYY-MM-DD format)
     const dateMatch = talkDir.match(/^(\d{4}-\d{2}-\d{2})/);
