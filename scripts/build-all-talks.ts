@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 import { $ } from "bun";
-import { existsSync, mkdirSync, readdir } from "node:fs";
+import { existsSync, mkdirSync } from "node:fs";
+import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 
 const talksDir = join(import.meta.dir, "../talks");
