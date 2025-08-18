@@ -6,7 +6,7 @@ highlighter: shiki
 lineNumbers: false
 info: |
   ## 最近おすすめのAI - 経営者が今すぐ使うべきAIツール
-  リブラコミュニティ特別講演
+  Libraコミュニティ特別講演
   2025年8月18日
 drawings:
   persist: false
