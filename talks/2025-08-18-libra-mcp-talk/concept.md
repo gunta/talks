@@ -19,6 +19,6 @@ Also at the end I want to talk about my dots.ly
 
 We can talk about Midjourney Video and Elevenlabs for Voice and Music.
 
-And get leads to my company G Productions.
+And get leads to my company G Productions and my Twitter.
 
-THe whole talk is about 20min
+THe whole talk is about 20min. Make all the nicest slides for Slidev, and 心に残るメッセージ.
