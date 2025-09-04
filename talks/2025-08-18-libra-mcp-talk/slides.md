@@ -6,7 +6,7 @@ highlighter: shiki
 lineNumbers: false
 info: |
   ## 最近おすすめのAI - 経営者が今すぐ使うべきAIツール
-  Libraコミュニティ特別講演
+  Libra経営研究会特別講演
   2025年8月18日
 drawings:
   persist: false
@@ -49,7 +49,7 @@ colorSchema: 'light'
 </div>
 
 <div class="absolute bottom-10 right-10 text-right">
-  <div class="text-lg text-gray-600">Libraコミュニティ特別講演</div>
+  <div class="text-lg text-gray-600">Libra経営研究会特別講演</div>
   <div class="text-lg font-bold">2025年8月18日</div>
 </div>
 
@@ -293,6 +293,7 @@ ChatGPT説明（1.5分）：
 - 長文でも一貫性を保つ
 
 ### ✅ コーディング能力
+- Claude Code Max $200
 - 最新フレームワーク対応
 - バグの少ないコード生成
 - 詳細な説明付き
@@ -780,7 +781,7 @@ layout: section
 
 <!--
 dots.ly導入：
-「最後に、私が開発しているdots.lyをご紹介させてください。」
+「さて、私が現在開発中のdots.lyをご紹介させてください。これは起業家のためのオペレーティングシステムです。」
 
 ※時間が押している場合は簡潔に
 -->
@@ -788,7 +789,7 @@ dots.ly導入：
 ---
 layout: full
 ---
-# イントロダクション
+# dots.ly デモ動画
 
 <br>
 
@@ -798,45 +799,43 @@ layout: full
 
 <h2>https://dots.ly</h2>
 
+<!--
+動画デモ（30秒）：
+「まずは短い動画でdots.lyの世界観をご覧ください。」
+
+※動画再生中に次のスライドの準備
+-->
+
 ---
 
-# 🎯 dots.ly - AIで個人が企業を超える時代
+# 🎯 dots.ly - 起業家のためのオペレーティングシステム
 
 <div class="grid grid-cols-2 gap-8 mt-8">
 <div>
 
-## こんな方におすすめ
+## The Dots Philosophy
 
-### 🚀 スタートアップ創業者
-- MVP開発を最速で
-- 初期コストを最小限に
-- スケールする基盤作り
-
-### 🏢 企業内起業家
-- 新規事業の検証
-- 社内ツールの開発
-- イノベーション推進
+<div class="text-lg italic mb-4 text-gray-600">
+「将来を見据えて点と点を繋ぐことはできない。<br>
+後から振り返って初めて、繋ぐことができるのだ。」
+<div class="text-sm mt-2">- Steve Jobs</div>
+</div>
 
 </div>
 <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl">
   <div class="text-center mb-6">
-    <div class="text-4xl mb-4 float-animation">✨</div>
-    <div class="text-2xl font-bold gradient-text">All-in-One AI Platform</div>
+    <div class="text-4xl mb-4 float-animation">⭐</div>
+    <div class="text-2xl font-bold gradient-text">Entrepreneurial OS</div>
   </div>
   
-  <div class="space-y-3">
-    <div class="bg-white p-3 rounded-lg flex items-center gap-3">
-      <span class="text-2xl">🎨</span>
-      <span>動画・デザイン生成（Midjourney統合）</span>
-    </div>
-    <div class="bg-white p-3 rounded-lg flex items-center gap-3">
-      <span class="text-2xl">🎙️</span>
-      <span>音声生成・音楽生成（ElevenLabs）</span>
-    </div>
-    <div class="bg-white p-3 rounded-lg flex items-center gap-3">
-      <span class="text-2xl">💻</span>
-      <span>コード生成（最適化済み）</span>
-    </div>
+  <div class="text-lg mb-4">
+    問題発見から収益化まで、<br>
+    起業家の全ての旅を支援
+  </div>
+  
+  <div class="space-y-2 text-sm">
+    <div>✅ スタートアップ創業者</div>
+    <div>✅ 企業内起業家</div>
   </div>
   
   <div class="mt-6 text-center">
@@ -850,43 +849,183 @@ layout: full
 <!--
 dots.ly説明（1分）：
 
-ターゲット説明：
-- スタートアップ創業者
-- 個人開発者
-- 企業内起業家
+コンセプト説明：
+「スティーブ・ジョブズの名言『点と点は後からつながる』を、リアルタイムで実現。
+起業家の旅全体をサポートするエコシステムです。」
 
 価値提案：
-「一人でも、大企業レベルのアウトプットが可能。デザイン、動画、音声、コード、全てAIで統合管理。」
-
-URL強調：「https://dots.ly」
+「問題発見から収益化まで、起業家に必要なツールを統合的に提供」
 -->
 
 ---
 
-# 🎬 おすすめのクリエイティブAIツール
+# 🌟 dots.ly エコシステム - 4つの核となるサービス
+
+<div class="grid grid-cols-2 gap-6 mt-8">
+<div class="bg-red-50 p-6 rounded-xl">
+  <div class="text-3xl mb-3">😤</div>
+  <div class="text-xl font-bold mb-2">pain.ly</div>
+  <div class="text-sm">
+    問題マーケットプレイス<br>
+    • 実際の困りごとを投稿<br>
+    • 解決すべき問題を発見<br>
+    • 起業アイデアの源泉
+  </div>
+</div>
+
+<div class="bg-blue-50 p-6 rounded-xl">
+  <div class="text-3xl mb-3">💡</div>
+  <div class="text-xl font-bold mb-2">shall.ly</div>
+  <div class="text-sm">
+    $1投票でアイデア検証<br>
+    • 本当の需要を確認<br>
+    • リアルマネーで投票<br>
+    • 市場検証の革新
+  </div>
+</div>
+
+<div class="bg-green-50 p-6 rounded-xl">
+  <div class="text-3xl mb-3">💰</div>
+  <div class="text-xl font-bold mb-2">fayr.ly</div>
+  <div class="text-sm">
+    適正価格見積もりシステム<br>
+    • AI powered見積もり<br>
+    • 市場相場分析<br>
+    • フリーランサーの味方
+  </div>
+</div>
+
+<div class="bg-purple-50 p-6 rounded-xl">
+  <div class="text-3xl mb-3">📢</div>
+  <div class="text-xl font-bold mb-2">waves.ly</div>
+  <div class="text-sm">
+    フィードバック収集<br>
+    • 美しいフォーム作成<br>
+    • リアルタイム分析<br>
+    • 顧客の声を形に
+  </div>
+</div>
+</div>
+
+<div class="mt-8 text-center">
+  <div class="text-xl font-bold">すべてが繋がり、あなたの起業の星座を形成</div>
+</div>
+
+<!--
+dots.lyエコシステム説明（1.5分）：
+
+各サービスの説明：
+- pain.ly：「世の中の問題を可視化。起業家はここから始まる」
+- shall.ly：「『使いますか？』ではなく『$1払いますか？』で本当の需要を確認」
+- fayr.ly：「フリーランサーが適正価格で働ける世界を」
+- waves.ly：「顧客の声を美しく、簡単に収集」
+
+エコシステムの価値：
+「それぞれが独立して動きながら、データは連携。起業の全工程をサポート」
+-->
+
+---
+
+# 🚀 なぜdots.lyなのか？
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+<div>
+
+## 起業家の旅を完全サポート
+
+<div class="mt-4 space-y-3">
+  <div class="flex items-start gap-3">
+    <span class="text-xl">1️⃣</span>
+    <div>
+      <div class="font-bold">問題発見</div>
+      <div class="text-sm text-gray-600">pain.lyで実際の困りごとを発見</div>
+    </div>
+  </div>
+  <div class="flex items-start gap-3">
+    <span class="text-xl">2️⃣</span>
+    <div>
+      <div class="font-bold">アイデア検証</div>
+      <div class="text-sm text-gray-600">shall.lyで$1投票による市場検証</div>
+    </div>
+  </div>
+  <div class="flex items-start gap-3">
+    <span class="text-xl">3️⃣</span>
+    <div>
+      <div class="font-bold">価格設定</div>
+      <div class="text-sm text-gray-600">fayr.lyで適正価格を決定</div>
+    </div>
+  </div>
+  <div class="flex items-start gap-3">
+    <span class="text-xl">4️⃣</span>
+    <div>
+      <div class="font-bold">顧客の声</div>
+      <div class="text-sm text-gray-600">waves.lyでフィードバック収集</div>
+    </div>
+  </div>
+</div>
+
+</div>
+<div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl">
+  <div class="text-center mb-4">
+    <div class="text-3xl mb-2 float-animation">🌌</div>
+    <div class="text-xl font-bold gradient-text">Your Constellation</div>
+  </div>
+  
+  <div class="mt-6">
+    <div class="text-lg font-bold mb-2">開発予定のサービス</div>
+    <div class="text-sm space-y-1">
+      <div>• shyp.ly - AI開発支援</div>
+      <div>• slid.ly - プレゼン作成</div>
+      <div>• grow.ly - 成長分析</div>
+      <div>• learn.ly - 起業家教育</div>
+    </div>
+  </div>
+  
+  <div class="mt-4 text-center">
+    <div class="text-sm text-gray-600">2025年から順次リリース予定</div>
+  </div>
+</div>
+</div>
+
+<!--
+dots.lyの価値提案（1分）：
+
+「なぜdots.lyが必要か？」
+- 起業の全プロセスを一つのエコシステムでカバー
+- データが連携し、インサイトを提供
+- フェアな価格設定と透明性
+- 個人でも大企業並みのツールを
+
+将来のビジョン：
+「最終的には10以上のサービスで、起業家の全ての『点』を繋げます」
+-->
+
+---
+
+# 🎬 その他のおすすめクリエイティブAIツール
 
 <div class="mt-8">
   <div class="grid grid-cols-2 gap-8">
     <div>
       <h3 class="text-2xl font-bold mb-6">🎨 ビジュアル制作</h3>
       <div class="space-y-4">
-        <div class="bg-purple-50 p-4 rounded-lg">
-          <div class="font-bold mb-2">Midjourney</div>
-          <div class="text-sm">
-            • 最高品質の画像生成<br>
-            • ブランドイメージ作成<br>
-            • プロダクトビジュアル
+          <div class="bg-purple-50 p-4 rounded-lg">
+            <div class="font-bold mb-2">Midjourney / DALL-E 3</div>
+            <div class="text-sm">
+              • 最高品質の画像生成<br>
+              • ブランドイメージ作成<br>
+              • プロダクトビジュアル
+            </div>
+          </div>
+          <div class="bg-blue-50 p-4 rounded-lg">
+            <div class="font-bold mb-2">Sora / Veo / Midjourney</div>
+            <div class="text-sm">
+              • AI動画生成<br>
+              • プロモーション動画<br>
+              • 説明動画の自動作成
+            </div>
           </div>
         </div>
-        <div class="bg-blue-50 p-4 rounded-lg">
-          <div class="font-bold mb-2">Sora / Veo / Midjourney</div>
-          <div class="text-sm">
-            • AI動画生成<br>
-            • プロモーション動画<br>
-            • 説明動画の自動作成
-          </div>
-        </div>
-      </div>
     </div>
     <div>
       <h3 class="text-2xl font-bold mb-6">🎵 音声・音楽制作</h3>
@@ -914,22 +1053,15 @@ URL強調：「https://dots.ly」
 
 <div class="mt-8 text-center">
   <div class="inline-block bg-gradient-to-r from-purple-100 to-pink-100 px-8 py-4 rounded-full">
-    💡 <span class="font-bold">これらすべてが dots.ly で統合管理できます</span>
+    💡 <span class="font-bold">これらのツールと dots.ly を組み合わせて、完璧な起業環境を</span>
   </div>
 </div>
 
 <!--
-クリエイティブツール（1分）：
+クリエイティブツール補足（30秒）：
 
-ツール紹介：
-- Midjourney：最高品質の画像
-- Sora/Veo：AI動画生成
-- ElevenLabs：自然な音声
-
-統合の価値：
-「これら全てをdots.lyで統合管理。クリエイティブ制作の民主化です。」
-
-※デモ動画があれば見せる
+「dots.lyエコシステムと、これらのクリエイティブツールを組み合わせることで、
+アイデアから実装、マーケティングまで全てをカバーできます。」
 -->
 
 ---
@@ -1115,7 +1247,7 @@ class: text-center
 
 <div class="absolute bottom-10 left-10">
   <div class="text-sm text-gray-500">
-    2025年8月18日 リブラコミュニティ
+    2025年8月18日 Libraコミュニティ
   </div>
 </div>
 
