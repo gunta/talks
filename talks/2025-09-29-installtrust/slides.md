@@ -60,10 +60,10 @@ layout: intro
 
 <v-clicks>
 
-- 🎨 **Developer & Designer** <small class="opacity-60">開発者＆デザイナー</small>
-- 🔬 **Deep Research Lover** <small class="opacity-60">深い研究が大好き</small>
-- 📚 **Paper Writer by Passion** <small class="opacity-60">情熱で論文を書く</small>
-- 🌍 **2007年来日** <small class="opacity-60">MEXT Scholar</small>
+- <lucide-palette class="inline w-5 h-5" /> **Developer & Designer** <small class="opacity-60">開発者＆デザイナー</small>
+- <lucide-microscope class="inline w-5 h-5" /> **Deep Research Lover** <small class="opacity-60">深い研究が大好き</small>
+- <lucide-book-open class="inline w-5 h-5" /> **Paper Writer by Passion** <small class="opacity-60">情熱で論文を書く</small>
+- <lucide-globe class="inline w-5 h-5" /> **2007年来日** <small class="opacity-60">MEXT Scholar</small>
 
 </v-clicks>
 
@@ -72,9 +72,9 @@ layout: intro
 
 ```mermaid {scale: 0.8}
 graph TD
-    A[Developer 👨‍💻] --> D[Research Papers]
-    B[Designer 🎨] --> D
-    C[Deep Curiosity 🔍] --> D
+    A[Developer] --> D[Research Papers]
+    B[Designer] --> D
+    C[Deep Curiosity] --> D
     D --> E[InstallTrust]
     style E fill:#007ACC,stroke:#fff,color:#fff
 ```
@@ -99,7 +99,7 @@ layout: center
 
 <div class="text-2xl mt-8">
 
-## 🚀 AIドリブン推進室に異動
+## <lucide-rocket class="inline w-6 h-6" /> AIドリブン推進室に異動
 
 <v-clicks>
 
@@ -136,21 +136,21 @@ MCP、ソフトウェアインストール、ツール選択...これらは全�
 <div class="grid grid-cols-3 gap-4 mt-12">
 
 <div v-click class="bg-gradient-to-br from-blue-500 to-cyan-500 p-6 rounded-lg text-white">
-  <div class="text-6xl mb-4">📊</div>
+  <lucide-bar-chart-3 class="w-16 h-16 mb-4 mx-auto" />
   <h3 class="text-xl font-bold">Paper #1</h3>
   <p class="mt-2">InstallTrust</p>
   <p class="text-sm opacity-80">Simple & Universal</p>
 </div>
 
 <div v-click class="bg-gradient-to-br from-gray-400 to-gray-500 p-6 rounded-lg text-white opacity-60">
-  <div class="text-6xl mb-4">🔐</div>
+  <lucide-shield-check class="w-16 h-16 mb-4 mx-auto" />
   <h3 class="text-xl font-bold">Paper #2</h3>
   <p class="mt-2">MCP Security</p>
   <p class="text-sm opacity-80">Coming Soon</p>
 </div>
 
 <div v-click class="bg-gradient-to-br from-gray-400 to-gray-500 p-6 rounded-lg text-white opacity-60">
-  <div class="text-6xl mb-4">🤖</div>
+  <lucide-bot class="w-16 h-16 mb-4 mx-auto" />
   <h3 class="text-xl font-bold">Paper #3</h3>
   <p class="mt-2">AI Tool Trust</p>
   <p class="text-sm opacity-80">In Planning</p>
@@ -159,7 +159,7 @@ MCP、ソフトウェアインストール、ツール選択...これらは全�
 </div>
 
 <div v-click class="mt-8 text-center text-xl">
-<p>🎯 <strong>なぜ最初にこれ？</strong></p>
+<p><lucide-target class="inline w-6 h-6" /> <strong>なぜ最初にこれ？</strong></p>
 <p class="opacity-80">シンプルで理解しやすく、AIに関係なく全員に関わる</p>
 <p class="text-sm opacity-60">Simple, easy to understand, relevant to everyone</p>
 </div>
@@ -286,7 +286,7 @@ layout: center
 </div>
 
 <div v-click class="mt-8 text-2xl text-center">
-⚠️ <strong>これらは氷山の一角</strong>
+<lucide-alert-triangle class="inline w-8 h-8 text-yellow-500" /> <strong>これらは氷山の一角</strong>
 <span class="text-sm block opacity-60">These are just the tip of the iceberg</span>
 </div>
 
@@ -308,7 +308,7 @@ CrowdStrikeの更新障害は850万台のWindowsデバイスに影響を与え�
 <div class="grid grid-cols-2 gap-8 mt-8">
 <div>
 
-### 🤔 現状 <small class="opacity-60">Current State</small>
+### <lucide-help-circle class="inline w-5 h-5" /> 現状 <small class="opacity-60">Current State</small>
 
 <v-clicks>
 
@@ -322,7 +322,7 @@ CrowdStrikeの更新障害は850万台のWindowsデバイスに影響を与え�
 </div>
 <div>
 
-### 📊 必要なもの <small class="opacity-60">What We Need</small>
+### <lucide-bar-chart class="inline w-5 h-5" /> 必要なもの <small class="opacity-60">What We Need</small>
 
 <v-clicks>
 
@@ -426,29 +426,39 @@ InstallTrust Scoreの6つの構成要素をご覧ください。
 # Mathematical Foundation
 ## 数学的基礎 <small class="opacity-60">The Formula</small>
 
-<div class="text-center mt-12">
+<div class="text-center mt-8">
 
-### InstallTrust Score Formula
+### Primary InstallTrust Score Formula
 
 $$\mathcal{T}(m,p) = \sum_{i=1}^{6} w_i \cdot c_i(m,p) \cdot \alpha_p$$
 
-<div class="mt-8 text-left max-w-2xl mx-auto">
+### Detailed Criterion Scoring
+
+$$c_i(m,p) = \begin{cases}
+\text{Integrity: } & \beta_1 \cdot \text{sig}(m) + \beta_2 \cdot \text{hash}(m) + \beta_3 \cdot \text{cert}(m) \\
+\text{Review: } & \gamma_1 \cdot \text{auto}(m) + \gamma_2 \cdot \text{human}(m) \\
+\text{Provenance: } & \delta_1 \cdot \text{repro}(m) + \delta_2 \cdot \text{sbom}(m) \\
+\text{Privilege: } & \epsilon \cdot \text{sandbox}(m,p) \\
+\text{Updates: } & \zeta \cdot \text{signed\_update}(m) \\
+\text{Distribution: } & \eta \cdot \text{cdn\_security}(m)
+\end{cases}$$
+
+<div class="mt-6 text-left max-w-3xl mx-auto text-sm">
 
 Where:
-- $w_i$ = 基準の重み (criterion weight)
-- $c_i(m,p)$ = 基準スコア [0,1] (criterion score)
-- $\alpha_p$ = プラットフォーム調整係数 [0.9, 1.1]
-- $m$ = インストール方法 (method)
-- $p$ = プラットフォーム (platform)
+- $w_i \in \{0.25, 0.25, 0.15, 0.15, 0.10, 0.10\}$ = 基準の重み
+- $c_i(m,p) \in [0,1]$ = 基準スコア
+- $\alpha_p \in [0.9, 1.1]$ = プラットフォーム調整係数
+- $\beta, \gamma, \delta, \epsilon, \zeta, \eta$ = サブクライテリア重み
 
 </div>
 
 </div>
 
-<div v-click class="mt-8 bg-gradient-to-r from-blue-500/20 to-purple-500/20 p-4 rounded-lg">
+<div v-click class="mt-6 bg-gradient-to-r from-blue-500/20 to-purple-500/20 p-4 rounded-lg">
 <div class="text-center">
-<strong>Result:</strong> 0-100の標準化されたスコア
-<span class="block text-sm opacity-60">Standardized score from 0 to 100</span>
+<strong>Normalization:</strong> $\mathcal{T}_{norm} = 100 \cdot \frac{\mathcal{T}(m,p) - \mathcal{T}_{min}}{\mathcal{T}_{max} - \mathcal{T}_{min}}$
+<span class="block text-sm opacity-60 mt-2">Standardized score from 0 to 100</span>
 </div>
 </div>
 
@@ -460,6 +470,58 @@ InstallTrust Scoreは、6つの基準の重み付け合計です。
 結果は0から100の標準化されたスコアになります。
 これにより、異なるプラットフォーム間でも公平な比較が可能になります。
 -->
+
+---
+
+# Trust Decay Over Time
+## 時間経過による信頼度の減衰
+### Mathematical Model for Trust Degradation
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+
+<div>
+
+### Decay Function
+
+$$\mathcal{T}_{decay}(t) = \mathcal{T}_{initial} \cdot e^{-\lambda t} + \mathcal{T}_{baseline}$$
+
+Where:
+- $t$ = Time since last security audit (months)
+- $\lambda = 0.05$ = Decay constant
+- $\mathcal{T}_{baseline} = 20$ = Minimum trust floor
+
+### Update Impact Formula
+
+$$\mathcal{T}_{updated} = \begin{cases}
+\mathcal{T}_{current} + \Delta_{signed} & \text{if signed update} \\
+\mathcal{T}_{current} - \Delta_{unsigned} & \text{if unsigned update} \\
+\mathcal{T}_{current} \cdot 0 & \text{if breaking change}
+\end{cases}$$
+
+</div>
+
+<div>
+
+```mermaid {theme: 'dark', scale: 0.9}
+%%{init: {'theme':'dark'}}%%
+xychart-beta
+    title "Trust Score Decay Over Time (months)"
+    x-axis [0, 3, 6, 9, 12, 18, 24]
+    y-axis "Trust Score" 0 --> 100
+    line "High Trust (90)" [90, 85, 80, 75, 71, 63, 57]
+    line "Medium Trust (60)" [60, 57, 54, 51, 48, 43, 39]
+    line "Low Trust (30)" [30, 29, 28, 27, 26, 24, 22]
+```
+
+<div v-click class="mt-4 bg-yellow-500/20 p-4 rounded-lg">
+<lucide-alert-triangle class="inline w-5 h-5" /> **Key Insight**
+
+Software without updates for 12 months loses ~20% trust score
+</div>
+
+</div>
+
+</div>
 
 ---
 zoom: 0.8
@@ -565,29 +627,50 @@ zoom: 0.8
 ## 信頼スコアと侵害率の相関
 ### The Power of High Scores
 
-<div class="mt-8">
+<div class="grid grid-cols-2 gap-8 mt-8">
 
-<div class="flex justify-center">
-<div class="w-full max-w-2xl">
+<div>
+
+### Logarithmic Relationship
+
+$$\text{Compromise Rate} = e^{-0.23 \cdot (\mathcal{T}/10)}$$
+
+<div class="mt-4">
+
+```mermaid {theme: 'dark', scale: 0.9}
+%%{init: {'theme':'dark'}}%%
+xychart-beta
+    title "Trust Score vs Compromise Rate"
+    x-axis [0, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    y-axis "Compromise Rate (%)" 0 --> 30
+    line [28, 25, 18, 10, 5, 1, 0.5, 0.1, 0.01, 0.001]
+```
+
+</div>
+
+</div>
+
+<div>
+
+### Risk Categories
 
 | Trust Score | 侵害率 | Risk Level |
 |------------|--------|------------|
-| **90-100** | < 0.01% | 🟢 Minimal |
-| **70-89** | 0.1% | 🟢 Low |
-| **50-69** | 1% | 🟡 Moderate |
-| **30-49** | 10% | 🟠 High |
-| **< 30** | > 25% | 🔴 Critical |
+| **90-100** | < 0.01% | <lucide-shield-check class="inline w-4 h-4 text-green-500" /> Minimal |
+| **70-89** | 0.1% | <lucide-shield class="inline w-4 h-4 text-green-500" /> Low |
+| **50-69** | 1% | <lucide-alert-triangle class="inline w-4 h-4 text-yellow-500" /> Moderate |
+| **30-49** | 10% | <lucide-alert-octagon class="inline w-4 h-4 text-orange-500" /> High |
+| **< 30** | > 25% | <lucide-x-octagon class="inline w-4 h-4 text-red-500" /> Critical |
 
-</div>
-</div>
-
-</div>
-
-<div v-click class="mt-8 bg-gradient-to-r from-green-500/20 to-blue-500/20 p-6 rounded-lg">
+<div v-click class="mt-6 bg-gradient-to-r from-green-500/20 to-blue-500/20 p-4 rounded-lg">
 <div class="text-center">
-<div class="text-3xl font-bold">10ポイント上昇 = 10倍安全</div>
-<div class="mt-2 opacity-80">Every 10-point increase = Order of magnitude safer</div>
+<div class="text-xl font-bold">10ポイント上昇 = 10倍安全</div>
+<div class="mt-2 opacity-80 text-sm">Every 10-point increase = Order of magnitude safer</div>
 </div>
+</div>
+
+</div>
+
 </div>
 
 <!--
@@ -622,28 +705,28 @@ Android 2026。パラダイムシフトが起こります。
 <div class="grid grid-cols-2 gap-8 mt-8">
 <div>
 
-### 📱 現在 <small class="opacity-60">Current (2024)</small>
+### <lucide-smartphone class="inline w-5 h-5" /> 現在 <small class="opacity-60">Current (2024)</small>
 
 <v-clicks>
 
-- ✅ 匿名APKインストール可能
-- ✅ サイドローディング自由
-- ✅ 開発者検証は任意
-- ✅ サードパーティストア許可
+- <lucide-check-circle class="inline w-4 h-4 text-green-500" /> 匿名APKインストール可能
+- <lucide-check-circle class="inline w-4 h-4 text-green-500" /> サイドローディング自由
+- <lucide-check-circle class="inline w-4 h-4 text-green-500" /> 開発者検証は任意
+- <lucide-check-circle class="inline w-4 h-4 text-green-500" /> サードパーティストア許可
 
 </v-clicks>
 
 </div>
 <div>
 
-### 🔒 2026年後 <small class="opacity-60">After 2026</small>
+### <lucide-lock class="inline w-5 h-5" /> 2026年後 <small class="opacity-60">After 2026</small>
 
 <v-clicks>
 
-- ❌ 全APKに開発者検証必須
-- ❌ 未検証APKは完全ブロック
-- ❌ 匿名配布は不可能に
-- ❌ 全ストアで身元確認要求
+- <lucide-x-circle class="inline w-4 h-4 text-red-500" /> 全APKに開発者検証必須
+- <lucide-x-circle class="inline w-4 h-4 text-red-500" /> 未検証APKは完全ブロック
+- <lucide-x-circle class="inline w-4 h-4 text-red-500" /> 匿名配布は不可能に
+- <lucide-x-circle class="inline w-4 h-4 text-red-500" /> 全ストアで身元確認要求
 
 </v-clicks>
 
@@ -651,7 +734,7 @@ Android 2026。パラダイムシフトが起こります。
 </div>
 
 <div v-click class="mt-8 text-center bg-red-500/20 p-6 rounded-lg">
-<div class="text-2xl font-bold">🚨 The End of Open Android</div>
+<div class="text-2xl font-bold"><lucide-alert-octagon class="inline w-6 h-6" /> The End of Open Android</div>
 <div class="mt-2 opacity-80">オープンなAndroidの終焉</div>
 </div>
 
@@ -675,34 +758,38 @@ Android 2026。パラダイムシフトが起こります。
 
 ### Before 2026
 
-| Method | Score |
-|--------|-------|
-| Play Store | 85 |
-| Amazon | 78 |
-| F-Droid | 76 |
-| Galaxy | 80 |
-| Enterprise | 72 |
-| Verified APK | 55 |
-| **Unverified APK** | **55** |
-| **3rd Party** | **45** |
+| Method | Score | Formula |
+|--------|-------|--------|
+| Play Store | 85 | $0.95I + 0.85R + 0.90P$ |
+| Amazon | 78 | $0.85I + 0.75R + 0.80P$ |
+| F-Droid | 76 | $0.75I + 0.90R + 0.70P$ |
+| Galaxy | 80 | $0.90I + 0.75R + 0.85P$ |
+| Enterprise | 72 | $0.80I + 0.70R + 0.75P$ |
+| Verified APK | 55 | $0.60I + 0.50R + 0.55P$ |
+| **Unverified APK** | **55** | $0.60I + 0.50R + 0.55P$ |
+| **3rd Party** | **45** | $0.40I + 0.45R + 0.50P$ |
 
 </div>
 <div>
 
 ### After 2026
 
-| Method | Score | Change |
-|--------|-------|--------|
-| Play Store | 88 | +3 |
-| Amazon | 83 | +5 |
-| F-Droid | 82 | +6 |
-| Galaxy | 85 | +5 |
-| Enterprise | 78 | +6 |
-| Verified APK | 68 | +13 |
-| **Unverified APK** | **0** | **BLOCKED** |
-| **3rd Party** | **0** | **BLOCKED** |
+| Method | Score | Change | New Formula |
+|--------|-------|--------|-------------|
+| Play Store | 88 | +3 | $1.00I + 0.90R + 0.95P$ |
+| Amazon | 83 | +5 | $0.95I + 0.80R + 0.85P$ |
+| F-Droid | 82 | +6 | $0.90I + 0.95R + 0.75P$ |
+| Galaxy | 85 | +5 | $0.95I + 0.80R + 0.90P$ |
+| Enterprise | 78 | +6 | $0.90I + 0.75R + 0.80P$ |
+| Verified APK | 68 | +13 | $0.85I + 0.65R + 0.70P$ |
+| **Unverified APK** | **0** | **BLOCKED** | $\infty$ |
+| **3rd Party** | **0** | **BLOCKED** | $\infty$ |
 
 </div>
+</div>
+
+<div class="text-xs text-center mt-2 opacity-60">
+$I$ = Integrity, $R$ = Review, $P$ = Provenance (normalized coefficients)
 </div>
 
 </div>
@@ -728,7 +815,7 @@ Androidの平均スコアは72、iOSは73。プラットフォームが収束し
 <div class="grid grid-cols-3 gap-4 mt-8">
 
 <div v-click class="bg-blue-500/20 p-4 rounded-lg">
-<div class="text-4xl mb-2">🏢</div>
+<lucide-building-2 class="w-12 h-12 mb-2 mx-auto" />
 <h3 class="font-bold">Enterprise</h3>
 <p class="text-sm">Better security</p>
 <p class="text-sm">Higher compliance</p>
@@ -736,7 +823,7 @@ Androidの平均スコアは72、iOSは73。プラットフォームが収束し
 </div>
 
 <div v-click class="bg-orange-500/20 p-4 rounded-lg">
-<div class="text-4xl mb-2">👨‍💻</div>
+<lucide-code-2 class="w-12 h-12 mb-2 mx-auto" />
 <h3 class="font-bold">Developers</h3>
 <p class="text-sm">Verification costs</p>
 <p class="text-sm">Privacy concerns</p>
@@ -744,7 +831,7 @@ Androidの平均スコアは72、iOSは73。プラットフォームが収束し
 </div>
 
 <div v-click class="bg-red-500/20 p-4 rounded-lg">
-<div class="text-4xl mb-2">👤</div>
+<lucide-user class="w-12 h-12 mb-2 mx-auto" />
 <h3 class="font-bold">Users</h3>
 <p class="text-sm">No anonymous apps</p>
 <p class="text-sm">Limited freedom</p>
@@ -755,7 +842,7 @@ Androidの平均スコアは72、iOSは73。プラットフォームが収束し
 
 <div v-click class="mt-8 bg-gradient-to-r from-red-500/20 to-purple-500/20 p-6 rounded-lg">
 <div class="text-center">
-<div class="text-xl font-bold">🌍 Both Major Mobile Platforms Now Walled Gardens</div>
+<div class="text-xl font-bold"><lucide-globe-2 class="inline w-6 h-6" /> Both Major Mobile Platforms Now Walled Gardens</div>
 <div class="mt-2 opacity-80">両主要モバイルOSがウォールドガーデン化</div>
 </div>
 </div>
@@ -794,7 +881,7 @@ zoom: 0.7
 <div class="space-y-4">
 
 <div v-click class="flex items-center gap-4 bg-blue-500/10 p-4 rounded-lg">
-<div class="text-3xl">1️⃣</div>
+<div class="text-3xl bg-blue-500 text-white rounded-full w-12 h-12 flex items-center justify-center">1</div>
 <div>
 <strong>Baseline Assessment</strong>
 <p class="text-sm opacity-80">現在の方法を監査・スコア計算</p>
@@ -802,7 +889,7 @@ zoom: 0.7
 </div>
 
 <div v-click class="flex items-center gap-4 bg-blue-500/10 p-4 rounded-lg">
-<div class="text-3xl">2️⃣</div>
+<div class="text-3xl bg-blue-500 text-white rounded-full w-12 h-12 flex items-center justify-center">2</div>
 <div>
 <strong>Policy Development</strong>
 <p class="text-sm opacity-80">最小許容スコア設定 (Critical: 90, Production: 75)</p>
@@ -810,7 +897,7 @@ zoom: 0.7
 </div>
 
 <div v-click class="flex items-center gap-4 bg-blue-500/10 p-4 rounded-lg">
-<div class="text-3xl">3️⃣</div>
+<div class="text-3xl bg-blue-500 text-white rounded-full w-12 h-12 flex items-center justify-center">3</div>
 <div>
 <strong>Tool Integration</strong>
 <p class="text-sm opacity-80">CI/CDパイプラインに統合</p>
@@ -818,7 +905,7 @@ zoom: 0.7
 </div>
 
 <div v-click class="flex items-center gap-4 bg-blue-500/10 p-4 rounded-lg">
-<div class="text-3xl">4️⃣</div>
+<div class="text-3xl bg-blue-500 text-white rounded-full w-12 h-12 flex items-center justify-center">4</div>
 <div>
 <strong>Training & Education</strong>
 <p class="text-sm opacity-80">開発者・ITスタッフ教育</p>
@@ -826,7 +913,7 @@ zoom: 0.7
 </div>
 
 <div v-click class="flex items-center gap-4 bg-blue-500/10 p-4 rounded-lg">
-<div class="text-3xl">5️⃣</div>
+<div class="text-3xl bg-blue-500 text-white rounded-full w-12 h-12 flex items-center justify-center">5</div>
 <div>
 <strong>Continuous Improvement</strong>
 <p class="text-sm opacity-80">四半期ごとの見直し・更新</p>
@@ -845,6 +932,44 @@ zoom: 0.7
 フェーズ4：開発者とITスタッフを教育。
 フェーズ5：四半期ごとの見直しと更新。
 -->
+
+---
+
+# Platform Trust Distribution
+## プラットフォーム信頼度分布
+### Statistical Analysis of Installation Methods
+
+<div class="mt-8">
+
+```mermaid {theme: 'dark', scale: 0.9}
+%%{init: {'theme':'dark'}}%%
+graph LR
+    subgraph "Trust Score Distribution by Platform"
+        subgraph "macOS"
+            M1[curl|sh: 18] --> M2[Homebrew: 75] --> M3[Mac App Store: 95]
+        end
+        subgraph "Linux"
+            L1[curl|sh: 25] --> L2[apt/yum: 72] --> L3[Nix: 94]
+        end
+        subgraph "Windows"
+            W1[Unknown EXE: 20] --> W2[Chocolatey: 72] --> W3[MS Store: 88]
+        end
+    end
+```
+
+### Statistical Summary
+
+$$\mu_{platform} = \frac{1}{n} \sum_{i=1}^{n} \mathcal{T}_i, \quad \sigma_{platform} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (\mathcal{T}_i - \mu)^2}$$
+
+| Platform | Mean ($\mu$) | Std Dev ($\sigma$) | Median | Range |
+|----------|--------------|-------------------|--------|-------|
+| BSD | 91 | 3.2 | 92 | 85-96 |
+| iOS | 73 | 28.4 | 92 | 15-98 |
+| macOS | 71 | 27.8 | 75 | 18-95 |
+| Linux | 69 | 23.5 | 72 | 25-94 |
+| Windows | 63 | 24.1 | 70 | 20-88 |
+
+</div>
 
 ---
 
@@ -1028,7 +1153,7 @@ graph TD
 
 <div>
 
-### 📝 Distribution Strategy
+### <lucide-file-signature class="inline w-5 h-5" /> Distribution Strategy
 
 <v-clicks>
 
@@ -1044,7 +1169,7 @@ graph TD
 
 <div>
 
-### 🎯 Target Scores by Type
+### <lucide-target class="inline w-5 h-5" /> Target Scores by Type
 
 <div class="space-y-3 mt-4">
 
@@ -1177,7 +1302,7 @@ zoom: 0.7
 
 <div>
 
-### 🚀 Today <small class="opacity-60">今日</small>
+### <lucide-zap class="inline w-5 h-5" /> Today <small class="opacity-60">今日</small>
 
 <v-clicks>
 
@@ -1191,7 +1316,7 @@ zoom: 0.7
 
 <div>
 
-### 📅 This Week <small class="opacity-60">今週</small>
+### <lucide-calendar class="inline w-5 h-5" /> This Week <small class="opacity-60">今週</small>
 
 <v-clicks>
 
@@ -1232,11 +1357,11 @@ layout: center
 
 <div>
 
-### 📚 Paper & Research
+### <lucide-book-open class="inline w-5 h-5" /> Paper & Research
 
 - **Full Paper**: [GitHub Repository]
 - **Score Calculator Tool**: 
-  - 🔗 [github.com/code-agents/installtrust](https://github.com/code-agents/installtrust)
+  - <lucide-link class="inline w-4 h-4" /> [github.com/code-agents/installtrust](https://github.com/code-agents/installtrust)
 - **Documentation**: Full methodology
 - **Updates**: Follow for latest research
 
@@ -1244,7 +1369,7 @@ layout: center
 
 <div>
 
-### 🛠 Integration Tools
+### <lucide-wrench class="inline w-5 h-5" /> Integration Tools
 
 - **GitHub Action**: Coming soon
 - **CLI Tool**: `npx installtrust check`
@@ -1257,7 +1382,7 @@ layout: center
 
 <div class="mt-8 text-center bg-gradient-to-r from-green-500/20 to-blue-500/20 p-4 rounded-lg">
 
-### 🎯 Calculate Your Score Today!
+### <lucide-target class="inline w-5 h-5" /> Calculate Your Score Today!
 
 <div class="text-lg mt-2">
 <strong>https://github.com/code-agents/installtrust</strong>
@@ -1307,20 +1432,20 @@ installtrust recommend --min-score 75
 
 <div class="mt-8 text-center">
 <div class="text-3xl font-bold mb-4">
-🔗 github.com/code-agents/installtrust
+<lucide-link class="inline w-8 h-8" /> github.com/code-agents/installtrust
 </div>
 
 <div class="grid grid-cols-3 gap-4 mt-6">
 <div class="bg-blue-500/20 p-4 rounded">
-<div class="text-2xl">📊</div>
+<lucide-bar-chart-2 class="w-8 h-8 mx-auto mb-2" />
 <p>Instant Scoring</p>
 </div>
 <div class="bg-green-500/20 p-4 rounded">
-<div class="text-2xl">🔍</div>
+<lucide-search class="w-8 h-8 mx-auto mb-2" />
 <p>Method Analysis</p>
 </div>
 <div class="bg-purple-500/20 p-4 rounded">
-<div class="text-2xl">📈</div>
+<lucide-trending-up class="w-8 h-8 mx-auto mb-2" />
 <p>Improvement Tips</p>
 </div>
 </div>
@@ -1360,7 +1485,7 @@ layout: section
 
 <div>
 
-### 🤖 AI Coding Agents
+### <lucide-bot class="inline w-5 h-5" /> AI Coding Agents
 <v-clicks>
 
 - **Autonomous Development** <small class="opacity-60">自律的開発</small>
@@ -1374,7 +1499,7 @@ layout: section
 
 <div>
 
-### 🔌 MCP (Model Context Protocol)
+### <lucide-plug class="inline w-5 h-5" /> MCP (Model Context Protocol)
 <v-clicks>
 
 - **Security Framework** <small class="opacity-60">セキュリティフレームワーク</small>
@@ -1389,7 +1514,7 @@ layout: section
 </div>
 
 <div v-click class="mt-8 text-center bg-gradient-to-r from-purple-500/20 to-blue-500/20 p-6 rounded-lg">
-<div class="text-2xl font-bold">🚀 Let's Build the Future Together</div>
+<div class="text-2xl font-bold"><lucide-rocket class="inline w-6 h-6" /> Let's Build the Future Together</div>
 <div class="mt-2 opacity-80">未来を一緒に作りましょう</div>
 </div>
 
@@ -1436,14 +1561,14 @@ AIエージェントがどのように動的に評価し、適応学習するか
 
 <div class="space-y-4">
 
-### 📊 Dynamic Evaluation
+### <lucide-bar-chart class="inline w-5 h-5" /> Dynamic Evaluation
 <div class="bg-blue-500/10 p-4 rounded-lg">
 - **Real-time Performance Metrics** <small class="opacity-60">リアルタイム性能指標</small>
 - **Contextual Assessment** <small class="opacity-60">文脈的評価</small>
 - **Multi-dimensional Analysis** <small class="opacity-60">多次元分析</small>
 </div>
 
-### 🧠 Adaptive Learning
+### <lucide-brain class="inline w-5 h-5" /> Adaptive Learning
 <div class="bg-green-500/10 p-4 rounded-lg">
 - **Self-improvement Loops** <small class="opacity-60">自己改善ループ</small>
 - **Error Pattern Recognition** <small class="opacity-60">エラーパターン認識</small>
@@ -1454,14 +1579,14 @@ AIエージェントがどのように動的に評価し、適応学習するか
 
 <div class="space-y-4">
 
-### 🔄 Continuous Optimization
+### <lucide-refresh-cw class="inline w-5 h-5" /> Continuous Optimization
 <div class="bg-purple-500/10 p-4 rounded-lg">
 - **Feedback Integration** <small class="opacity-60">フィードバック統合</small>
 - **Performance Tuning** <small class="opacity-60">性能チューニング</small>
 - **Resource Optimization** <small class="opacity-60">リソース最適化</small>
 </div>
 
-### 🎯 Application Domains
+### <lucide-target class="inline w-5 h-5" /> Application Domains
 <div class="bg-orange-500/10 p-4 rounded-lg">
 - **Code Generation** <small class="opacity-60">コード生成</small>
 - **Security Analysis** <small class="opacity-60">セキュリティ分析</small>
@@ -1490,21 +1615,21 @@ DELTAフレームワークには4つの主要コンポーネントがありま�
 <div class="grid grid-cols-3 gap-6 mt-8">
 
 <div v-click class="bg-gradient-to-br from-red-500/20 to-orange-500/20 p-6 rounded-lg hover-card">
-<div class="text-4xl mb-4">📈</div>
+<lucide-trending-up class="w-12 h-12 mb-4 mx-auto" />
 <h3 class="text-xl font-bold">Performance Gap</h3>
 <p class="mt-2">Current AI agents plateau quickly</p>
 <p class="text-sm opacity-60">現在のAIエージェントはすぐに頭打ち</p>
 </div>
 
 <div v-click class="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 p-6 rounded-lg hover-card">
-<div class="text-4xl mb-4">🔄</div>
+<lucide-refresh-cw class="w-12 h-12 mb-4 mx-auto" />
 <h3 class="text-xl font-bold">No Adaptation</h3>
 <p class="mt-2">Static evaluation models</p>
 <p class="text-sm opacity-60">静的な評価モデルのみ</p>
 </div>
 
 <div v-click class="bg-gradient-to-br from-green-500/20 to-lime-500/20 p-6 rounded-lg hover-card">
-<div class="text-4xl mb-4">🎯</div>
+<lucide-target class="w-12 h-12 mb-4 mx-auto" />
 <h3 class="text-xl font-bold">Context Blindness</h3>
 <p class="mt-2">Ignore environmental factors</p>
 <p class="text-sm opacity-60">環境要因を無視</p>
@@ -1537,7 +1662,7 @@ DELTAはこれらの問題を解決し、継続的改善を実現します。
 
 <div>
 
-### 🎯 Looking For <small class="opacity-60">求める人材</small>
+### <lucide-target class="inline w-5 h-5" /> Looking For <small class="opacity-60">求める人材</small>
 
 <v-clicks>
 
@@ -1552,7 +1677,7 @@ DELTAはこれらの問題を解決し、継続的改善を実現します。
 
 <div>
 
-### 💡 What We'll Do <small class="opacity-60">やること</small>
+### <lucide-lightbulb class="inline w-5 h-5" /> What We'll Do <small class="opacity-60">やること</small>
 
 <v-clicks>
 
