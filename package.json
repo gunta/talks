@@ -22,7 +22,7 @@
 		"@effect/platform-node": "^0.94.0",
 		"@niklaserik/effect-mcp": "^1.0.6",
 		"@react-three/fiber": "^9.1.2",
-		"@slidev/cli": "^52.1.0",
+		"@slidev/cli": "^52.2.4",
 		"@slidev/theme-apple-basic": "^0.25.1",
 		"@slidev/theme-default": "latest",
 		"@slidev/theme-seriph": "^0.25.0",
