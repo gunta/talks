@@ -1,0 +1,216 @@
+/* Custom theme for InstallTrust presentation */
+
+:root {
+  --primary: #007ACC;
+  --secondary: #00D4FF;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --success: #22c55e;
+  --info: #3b82f6;
+}
+
+/* Gradient text effects */
+.gradient-text {
+  background: linear-gradient(45deg, var(--primary) 10%, var(--secondary) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+/* Animated background */
+.animated-bg {
+  background: linear-gradient(-45deg, #007ACC, #00D4FF, #007ACC, #00D4FF);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Score display */
+.score-display {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.score-high { 
+  background: linear-gradient(135deg, #22c55e 0%, #10b981 100%);
+  color: white;
+}
+
+.score-medium { 
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+}
+
+.score-low { 
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+}
+
+/* Platform badges */
+.platform-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.platform-ios { background: #000; color: white; }
+.platform-android { background: #3ddc84; color: black; }
+.platform-windows { background: #0078d4; color: white; }
+.platform-macos { background: #555; color: white; }
+.platform-linux { background: #fcc624; color: black; }
+
+/* Card hover effects */
+.hover-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Timeline */
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--primary);
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 2px solid white;
+}
+
+/* Method comparison table */
+.method-table {
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+.method-table tr {
+  transition: all 0.3s ease;
+}
+
+.method-table tr:hover {
+  transform: scale(1.02);
+  background: rgba(0, 122, 204, 0.1);
+}
+
+/* Icon animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.icon-bounce {
+  animation: bounce 2s infinite;
+}
+
+/* Security level indicators */
+.security-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+}
+
+.security-indicator::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* Code block enhancements */
+pre {
+  position: relative;
+  padding: 1rem !important;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+}
+
+pre::before {
+  content: attr(data-lang);
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/* Japanese text styling */
+.jp-emphasis {
+  font-weight: 700;
+  background: linear-gradient(to bottom, transparent 60%, #fef08a 60%);
+  padding: 0 0.25rem;
+}
+
+/* Slide transitions */
+.slidev-page-enter-active,
+.slidev-page-leave-active {
+  transition: all 0.5s ease;
+}
+
+.slidev-page-enter-from {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.slidev-page-leave-to {
+  opacity: 0;
+  transform: translateX(-20px);
+}

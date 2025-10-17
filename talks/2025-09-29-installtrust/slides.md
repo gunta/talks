@@ -205,18 +205,24 @@ layout: fact
 ### 日常の光景 <small class="opacity-60">Daily Scene</small>
 
 ```bash
-# Morning standup
+# Morning standup 🌅
 curl -fsSL https://example.com/install.sh | sh
 
-# Afternoon coding  
+# Afternoon coding 
 npm install random-package
 
-# Evening setup
+# Evening setup 
 brew install something
 
-# Late night Docker
+# Late night Docker 
 docker pull unknown/image
 ```
+
+<div class="flex justify-around mt-4">
+<img src="/icons/npm.svg" class="w-8 h-8 opacity-50" />
+<img src="/icons/homebrew.svg" class="w-8 h-8 opacity-50" />
+<img src="/icons/docker.svg" class="w-8 h-8 opacity-50" />
+</div>
 
 </div>
 <div v-click>
@@ -272,13 +278,17 @@ layout: center
 </div>
 
 <div v-click class="bg-yellow-900/20 border-2 border-yellow-500 p-4 rounded-lg">
-  <h3 class="text-xl text-yellow-500 font-bold">npm/PyPI (Daily)</h3>
+  <h3 class="text-xl text-yellow-500 font-bold flex items-center gap-2">
+    <img src="/icons/npm.svg" class="w-8 h-8" /> npm/PyPI (Daily)
+  </h3>
   <p>400+ malicious packages/month</p>
   <p class="text-sm opacity-60">毎日発見される悪意のあるパッケージ</p>
 </div>
 
 <div v-click class="bg-purple-900/20 border-2 border-purple-500 p-4 rounded-lg">
-  <h3 class="text-xl text-purple-500 font-bold">CrowdStrike (2024)</h3>
+  <h3 class="text-xl text-purple-500 font-bold flex items-center gap-2">
+    <img src="/icons/windows.svg" class="w-8 h-8" /> CrowdStrike (2024)
+  </h3>
   <p>8.5M Windows devices down</p>
   <p class="text-sm opacity-60">数十億ドルの損害</p>
 </div>
@@ -530,47 +540,76 @@ zoom: 0.8
 # Platform Comparison
 ## プラットフォーム比較 <small class="opacity-60">Average Trust Scores</small>
 
-<div class="mt-8">
+<div class="mt-8 grid grid-cols-3 gap-6">
 
-```mermaid {theme: 'dark', scale: 0.9}
-graph LR
-    subgraph "High Trust (70+)"
-        BSD[BSD Systems<br/>91]
-        iOS[iOS<br/>73]
-        macOS[macOS<br/>71]
-    end
-    
-    subgraph "Moderate Trust (50-69)"
-        Linux[Linux<br/>69]
-        Android[Android<br/>64]
-        Windows[Windows<br/>63]
-        Container[Container<br/>56]
-    end
-    
-    subgraph "Lower Trust (<50)"
-        IoT[IoT/Embedded<br/>42]
-    end
-    
-    style BSD fill:#22c55e
-    style iOS fill:#22c55e
-    style macOS fill:#22c55e
-    style Linux fill:#eab308
-    style Android fill:#eab308
-    style Windows fill:#eab308
-    style Container fill:#eab308
-    style IoT fill:#ef4444
-```
+<div class="text-center">
+<h3 class="font-bold mb-4">High Trust (70+)</h3>
+<div class="space-y-4">
+<div class="bg-green-500/10 p-4 rounded-lg">
+<img src="/icons/linux.svg" class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">BSD Systems</p>
+<p class="text-3xl font-bold text-green-500">91</p>
+</div>
+<div class="bg-green-500/10 p-4 rounded-lg">
+<img src="/icons/apple.svg" class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">iOS</p>
+<p class="text-3xl font-bold text-green-500">73</p>
+</div>
+<div class="bg-green-500/10 p-4 rounded-lg">
+<img src="/icons/apple.svg" class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">macOS</p>
+<p class="text-3xl font-bold text-green-500">71</p>
+</div>
+</div>
+</div>
+
+<div class="text-center">
+<h3 class="font-bold mb-4">Moderate Trust (50-69)</h3>
+<div class="space-y-4">
+<div class="bg-yellow-500/10 p-4 rounded-lg">
+<img src="/icons/linux.svg" class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">Linux</p>
+<p class="text-3xl font-bold text-yellow-500">69</p>
+</div>
+<div class="bg-yellow-500/10 p-4 rounded-lg">
+<img src="/icons/android.svg" class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">Android</p>
+<p class="text-3xl font-bold text-yellow-500">64</p>
+</div>
+<div class="bg-yellow-500/10 p-4 rounded-lg">
+<img src="/icons/windows.svg" class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">Windows</p>
+<p class="text-3xl font-bold text-yellow-500">63</p>
+</div>
+<div class="bg-yellow-500/10 p-4 rounded-lg">
+<img src="/icons/docker.svg" class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">Container</p>
+<p class="text-3xl font-bold text-yellow-500">56</p>
+</div>
+</div>
+</div>
+
+<div class="text-center">
+<h3 class="font-bold mb-4">Lower Trust (<50)</h3>
+<div class="space-y-4">
+<div class="bg-red-500/10 p-4 rounded-lg">
+<lucide-cpu class="w-12 h-12 mx-auto mb-2" />
+<p class="font-bold">IoT/Embedded</p>
+<p class="text-3xl font-bold text-red-500">42</p>
+</div>
+</div>
+</div>
 
 </div>
 
 <div class="grid grid-cols-2 gap-4 mt-6">
 <div v-click class="bg-green-500/10 p-4 rounded">
-<h3>🥇 最高スコア</h3>
+<h3><lucide-trophy class="inline w-5 h-5" /> 最高スコア</h3>
 <p>BSD Systems: 91</p>
 <p class="text-sm opacity-60">OpenBSD ports = 96</p>
 </div>
 <div v-click class="bg-red-500/10 p-4 rounded">
-<h3>📉 最低スコア</h3>
+<h3><lucide-trending-down class="inline w-5 h-5" /> 最低スコア</h3>
 <p>IoT/Embedded: 42</p>
 <p class="text-sm opacity-60">Unsigned firmware = 15</p>
 </div>
@@ -985,19 +1024,28 @@ $$\mu_{platform} = \frac{1}{n} \sum_{i=1}^{n} \mathcal{T}_i, \quad \sigma_{platf
 
 <div class="space-y-3 mt-4">
 
-<div class="bg-gradient-to-r from-blue-500/20 to-blue-600/20 p-3 rounded">
+<div class="bg-gradient-to-r from-blue-500/20 to-blue-600/20 p-3 rounded flex items-center gap-3">
+<img src="/icons/windows.svg" class="w-10 h-10" />
+<div>
 <strong>Windows</strong>
 <p class="text-sm">MS Store (88) > Chocolatey signed (72) > WinGet (70)</p>
 </div>
+</div>
 
-<div class="bg-gradient-to-r from-gray-500/20 to-gray-600/20 p-3 rounded">
+<div class="bg-gradient-to-r from-gray-500/20 to-gray-600/20 p-3 rounded flex items-center gap-3">
+<img src="/icons/apple.svg" class="w-10 h-10" />
+<div>
 <strong>macOS</strong>
 <p class="text-sm">Mac App Store (95) > Nix (93) > Homebrew Cask (75)</p>
 </div>
+</div>
 
-<div class="bg-gradient-to-r from-orange-500/20 to-orange-600/20 p-3 rounded">
+<div class="bg-gradient-to-r from-orange-500/20 to-orange-600/20 p-3 rounded flex items-center gap-3">
+<img src="/icons/linux.svg" class="w-10 h-10" />
+<div>
 <strong>Linux</strong>
 <p class="text-sm">Nix/NixOS (94) > Guix (93) > Flatpak (80) > Snap (75)</p>
+</div>
 </div>
 
 </div>
@@ -1010,19 +1058,28 @@ $$\mu_{platform} = \frac{1}{n} \sum_{i=1}^{n} \mathcal{T}_i, \quad \sigma_{platf
 
 <div class="space-y-3 mt-4">
 
-<div class="bg-gradient-to-r from-green-500/20 to-green-600/20 p-3 rounded">
+<div class="bg-gradient-to-r from-green-500/20 to-green-600/20 p-3 rounded flex items-center gap-3">
+<img src="/icons/apple.svg" class="w-10 h-10" />
+<div>
 <strong>iOS</strong>
 <p class="text-sm">App Store Only (98) - 他は危険</p>
 </div>
+</div>
 
-<div class="bg-gradient-to-r from-purple-500/20 to-purple-600/20 p-3 rounded">
+<div class="bg-gradient-to-r from-purple-500/20 to-purple-600/20 p-3 rounded flex items-center gap-3">
+<img src="/icons/android.svg" class="w-10 h-10" />
+<div>
 <strong>Android</strong>
 <p class="text-sm">Play Store (85→88) > Amazon (78→83) > F-Droid (76→82)</p>
 </div>
+</div>
 
-<div class="bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 p-3 rounded">
+<div class="bg-gradient-to-r from-cyan-500/20 to-cyan-600/20 p-3 rounded flex items-center gap-3">
+<img src="/icons/docker.svg" class="w-10 h-10" />
+<div>
 <strong>Container</strong>
 <p class="text-sm">Docker Official (82) > Verified Publisher (75)</p>
+</div>
 </div>
 
 </div>
@@ -1431,8 +1488,9 @@ installtrust recommend --min-score 75
 </div>
 
 <div class="mt-8 text-center">
-<div class="text-3xl font-bold mb-4">
-<lucide-link class="inline w-8 h-8" /> github.com/code-agents/installtrust
+<div class="text-3xl font-bold mb-4 flex items-center justify-center gap-3">
+<img src="/icons/github.svg" class="w-10 h-10" />
+github.com/code-agents/installtrust
 </div>
 
 <div class="grid grid-cols-3 gap-4 mt-6">
